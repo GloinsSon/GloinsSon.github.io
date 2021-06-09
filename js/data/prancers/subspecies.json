@@ -1,0 +1,100 @@
+{
+  "prancers": {
+    "steeds": {
+      "name": "Steeds",
+      "logo": "steedsCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#b28369","#e4c9bb","#8f735f","#f2dbc0","#553713","#442c1c","#eda474"],
+          "eyes": ["#9d9a1b", "#191910", "#84ddee"],
+          "ears": ["#773626", "#feeae0", "#221108"],
+          "logo": "steedsCommonLogo.png"
+        },
+        "Mini": {
+          "skins": ["#d2a68e","#feebe1","#b39681","#fcf5ec","#865924","#67432c","#ffcba9"],
+          "eyes": ["#be9114", "#808078", "#9f84ee"],
+          "ears": ["#9f6938", "#ffe19e", "#4c4139"],
+          "logo": "steedsMiniLogo.png"
+        },
+        "Brutes": {
+          "skins": ["#8f664f","#caa796","#705a4a","#ceb79b","#342109","#1f140d","#d1814d"],
+          "eyes": ["#3da379", "#ffffff", "#d98eb0"],
+          "ears": ["#881f51", "#cbc4cc", "#22252b"],
+          "logo": "steedsBrutesLogo.png"
+        }
+      }
+    },
+    "domestic": {
+      "name": "Domestic",
+      "logo": "domesticCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#fff","#fff","#fff","#fff","#fff","#fff","#fff"],
+          "eyes": ["#4b76c2", "#5d362d", "#1d1918"],
+          "ears": ["#ffc7d6", ["#fcedf1","#000000"], "#8f735f"],
+          "logo": "domesticCommonLogo.png"
+        },
+        "Fluffy": {
+          "skins": ["#ffcecb","#feebe5","#d4d4d4","#333333","#e2ccc1","#aba96b","#ad8587"],
+          "eyes": ["#45542c", "#bac99f", "#551514"],
+          "ears": ["#221818", "#d4bcaa", "#75745d"],
+          "logo": "domesticFluffyLogo.png"
+        }
+      }
+    },
+    "antlers": {
+      "name": "Antlers",
+      "logo": "antlersCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#b68a72","#745544","#2a1d17","#fdf1ea","#9b9690","#914220","#ffffff"],
+          "eyes": ["#1f241b", "#ffef92", "#36439f"],
+          "ears": ["#5b3c2b", "#987561", "#ffffff"],
+          "logo": "antlersCommonLogo.png"
+        },
+        "Arid": {
+          "skins": ["#df7c34","#ffbf2f","#e9714c","#c3272c","#ff7b7b","#ffb7c9","#ffe2b7"],
+          "eyes": ["#3e423c", "#a6ca8c", "#5e9bd2"],
+          "ears": ["#d68e2a", "#9a3629", "#d67e7e"],
+          "logo": "antlersAridLogo.png"
+        },
+        "Frigid": {
+          "skins": ["#dbb7ff","#806ccd","#3255a5","#b8c1d5","#63919c","#c7f2e7","#8cb37f"],
+          "eyes": ["#7c776b", "#d49a55", "#8a6299"],
+          "ears": ["#615497", "#7584a6", "#70a597"],
+          "logo": "antlersFrigidLogo.png"
+        }
+      }
+    },
+    "safari": {
+      "name": "Safari",
+      "logo": "safariCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#deae7e","#fffee9","#815c42","#635f5c","#bcb0a8","#cca79c","#a07372"],
+          "eyes": ["#476617", "#32759e", "#4e4162"],
+          "ears": ["#b99066", "#a59e99", "#a17a6e"],
+          "logo": "safariCommonLogo.png"
+        },
+        "Patterned": {
+          "skins": ["#fff","#fff","#fff","#fff","#fff","#fff","#fff"],
+          "eyes": ["#84bd2b", "#41bce4", "#7a49c5"],
+          "ears": ["#cc8d60", "#423f3e", "#cfa5d2"],
+          "logo": "safariPatternedLogo.png"
+        }
+      }
+    },
+    "omega": {
+      "name": "Omega",
+      "logo": "omegaLogo.png",
+      "variants": {
+        "Unis&Pegusi": {
+          "skins": ["#ffef92","#ffc1ed","#6dfcd1","#aaebff","#794fa4","#fedff1","#1514c7"],
+          "eyes": ["#ffffff", "#d8afff", "#afffb6"],
+          "ears": ["#ffc1c3", "#a7e7e8", "#4a3677"],
+          "logo": "omegaLogo.png"
+        }
+      }
+    }
+  }
+}

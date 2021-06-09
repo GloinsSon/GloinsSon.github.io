@@ -1,0 +1,155 @@
+{
+  "hoppers": {
+    "longEars": {
+      "name": "Long Ears",
+      "logo": "longearsCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#f9e9ea", "#ebcaba", "#bf8366", "#907e76", "#d3c8c3", "#1f1e1d", "#9e9dae", "#c59964"],
+          "eyes": ["#74bdeb", "#59d2b7", "#7ba860", "#de5f5b"],
+          "ears": ["#f7eafd", "#905d45", "#645650", "#1f1e1d"],
+          "logo": "longearsCommonLogo.png"
+        },
+        "Mini": {
+          "skins": ["#faf0f0", "#ffe1d3", "#d99c7e", "#ad9a91", "#eae4e2", "#514c4a", "#b4b2d4", "#edbb7b"],
+          "eyes": ["#accee3", "#83eed7", "#98cd78", "#ff4d48"],
+          "ears": ["#d2a996", "#c9beba", "#8786a2", "#da9d4f"],
+          "logo": "longearsMiniLogo.png"
+        },
+        "Pastel": {
+          "skins": ["#e99582", "#edb07b", "#f6de93", "#cce6b5", "#b5e6d5", "#a4d9f2", "#bebbfe", "#e8c1f4"],
+          "eyes": ["#eab32b", "#4467ce", "#ac67b9", "#da4e8a"],
+          "ears": ["#ec9950", "#9ec879", "#79c3e5", "#d187dd"],
+          "logo": "longearsPastelLogo.png"
+        }
+      }
+    },
+    "muridaes": {
+      "name": "Muridaes",
+      "logo": "muridaesCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#bbbad1", "#9c97a5", "#6b6970", "#eeedf0", "#a7816d", "#624130", "#deaf95", "#36271f"],
+          "eyes": ["#18140c", "#c29a38", "#c39fc1", "#a62824"],
+          "ears": ["#9c97a5", "#ffffff", "#a47760", "#2c1c14"],
+          "logo": "muridaesCommonLogo.png"
+        },
+        "Fluffy": {
+          "skins": ["#d1d0e1", "#bdb7c8", "#8e8a98", "#f3f1f8", "#c29983", "#895c45", "#f3cab4", "#523c30"],
+          "eyes": ["#4b2812", "#f59e45", "#b279d8", "#7e032f"],
+          "ears": ["#afa6bf", "#ffffff", "#c19178", "#6a4e3b"],
+          "logo": "muridaesFluffyLogo.png"
+        },
+        "Exotic": {
+          "skins": ["#705b48", "#a86a5a", "#c5968a", "#ecc2b7", "#98442e", "#d45a3b", "#f58752", "#ffb490"],
+          "eyes": ["#12354b", "#458df5", "#d8d579", "#037e20"],
+          "ears": ["#a98768", "#ab7769", "#be4f33", "#ff9f70"],
+          "logo": "muridaesExoticLogo.png"
+        }
+      }
+    },
+    "sciuridaes": {
+      "name": "Sciuridaes",
+      "logo": "sciuridaesCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#f2c2ac", "#d49c81", "#af7a61", "#80523c", "#663924", "#492311", "#b15929", "#e37c44"],
+          "eyes": ["#1e2e22", "#fdbb16", "#affcff", "#d84b55"],
+          "ears": ["#c6886b", "#a25937", "#55250e", "#a84916"],
+          "logo": "sciuridaesCommonLogo.png"
+        },
+        "Grey": {
+          "skins": ["#dcdcdc", "#958781", "#6c5f58", "#423027", "#271d18", "#100a08", "#8c8c8c", "#ffffff"],
+          "eyes": ["#64ac12", "#f69abe", "#8748e1", "#406180"],
+          "ears": ["#787d83", "#2f3134", "#12151a", "#d1d6dd"],
+          "logo": "sciuridaesGreyLogo.png"
+        },
+        "Rainbow": {
+          "skins": ["#eea34b", "#fdd25b", "#dad777", "#94cd84", "#84d0d9", "#91a4d1", "#aa8cdb", "#ea8db6"],
+          "eyes": ["#000000", "#9d9d9d", "#695e65", "#ffffff"],
+          "ears": ["#ffe39a", "#c0f1b2", "#aec5fc", "#ffb6d6"],
+          "logo": "sciuridaesRainbowLogo.png"
+        }
+      }
+    },
+    "monke": {
+      "name": "Monke",
+      "logo": "monkeCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#d7b281", "#967c5a", "#6b6056", "#523417", "#734519", "#a27345", "#c2c2c2", "#f8f4f1"],
+          "eyes": ["#5c3c29", "#ffde78", "#c56012", "#47bbbd"],
+          "ears": ["#8b6d45", "#482a0c", "#84798e", "#f8f4f1"],
+          "logo": "monkeCommonLogo.png"
+        },
+        "Tank": {
+          "skins": ["#070707", "#414141", "#502810", "#715c50", "#cac9c9", "#a9a1b1", "#7a8c9c", "#ffffff"],
+          "eyes": ["#200d3d", "#7b78ff", "#127cc5", "#8cadf3"],
+          "ears": ["#201f1f", "#654d40", "#84798e", "#ffffff"],
+          "logo": "monkeTankLogo.png"
+        },
+        "Golden": {
+          "skins": [
+            "#edbb7b", "#fae2af", "#d5944c", "#a57632", "#cba874", "#bc923d",
+            [
+              {
+                "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40% spreadMethod='repeat'> <stop offset='0%' stop-color='#8d6b57'/><stop offset='100%' stop-color='#9a5d3b'/></linearGradient>",
+                "style": ".skins0 {stroke:#663f30; fill:url(#gradientSkin);}",
+                "select" : "#8d6b57"
+              }
+            ],
+            [
+              {
+                "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40% spreadMethod='repeat'> <stop offset='0%' stop-color='#663f30'/><stop offset='100%' stop-color='#daab74'/></linearGradient>",
+                "style": ".skins0 {stroke:#663f30; fill:url(#gradientSkin);}",
+                "select" : "#663f30"
+              }
+            ]
+          ],
+          "eyes": ["#b3e5a4", "#b7f1ff", "#e2e9df", "#f39588"],
+          "ears": ["#ba8f38", "#c78e4e",
+            [
+              {
+                "defs": "<linearGradient id='gradientEars' x1='0' y1='0' x2='20' y2='10' gradientUnits='userSpaceOnUse'> <stop offset='0' stop-color='#8d6b57'/><stop offset='0.5' stop-color='#9a5d3b'/><stop offset='1' stop-color='#8d6b57'/></linearGradient>",
+                "style": ".ears0 {stroke:#663f30; fill:url(#gradientEars);}",
+                "select" : "#8d6b57"
+              }
+            ],
+            [
+              {
+                "defs": "<linearGradient id='gradientEars' x1='0' y1='0' x2='20' y2='10' gradientUnits='userSpaceOnUse'> <stop offset='0' stop-color='#663f30'/><stop offset='0.5' stop-color='#daab74'/><stop offset='1' stop-color='#6d4026'/></linearGradient>",
+                "style": ".ears0 {stroke:#663f30; fill:url(#gradientEars);}",
+                "select" : "#663f30"
+              }
+            ]
+          ],
+          "logo": "monkeGoldenLogo.png"
+        }
+      }
+    },
+    "pouches": {
+      "name": "Pouches",
+      "logo": "pouchesCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#8d4d2a", "#be7249", "#eb8248", "#c79e88", "#a08577", "#6d594e", "#d5bfb3", "#feece2"],
+          "eyes": ["#31554e", "#83a961", "#66957a", "#c2e99c"],
+          "ears": ["#b75f30", "#92705f", "#cab0a1", "#fbefe9"],
+          "logo": "pouchesCommonLogo.png"
+        },
+        "Grey": {
+          "skins": ["#454054", "#677599", "#7b8396", "#bec2cb", "#5f6269", "#030303", "#9cafdf", "#d7e3ff"],
+          "eyes": ["#87ccff", "#4c7ece", "#354dae", "#24207b"],
+          "ears": ["#525f81", "#bfc6d5", "#030303", "#e5edfe"],
+          "logo": "pouchesGreyLogo.png"
+        },
+        "Purple": {
+          "skins": ["#72386f", "#c66ec2", "#bd89cf", "#edb8ff", "#54356d", "#876e9a", "#e6cef9", "#9100ff"],
+          "eyes": ["#ec8842", "#ab2a19", "#ffcac5", "#f9e9ea"],
+          "ears": ["#df8edc", "#f5d7ff", "#9d7db6", "#a835ff"],
+          "logo": "pouchesPurpleLogo.png"
+        }
+      }
+    }
+  }
+}

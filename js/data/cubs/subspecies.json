@@ -1,0 +1,100 @@
+{
+  "cubs": {
+    "Teddy": {
+      "name": "Teddy Bears",
+      "logo": "teddyCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#fcf4ee", "#f6e6df", "#f7d7d9", "#a57664", "#683a28", "#4c3024"],
+          "eyes": ["#ca9250", "#231715", "#64a4eb"],
+          "ears": ["#876d65", "#3e302d", "#bb9881"],
+          "logo": "teddyCommonLogo.png"
+        },
+        "Black": {
+          "skins": ["#af9590", "#6a6160", "#504543", "#a8a8a8", "#3e3432", "#010101"],
+          "eyes": ["#8e92a4", "#615e9a", "#afbc8f"],
+          "ears": ["#170f0f", "#61585c", "#0b1226"],
+          "logo": "teddyBlackLogo.png"
+        },
+        "Colored": {
+          "skins": ["#f3a1ab", "#bcd5da", "#dbbbe4", "#f3d5a3", "#bec59a", "b0ecff"],
+          "eyes": ["#0041f2", "#ff95c9", "#bfadf5"],
+          "ears": ["#d56a7e", "#92cff4", "#8057ad"],
+          "logo": "teddyColoredLogo.png"
+        }
+      }
+    },
+    "Panda": {
+      "name": "Panda Bears",
+      "logo": "pandaCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#ffffff", "#fcf4ee", "#f6e6df", "#544340", "#231715", "#876d65"],
+          "eyes": ["#000000", "#a48f92", "#729482"],
+          "ears": ["#000000", "#fcf7ec", "#3f3232"],
+          "logo": "pandaCommonLogo.png"
+        },
+        "Red": {
+          "skins": ["#eec399", "#daa387", "#dd9871", "#cd7161", "#af5f56", "#834a48"],
+          "eyes": ["#4f3627", "#dd9871", "#ecd89c"],
+          "ears": ["#99635a", "#cd7161", "#621e1f"],
+          "logo": "pandaRedLogo.png"
+        },
+        "White": {
+          "skins": ["#ffffff", "#e0eff5", "#e1e1e2", "#f7d7d9", "#c6c3ff", "#edd3ba"],
+          "eyes": ["#8e3335", "#8057ad", "#b3d2fa"],
+          "ears": ["#f8fbfa", "#ebe3e0", "#dec5d8"],
+          "logo": "pandaWhiteLogo.png"
+        }
+      }
+    },
+    "Koala": {
+      "name": "Koala Bears",
+      "logo": "koalaCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#a8a8a8", "#ebe3e0", "#f8fbfa", "#908391", "#61585c", "#95b3e5"],
+          "eyes": ["#61585c", "#0b1226", "#453076"],
+          "ears": ["#908391", "#61585c", "#d3e1e9"],
+          "logo": "koalaCommonLogo.png"
+        },
+        "Tan": {
+          "skins": ["#fcf7ec", "#e9ceb2", "#cdb7a4", "#908391", "#a57664", "#99635a"],
+          "eyes": ["#3f3232", "#4e83a3", "#738b64"],
+          "ears": ["#a57664", "#bb9881", "#e9ceb2"],
+          "logo": "koalaTanLogo.png"
+        },
+        "Pink": {
+          "skins": ["#f7d7d9", "#dbada8", "#fbf2ed", "#e5a2a6", "#f3a1ab", "#dec6e0"],
+          "eyes": ["#d09896", "#fcf7ec", "#8c5e78"],
+          "ears": ["#b37876", "#e5a2a6", "#f9d5d8"],
+          "logo": "koalaPinkLogo.png"
+        }
+      }
+    },
+    "Polar": {
+      "name": "Polar Bears",
+      "logo": "polarCommonLogo.png",
+      "variants": {
+        "White": {
+          "skins": ["#f8fbfa", "#e0eff5", "#fbf2ed", "#fee5f1", "#a48f92", "#a8a8a8"],
+          "eyes": ["#0d1a38", "#000000", "#1f0f44"],
+          "ears": ["#fbf2ed", "#effbfb", "#fdebf5"],
+          "logo": "polarCommonLogo.png"
+        },
+        "Pastel": {
+          "skins": ["#f4b6bb", "#e2a67d", "#f4e5b1", "#fee5f1", "#b3d2fa", "#f5d2ff"],
+          "eyes": ["#e7d292", "#bcd5da", "#f7d7d9"],
+          "ears": ["#c6c3ff", "#f4b6bb", "#afbc8f"],
+          "logo": "polarPastelLogo.png"
+        },
+        "Crystal": {
+          "skins": ["#ebe3e0", "#b0ecff", "#bcd5da", "#899dd2", "#8c5e78", "#9c4140"],
+          "eyes": ["#f0ffff", "#ebe3e0", "#c5d3de"],
+          "ears": ["#ebe3e0", "#c5d3de", "#eefdfe"],
+          "logo": "polarCrystalLogo.png"
+        }
+      }
+    }
+  }
+}

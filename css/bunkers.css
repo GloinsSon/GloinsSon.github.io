@@ -1,0 +1,85 @@
+body {
+   /* background-image: url("../img/background.png"); */
+    background-color: rgba(156, 132, 111, 0.5);
+    font-size: 1.2em;
+}
+
+div.container-fluid, div.container-xl {
+    color: #005062;
+}
+
+footer, .navbar-dark {
+    background-color: #08415C;
+    color: #fff1e6;
+}
+
+footer a, .navbar-dark a {
+    color: #ff7000;
+}
+
+fieldset {
+    background-color: rgba(180,180,180,0.5);
+    padding-bottom: 5px;
+}
+
+legend, label {
+    font-family: 'Marck Script', cursive;
+    margin-bottom: 0px;
+}
+
+legend {
+    margin-bottom: 0px;
+}
+
+figure {
+    float: right;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+input[type="radio"] {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+
+}
+input[type="radio"] + svg {
+    padding: 2px;
+    margin: 0px;
+    stroke: #eeeeee;
+    stroke-width: 0.5px;
+}
+input[type="radio"]:checked + svg {
+    stroke: #333333;
+    stroke-width: 0.75px;
+    padding: 0px;
+}
+
+input[type="radio"] + figure > img {
+    margin: 0px 15px;
+    width: 40px;
+}
+input[type="radio"]:checked + figure > img {
+    box-shadow: -5px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: -5px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: -5px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: -5px 5px  rgba(0,0,0,0.6);
+    border-radius:80px;
+    padding: 0px;
+    width: 60px;
+}
+
+.page-footer { margin-top: 40px; }
+
+.progress, .progress-bar {
+    height: 30px;
+}
+
+.form-group {
+    margin-bottom: 2px;
+}
+#logo {
+    position: relative;
+    top: -50px;
+}
+

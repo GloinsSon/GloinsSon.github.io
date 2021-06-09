@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bunkers Creator</title>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bunkers.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-fluid navbar-expand-sm navbar-dark justify-content-center" id="navbar">
+    <a class="navbar-link" href="../index.html">GloinsSon Ressources</a>
+  </nav>
+</header>
+<div class="container-xl" id="content">
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-9 col-xl-7">
+      <h2>Bunkers Character Designer</h2>
+      <p>
+        You can choose the look of your Bunker, the inhabitants of
+        <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">Bunkin;</a>
+        Land of personified stuffed animals, they dream of having a master.
+      </p>
+      <p>
+        Credit for the artwork and the creation of Bunkin goes to
+        <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
+        <br/>
+        Scripting done by <a href="./about.html" target="_blank">GloinsSon</a>.
+        Please direct bug reports or questions about the site to me.
+      </p>
+    </div>
+    <div class="d-md-none d-lg-block col-lg-2 col-xl-1">
+      <img id="logo" src="./img/GimliLogoTiny.png" class="rounded-circle" width="150px" alt="logo"/>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div id="progress" class="col-10 col-xl-8">
+      <div class="progress">
+        <div id="progressBar" class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="0"
+             aria-valuemin="0" aria-valuemax="100">Loading data ...
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-5 col-lg-3">
+      <form id="selection" class="form-horizontal d-none">
+        <fieldset class="form-group border border-dark p-3">
+
+          <legend class="w-auto px-2">Spieces and Variants</legend>
+          <div class="form-group">
+            <label for="species">Species</label>
+            <div id="species">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subspecies">Sub-Species</label>
+            <div id="subspecies"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="variants">Color variant</label>
+            <div id="variants"></div>
+          </div>
+        </fieldset>
+        <fieldset class="form-group border border-dark p-3">
+          <legend class="w-auto px-2">Colors</legend>
+          <div class="form-group">
+            <label for="skins">Skin Tones</label>
+            <div id="skins">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="eyes">Eye color</label>
+            <div id="eyes">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="ears">Ears & Tail</label>
+            <div id="ears">
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="form-group border border-dark p-3">
+          <legend class="w-auto px-2">Miscellaneous</legend>
+          <div class="form-group">
+            <label for="extra0" id="extraL0">Extra0</label>
+            <input id="extra0" class="form-control-range" type="range" value="0" min="0" max="5" step="1"/>
+          </div>
+          <div class="form-group">
+            <label for="extra1" id="extraL1">Extra1</label>
+            <input id="extra1" class="form-control-range" type="range" value="0" min="0" max="5" step="1"/>
+          </div>
+          <div class="form-group">
+            <label for="extra2" id="extraL2">Extra2</label>
+            <input id="extra2" class="form-control-range" type="range" value="0" min="0" max="5" step="1"/>
+          </div>
+        </fieldset>
+
+        <div class="form-group">
+          <button id="random" type="button">Random</button>
+        </div>
+        <div class="form-group">
+          <p>
+            You can <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
+            your very special Bunker as a vector graphic (svg).
+            This vector graphic can be edited with programs like
+            <a href="https://inkscape.org/" target="_blank">Inkscape</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="col-7 col-lg-7 col-xl-5">
+      <div id="model">
+        <svg xmlns="http://www.w3.org/2000/svg" id="svg"
+             width="800" height="1200" viewBox="0 0 800 1200">
+          <defs id="svgDefs">
+            <style id="svgStyle">
+            </style>
+          </defs>
+          <g id="humanoid" class="skin">
+          </g>
+          <g id="extraSVG0"></g>
+          <g id="extraSVG1"></g>
+          <g id="extraSVG2"></g>
+          <text id="copy" font-size="14px" fill="#1d1d1b" font-family="'Marck Script', cursive"
+                font-style="italic" transform="translate(100,800) rotate(-90)">
+            Artwork by Indigo White
+          </text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="page-footer container-fluid">
+  <div class="row">
+    <div class="col d-flex justify-content-center">
+      Copyright &copy; 2021 by &nbsp;<a href="./about.html">Gimli GloinsSon</a>
+    </div>
+  </div>
+</footer>
+<script src="./js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+{
+  "fins": {
+    "pond" : {
+      "name" : "Pond",
+      "logo": "pondCommonLogo.png",
+      "variants" : {
+        "Common" : {
+          "skins": ["#ffe1e9","#eeeefa","#d7aaa6","#5c8a6d","#64b8a9","#bdaf90","#6e5827"],
+          "eyes": ["#a761dc","#74768f","#64b8a9","#bdaf90"],
+          "ears": ["#d7a8d1","#7a658a","#326865","#e0a521"],
+          "logo": "pondCommonLogo.png"
+        },
+        "Koi" : {
+          "skins": [
+            ["#ffe5b4","none", "none","#fef3de"],
+            ["#e4b785","none", "none","#a0703c"],
+            ["#fe9f4a","none", "none","#ffdfc3"],
+            ["#ff9fa1","none", "none","#ff4a4d"],
+            ["#74768f","none", "none","#c9c9c9"],
+            ["#829bcd","none", "none","#3b4f77"],
+            ["#8ec8f7","none", "none","#eedfca"]
+          ],
+          "eyes": ["#050505","#e2524d","#b0d1ff","#f1f4f8"],
+          "ears": ["#ffdfc3","#2d2d2d","#a4afc6","#564330"],
+          "logo": "pondKoiLogo.png"
+        },
+        "Colorful" : {
+          "skins": ["#e2524d","#e89e7c","#f2b828","#86bd8e","#c3e9f1","#7a658a","#ffbfd2"],
+          "eyes": ["#c34b80","#3dd0d9","#aad93d","#a573df"],
+          "ears": ["#ffc3a8","#b9f4c2","#b9a2ca","#dcf2fe"],
+          "logo": "pondColorfulLogo.png"
+        }
+      }
+    },
+    "freshwater" : {
+      "name" : "Fresh Water",
+      "logo": "freshCommonLogo.png",
+      "variants" : {
+        "Regular" : {
+          "skins": ["#8dc0d1","#afe5ea","#8befe2","#46bcee","#95b6ce","#2b6d9f","#1c88b0"],
+          "eyes": ["#8edaa1","#5fd472","#95c9ae","#309350"],
+          "ears": ["#c4faff","#6bd3ff","#bad7ec","#3c89c4"],
+          "logo": "freshCommonLogo.png"
+        },
+        "Mini" : {
+          "skins": ["#8dd1cb","#afeadd","#8befc3","#46eee8","#95ccce","#2b929f","#1cb09c"],
+          "eyes": ["#8b78b3","#8e79ce","#6542c2","#39237c"],
+          "ears": ["#78b3ae","#79cea8","#42c2be","#23727b"],
+          "logo": "freshMiniLogo.png"
+        },
+        "Pastel" : {
+          "skins": ["#a4b4e9","#9bd0ed","#ade1bf","#f0e69e","#f6c67c","#f3aa9b","#efb7f4"],
+          "eyes": ["#ffffff","#cacaca","#7b7b7b","#191919"],
+          "ears": ["#b4e4ff","#fff7bd","#ffbeb0","#fbcdff"],
+          "logo": "freshPastelLogo.png"
+        }
+      }
+    },
+    "saltwater" : {
+      "name" : "Salt Water",
+      "logo": "saltCommonLogo.png",
+      "variants" : {
+        "Regular" : {
+          "skins": ["#8d90d1","#afafea","#8b99ef","#464eee","#9596ce","#312b9f","#1c37b0"],
+          "eyes": ["#40b4ff","#8fd3ff","#d0edff","#006eb4"],
+          "ears": ["#686bb4","#586ad7","#6667b5","#1b157d"],
+          "logo": "saltCommonLogo.png"
+        },
+        "Tropical" : {
+          "skins": ["#ffe9cd","#ffd56e","#ffb24d","#ffa967","#ff796b","#ffcbce","#ff96c3"],
+          "eyes": ["#ffcb41","#ff8c34","#ff5644","#ff5ea3"],
+          "ears": ["#ffe8b0","#ffc497","#ffaba2","#ffbbd8"],
+          "logo": "saltTropicalLogo.png"
+        },
+        "Giant" : {
+          "skins": ["#eef2fa","#a6afc0","#5d6a80","#364258","#1c2331","#ffffff","#6b8bc2"],
+          "eyes": ["#4779ff","#47ffcc","#9eff47","#ff4751"],
+          "ears": ["#d0d6e0","#616c81","#313844","#ffffff"],
+          "logo": "saltGiantLogo.png"
+        }
+      }
+    },
+    "ocean" : {
+      "name" : "Ocean",
+      "logo": "oceanCommonLogo.png",
+      "variants" : {
+        "Regular" : {
+          "skins": ["#165a64","#164664","#002d82","#0a0b51","#25163f","#625c6d","#e4e4e5"],
+          "eyes": ["#a492d1","#c6b3f4","#e7ddfe","#ac8bff"],
+          "ears": ["#278997","#2673a3","#0047ce","#2e1160"],
+          "logo": "oceanCommonLogo.png"
+        },
+        "Dolphin" : {
+          "skins": ["#c1b2d6","#a09aa8","#8798b2","#8db4db","#aeaeae","#eef0f2","#7a7a7a"],
+          "eyes": ["#8fbb4d","#bdd963","#83905b","#43501a"],
+          "ears": ["#7a7382","#7697b8","#b9c0c7","#4f4f4f"],
+          "logo": "oceanDolphinLogo.png"
+        },
+        "Whale" : {
+          "skins": ["#9d87bc","#6e647c","#536683","#bbdaf9","#5b5b5b","#bfbfbf",["#1f2125", "#fffffe"] ],
+          "eyes": ["#ba2a00","#6b00ba","#003890","#008d78"],
+          "ears": ["#4d4558","#a3bcd5","#1f2125","#fffffe"],
+          "logo": "oceanWhaleLogo.png"
+        }
+      }
+    },
+    "coralreef" : {
+      "name" : "Coral Reef",
+      "logo": "coralCommonLogo.png",
+      "variants" : {
+        "Regular" : {
+          "skins": ["#ddeb88","#9cab3a","#fff9a3","#ffe9cd","#ffc477","#ffcd64","#b2ffbc"],
+          "eyes": ["#8baad7","#4558b1","#66579f","#956ebd"],
+          "ears": ["#7a8822","#cec65d","#d1984d","#66c172"],
+          "logo": "coralCommonLogo.png"
+        },
+        "Neon" : {
+          "skins": ["#ff5ab5","#de5aff","#865aff","#5ad4ff","#5affe6","#5aff66","#fff928"],
+          "eyes": ["#ffffff","#e6ffc7","#c7ccff","#ffcbc7"],
+          "ears": ["#f1bbff","#ace9ff","#baffbe","#ffd985"],
+          "logo": "coralNeonLogo.png"
+        },
+        "Exotic" : {
+          "skins": [
+            ["#72c6d4","none","#f0c6ff"],
+            ["#afe5ea","#ffbfd2"],
+            ["#e7bfff","none","#625178"],
+            ["#8bcda6","#fffec1"],
+            ["#e8d871","#a9a9a9"],
+            ["#9ea8ff","none","#ffe19e"],
+            ["#7d1a1a","none","none","#fe2121"]
+          ],
+          "eyes": ["#000000","#373737","#aaaaaa","#edeaea"],
+          "ears": ["#a8f3ff","#fee6ed","#c6ccff","#c80000"],
+          "logo": "coralExoticLogo.png"
+        }
+      }
+    }
+  }
+}

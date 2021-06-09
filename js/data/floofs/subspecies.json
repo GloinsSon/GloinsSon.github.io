@@ -1,0 +1,172 @@
+{
+  "floofs": {
+    "runners": {
+      "name": "Runners",
+      "logo": "runnersCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#e6ded5", "#b8ada0", "#8c7569", "#8e6a5c", "#61585c", "#4e4040","#f2e7cd","#899280","#66695d","#925c4f"],
+          "eyes": ["#5e748d","#92cff4","#c6c3ff","#3f3232","#a17e65"],
+          "ears": ["#7d5f50", "#efd8a0", "#677459", "#804132", "#8b603f"],
+          "logo": "runnersCommonLogo.png"
+        },
+        "Shepard": {
+          "skins": ["#fcecdb", "#fcebbf", "#e7c98c", "#cfa573", "#a17e65"],
+          "eyes": ["#3a5245","#4fb07d","#b0924f","#925c4f","#f1e3d4"],
+          "ears": ["#bba275", "#c69458", "#c09479", "#7c5b46", "#efdcae"],
+          "logo": "runnersShepardLogo.png"
+        },
+        "Retriever": {
+          "skins": ["#8c7569", "#ceada0", "#f1e3d4", "#8e6a5c", "#5f4833"],
+          "eyes": ["#b0ecff","#0d1a38","#7c9365","#a49f60","#495d34"],
+          "ears": ["#4f4038", "#6b5950", "#e5d0ba", "#ab9083", "#1d1613"],
+          "logo": "runnersRetrieverLogo.png"
+        }
+      }
+    },
+    "hounds": {
+      "name": "Hounds",
+      "logo": "houndsCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#bb9881", "#876d65", "#735c5c", "#3e302d", "#3f3232", "#ca997f","#e6ad8e","#eec399","#9c846f","#9d7f7e"],
+          "eyes": ["557b8c","3a4a52","383a88","514235","974047"],
+          "ears": ["#876d65", "#bf896c", "#dfab78", "#3f3232", "#1d1613"],
+          "logo": "houndsCommonLogo.png"
+        },
+        "Blood": {
+          "skins": ["#8a443a", "#b24642", "#e5a2a6", "#f9d5d8", "#621e1f"],
+          "eyes": ["fee2e5","635052","621921","b3301f","e0555f"],
+          "ears": ["#93382b", "#bb364d", "#d48085", "#f3c1c5", "#550b0c"],
+          "logo": "houndsBloodLogo.png"
+        },
+        "Colored": {
+          "skins": ["#b8bdc0", "#b8ada0", "#0d1a38", "#5e748d", "#f1f1f1"],
+          "eyes": ["#dcb752","#d49e4b","#dd8554","#dd546f","#b98ec4"],
+          "ears": ["#9eaab0", "#ae9b84", "#153787", "#426389", "#d9caca"],
+          "logo": "houndsColoredLogo.png"
+        }
+      }
+    },
+    "tanks": {
+      "name": "Tanks",
+      "logo": "tanksCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#3f3232", "#4f3627","#8e6a5c","#edd3ba","#b4846a","#170f0f","#61585c","#a48f92","#a598a6","#8e92a4"],
+          "eyes": ["#b9bdad","#c3f9ff","#eeddb7","#cab7ee","#ee94a6"],
+          "ears": ["#3a1f1f","#5f4a53","#7e5444","#8b6d8e","#a17257"],
+          "logo": "tanksCommonLogo.png"
+        },
+        "Bull": {
+          "skins": ["#b8ada0", "#8c7569","#3f3232","#95b3e5","#6a81ce"],
+          "eyes": ["#5f4833","#5e748d","#2d3b5a","#bee5ff","#bfbeff"],
+          "ears": ["#a38f77","#7a5d4e","#3f2727","#91b4ed","#3f5bbb"],
+          "logo": "tanksBullLogo.png"
+        },
+        "Mastiff": {
+          "skins": ["#edd3ba", "#9c846f","#ebe3e0","#382530","#8c5e78"],
+          "eyes": ["#9b954b","#cfb049","#d8966e","#9380b2","#bfbeff"],
+          "ears": ["#d8a36f","#8e6b4c","#e1c8bf","#351527","#6f3656"],
+          "logo": "tanksMastiffLogo.png"
+        }
+      }
+    },
+    "terriers": {
+      "name": "Terriers",
+      "logo": "terriersCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#c2baa9", "#a68777","#796c77","#c8b6c6","#694e45","#f1e3d4","#65707c","#6f7477","#6f7269","#928184"],
+          "eyes": ["#8dadaf","#a3a19f","#744799","#7cbba5","#74d1cc"],
+          "ears": ["#a59677","#4d5f73","#634c5f","#606852","#4f3127"],
+          "logo": "terriersCommonLogo.png"
+        },
+        "Short-hair": {
+          "skins": ["#ceada0", "#ead0c2","#f1e3d4","#8c7569","#c2ac98"],
+          "eyes": ["#5f4833","#335f49","#6c9b84","#66cc99","#c2ffe8"],
+          "ears": ["#bc856f","#d3ae9b","#fef0e1","#5c4a41","#a19386"],
+          "logo": "terriersShorthairLogo.png"
+        },
+        "Pastel": {
+          "skins": ["#aa9ba7", "#bcb88c","#8aa7b1","#eed7a2","#d7abb5"],
+          "eyes": ["#6b6b6b","#ccc9d9","#b4aeb8","#a28eb1","#c38bcd"],
+          "ears": ["#d59dca","#aba459","#5d99ae","#ebc264","#dd889b"],
+          "logo": "terriersPastelLogo.png"
+        }
+      }
+    },
+    "toys": {
+      "name": "Toys",
+      "logo": "toysCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#f2e7cd", "#aa917a","#eabda5","#5f4833","#925c4f","#b8bdc0","#b8ada0","#899280","#676767","#1c1c1c"],
+          "eyes": ["#8e6a5c","#a17e65","#efac6e","#efcb6e","#ffe686"],
+          "ears": ["#a9c0ce","#8b6c4f","#677657","#b18d6d","#1c1c1c"],
+          "logo": "toysCommonLogo.png"
+        },
+        "Fluffy": {
+          "skins": ["#f1f1f1", "#8e6a5c","#e4ce9a","#424948","#9c8cb5"],
+          "eyes": ["#c3c4c4","#b6cec9","#9cd2c7","#6b8d86","#176a59"],
+          "ears": ["#ffffff","#c49887","#baa26b","#5e807b","#63547b"],
+          "logo": "toysFluffyLogo.png"
+        },
+        "Furless": {
+          "skins": ["#4a4a4a", "#f1e3d4","#b9ab8c","#a17e65","#f1b7c7"],
+          "eyes": ["#4674a7","#46a4a7","#5ba746","#7c46a7","#ba2f25"],
+          "ears": ["#212121","#dbcab9","#877b5f","#7c46a7","#d991a5"],
+          "logo": "toysFurlessLogo.png"
+        }
+      }
+    },
+    "regals": {
+      "name": "Regals",
+      "logo": "regalsCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#f1e3d4", "#d3b09a","#585450","#b48197","#ab81b4","#f2e7cd","#5b4d40","#b9bdad",["#ffffff","#b4c1c3"],"#d4d6d8"],
+          "eyes": ["#6989b5","#7386da","#white","#abbfce","#1f339b"],
+          "ears": ["#d9c9a2","#a38979","#868d6f","#d6a6bb","#e9eaeb"],
+          "logo": "regalsCommonLogo.png"
+        },
+        "Dane": {
+          "skins": ["#655e55", "#c0aa9b","#b4a8bd","#a8adbd","#a8bdbd"],
+          "eyes": ["#815594","#a17aa1","#af9fd2","#b976bf","#361e7a"],
+          "ears": ["#50473b","#e4cab9","#7f6e8c","#6a7087","#78abab"],
+          "logo": "regalsDaneLogo.png"
+        },
+        "Spotted": {
+          "skins": [["#f1f1f1", "#61585c"],["#5f4833", "#a17e65"],["#edd3ba", "#fcecdb"],["#878b7c", "#c1cacd"],["#ceb3c4", "#8c5e78"]],
+          "eyes": ["#3a52c5","#5fa6e0","#348e42","#db83b8","#ce3633"],
+          "ears": [["#f1f1f1", "#483e43"],["#4c3723", "#8a6952"],["#d8b89a", "#dfc8b0"],["#6d735e", "#9daaae"],["#b390a6", "#6f485e"]],
+          "logo": "regalsSpottedLogo.png"
+        }
+      }
+    },
+    "ancient": {
+      "name": "The ancient",
+      "logo": "ancientCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#b8bdc0", "#5c6367","#76787f","#675951","#ffffff","#9b8980","#d6b9aa","#c2baa9","#635e53","#f1e7d4"],
+          "eyes": ["#99dff5","#788ee4","#bd98dc","#fc9cc8","#6f1412"],
+          "ears": ["#e0e1e1","#f2d5c6","#595d69","#867a61","#c9b5b5"],
+          "logo": "ancientCommonLogo.png"
+        },
+        "Fox": {
+          "skins": ["#ca8768", "#cb9269","#eabda5","#eaa5a9","#ffffff"],
+          "eyes": ["#fec322","#c16a23","#503119","#4e90c0","#3a622b"],
+          "ears": ["#ab7860","#e1b799","#ffdfce","#ffc0c4,","#fde7e7"],
+          "logo": "ancientFoxLogo.png"
+        },
+        "Dire": {
+          "skins": ["#61585c", "#929295","#e6ded5","#736187","#a4e8ff"],
+          "eyes": ["#c14634","#9bd46f","#6abfbf","#7a57aa","#2a4ac7"],
+          "ears": ["#433d40","#b1b1be","#fbf5ef","#9e83ba","#e2f7ff"],
+          "logo": "ancientDireLogo.png"
+        }
+      }
+    }
+  }
+}

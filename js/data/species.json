@@ -1,0 +1,38 @@
+{
+  "cubs": {
+    "name": "Cubs",
+    "bgcolor": "rgba(156, 132, 111, 0.25)",
+    "logo": "cubsLogo.png",
+    "humanoid": []  
+  },
+  "smittens": {
+    "name": "Smittens",
+    "bgcolor": "rgba(224, 151, 164, 0.25)",
+    "logo": "smittensLogo.png",
+    "humanoid": []  
+  },
+  "hoppers": {
+    "name": "Hoppers",
+    "bgcolor": "rgba(195, 159, 193, 0.25)",
+    "logo": "hoppersLogo.png",
+    "humanoid": []  
+  },
+  "floofs": {
+    "name": "Floofs",
+    "bgcolor": "rgba(137, 146, 128, 0.25)",
+    "logo": "floofsLogo.png",
+    "humanoid": []  
+  },
+  "fins": {
+    "name": "Fins",
+    "bgcolor": "rgba(197, 227, 232, 0.25)",
+    "logo": "finsLogo.png",
+    "humanoid": []  
+  },
+  "prancers": {
+    "name": "Prancers",
+    "bgcolor": "rgba(239, 255, 228, 0.25)",
+    "logo": "prancersLogo.png",
+    "humanoid": []  
+  }
+}
