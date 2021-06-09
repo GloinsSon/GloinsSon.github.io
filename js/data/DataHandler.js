@@ -32,6 +32,12 @@ const jsonFiles = [
     {file: "prancers/humanoid.xml", callback: setHumanoid},
     {file: "prancers/subspecies.json", callback: setSubSpecies},
     {file: "prancers/extras.json", callback: setExtras}
+/*
+    {file: "flappers/humanoid.xml", callback: setHumanoid},
+    {file: "flappers/subspecies.json", callback: setSubSpecies},
+    {file: "flappers/extras.json", callback: setExtras}
+
+ */
 ]
 
 /**
