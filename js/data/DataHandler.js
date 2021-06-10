@@ -48,7 +48,7 @@ export default function loadData() {
     for (let i = 0; i < jsonFiles.length; i++) {
         // setTimeout(() => {
             loadJSON(jsonFiles[i].file, jsonFiles[i].callback);
-        // }, i*500);
+        // }, i*100);
     }
     console.log("end Datahandler loadData()");
 }
@@ -105,6 +105,7 @@ export function loadingProgress(type) {
  * @returns {*}
  */
 export function getSpecie(specieKey) {
+
     return DataStore[specieKey];
 }
 

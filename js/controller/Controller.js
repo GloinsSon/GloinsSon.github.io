@@ -21,17 +21,9 @@ export default class Controller {
      */
     init() {
         console.log("start Controller init");
-        (async () => {
-            while (Loading > 0) {
-                await new Promise(resolve => setTimeout(resolve, 250));
-            }
-            console.log("Loading completed");
-            let speciesService = new SpecieService();
-            speciesService.populateSpecies();
-            let extrasController = new ExtrasController();
-            extrasController.populateExtras();
-            document.getElementById("selection").className = "form-horizontal";
-        })();
+        let speciesService = new SpecieService();
+        speciesService.populateSpecies();
+        document.getElementById("selection").className = "form-horizontal";
         console.log("end Controller init");
     }
 
@@ -50,11 +42,6 @@ export default class Controller {
             let speciesService = new SpecieService();
             speciesService.changeSubSpecies();
         } else if (fieldName === "variant") {
-            let colorService = new ColorService();
-            colorService.populateColors("skins");
-            colorService.populateColors("eyes");
-            colorService.populateColors("ears");
-
             let speciesService = new SpecieService();
             speciesService.changeVariant();
 
@@ -115,8 +102,6 @@ export default class Controller {
             .dispatchEvent(new Event("change", {bubbles: true}));
 
         // choose a variant
-        let variantKeys = Object.keys(getVariantList(specieKey, subSpecieKey));
-        let variantId = this.getRandomInt(0, subSpecieKeys.length);
         let variantKey = subSpecieKeys[subSpecieId];
         document.querySelector("input[value='" + variantKey + "']").checked = true;
         document.querySelector("input[name='variant']")

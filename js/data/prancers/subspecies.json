@@ -29,7 +29,36 @@
       "logo": "domesticCommonLogo.png",
       "variants": {
         "Common": {
-          "skins": ["#fff","#fff","#fff","#fff","#fff","#fff","#fff"],
+          "skins": [
+            {
+              "style": ".skins0 {stroke: #ffa9c1; fill: #ffa9c1}",
+              "select" : "#b36836"
+            },
+            {
+              "style": ".skins0 {stroke: #fcedf1; fill: #fcedf1} .skins1 {stroke: #614b4f; fill: #614b4f}",
+              "select" : "#fcedf1"
+            },
+            {
+              "style": ".skins0 {stroke: #b2b2b2; fill: #b2b2b2}",
+              "select" : "#b2b2b2"
+            },
+            {
+              "style": ".skins0 {stroke: #ffffff; fill: #ffffff} .skins1 {stroke: #000000; fill: #000000}",
+              "select" : "#ffffff"
+            },
+            {
+              "style": ".skins0 {stroke: #c6a99b; fill: #c6a99b} .skins1 {stroke: #9a7a6a; fill: #9a7a6a}",
+              "select" : "#c6a99b"
+            },
+            {
+              "style": ".skins0 {stroke: #867855; fill: #867855}",
+              "select" : "#867855"
+            },
+            {
+              "style": ".skins0 {stroke: #614244; fill: #614244}",
+              "select" : "#614244"
+            }
+          ],
           "eyes": ["#4b76c2", "#5d362d", "#1d1918"],
           "ears": ["#ffc7d6", ["#fcedf1","#000000"], "#8f735f"],
           "logo": "domesticCommonLogo.png"
@@ -77,7 +106,36 @@
           "logo": "safariCommonLogo.png"
         },
         "Patterned": {
-          "skins": ["#fff","#fff","#fff","#fff","#fff","#fff","#fff"],
+          "skins": [
+            {
+              "style": ".skins0 {stroke: #46292b; fill: #46292b} .skins2 {stroke: #614244; fill: #614244}",
+              "select" : "#46292b"
+            },
+            {
+              "style": ".skins0 {stroke: #bb7644; fill: #bb7644} .skins2 {stroke: #fff; fill: #fff}",
+              "select" : "#bb7644"
+            },
+            {
+              "style": ".skins0 {stroke: #ffffff; fill: #ffffff} .skins3 {stroke: #0d0804; fill: #0d0804}",
+              "select" : "#ffffff"
+            },
+            {
+              "style": ".skins0 {stroke: #adadad; fill: #adadad} .skins3 {stroke: #707070; fill: #707070}",
+              "select" : "#adadad"
+            },
+            {
+              "style": ".skins0 {stroke: #dec6b4; fill: #dec6b4} .skins2 {stroke: #dec6b4; fill: #dec6b4}",
+              "select" : "#dec6b4"
+            },
+            {
+              "style": ".skins0 {stroke: #ffadbe; fill: #ffadbe} .skins2 {stroke: #ffd3dc; fill: #ffd3dc}",
+              "select" : "#ffadbe"
+            },
+            {
+              "style": ".skins0 {stroke: #dac2ff; fill: #dac2ff} .skins3 {stroke: #a67de5; fill: #a67de5}",
+              "select" : "#dac2ff"
+            }
+          ],
           "eyes": ["#84bd2b", "#41bce4", "#7a49c5"],
           "ears": ["#cc8d60", "#423f3e", "#cfa5d2"],
           "logo": "safariPatternedLogo.png"
