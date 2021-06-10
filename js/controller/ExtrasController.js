@@ -7,7 +7,8 @@ import {getExtra, getExtrasList, loadJSON} from "../data/DataHandler.js";
  * @author Gimli GloinsSon
  */
 export class ExtrasController {
-    constructor() {};
+    constructor() {
+    };
 
     /**
      * show the input fields for extras
@@ -22,9 +23,9 @@ export class ExtrasController {
             extraRange.setAttribute("max", (values.length - 1).toString());
             extraRange.value = 0;
             index++;
-         }
+        }
 
-        for (let i=0; i<3; i++ ) {
+        for (let i = 0; i < 3; i++) {
             document.getElementById("extraSVG" + i).innerHTML = "";
             this.changeExtra(i);
         }
@@ -36,26 +37,16 @@ export class ExtrasController {
      */
     changeExtra(index) {
         const species = document.querySelector("input[name='species']:checked").value;
-        const extraRange = document.getElementById("extra"+index);
-        const extraLabel = document.getElementById("extraL"+index);
+        const extraRange = document.getElementById("extra" + index);
+        const extraLabel = document.getElementById("extraL" + index);
         const extraValue = extraRange.value;
         const extras = getExtra(
             species,
             extraLabel.innerText
-            )[extraValue];
+        )[extraValue];
 
-        let svgElements = "";
         if (extras) {
-            if (Array.isArray(extras.value)) {
-                extras.value.forEach(function (extra) {
-                    svgElements += extra;
-                });
-                showExtra(svgElements);
-            } else {
-                let filename = "./" + species + "/" + extras.value;
-                loadJSON(filename, showExtra);
-            }
-
+            loadJSON("./" + species + "/" + extras.value, showExtra);
         } else {
             extraRange.style.display = "none";
             extraLabel.style.display = "none";
@@ -70,8 +61,5 @@ export class ExtrasController {
             extraRange.style.display = "block";
             extraLabel.style.display = "block";
         }
-
     }
-
-
 }

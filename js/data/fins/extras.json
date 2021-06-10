@@ -1,40 +1,9 @@
 {
   "species": "fins",
   "Fins": [
-    {
-      "0": "fins0.xml"
-    },
-    {
-      "1": "fins1.xml"
-    },
-    {
-      "2": "fins2.xml"
-    },
-    {
-      "3": "fins3.xml"
-    },
-    {
-      "4": "fins4.xml"
-    }
+    "fins0.xml", "fins1.xml", "fins2.xml", "fins3.xml", "fins4.xml"
   ],
   "Bracelets": [
-    {
-      "0": "bracelet0.xml"
-    },
-    {
-      "1": "bracelet1.xml"
-    },
-    {
-      "2": "bracelet2.xml"
-    },
-    {
-      "3": "bracelet3.xml"
-    },
-    {
-      "4": "bracelet4.xml"
-    },
-    {
-      "5": "bracelet5.xml"
-    }
+    "bracelet0.xml", "bracelet1.xml", "bracelet2.xml", "bracelet3.xml", "bracelet4.xml", "bracelet5.xml"
   ]
 }

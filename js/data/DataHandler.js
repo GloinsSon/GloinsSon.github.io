@@ -328,14 +328,11 @@ function setExtras(jsonData) {
         }
         for (const [extraKey, values] of Object.entries(jsonData)) {
             if (extraKey !== "species") {
-                parent.extras[extraKey] = {};
+                parent.extras[extraKey] = [];
                 let array = [];
                 for (let i = 0; i < values.length; i++) {
-                    const extrasList = Object.entries(values[i]);
-                    for (const value of extrasList) {
-                        let extra = new Extra(value[1]);
+                    let extra = new Extra(values[i]);
                         array.push(extra);
-                    }
                 }
 
                 parent.extras[extraKey] = array;
