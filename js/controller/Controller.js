@@ -3,7 +3,7 @@
 import {SpecieService} from "./SpecieService.js";
 import {ColorService} from "./ColorService.js";
 import {ExtrasController} from "./ExtrasController.js";
-import {getSpeciesList, getSubspeciesList, getVariantList, loadingProgress} from "../data/DataHandler.js";
+import {getSpeciesList, getSubspeciesList, loadingProgress} from "../data/DataHandler.js";
 
 /**
  * main controller
@@ -11,20 +11,16 @@ import {getSpeciesList, getSubspeciesList, getVariantList, loadingProgress} from
  */
 export default class Controller {
     constructor() {
-        console.log("start Controller Constructor");
         loadingProgress("init");
-        console.log("end Controller Constructor");
     }
 
     /**
      * initialize settings
      */
     init() {
-        console.log("start Controller init");
         let speciesService = new SpecieService();
         speciesService.populateSpecies();
         document.getElementById("selection").className = "form-horizontal";
-        console.log("end Controller init");
     }
 
     /**
@@ -84,14 +80,14 @@ export default class Controller {
      * shows a randomized bunker
      */
     randomize() {
+        let speciesService = new SpecieService();
 
         // choose a species
         let speciesKeys = Object.keys(getSpeciesList());
         let specieId = this.getRandomInt(0, speciesKeys.length);
         let specieKey = speciesKeys[specieId];
         document.querySelector("input[value='" + specieKey + "']").checked = true;
-        document.querySelector("input[name='species']")
-            .dispatchEvent(new Event("change", {bubbles: true}));
+        speciesService.changeSpecies();
 
         // choose a subspecies
         let subSpecieKeys = Object.keys(getSubspeciesList(specieKey));

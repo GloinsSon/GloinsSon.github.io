@@ -4,11 +4,11 @@ import {
     getSpecie,
     getSpeciesList,
     getSubspeciesList,
-    getVariant,
     getVariantList
 } from "../data/DataHandler.js";
 import {ViewController} from "../view/ViewController.js";
 import {ColorService} from "./ColorService.js";
+import {ExtrasController} from "./ExtrasController.js";
 
 import ("../data/DataHandler.js");
 
@@ -45,10 +45,7 @@ export class SpecieService {
 
             let species = document.querySelector("input[name='species']");
             species.checked = true;
-            species.dispatchEvent(
-                new Event("change", {bubbles: true})
-            );
-
+            this.changeSpecies();
         })();
 
     }
@@ -78,10 +75,7 @@ export class SpecieService {
 
             let subspecies = document.querySelector("input[name='subspecies']");
             subspecies.checked = true;
-            subspecies.dispatchEvent(
-                new Event("change", {bubbles: true})
-            );
-
+            this.changeSubSpecies();
         })();
     }
 
@@ -91,7 +85,6 @@ export class SpecieService {
      * @param subspecieKey
      */
     populateVariants(specieKey, subspecieKey) {
-        console.log("populateVariant start");
         (async () => {
             let exists = false;
             while (!exists) {
@@ -117,10 +110,7 @@ export class SpecieService {
 
             let variants = document.querySelector("input[name='variant']");
             variants.checked = true;
-            variants.dispatchEvent(
-                new Event("change", {bubbles: true})
-            );
-
+            this.changeVariant();
         })();
     }
 
@@ -131,8 +121,7 @@ export class SpecieService {
         let specieKey = document.querySelector("input[name='species']:checked").value;
         const specie = getSpecie(specieKey);
 
-        document.body.style.backgroundColor = specie.bgcolor;
-        this.populateSubSpecies(specieKey);
+
 
         (async () => {
             let exists = false;
@@ -146,6 +135,11 @@ export class SpecieService {
                 svgHuman += specie.humanoid[i];
             }
             document.getElementById("humanoid").innerHTML = svgHuman;
+            document.body.style.backgroundColor = specie.bgcolor;
+            this.populateSubSpecies(specieKey);
+
+            let extrasController = new ExtrasController();
+            extrasController.populateExtras();
         })();
     }
 
@@ -157,7 +151,6 @@ export class SpecieService {
             document.querySelector("input[name='species']:checked").value,
             document.querySelector("input[name='subspecies']:checked").value
         );
-
     }
 
     /**
@@ -168,5 +161,7 @@ export class SpecieService {
         colorService.populateColors("skins");
         colorService.populateColors("eyes");
         colorService.populateColors("ears");
+
+        colorService.changeColors();
     }
 }
