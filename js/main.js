@@ -12,7 +12,6 @@ let controller;
  * register listeners for all form elements
  */
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("start DOMContentLoaded");
     import("./controller/Controller.js")
         .then((module) => {
             import ("./data/DataHandler.js")
@@ -27,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("selection").addEventListener("reset", controller.init);
             document.getElementById("random").addEventListener("click", randomBunker);
         });
-    console.log("end DOMContentLoaded");
 });
 
 /**

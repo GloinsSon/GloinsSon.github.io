@@ -3,7 +3,7 @@
 import {SpecieService} from "./SpecieService.js";
 import {ColorService} from "./ColorService.js";
 import {ExtrasController} from "./ExtrasController.js";
-import {getSpeciesList, getSubspeciesList, getVariantList, loadingProgress} from "../data/DataHandler.js";
+import {getSpeciesList, getSubspeciesList, loadingProgress} from "../data/DataHandler.js";
 
 /**
  * main controller
@@ -11,28 +11,16 @@ import {getSpeciesList, getSubspeciesList, getVariantList, loadingProgress} from
  */
 export default class Controller {
     constructor() {
-        console.log("start Controller Constructor");
         loadingProgress("init");
-        console.log("end Controller Constructor");
     }
 
     /**
      * initialize settings
      */
     init() {
-        console.log("start Controller init");
-        (async () => {
-            while (Loading > 0) {
-                await new Promise(resolve => setTimeout(resolve, 250));
-            }
-            console.log("Loading completed");
-            let speciesService = new SpecieService();
-            speciesService.populateSpecies();
-            let extrasController = new ExtrasController();
-            extrasController.populateExtras();
-            document.getElementById("selection").className = "form-horizontal";
-        })();
-        console.log("end Controller init");
+        let speciesService = new SpecieService();
+        speciesService.populateSpecies();
+        document.getElementById("selection").className = "form-horizontal";
     }
 
     /**
@@ -50,11 +38,6 @@ export default class Controller {
             let speciesService = new SpecieService();
             speciesService.changeSubSpecies();
         } else if (fieldName === "variant") {
-            let colorService = new ColorService();
-            colorService.populateColors("skins");
-            colorService.populateColors("eyes");
-            colorService.populateColors("ears");
-
             let speciesService = new SpecieService();
             speciesService.changeVariant();
 
@@ -97,14 +80,14 @@ export default class Controller {
      * shows a randomized bunker
      */
     randomize() {
+        let speciesService = new SpecieService();
 
         // choose a species
         let speciesKeys = Object.keys(getSpeciesList());
         let specieId = this.getRandomInt(0, speciesKeys.length);
         let specieKey = speciesKeys[specieId];
         document.querySelector("input[value='" + specieKey + "']").checked = true;
-        document.querySelector("input[name='species']")
-            .dispatchEvent(new Event("change", {bubbles: true}));
+        speciesService.changeSpecies();
 
         // choose a subspecies
         let subSpecieKeys = Object.keys(getSubspeciesList(specieKey));
@@ -115,8 +98,6 @@ export default class Controller {
             .dispatchEvent(new Event("change", {bubbles: true}));
 
         // choose a variant
-        let variantKeys = Object.keys(getVariantList(specieKey, subSpecieKey));
-        let variantId = this.getRandomInt(0, subSpecieKeys.length);
         let variantKey = subSpecieKeys[subSpecieId];
         document.querySelector("input[value='" + variantKey + "']").checked = true;
         document.querySelector("input[name='variant']")
