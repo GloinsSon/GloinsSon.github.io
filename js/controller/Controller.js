@@ -48,8 +48,8 @@ export default class Controller {
             fieldName === "eyes") {
             let colorService = new ColorService();
             colorService.changeColors(fieldName);
-        } else if (fieldId.startsWith("extra")) {
-            let index = fieldId.substr(5, 1);
+        } else if (fieldName.startsWith("misc")) {
+            let index = fieldName.substr(4, 1);
             let extrasController = new ExtrasController();
             extrasController.changeExtra(index);
         }

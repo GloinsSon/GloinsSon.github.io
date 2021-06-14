@@ -60,7 +60,31 @@ export class ViewController {
             "{value}": value,
             "{folder}": folder,
             "{image}": image
-}
+        }
+        let html = multiReplace(template, replace);
+        return html;
+    }
+
+
+    /**
+     * builds a selection for misc. extras
+     * @param type
+     * @param value
+     * @param elementId
+     * @returns {string}
+     */
+    buildExtra(type, value, elementId) {
+        const template =
+            "<label>" +
+            "  <input type='radio' name='{type}' value='{value}' />" +
+            "  <svg xmlns='http://www.w3.org/2000/svg' id='{elementId}' class='extras' viewBox='0 0 75 75'>" +
+            "  </svg>" +
+            "</label>";
+        let replace = {
+            "{type}": type,
+            "{value}": value,
+            "{elementId}": elementId
+        }
         let html = multiReplace(template, replace);
         return html;
     }

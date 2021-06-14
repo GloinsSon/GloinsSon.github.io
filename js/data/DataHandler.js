@@ -32,12 +32,12 @@ const jsonFiles = [
     {file: "prancers/humanoid.xml", callback: setHumanoid},
     {file: "prancers/subspecies.json", callback: setSubSpecies},
     {file: "prancers/extras.json", callback: setExtras}
-/*
-    {file: "flappers/humanoid.xml", callback: setHumanoid},
-    {file: "flappers/subspecies.json", callback: setSubSpecies},
-    {file: "flappers/extras.json", callback: setExtras}
+    /*
+        {file: "flappers/humanoid.xml", callback: setHumanoid},
+        {file: "flappers/subspecies.json", callback: setSubSpecies},
+        {file: "flappers/extras.json", callback: setExtras}
 
- */
+     */
 ]
 
 /**
@@ -46,7 +46,7 @@ const jsonFiles = [
 export default function loadData() {
     for (let i = 0; i < jsonFiles.length; i++) {
         // setTimeout(() => {
-            loadJSON(jsonFiles[i].file, jsonFiles[i].callback);
+        loadJSON(jsonFiles[i].file, jsonFiles[i].callback);
         // }, i*100);
     }
 }
@@ -55,8 +55,9 @@ export default function loadData() {
  * fetches a JSON file
  * @param file  path withing "/js/data" and filename
  * @param callback  the callback function for success
+ * @param elementId  the id of a DOM element (optional)
  */
-export function loadJSON(file, callback) {
+export function loadJSON(file, callback, elementId) {
     fetch("./js/data/" + file)
         .then(function (response) {
             if (response.status !== 200) {
@@ -65,8 +66,16 @@ export function loadJSON(file, callback) {
                 let parts = file.split(".", 2);
                 if (parts[1] === "json")
                     response.json().then(callback);
-                else
-                    response.text().then(callback);
+                else {
+                    response.text().then(
+                        function (textData) {
+                            if (elementId === undefined)
+                                callback(textData);
+                            else
+                                callback(textData, elementId);
+                        }
+                    );
+                }
             }
         });
 }
@@ -165,7 +174,7 @@ export function getVariantList(specieKey, subspiecieKey) {
 export function getExtra(specieKey, extrasKey) {
     const extrasList = getExtrasList(specieKey);
     if (extrasList.hasOwnProperty(extrasKey))
-    return getExtrasList(specieKey)[extrasKey];
+        return getExtrasList(specieKey)[extrasKey];
     else
         return "";
 }
@@ -331,7 +340,7 @@ function setExtras(jsonData) {
                 let array = [];
                 for (let i = 0; i < values.length; i++) {
                     let extra = new Extra(values[i]);
-                        array.push(extra);
+                    array.push(extra);
                 }
 
                 parent.extras[extraKey] = array;
