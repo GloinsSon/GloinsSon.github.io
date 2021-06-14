@@ -1,9 +1,31 @@
 {
   "species": "floofs",
   "Collars": [
-    "collar0.xml", "collar1.xml", "collar2.xml", "collar3.xml", "collar4.xml", "collar5.xml", "collar6.xml", "collar7.xml"
+    {
+      "file": "collar0.xml"
+    }, {
+      "file": "collar1.xml"
+    }, {
+      "file": "collar2.xml"
+    }, {
+      "file": "collar3.xml"
+    }, {
+      "file": "collar4.xml"
+    }, {
+      "file": "collar5.xml"
+    }, {
+      "file": "collar6.xml"
+    }, {
+      "file": "collar7.xml"
+    }
   ],
   "Mouths": [
-    "mouth0.xml", "mouth1.xml", "mouth2.xml"
+    {
+      "file": "mouth0.xml"
+    }, {
+      "file": "mouth1.xml"
+    }, {
+      "file": "mouth2.xml"
+    }
   ]
 }

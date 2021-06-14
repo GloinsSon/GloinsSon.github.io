@@ -1,9 +1,32 @@
 {
   "species": "fins",
   "Fins": [
-    "fins0.xml", "fins1.xml", "fins2.xml", "fins3.xml", "fins4.xml"
+    {
+      "file": "fins0.xml"
+    },
+    {
+      "file": "fins1.xml"
+    }, {
+      "file": "fins2.xml"
+    }, {
+      "file": "fins3.xml"
+    }, {
+      "file": "fins4.xml"
+    }
   ],
   "Bracelets": [
-    "bracelet0.xml", "bracelet1.xml", "bracelet2.xml", "bracelet3.xml", "bracelet4.xml", "bracelet5.xml"
+    {
+      "file": "bracelet0.xml"
+    }, {
+      "file": "bracelet1.xml"
+    }, {
+      "file": "bracelet2.xml"
+    }, {
+      "file": "bracelet3.xml"
+    }, {
+      "file": "bracelet4.xml"
+    }, {
+      "file": "bracelet5.xml"
+    }
   ]
 }

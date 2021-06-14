@@ -45,9 +45,9 @@ const jsonFiles = [
  */
 export default function loadData() {
     for (let i = 0; i < jsonFiles.length; i++) {
-        // setTimeout(() => {
+        //setTimeout(() => {
         loadJSON(jsonFiles[i].file, jsonFiles[i].callback);
-        // }, i*100);
+        //}, i*100);
     }
 }
 
@@ -339,7 +339,10 @@ function setExtras(jsonData) {
                 parent.extras[extraKey] = [];
                 let array = [];
                 for (let i = 0; i < values.length; i++) {
-                    let extra = new Extra(values[i]);
+                    let extra = new Extra(
+                        values[i].file,
+                        values[i].attrs
+                    );
                     array.push(extra);
                 }
 

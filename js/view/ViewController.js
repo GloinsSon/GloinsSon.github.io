@@ -68,22 +68,23 @@ export class ViewController {
 
     /**
      * builds a selection for misc. extras
-     * @param type
+     * @param name
+     * @param species
      * @param value
-     * @param elementId
+     * @param filename
      * @returns {string}
      */
-    buildExtra(type, value, elementId) {
+    buildExtra(name, species, value, filename) {
         const template =
             "<label>" +
-            "  <input type='radio' name='{type}' value='{value}' />" +
-            "  <svg xmlns='http://www.w3.org/2000/svg' id='{elementId}' class='extras' viewBox='0 0 75 75'>" +
-            "  </svg>" +
+            "  <input type='radio' name='{name}' value='{value}' />" +
+            "  <img src='./js/data/{species}/{filename}' width='50' height='50' />" +
             "</label>";
         let replace = {
-            "{type}": type,
+            "{name}": name,
+            "{species}": species,
             "{value}": value,
-            "{elementId}": elementId
+            "{filename}": filename
         }
         let html = multiReplace(template, replace);
         return html;

@@ -20,7 +20,6 @@ export class Specie {
         this.humanoid = humanoid;
         this.logo = logo;
         this.extras = {};
-
         this.subspecies = {};
     }
 

@@ -1,6 +1,16 @@
 {
   "species": "hoppers",
   "Tattoos": [
-    "tattoo0.xml", "tattoo1.xml", "tattoo2.xml", "tattoo3.xml", "tattoo4.xml"
+    {
+      "file": "tattoo0.xml"
+    }, {
+      "file": "tattoo1.xml"
+    }, {
+      "file": "tattoo2.xml"
+    }, {
+      "file": "tattoo3.xml"
+    }, {
+      "file": "tattoo4.xml"
+    }
   ]
 }

@@ -1,6 +1,18 @@
 {
   "species": "smittens",
   "Bells": [
-    "bells0.xml", "bells1.xml", "bells2.xml", "bells3.xml", "bells4.xml", "bells5.xml"
+    {
+      "file": "bells0.xml"
+    }, {
+      "file": "bells1.xml"
+    }, {
+      "file": "bells2.xml"
+    }, {
+      "file": "bells3.xml"
+    }, {
+      "file": "bells4.xml"
+    }, {
+      "file": "bells5.xml"
+    }
   ]
 }

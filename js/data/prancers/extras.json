@@ -1,6 +1,18 @@
 {
   "species": "prancers",
   "Brands": [
-    "brand0.xml", "brand1.xml", "brand2.xml", "brand3.xml", "brand4.xml", "brand5.xml"
+    {
+      "file": "brand0.xml"
+    }, {
+      "file": "brand1.xml"
+    }, {
+      "file": "brand2.xml"
+    }, {
+      "file": "brand3.xml"
+    }, {
+      "file": "brand4.xml"
+    }, {
+      "file": "brand5.xml"
+    }
   ]
 }

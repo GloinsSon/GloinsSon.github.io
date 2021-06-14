@@ -1,9 +1,95 @@
 {
   "species": "cubs",
   "Tags": [
-    "tag0.xml", "tag1.xml", "tag2.xml", "tag3.xml", "tag4.xml", "tag5.xml", "tag6.xml", "tag7.xml"
+    {
+      "file": "tag0.svg",
+      "attrs": {
+        "transform": "translate(155,280)",
+        "width": "50",
+        "height": "50"
+      }
+    },
+    {
+      "file": "tag1.svg",
+      "attrs": {
+        "transform": "translate(155,280)",
+        "width": "50",
+        "height": "50"
+      }
+    },
+    {
+      "file": "tag2.svg",
+      "attrs": {
+        "transform": "translate(155,280)",
+        "width": "50",
+        "height": "50"
+      }
+    },
+    {
+      "file": "tag3.svg",
+      "attrs": {
+        "transform": "translate(162,280)",
+        "width": "50",
+        "height": "50"
+      }
+    },
+    {
+      "file": "tag4.svg",
+      "attrs": {
+        "transform": "translate(162,280)",
+        "width": "50",
+        "height": "50"
+      }
+    },
+    {
+      "file": "tag5.svg",
+      "attrs": {
+        "transform": "translate(162,280)",
+        "width": "50",
+        "height": "50"
+      }
+    },
+    {
+      "file": "tag6.svg",
+      "attrs": {
+        "transform": "translate(160,280)",
+        "width": "50",
+        "height": "50"
+      }
+    },
+    {
+      "file": "tag7.svg",
+      "attrs": {
+        "transform": "translate(175,345) rotate(-60)",
+        "width": "50",
+        "height": "50"
+      }
+    }
   ],
   "Fangs": [
-    "fangs0.xml", "fangs1.xml", "fangs2.xml"
+    {
+      "file": "fangs0.svg",
+      "attrs": {
+        "transform": "translate(225,135)",
+        "width": "40",
+        "height": "40"
+      }
+    },
+    {
+      "file": "fangs1.svg",
+      "attrs": {
+        "transform": "translate(225,135)",
+        "width": "40",
+        "height": "40"
+      }
+    },
+    {
+      "file": "fangs2.svg",
+      "attrs": {
+        "transform": "translate(225,135)",
+        "width": "40",
+        "height": "40"
+      }
+    }
   ]
 }
