@@ -2,17 +2,54 @@
   "species": "prancers",
   "Brands": [
     {
-      "file": "brand0.xml"
-    }, {
-      "file": "brand1.xml"
-    }, {
-      "file": "brand2.xml"
-    }, {
-      "file": "brand3.xml"
-    }, {
-      "file": "brand4.xml"
-    }, {
-      "file": "brand5.xml"
+      "elements": [
+        {
+          "file": "brand1.svg",
+          "transform": "translate(180,210) scale(0.7)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "brand2.svg",
+          "transform": "translate(180,210) scale(0.7)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "brand3.svg",
+          "transform": "translate(180,210) scale(0.7)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "brand4.svg",
+          "transform": "translate(180,210) scale(0.7)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "brand5.svg",
+          "transform": "translate(180,210) scale(0.6)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
     }
   ]
 }

@@ -13,6 +13,10 @@ body {
     }
 }
 
+svg {
+    overflow: visible;
+}
+
 div.container-fluid, div.container-xl {
     color: #005062;
 }
@@ -64,8 +68,9 @@ input[type="radio"]:checked + svg {
     padding: 0px;
 }
 
-input[type="radio"] + figure > img {
-    margin: 0px 15px;
+input[type="radio"] + figure > img,
+input[type="radio"] + img {
+    margin: 5px 15px;
     width: 40px;
 }
 input[type="radio"]:checked + figure > img {
@@ -76,6 +81,14 @@ input[type="radio"]:checked + figure > img {
     border-radius:80px;
     padding: 0px;
     width: 60px;
+}
+
+input[type="radio"]:checked + img {
+    border: indigo 2px solid;
+    box-shadow: -3px 3px  rgba(0,0,0,0.6);
+    -moz-box-shadow: -3px 3px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: -3px 3px  rgba(0,0,0,0.6);
+    -o-box-shadow: -3px 3px  rgba(0,0,0,0.6);
 }
 
 .page-footer { margin-top: 40px; }

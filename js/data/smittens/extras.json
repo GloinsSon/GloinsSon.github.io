@@ -2,17 +2,52 @@
   "species": "smittens",
   "Bells": [
     {
-      "file": "bells0.xml"
-    }, {
-      "file": "bells1.xml"
-    }, {
-      "file": "bells2.xml"
-    }, {
-      "file": "bells3.xml"
-    }, {
-      "file": "bells4.xml"
-    }, {
-      "file": "bells5.xml"
+      "elements": [
+        {
+          "file": "bells0.svg",
+          "transform": "translate(238,177)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bells1.svg",
+          "transform": "translate(238,177)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bells2.svg",
+          "transform": "translate(238,177)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bells3.svg",
+          "transform": "translate(238,177)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bells4.svg",
+          "transform": "translate(238,177)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bells5.svg",
+          "transform": "translate(238,177)"
+        }
+      ]
     }
   ]
 }

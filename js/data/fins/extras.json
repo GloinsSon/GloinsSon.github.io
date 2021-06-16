@@ -2,31 +2,146 @@
   "species": "fins",
   "Fins": [
     {
-      "file": "fins0.xml"
+      "elements": [
+        {
+          "file": "fins0.svg",
+          "transform": "translate(180,55)",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "file": "fins0.svg",
+          "transform": "translate(105,55) scale(-1,1)",
+          "width": "40",
+          "height": "40"
+        }
+      ]
     },
     {
-      "file": "fins1.xml"
-    }, {
-      "file": "fins2.xml"
-    }, {
-      "file": "fins3.xml"
-    }, {
-      "file": "fins4.xml"
+      "elements": [
+        {
+          "file": "fins1.svg",
+          "transform": "translate(180,55)",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "file": "fins1.svg",
+          "transform": "translate(105,55) scale(-1,1)",
+          "width": "40",
+          "height": "40"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "fins2.svg",
+          "transform": "translate(180,55)",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "file": "fins2.svg",
+          "transform": "translate(105,55) scale(-1,1)",
+          "width": "40",
+          "height": "40"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "fins3.svg",
+          "transform": "translate(180,55)",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "file": "fins3.svg",
+          "transform": "translate(105,55) scale(-1,1)",
+          "width": "40",
+          "height": "40"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "fins4.svg",
+          "transform": "translate(180,55)",
+          "width": "40",
+          "height": "40"
+        },
+        {
+          "file": "fins4.svg",
+          "transform": "translate(105,55) scale(-1,1)",
+          "width": "40",
+          "height": "40"
+        }
+      ]
     }
   ],
   "Bracelets": [
     {
-      "file": "bracelet0.xml"
-    }, {
-      "file": "bracelet1.xml"
-    }, {
-      "file": "bracelet2.xml"
-    }, {
-      "file": "bracelet3.xml"
-    }, {
-      "file": "bracelet4.xml"
-    }, {
-      "file": "bracelet5.xml"
+      "elements": [
+        {
+          "file": "bracelet0.svg",
+          "transform": "translate(668,725) scale(3)",
+          "width": "80",
+          "height": "30"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bracelet1.svg",
+          "transform": "translate(668,725) scale(3)",
+          "width": "80",
+          "height": "30"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bracelet2.svg",
+          "transform": "translate(668,725) scale(3)",
+          "width": "80",
+          "height": "30"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bracelet3.svg",
+          "transform": "translate(668,725) scale(3)",
+          "width": "80",
+          "height": "30"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bracelet4.svg",
+          "transform": "translate(668,725) scale(3)",
+          "width": "80",
+          "height": "30"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "bracelet5.svg",
+          "transform": "translate(668,725) scale(3)",
+          "width": "80",
+          "height": "30"
+        }
+      ]
     }
   ]
 }

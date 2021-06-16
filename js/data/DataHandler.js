@@ -340,8 +340,7 @@ function setExtras(jsonData) {
                 let array = [];
                 for (let i = 0; i < values.length; i++) {
                     let extra = new Extra(
-                        values[i].file,
-                        values[i].attrs
+                        values[i].elements
                     );
                     array.push(extra);
                 }

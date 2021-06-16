@@ -27,7 +27,6 @@ export default class Controller {
      * user changed a value in settings
      */
     changeSettings(element) {
-        let fieldId = element.target.id;
         let fieldName = element.target.name;
         if (fieldName === "species") {
             let speciesService = new SpecieService();
@@ -40,7 +39,6 @@ export default class Controller {
         } else if (fieldName === "variant") {
             let speciesService = new SpecieService();
             speciesService.changeVariant();
-
             let event = new Event("change", { 'bubbles': true });
             document.getElementById("skins0").dispatchEvent(event);
         } else if (fieldName === "skins" ||
@@ -60,7 +58,7 @@ export default class Controller {
          */
         function createDownload() {
             let link = document.getElementById("download");
-            let svg = document.getElementById("svg");
+            let svg = document.getElementById("modelSVG");
             let serializer = new XMLSerializer();
             let source = serializer.serializeToString(svg);
             if(!source.match(/^<svg[^>]+xmlns="http\:\/\/www\.w3\.org\/2000\/svg"/)){

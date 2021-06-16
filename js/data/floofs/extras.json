@@ -2,30 +2,116 @@
   "species": "floofs",
   "Collars": [
     {
-      "file": "collar0.xml"
-    }, {
-      "file": "collar1.xml"
-    }, {
-      "file": "collar2.xml"
-    }, {
-      "file": "collar3.xml"
-    }, {
-      "file": "collar4.xml"
-    }, {
-      "file": "collar5.xml"
-    }, {
-      "file": "collar6.xml"
-    }, {
-      "file": "collar7.xml"
+      "elements": [
+        {
+          "file": "collar0.svg",
+          "transform": "translate(229,185)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "collar1.svg",
+          "transform": "translate(229,185)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "collar2.svg",
+          "transform": "translate(229,185)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "collar3.svg",
+          "transform": "translate(229,185)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "collar4.svg",
+          "transform": "translate(229,185)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "collar5.svg",
+          "transform": "translate(229,185)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "collar6.svg",
+          "transform": "translate(229,185)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "collar7.svg",
+          "transform": "translate(229,185)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
     }
   ],
   "Mouths": [
     {
-      "file": "mouth0.xml"
-    }, {
-      "file": "mouth1.xml"
-    }, {
-      "file": "mouth2.xml"
+      "elements": [
+        {
+          "file": "mouth0.svg",
+          "transform": "translate(240,160)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "mouth1.svg",
+          "transform": "translate(240,160)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "mouth2.svg",
+          "transform": "translate(240,160)",
+          "width": "50",
+          "height": "50"
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,6 @@ export class ExtrasController {
     populateExtras() {
         let specieKey = document.querySelector("input[name='species']:checked").value;
         for (let i = 0; i < 3; i++) {
-            document.getElementById("extraSVG" + i).innerHTML = "";
             document.getElementById("extra" + i).style.display = "none";
             document.getElementById("extraL" + i).style.display = "none";
         }
@@ -46,14 +45,15 @@ export class ExtrasController {
                         "misc" + index,
                         specieKey,
                         i,
-                        extra[i].filename
+                        extra[i].elements[0].file
                     );
 
                 }
                 let fieldId = "extra" + index;
                 document.getElementById(fieldId).innerHTML = selection;
                 document.querySelector("input[name='misc" + index + "']").checked = true;
-
+                document.getElementById("extra" + index).style.display = "block";
+                document.getElementById("extraL" + index).style.display = "block";
 
                 this.changeExtra(index);
                 index++;
@@ -68,7 +68,6 @@ export class ExtrasController {
      */
     changeExtra(index) {
         const species = document.querySelector("input[name='species']:checked").value;
-        const extraRange = document.getElementById("extra" + index);
         const extraLabel = document.getElementById("extraL" + index);
         const extraValue = document.querySelector("input[name='misc" + index + "']:checked").value;
         const extras = getExtra(
@@ -77,32 +76,35 @@ export class ExtrasController {
         )[extraValue];
 
         if (extras) {
-            loadJSON("./" + species + "/" + extras.filename, showExtra, extras);
-
-        } else {
-            extraRange.style.display = "none";
-            extraLabel.style.display = "none";
+            loadJSON("./" + species + "/" + extras.elements[0].file, showExtra, extras);
         }
 
         /**
          * show the graphics for an extra element
          * @param svgElements
+         * @param extras
          */
-        function showExtra(svgElements, extras) {
-            document.getElementById("extraSVG" + index).innerHTML = svgElements;
-            extraRange.style.display = "block";
-            extraLabel.style.display = "block";
+        function showExtra(svgData, extras) {
+            let parser = new DOMParser();
+            let svgDoc = parser.parseFromString(svgData, "image/svg+xml");
+            const svgMisc = svgDoc.firstChild;
 
-            let group = document.getElementById("extraSVG" + index);
-            for (const [attrKey, attrValue] of Object.entries(extras.attrs)) {
-                if (attrKey === "transform")
-                    group.setAttribute(attrKey, attrValue);
-                else {
-                    let child = group.getElementsByTagName("svg")[0];
-                    child.setAttribute(attrKey, attrValue);
-                }
+            let viewBox = svgMisc.getAttribute("viewBox").split(" ");
 
+            let groupId = extraLabel.innerText;
+            let svgGroup = document.getElementById(groupId);
+
+            svgGroup.innerHTML = '';
+            let elements = extras.elements;
+            for (let i=0; i<elements.length; i++) {
+                let svgElement = svgMisc.cloneNode(true);
+                svgElement.setAttribute("width", viewBox[2]);
+                svgElement.setAttribute("height", viewBox[3]);
+                let child = svgElement.getElementsByTagName("g")[0];
+                child.setAttribute("transform", elements[i].transform)
+                svgGroup.appendChild(svgElement);
             }
+
         }
     }
 }
