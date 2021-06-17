@@ -68,27 +68,32 @@ input[type="radio"]:checked + svg {
     padding: 0px;
 }
 
-input[type="radio"] + figure > img,
-input[type="radio"] + img {
+input[type="radio"] + figure > img {
     margin: 5px 15px;
     width: 40px;
 }
 input[type="radio"]:checked + figure > img {
-    box-shadow: -5px 5px  rgba(0,0,0,0.6);
-    -moz-box-shadow: -5px 5px  rgba(0,0,0,0.6);
-    -webkit-box-shadow: -5px 5px  rgba(0,0,0,0.6);
-    -o-box-shadow: -5px 5px  rgba(0,0,0,0.6);
+    box-shadow: 5px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 5px 5px  rgba(0,0,0,0.6);
     border-radius:80px;
     padding: 0px;
     width: 60px;
 }
 
+input[type="radio"] + img {
+    margin: 5px 15px;
+    padding: 5px;
+    width: 40px;
+}
 input[type="radio"]:checked + img {
-    border: indigo 2px solid;
-    box-shadow: -3px 3px  rgba(0,0,0,0.6);
-    -moz-box-shadow: -3px 3px  rgba(0,0,0,0.6);
-    -webkit-box-shadow: -3px 3px  rgba(0,0,0,0.6);
-    -o-box-shadow: -3px 3px  rgba(0,0,0,0.6);
+    background: #fefefe;
+    box-shadow: 3px 3px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 3px 3px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 3px 3px  rgba(0,0,0,0.6);
+    -o-box-shadow: 3px 3px  rgba(0,0,0,0.6);
+    border-radius: 20px;
 }
 
 .page-footer { margin-top: 40px; }
