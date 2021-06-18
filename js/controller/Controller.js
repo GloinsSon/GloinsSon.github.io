@@ -21,6 +21,7 @@ export default class Controller {
         let speciesService = new SpecieService();
         speciesService.populateSpecies();
         document.getElementById("selection").className = "form-horizontal";
+        setTimeout(createDownload, 2000);
     }
 
     /**
@@ -39,8 +40,6 @@ export default class Controller {
         } else if (fieldName === "variant") {
             let speciesService = new SpecieService();
             speciesService.changeVariant();
-            let event = new Event("change", { 'bubbles': true });
-            document.getElementById("skins0").dispatchEvent(event);
         } else if (fieldName === "skins" ||
             fieldName === "ears" ||
             fieldName === "eyes") {
@@ -52,26 +51,6 @@ export default class Controller {
             extrasController.changeExtra(index);
         }
         createDownload();
-
-        /**
-         * creates the data string to download the bunkers
-         */
-        function createDownload() {
-            let link = document.getElementById("download");
-            let svg = document.getElementById("modelSVG");
-            let serializer = new XMLSerializer();
-            let source = serializer.serializeToString(svg);
-            if(!source.match(/^<svg[^>]+xmlns="http\:\/\/www\.w3\.org\/2000\/svg"/)){
-                source = source.replace(/^<svg/, '<svg xmlns="http://www.w3.org/2000/svg"');
-            }
-            if(!source.match(/^<svg[^>]+"http\:\/\/www\.w3\.org\/1999\/xlink"/)){
-                source = source.replace(/^<svg/, '<svg xmlns:xlink="http://www.w3.org/1999/xlink"');
-            }
-
-            source = '<?xml version="1.0" standalone="no"?>\r\n' + source;
-            link.href = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(source);
-
-        }
     }
 
     /**
@@ -109,8 +88,7 @@ export default class Controller {
             let randomVal = this.getRandomInt(0, count);
             document.getElementById(colorArray[fieldId] + randomVal).checked = true;
 
-            document.getElementById(colorArray[fieldId]).
-            dispatchEvent(new Event("change", {bubbles: true}));
+            document.getElementById(colorArray[fieldId]).dispatchEvent(new Event("change", {bubbles: true}));
         }
 
         // choose extras
@@ -133,4 +111,24 @@ export default class Controller {
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min) + min);
     }
+}
+
+/**
+ * creates the data string to download the bunkers
+ */
+function createDownload() {
+    let link = document.getElementById("download");
+    let svg = document.getElementById("modelSVG");
+    let serializer = new XMLSerializer();
+    let source = serializer.serializeToString(svg);
+    if (!source.match(/^<svg[^>]+xmlns="http\:\/\/www\.w3\.org\/2000\/svg"/)) {
+        source = source.replace(/^<svg/, '<svg xmlns="http://www.w3.org/2000/svg"');
+    }
+    if (!source.match(/^<svg[^>]+"http\:\/\/www\.w3\.org\/1999\/xlink"/)) {
+        source = source.replace(/^<svg/, '<svg xmlns:xlink="http://www.w3.org/1999/xlink"');
+    }
+
+    source = '<?xml version="1.0" standalone="no"?>\r\n' + source;
+    link.href = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(source);
+
 }

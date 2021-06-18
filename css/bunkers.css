@@ -83,6 +83,8 @@ input[type="radio"]:checked + figure > img {
 }
 
 input[type="radio"] + img {
+    border: #fefefe 2px solid;
+    border-radius: 20px;
     margin: 5px 15px;
     padding: 5px;
     width: 40px;

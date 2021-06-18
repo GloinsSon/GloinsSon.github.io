@@ -5,7 +5,7 @@
       "elements": [
         {
           "file": "collar0.svg",
-          "transform": "translate(219,183)"
+          "transform": "translate(219,180)"
         }
       ]
     },
@@ -13,7 +13,7 @@
       "elements": [
         {
           "file": "collar1.svg",
-          "transform": "translate(219,183)"
+          "transform": "translate(219,180)"
         }
       ]
     },
@@ -21,7 +21,7 @@
       "elements": [
         {
           "file": "collar2.svg",
-          "transform": "translate(219,183)"
+          "transform": "translate(219,180)"
         }
       ]
     },
@@ -29,7 +29,7 @@
       "elements": [
         {
           "file": "collar3.svg",
-          "transform": "translate(219,183)"
+          "transform": "translate(219,180)"
         }
       ]
     },
@@ -37,7 +37,7 @@
       "elements": [
         {
           "file": "collar4.svg",
-          "transform": "translate(219,183)"
+          "transform": "translate(219,180)"
         }
       ]
     },
@@ -45,7 +45,7 @@
       "elements": [
         {
           "file": "collar5.svg",
-          "transform": "translate(219,183)"
+          "transform": "translate(219,180)"
         }
       ]
     },
@@ -53,7 +53,7 @@
       "elements": [
         {
           "file": "collar6.svg",
-          "transform": "translate(219,183)"
+          "transform": "translate(219,180)"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "elements": [
         {
           "file": "collar7.svg",
-          "transform": "translate(219,183)"
+          "transform": "translate(219,180)"
         }
       ]
     }
@@ -71,7 +71,7 @@
       "elements": [
         {
           "file": "mouth0.svg",
-          "transform": "translate(220,158)"
+          "transform": "translate(228,160) scale(0.7)"
         }
       ]
     },
@@ -79,7 +79,7 @@
       "elements": [
         {
           "file": "mouth1.svg",
-          "transform": "translate(220,158)"
+          "transform": "translate(228,160) scale(0.7)"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "elements": [
         {
           "file": "mouth2.svg",
-          "transform": "translate(220,158)"
+          "transform": "translate(228,160) scale(0.7)"
         }
       ]
     }
