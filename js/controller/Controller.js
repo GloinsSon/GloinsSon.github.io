@@ -82,21 +82,23 @@ export default class Controller {
 
         // choose colors
         const colorArray = ["skins", "ears", "eyes"];
-        for (let fieldId in colorArray) {
-            let fieldName = colorArray[fieldId];
+        for (const fieldName of colorArray) {
             let count = document.querySelectorAll("input[name='" + fieldName + "']").length;
             let randomVal = this.getRandomInt(0, count);
-            document.getElementById(colorArray[fieldId] + randomVal).checked = true;
-
-            document.getElementById(colorArray[fieldId]).dispatchEvent(new Event("change", {bubbles: true}));
+            document.getElementById(fieldName + randomVal).checked = true;
+            document.getElementById(fieldName + randomVal).dispatchEvent(new Event("change", {bubbles: true}));
         }
 
         // choose extras
-        const fieldArray = ["extra0", "extra1", "extra2"];
-        for (let fieldId in fieldArray) {
-            let field = document.getElementById(fieldArray[fieldId]);
-            field.value = this.getRandomInt(0, field.max);
-            field.dispatchEvent(new Event("change", {bubbles: true}));
+        const fieldArray = ["misc0", "misc1", "misc2"];
+        for (const fieldName of fieldArray) {
+            let elements = document.querySelectorAll("input[name='" + fieldName + "']");
+            const count = elements.length;
+            if (count > 0) {
+                let randomVal = this.getRandomInt(0, count);
+                elements[randomVal].checked = true;
+                elements[randomVal].dispatchEvent(new Event("change", {bubbles: true}));
+            }
         }
     }
 
