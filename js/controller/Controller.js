@@ -21,13 +21,13 @@ export default class Controller {
         let speciesService = new SpecieService();
         speciesService.populateSpecies();
         document.getElementById("selection").className = "form-horizontal";
-        setTimeout(createDownload, 2000);
     }
 
     /**
      * user changed a value in settings
      */
     changeSettings(element) {
+        document.getElementById("link").classList.add("d-none");
         let fieldName = element.target.name;
         if (fieldName === "species") {
             let speciesService = new SpecieService();
@@ -50,7 +50,6 @@ export default class Controller {
             let extrasController = new ExtrasController();
             extrasController.changeExtra(index);
         }
-        createDownload();
     }
 
     /**
@@ -113,24 +112,4 @@ export default class Controller {
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min) + min);
     }
-}
-
-/**
- * creates the data string to download the bunkers
- */
-function createDownload() {
-    let link = document.getElementById("download");
-    let svg = document.getElementById("modelSVG");
-    let serializer = new XMLSerializer();
-    let source = serializer.serializeToString(svg);
-    if (!source.match(/^<svg[^>]+xmlns="http\:\/\/www\.w3\.org\/2000\/svg"/)) {
-        source = source.replace(/^<svg/, '<svg xmlns="http://www.w3.org/2000/svg"');
-    }
-    if (!source.match(/^<svg[^>]+"http\:\/\/www\.w3\.org\/1999\/xlink"/)) {
-        source = source.replace(/^<svg/, '<svg xmlns:xlink="http://www.w3.org/1999/xlink"');
-    }
-
-    source = '<?xml version="1.0" standalone="no"?>\r\n' + source;
-    link.href = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(source);
-
 }

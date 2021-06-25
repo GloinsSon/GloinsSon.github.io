@@ -71,7 +71,7 @@
       "elements": [
         {
           "file": "fangs0.svg",
-          "transform": "translate(225,145)"
+          "transform": "translate(225,150)"
         }
       ]
     },
@@ -79,7 +79,7 @@
       "elements": [
         {
           "file": "fangs1.svg",
-          "transform": "translate(225,145)"
+          "transform": "translate(225,150)"
         }
       ]
     },
@@ -87,7 +87,7 @@
       "elements": [
         {
           "file": "fangs2.svg",
-          "transform": "translate(225,145)"
+          "transform": "translate(225,150)"
         }
       ]
     }
