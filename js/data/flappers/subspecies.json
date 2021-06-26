@@ -1,20 +1,134 @@
 {
   "flappers": {
-    "subXYZ": {
-      "name": "Sub XYZ",
-      "logo": "xyzCommonLogo.png",
+    "Flying": {
+      "name": "Flying",
+      "logo": "flyingCommonLogo.png",
       "variants": {
         "Common": {
-          "skins": ["#000", "#000", "#000", "#000", "#000", "#000", "#000"],
-          "eyes": ["#000", "#000", "#000", "#000"],
-          "ears": ["#000", "#000", "#000", "#000"],
-          "logo": "___Logo.png"
+          "skins": ["#f3e8e3", "#b59d91", "#534038", "#eeb1b9", "#d6ebf9", "#d2c4e4", "#a5ba98"],
+          "eyes": ["#4d713f", "#e8fedf", "#c2d69e", "#89d700"],
+          "ears": ["#dff7fe", "#4398c8", "#004587", "#2b2b2d"],
+          "logo": "flyingCommonLogo.png"
         },
-        "unommon": {
-          "skins": ["#000", "#000", "#000", "#000", "#000", "#000", "#000"],
-          "eyes": ["#000", "#000", "#000", "#000"],
-          "ears": ["#000", "#000", "#000", "#000"],
-          "logo": "___Logo.png"
+        "Mini": {
+          "skins": ["#f3dbd4", "#9f7165", "#412924", "#c471a1", "#8393b7", "#9d7aa6", "#75805c"],
+          "eyes": ["#edc4ff", "#4c3855", "#9d4cac", "#87698c"],
+          "ears": ["#e7dffe", "#6b43c8", "#300087", "#010101"],
+          "logo": "flyingMiniLogo.png"
+        },
+        "Venti": {
+          "skins": ["#d3b891", "#746046", "#1f170f", "#855787", "#4a626f", "#544a6d", "#375441"],
+          "eyes": ["#a993bd", "#efdffe", "#6e6477", "#2e1148"],
+          "ears": ["#dffefb", "#43c5c8", "#008783", "#bababa"],
+          "logo": "flyingVentiLogo.png"
+        }
+      }
+    },
+    "Flightless": {
+      "name": "Flightless",
+      "logo": "flightlessCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#f3c4ac", "#bc866a", "#f4f1ef", "#6a6a6a", "#bbd398", "#697f49", "#4d5020"],
+          "eyes": ["#fff27b", "#edc73d", "#9a7225", "#ec8702"],
+          "ears": ["#f2ffba", "#b7c843", "#738700", "#333517"],
+          "logo": "flightlessCommonLogo.png"
+        },
+        "Petite": {
+          "skins": ["#fee6d9", "#d9a991", "#ffffff", "#bebebe", "#b5e8b0", "#74ab6f", "#557448"],
+          "eyes": ["#cfe98b", "#97a374", "#475919", "#78a400"],
+          "ears": ["#d9ffba", "#75c843", "#2e8700", "#153b0d"],
+          "logo": "flightlessPetiteLogo.png"
+        },
+        "Jumbo": {
+          "skins": ["#e0a181", "#955d40", "#e3dedc", "#2b2b2b", "#68c48e", "#337743", "#12431d"],
+          "eyes": ["#8ce3c4", "#45a985", "#486058", "#020202"],
+          "ears": ["#baffcc", "#43c877", "#16703d", "#21432e"],
+          "logo": "flightlessJumboLogo.png"
+        }
+      }
+    },
+    "Swimmers": {
+      "name": "Swimmers",
+      "logo": "swimmersCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#ffe5cb", "#deb68e", "#99734e", "#90bfb7", "#baefe6", "#2f7482", "#8badb5"],
+          "eyes": ["#a9c5c1", "#576d6a", "#00221d", "#35f7db"],
+          "ears": ["#bef5ec", "#e8fdfa", "#185966", "#2cabc5"],
+          "logo": "swimmersCommonLogo.png"
+        },
+        "ShortNecks": {
+          "skins": ["#fee8e3", "#f9f2f0", "#b79f99", "#b1e4ef", "#5f9cb7", "#205065", "#ddf4fe"],
+          "eyes": ["#c4cfd7", "#1b1b1b", "#525f69", "#4185bb"],
+          "ears": ["#84e9ff", "#46acd9", "#115d7f", "#b7d6e3"],
+          "logo": "swimmerShortnecksLogo.png"
+        },
+        "LongNecks": {
+          "skins": ["#e4ab95", "#ae7e6b", "#51372c", "#d2ebff", "#9cb3bc", "#4a5d65", "#213239"],
+          "eyes": ["#606060", "#d9dada", "#3c4c59", "#9ed4ff"],
+          "ears": ["#b9e0ff", "#6f94a3", "#497384", "#2a4753"],
+          "logo": "swimmerLongnecksLogo.png"
+        }
+      }
+    },
+    "Tropical": {
+      "name": "Tropical",
+      "logo": "tropicalCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#83d7ff", "#83a9ff", "#c883ff", "#ff83ab", "#ffa983", "#ffc23f", "#d5ff71"],
+          "eyes": ["#101010", "#603e8b", "#ffb37a", "#bac059"],
+          "ears": ["#98bee8", "#c29bd4", "#ffadad", "#ffea62"],
+          "logo": "tropicalCommonLogo.png"
+        },
+        "Pastel": {
+          "skins": ["#c2e2f2", "#cdd8f0", "#cab3dd", "#fed4e1", "#ffd8c7", "#ffe6b1", "#e9f9c4"],
+          "eyes": ["#d9ebff", "#f0d0ff", "#ffb5b5", "#ffeb92"],
+          "ears": ["#94adc9", "#9e86a9", "#ce9a9a", "#e1d28f"],
+          "logo": "tropicalPastelLogo.png"
+        },
+        "Glass": {
+          "skins": ["#d7f8ff", "#d7ffe1", "#fffdd7", "#ffe9d7", "#ffd8d7", "#fad7ff", "#d7d7ff"],
+          "eyes": ["#6ebc81", "#e7b268", "#ee94ea", "#9495e4"],
+          "ears": ["#e9fdee", "#fdf1e7", "#fbe3fe", "#e3ebfe"],
+          "logo": "tropicalGlassLogo.png"
+        }
+      }
+    },
+    "Butters": {
+      "name": "Butters",
+      "logo": "buttersCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#dac291", "#efd5be", "#927860", "#2b2722", "#ffffff", "#855932", "#2b2b2d"],
+          "eyes": ["#f3e3e4", "#eacbc2", "#4c423e", "#dcc7a4"],
+          "ears": ["#dac291", "#f3c4ac", "#8f7373", "#ffffff"],
+          "logo": "buttersCommonLogo.png"
+        },
+        "Warm": {
+          "skins": ["#ffe6a0", "#f9be75", "#ef8f4d", "#cd4c2a", "#c81d13", "#ffa1b7", "#ffc8c5"],
+          "eyes": ["#9c6161", "#93807b", "#ddb7a0", "#ec963a"],
+          "ears": ["#f8d48a", "#e67c4c", "#bd1918", "#f9a9ad"],
+          "logo": "buttersWarmLogo.png"
+        },
+        "Cool": {
+          "skins": ["#e9c5ff", "#8c6fd3", "#b6c6ff", "#6bb3ff", "#89eeff", "#c0ffe5", "#7fe88f"],
+          "eyes": ["#aab1b7", "#485868", "#171717", "#0061c8"],
+          "ears": ["#ab8ef1", "#9acbff", "#bd1918", "#f9a9ad"],
+          "logo": "buttersCoolLogo.png"
+        }
+      }
+    },
+    "Deity": {
+      "name": "Deity",
+      "logo": "deityCommonLogo.png",
+      "variants": {
+        "Common": {
+          "skins": ["#ffe5d4", "#efc9ae", "#f6d0a4", "#774f30", "#ffffff", "#e4f7fe", "#eff0f4"],
+          "eyes": ["#482020", "#c9ade2", "#ffffff", "#e0f0f8"],
+          "ears": ["#ffffff", "#fcecec", "#f2eafd", "#e0f6fe"],
+          "logo": "deityCommonLogo.png"
         }
       }
     }

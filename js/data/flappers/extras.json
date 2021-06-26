@@ -1,0 +1,107 @@
+{
+  "species": "flappers",
+  "Wings": [
+    {
+      "elements": [
+        {
+          "file": "wings0.svg",
+          "transform": "translate(286,178) scale(2.7)"
+        },
+        {
+          "file": "wings0.svg",
+          "transform": "translate(254,178) scale(-2.7,2.7)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "wings1.svg",
+          "transform": "translate(286,178) scale(2.7)"
+        },
+        {
+          "file": "wings1.svg",
+          "transform": "translate(254,178) scale(-2.7,2.7)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "wings2.svg",
+          "transform": "translate(286,178) scale(2.7)"
+        },
+        {
+          "file": "wings2.svg",
+          "transform": "translate(254,178) scale(-2.7,2.7)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "wings3.svg",
+          "transform": "translate(286,178) scale(2.7)"
+        },
+        {
+          "file": "wings3.svg",
+          "transform": "translate(254,178) scale(-2.7,2.7)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "wings4.svg",
+          "transform": "translate(286,178) scale(2.7)"
+        },
+        {
+          "file": "wings4.svg",
+          "transform": "translate(254,178) scale(-2.7,2.7)"
+        }
+      ]
+    }
+  ],
+  "Anklet": [
+    {
+      "elements": [
+        {
+          "file": "anklet0.svg",
+          "transform": "translate(290,950) scale(1.1)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "anklet1.svg",
+          "transform": "translate(290,950) scale(1.1)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "anklet2.svg",
+          "transform": "translate(290,950) scale(1.1)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "anklet3.svg",
+          "transform": "translate(290,950) scale(1.1)"
+        }
+      ]
+    },
+    {
+      "elements": [
+        {
+          "file": "anklet4.svg",
+          "transform": "translate(290,950) scale(1.1)"
+        }
+      ]
+    }
+  ]
+}
