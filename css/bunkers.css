@@ -52,6 +52,7 @@ figure {
 
 input[type="radio"] {
     position: absolute;
+    display: none;
     width: 0px;
     height: 0px;
 
