@@ -157,7 +157,7 @@
         "Fox": {
           "skins": ["#ca8768", "#cb9269","#eabda5","#eaa5a9","#ffffff"],
           "eyes": ["#fec322","#c16a23","#503119","#4e90c0","#3a622b"],
-          "ears": ["#ab7860","#e1b799","#ffdfce","#ffc0c4,","#fde7e7"],
+          "ears": ["#ab7860","#e1b799","#ffdfce","#ffc0c4","#fde7e7"],
           "logo": "ancientFoxLogo.png"
         },
         "Dire": {

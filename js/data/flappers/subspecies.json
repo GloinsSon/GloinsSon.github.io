@@ -89,7 +89,36 @@
           "logo": "tropicalPastelLogo.png"
         },
         "Glass": {
-          "skins": ["#d7f8ff", "#d7ffe1", "#fffdd7", "#ffe9d7", "#ffd8d7", "#fad7ff", "#d7d7ff"],
+          "skins": [
+            {
+              "style": ".skins0 {stroke: #d7f8ff; fill: #d7f8ff}",
+              "select" : "#e6cea0"
+            },
+            {
+              "style": ".skins0 {stroke: #d7ffe1; fill: #d7ffe1}",
+              "select" : "#e6cea0"
+            },
+            {
+              "style": ".skins0 {stroke: #fffdd7; fill: #fffdd7}",
+              "select" : "#e6cea0"
+            },
+            {
+              "style": ".skins0 {stroke: #ffe9d7; fill: #ffe9d7}",
+              "select" : "#e6cea0"
+            },
+            {
+              "style": ".skins0 {stroke: #ffd8d7; fill: #ffd8d7}",
+              "select" : "#e6cea0"
+            },
+            {
+              "style": ".skins0 {stroke: #fad7ff; fill: #fad7ff}",
+              "select" : "#e6cea0"
+            },
+            {
+              "style": ".skins0 {stroke: #d7d7ff; fill: #d7d7ff}",
+              "select" : "#e6cea0"
+            }
+          ],
           "eyes": ["#6ebc81", "#e7b268", "#ee94ea", "#9495e4"],
           "ears": ["#e9fdee", "#fdf1e7", "#fbe3fe", "#e3ebfe"],
           "logo": "tropicalGlassLogo.png"
