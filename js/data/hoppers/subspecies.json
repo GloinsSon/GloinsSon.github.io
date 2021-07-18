@@ -93,14 +93,14 @@
             "#edbb7b", "#fae2af", "#d5944c", "#a57632", "#cba874", "#bc923d",
             [
               {
-                "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40% spreadMethod='repeat'> <stop offset='0%' stop-color='#8d6b57'/><stop offset='100%' stop-color='#9a5d3b'/></linearGradient>",
+                "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40%' spreadMethod='repeat'> <stop offset='0%' stop-color='#8d6b57'/><stop offset='100%' stop-color='#9a5d3b'/></linearGradient>",
                 "style": ".skins0 {stroke:#663f30; fill:url(#gradientSkin);}",
                 "select" : "#8d6b57"
               }
             ],
             [
               {
-                "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40% spreadMethod='repeat'> <stop offset='0%' stop-color='#663f30'/><stop offset='100%' stop-color='#daab74'/></linearGradient>",
+                "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40%' spreadMethod='repeat'> <stop offset='0%' stop-color='#663f30'/><stop offset='100%' stop-color='#daab74'/></linearGradient>",
                 "style": ".skins0 {stroke:#663f30; fill:url(#gradientSkin);}",
                 "select" : "#663f30"
               }

@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="d3f12da6-3427-4e3c-a71a-187a37b8cb50" name="Indy.fans" url="http://indy.fans/bcd">
+        <fileTransfer rootFolder="/var/www/indy.fan/bcd" accessType="SFTP" host="0305.uptm.ch" port="22" sshConfigId="323d14be-cfd4-45a1-b8da-72ddb24a089f" sshConfig="marcel@0305.uptm.ch:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
