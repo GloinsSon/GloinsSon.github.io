@@ -27,7 +27,7 @@ export default class Controller {
      * user changed a value in settings
      */
     changeSettings(element) {
-        document.getElementById("link").classList.add("d-none");
+       // document.getElementById("link").classList.add("d-none"); FIXME
         let fieldName = element.target.name;
         if (fieldName === "species") {
             let speciesService = new SpecieService();
@@ -50,6 +50,17 @@ export default class Controller {
             let extrasController = new ExtrasController();
             extrasController.changeExtra(index);
         }
+    }
+
+    dragDice(event) {
+
+    }
+    dropDice(event) {
+        event.preventDefault();
+        console.log(event);
+    }
+    allowDrop(event) {
+        event.preventDefault();
     }
 
     /**

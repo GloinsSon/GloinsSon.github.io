@@ -26,9 +26,11 @@ export class ColorService {
             type
         );
         let selection = "";
+        const dice = document.getElementById("dice"+type).getAttribute("data-value");
+
         let count = colorsList.length;
         for (let i = 0; i < count; i++) {
-            let color = colorsList[i];
+            let color = colorsList[i]["color"];
             let hexCode = "#fefefe";
             if (Array.isArray(color)) {
                 color = color[0];
@@ -39,8 +41,9 @@ export class ColorService {
             } else
                 hexCode = color;
 
-
-            selection += viewController.buildHeart(type, i, hexCode);
+            let disabled = "disabled";
+            if (dice >= colorsList[i].rarity) disabled = "";
+            selection += viewController.buildHeart(type, i, hexCode, disabled);
         }
         document.getElementById(type).innerHTML = selection;
         document.querySelector("input[name='" + type + "']").checked = true;
@@ -57,7 +60,7 @@ export class ColorService {
         let types = ["skins", "ears", "eyes"];
         for (const type in types) {
             let fieldId = types[type];
-            let colors = getColors(
+            let colorData = getColors(
                 document.querySelector("input[name='species']:checked").value,
                 document.querySelector("input[name='subspecies']:checked").value,
                 document.querySelector("input[name='variant']:checked").value,
@@ -65,6 +68,8 @@ export class ColorService {
                 document.querySelector("input[name='" + fieldId + "']:checked").value
             );
 
+
+            let colors = colorData["color"];
             if (!Array.isArray(colors)) {
                 colors = [colors, "none", "none"];
             }

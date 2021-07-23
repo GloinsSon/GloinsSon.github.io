@@ -39,7 +39,12 @@ export class SpecieService {
             const speciesLogos = document.getElementById("species");
             speciesLogos.innerText = null;
             for (const [speciesKey, specie] of Object.entries(speciesList)) {
-                let logo = viewController.buildLogo("species", speciesKey, speciesKey, specie.logo);
+                let logo = viewController.buildLogo(
+                    "species",
+                    speciesKey,
+                    speciesKey,
+                    specie.logo,
+                    "");
                 speciesLogos.innerHTML += logo;
             }
 
@@ -66,10 +71,19 @@ export class SpecieService {
             const viewController = new ViewController();
             const subspeciesList = getSubspeciesList(specieKey);
             const subSpiecesLogos = document.getElementById("subspecies");
+            const dice = document.getElementById("diceSubspecies").getAttribute("data-value");
             subSpiecesLogos.innerText = null;
 
             for (const [key, subspecie] of Object.entries(subspeciesList)) {
-                let logo = viewController.buildLogo("subspecies", key, specieKey, subspecie.logo);
+                let disabled = "disabled";
+                if (dice >= subspecie.rarity) disabled = "";
+                let logo = viewController.buildLogo(
+                    "subspecies",
+                    key,
+                    specieKey,
+                    subspecie.logo,
+                    disabled
+                );
                 subSpiecesLogos.innerHTML += logo;
             }
 
@@ -101,10 +115,18 @@ export class SpecieService {
             const viewController = new ViewController();
             const variantList = getVariantList(specieKey, subspecieKey);
             const variantLogos = document.getElementById("variants");
+            const dice = document.getElementById("diceSubspecies").getAttribute("data-value");
 
             variantLogos.innerText = null;
             for (const [variantKey, variant] of Object.entries(variantList)) {
-                let logo = viewController.buildLogo("variant", variantKey, specieKey, variant.logo);
+                let disabled = "disabled";
+                if (dice >= variant.rarity) disabled = "";
+                let logo = viewController.buildLogo(
+                    "variant",
+                    variantKey,
+                    specieKey,
+                    variant.logo,
+                    disabled);
                 variantLogos.innerHTML += logo;
             }
 

@@ -12,7 +12,7 @@ const jsonFiles = [
     {file: "cubs/humanoid.xml", callback: setHumanoid},
     {file: "cubs/subspecies.json", callback: setSubSpecies},
     {file: "cubs/extras.json", callback: setExtras},
-
+/*
     {file: "floofs/humanoid.xml", callback: setHumanoid},
     {file: "floofs/subspecies.json", callback: setSubSpecies},
     {file: "floofs/extras.json", callback: setExtras},
@@ -36,7 +36,7 @@ const jsonFiles = [
     {file: "flappers/humanoid.xml", callback: setHumanoid},
     {file: "flappers/subspecies.json", callback: setSubSpecies},
     {file: "flappers/extras.json", callback: setExtras}
-
+*/
 ]
 
 /**
@@ -282,7 +282,8 @@ function setSubSpecies(jsonData) {
                 let subspecie = new SubSpecie(
                     key,
                     value.name,
-                    value.logo
+                    value.logo,
+                    value.rarity
                 );
                 setVariants(value.variants, subspecie);
                 map[key] = subspecie;

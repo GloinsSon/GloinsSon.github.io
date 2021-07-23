@@ -10,11 +10,13 @@ export class SubSpecie {
      * @param key
      * @param name
      * @param logo
+     * @param rarity
      */
-    constructor(key, name, logo) {
+    constructor(key, name, logo, rarity) {
         this.key = key;
         this.name = name;
         this.logo = logo;
+        this.rarity = rarity;
         this.variants = {};
     }
 }

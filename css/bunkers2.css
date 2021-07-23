@@ -1,0 +1,170 @@
+:root {
+    --bgColor: 156, 132, 111;
+    --navBg: #08415C;
+    --navText: #fff1e6;
+}
+
+body {
+    background-color: rgba(var(--bgColor), 0.4);
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    background-color: indigo;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: var(--navBg);
+    color: var(--navText);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1700px;
+    min-height: 100px;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+article#diceRoll {
+    flex: 1 0 1600px;
+    flex-direction: column;
+}
+
+article#settings {
+    flex: 1 0 850px;
+}
+
+article#model {
+    flex: 0 0 650px;
+    height: 1000px;
+}
+
+svg {
+    overflow: visible;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: var(--navBg);
+    color: var(--navText);
+}
+
+fieldset {
+    padding-left: 100px;
+}
+
+legend, label {
+    font-family: 'Marck Script', cursive;
+    margin-bottom: 0px;
+}
+
+#selection input {
+    position: absolute;
+    display: none;
+    width: 0px;
+    height: 0px;
+
+}
+
+fieldset > label {
+    display: block;
+    clear: both;
+}
+
+figure {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+figcaption {
+    text-align: center;
+}
+input[type="radio"] + svg {
+    padding: 2px;
+    margin: 0px;
+    stroke: #eeeeee;
+    stroke-width: 0.5px;
+}
+
+input[type="radio"]:checked + svg {
+    stroke: #333333;
+    stroke-width: 0.75px;
+    padding: 0px;
+}
+
+input[type="radio"]:disabled + svg {
+    filter: grayscale(50%);
+    stroke: #ff0000;
+}
+
+input[type="radio"] + figure {
+    display: inline-block;
+    float: left;
+}
+
+input[type="radio"] + figure > img {
+    margin: 5px 15px;
+    width: 40px;
+}
+
+input[type="radio"]:checked + figure > img {
+    box-shadow: 5px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 5px 5px  rgba(0,0,0,0.6);
+    border-radius:80px;
+    padding: 0px;
+    width: 60px;
+}
+
+input[type="radio"]:disabled + figure > img {
+    filter: blur(2px) grayscale(50%);
+}
+
+input[type="radio"] + img {
+    border: #fefefe 2px solid;
+    border-radius: 20px;
+    margin: 5px 15px;
+    padding: 5px;
+    width: 40px;
+}
+
+input[type="radio"]:checked + img {
+    background: #fefefe;
+    box-shadow: 3px 3px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 3px 3px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 3px 3px  rgba(0,0,0,0.6);
+    -o-box-shadow: 3px 3px  rgba(0,0,0,0.6);
+    border-radius: 20px;
+}
+
+input[type="radio"]:disabled + img {
+    filter: grayscale(50%);
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.diceTarget {
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -20px;
+    height: 75px;
+    width: 75px;
+    background-color: #ff7000;
+}

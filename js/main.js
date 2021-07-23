@@ -26,6 +26,16 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("selection").addEventListener("reset", controller.init);
             document.getElementById("random").addEventListener("click", randomBunker);
             document.getElementById("btnDownload").addEventListener("click", createDownload);
+
+            const diceList = document.getElementsByClassName("die");
+            for (let diece of diceList) {
+                diece.addEventListener("drop", controller.dragDice);
+            }
+            for (const elementId of ["diceSubspecies", "diceeyes", "diceears", "diceskins"]) {
+                let element = document.getElementById(elementId);
+                element.addEventListener("drop", controller.dropDice);
+                element.addEventListener("dragover", controller.allowDrop);
+            }
         });
 });
 

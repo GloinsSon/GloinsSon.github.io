@@ -3,96 +3,644 @@
     "Teddy": {
       "name": "Teddy Bears",
       "logo": "teddyCommonLogo.png",
+      "rarity": 2,
       "variants": {
         "Common": {
-          "skins": ["#fcf4ee", "#f6e6df", "#f7d7d9", "#a57664", "#683a28", "#4c3024"],
-          "eyes": ["#ca9250", "#231715", "#64a4eb"],
-          "ears": ["#876d65", "#3e302d", "#bb9881"],
-          "logo": "teddyCommonLogo.png"
+          "skins": [
+            {
+              "color": "#fcf4ee",
+              "rarity": 2
+            },
+            {
+              "color": "#f6e6df",
+              "rarity": 2
+            },
+            {
+              "color": "#f7d7d9",
+              "rarity": 2
+            },
+            {
+              "color": "#a57664",
+              "rarity": 2
+            },
+            {
+              "color": "#683a28",
+              "rarity": 4
+            },
+            {
+              "color": "#4c3024",
+              "rarity": 4
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#ca9250",
+              "rarity": 0
+            },
+            {
+              "color": "#231715",
+              "rarity": 0
+            },
+            {
+              "color": "#64a4eb",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#876d65",
+              "rarity": 0
+            },
+            {
+              "color": "#3e302d",
+              "rarity": 0
+            },
+            {
+              "color": "#bb9881",
+              "rarity": 0
+            }
+          ],
+          "logo": "teddyCommonLogo.png",
+          "rarity": 2
         },
         "Black": {
-          "skins": ["#af9590", "#6a6160", "#504543", "#a8a8a8", "#3e3432", "#010101"],
-          "eyes": ["#8e92a4", "#615e9a", "#afbc8f"],
-          "ears": ["#170f0f", "#61585c", "#0b1226"],
-          "logo": "teddyBlackLogo.png"
+          "skins": [
+            {
+              "color": "#af9590",
+              "rarity": 2
+            },
+            {
+              "color": "#6a6160",
+              "rarity": 2
+            },
+            {
+              "color": "#504543",
+              "rarity": 2
+            },
+            {
+              "color": "#a8a8a8",
+              "rarity": 4
+            },
+            {
+              "color": "#3e3432",
+              "rarity": 4
+            },
+            {
+              "color": "#010101",
+              "rarity": 4
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#8e92a4",
+              "rarity": 0
+            },
+            {
+              "color": "#615e9a",
+              "rarity": 0
+            },
+            {
+              "color": "#afbc8f",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#170f0f",
+              "rarity": 0
+            },
+            {
+              "color": "#61585c",
+              "rarity": 0
+            },
+            {
+              "color": "#0b1226",
+              "rarity": 0
+            }
+          ],
+          "logo": "teddyBlackLogo.png",
+          "rarity": 2
         },
         "Colored": {
-          "skins": ["#f3a1ab", "#bcd5da", "#dbbbe4", "#f3d5a3", "#bec59a", "b0ecff"],
-          "eyes": ["#0041f2", "#ff95c9", "#bfadf5"],
-          "ears": ["#d56a7e", "#92cff4", "#8057ad"],
-          "logo": "teddyColoredLogo.png"
+          "skins": [
+            {
+              "color": "#f3a1ab",
+              "rarity": 4
+            },
+            {
+              "color": "#bcd5da",
+              "rarity": 4
+            },
+            {
+              "color": "#dbbbe4",
+              "rarity": 4
+            },
+            {
+              "color": "#f3d5a3",
+              "rarity": 8
+            },
+            {
+              "color": "#bec59a",
+              "rarity": 8
+            },
+            {
+              "color": "#b0ecff",
+              "rarity": 8
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#0041f2",
+              "rarity": 0
+            },
+            {
+              "color": "#ff95c9",
+              "rarity": 0
+            },
+            {
+              "color": "#bfadf5",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#8057ad",
+              "rarity": 0
+            },
+            {
+              "color": "#92cff4",
+              "rarity": 0
+            },
+            {
+              "color": "#d56a7e",
+              "rarity": 0
+            }
+          ],
+          "logo": "teddyColoredLogo.png",
+          "rarity": 4
         }
       }
     },
     "Panda": {
       "name": "Panda Bears",
       "logo": "pandaCommonLogo.png",
+      "rarity": 2,
       "variants": {
         "Common": {
-          "skins": ["#ffffff", "#fcf4ee", "#f6e6df", "#544340", "#231715", "#876d65"],
-          "eyes": ["#000000", "#a48f92", "#729482"],
-          "ears": ["#000000", "#fcf7ec", "#3f3232"],
-          "logo": "pandaCommonLogo.png"
+          "skins": [
+            {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#fcf4ee",
+              "rarity": 0
+            }, {
+              "color": "#f6e6df",
+              "rarity": 0
+            }, {
+              "color": "#544340",
+              "rarity": 0
+            }, {
+              "color": "#231715",
+              "rarity": 0
+            },
+            {
+              "color": "#876d65",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#000000",
+              "rarity": 0
+            }, {
+              "color": "#a48f92",
+              "rarity": 0
+            }, {
+              "color": "#729482",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#000000",
+              "rarity": 0
+            }, {
+              "color": "#fcf7ec",
+              "rarity": 0
+            }, {
+              "color": "#3f3232",
+              "rarity": 0
+            }
+          ],
+          "logo": "pandaCommonLogo.png",
+          "rarity": 2
         },
         "Red": {
-          "skins": ["#eec399", "#daa387", "#dd9871", "#cd7161", "#af5f56", "#834a48"],
-          "eyes": ["#4f3627", "#dd9871", "#ecd89c"],
-          "ears": ["#99635a", "#cd7161", "#621e1f"],
-          "logo": "pandaRedLogo.png"
+          "skins": [
+            {
+              "color": "#eec399",
+              "rarity": 0
+            }, {
+              "color": "#daa387",
+              "rarity": 0
+            }, {
+              "color": "#dd9871",
+              "rarity": 0
+            }, {
+              "color": "#cd7161",
+              "rarity": 0
+            }, {
+              "color": "#af5f56",
+              "rarity": 0
+            }, {
+              "color": "#834a48",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#4f3627",
+              "rarity": 0
+            }, {
+              "color": "#dd9871",
+              "rarity": 0
+            }, {
+              "color": "#ecd89c",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#99635a",
+              "rarity": 0
+            }, {
+              "color": "#cd7161",
+              "rarity": 0
+            }, {
+              "color": "#621e1f",
+              "rarity": 0
+            }
+          ],
+          "logo": "pandaRedLogo.png",
+          "rarity": 4
         },
         "White": {
-          "skins": ["#ffffff", "#e0eff5", "#e1e1e2", "#f7d7d9", "#c6c3ff", "#edd3ba"],
-          "eyes": ["#8e3335", "#8057ad", "#b3d2fa"],
-          "ears": ["#f8fbfa", "#ebe3e0", "#dec5d8"],
-          "logo": "pandaWhiteLogo.png"
+          "skins": [
+            {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#e0eff5",
+              "rarity": 0
+            }, {
+              "color": "#e1e1e2",
+              "rarity": 0
+            }, {
+              "color": "#f7d7d9",
+              "rarity": 0
+            }, {
+              "color": "#c6c3ff",
+              "rarity": 0
+            }, {
+              "color": "#edd3ba",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#8e3335",
+              "rarity": 0
+            }, {
+              "color": "#8057ad",
+              "rarity": 0
+            }, {
+              "color": "#b3d2fa",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#f8fbfa",
+              "rarity": 0
+            }, {
+              "color": "#ebe3e0",
+              "rarity": 0
+            }, {
+              "color": "#dec5d8",
+              "rarity": 0
+            }
+          ],
+          "logo": "pandaWhiteLogo.png",
+          "rarity": 8
         }
       }
     },
     "Koala": {
       "name": "Koala Bears",
       "logo": "koalaCommonLogo.png",
+      "rarity": 2,
       "variants": {
         "Common": {
-          "skins": ["#a8a8a8", "#ebe3e0", "#f8fbfa", "#908391", "#61585c", "#95b3e5"],
-          "eyes": ["#61585c", "#0b1226", "#453076"],
-          "ears": ["#908391", "#61585c", "#d3e1e9"],
-          "logo": "koalaCommonLogo.png"
+          "skins": [
+            {
+              "color": "#a8a8a8",
+              "rarity": 0
+            }, {
+              "color": "#ebe3e0",
+              "rarity": 0
+            }, {
+              "color": "#f8fbfa",
+              "rarity": 0
+            }, {
+              "color": "#908391",
+              "rarity": 0
+            }, {
+              "color": "#61585c",
+              "rarity": 0
+            }, {
+              "color": "#95b3e5",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#61585c",
+              "rarity": 0
+            }, {
+              "color": "#0b1226",
+              "rarity": 0
+            }, {
+              "color": "#453076",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#908391",
+              "rarity": 0
+            }, {
+              "color": "#61585c",
+              "rarity": 0
+            }, {
+              "color": "#d3e1e9",
+              "rarity": 0
+            }
+          ],
+          "logo": "koalaCommonLogo.png",
+          "rarity": 2
         },
         "Tan": {
-          "skins": ["#fcf7ec", "#e9ceb2", "#cdb7a4", "#908391", "#a57664", "#99635a"],
-          "eyes": ["#3f3232", "#4e83a3", "#738b64"],
-          "ears": ["#a57664", "#bb9881", "#e9ceb2"],
-          "logo": "koalaTanLogo.png"
+          "skins": [
+            {
+              "color": "#fcf7ec",
+              "rarity": 0
+            }, {
+              "color": "#e9ceb2",
+              "rarity": 0
+            }, {
+              "color": "#cdb7a4",
+              "rarity": 0
+            }, {
+              "color": "#908391",
+              "rarity": 0
+            }, {
+              "color": "#a57664",
+              "rarity": 0
+            }, {
+              "color": "#99635a",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#3f3232",
+              "rarity": 0
+            }, {
+              "color": "#4e83a3",
+              "rarity": 0
+            }, {
+              "color": "#738b64",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#a57664",
+              "rarity": 0
+            }, {
+              "color": "#bb9881",
+              "rarity": 0
+            }, {
+              "color": "#e9ceb2",
+              "rarity": 0
+            }
+          ],
+          "logo": "koalaTanLogo.png",
+          "rarity": 4
         },
         "Pink": {
-          "skins": ["#f7d7d9", "#dbada8", "#fbf2ed", "#e5a2a6", "#f3a1ab", "#dec6e0"],
-          "eyes": ["#d09896", "#fcf7ec", "#8c5e78"],
-          "ears": ["#b37876", "#e5a2a6", "#f9d5d8"],
-          "logo": "koalaPinkLogo.png"
+          "skins": [
+            {
+              "color": "#f7d7d9",
+              "rarity": 8
+            }, {
+              "color": "#dbada8",
+              "rarity": 8
+            }, {
+              "color": "#fbf2ed",
+              "rarity": 8
+            }, {
+              "color": "#e5a2a6",
+              "rarity": 16
+            }, {
+              "color": "#f3a1ab",
+              "rarity": 16
+            }, {
+              "color": "#dec6e0",
+              "rarity": 16
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#d09896",
+              "rarity": 0
+            }, {
+              "color": "#fcf7ec",
+              "rarity": 0
+            }, {
+              "color": "#8c5e78",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#b37876",
+              "rarity": 0
+            }, {
+              "color": "#e5a2a6",
+              "rarity": 0
+            }, {
+              "color": "#f9d5d8",
+              "rarity": 0
+            }
+          ],
+          "logo": "koalaPinkLogo.png",
+          "rarity": 8
         }
       }
     },
     "Polar": {
       "name": "Polar Bears",
       "logo": "polarCommonLogo.png",
+      "rarity": 4,
       "variants": {
         "White": {
-          "skins": ["#f8fbfa", "#e0eff5", "#fbf2ed", "#fee5f1", "#a48f92", "#a8a8a8"],
-          "eyes": ["#0d1a38", "#000000", "#1f0f44"],
-          "ears": ["#fbf2ed", "#effbfb", "#fdebf5"],
-          "logo": "polarCommonLogo.png"
+          "skins": [
+            {
+              "color": "#f8fbfa",
+              "rarity": 0
+            }, {
+              "color": "#e0eff5",
+              "rarity": 0
+            }, {
+              "color": "#fbf2ed",
+              "rarity": 0
+            }, {
+              "color": "#fee5f1",
+              "rarity": 0
+            }, {
+              "color": "#a48f92",
+              "rarity": 0
+            }, {
+              "color": "#a8a8a8",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#0d1a38",
+              "rarity": 0
+            }, {
+              "color": "#000000",
+              "rarity": 0
+            }, {
+              "color": "#1f0f44",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#fbf2ed",
+              "rarity": 0
+            }, {
+              "color": "#effbfb",
+              "rarity": 0
+            }, {
+              "color": "#fdebf5",
+              "rarity": 0
+            }
+          ],
+          "logo": "polarCommonLogo.png",
+          "rarity": 4
         },
         "Pastel": {
-          "skins": ["#f4b6bb", "#e2a67d", "#f4e5b1", "#fee5f1", "#b3d2fa", "#f5d2ff"],
-          "eyes": ["#e7d292", "#bcd5da", "#f7d7d9"],
-          "ears": ["#c6c3ff", "#f4b6bb", "#afbc8f"],
-          "logo": "polarPastelLogo.png"
+          "skins": [
+            {
+              "color": "#f4b6bb",
+              "rarity": 8
+            }, {
+              "color": "#e2a67d",
+              "rarity": 8
+            }, {
+              "color": "#f4e5b1",
+              "rarity": 8
+            }, {
+              "color": "#fee5f1",
+              "rarity": 16
+            }, {
+              "color": "#b3d2fa",
+              "rarity": 16
+            }, {
+              "color": "#f5d2ff",
+              "rarity": 16
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#e7d292",
+              "rarity": 0
+            }, {
+              "color": "#bcd5da",
+              "rarity": 0
+            }, {
+              "color": "#f7d7d9",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#afbc8f",
+              "rarity": 0
+            }, {
+              "color": "#f4b6bb",
+              "rarity": 0
+            }, {
+              "color": "#c6c3ff",
+              "rarity": 0
+            }
+          ],
+          "logo": "polarPastelLogo.png",
+          "rarity": 8
         },
         "Crystal": {
-          "skins": ["#ebe3e0", "#b0ecff", "#bcd5da", "#899dd2", "#8c5e78", "#9c4140"],
-          "eyes": ["#f0ffff", "#ebe3e0", "#c5d3de"],
-          "ears": ["#ebe3e0", "#c5d3de", "#eefdfe"],
-          "logo": "polarCrystalLogo.png"
+          "skins": [
+            {
+              "color": "#ebe3e0",
+              "rarity": 16
+            }, {
+              "color": "#b0ecff",
+              "rarity": 16
+            }, {
+              "color": "#bcd5da",
+              "rarity": 16
+            }, {
+              "color": "#899dd2",
+              "rarity": 16
+            }, {
+              "color": "#8c5e78",
+              "rarity": 16
+            }, {
+              "color": "#9c4140",
+              "rarity": 16
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#f0ffff",
+              "rarity": 16
+            }, {
+              "color": "#ebe3e0",
+              "rarity": 16
+            }, {
+              "color": "#c5d3de",
+              "rarity": 16
+            }
+          ],
+          "ears": [
+            {
+              "color": "#ebe3e0",
+              "rarity": 16
+            }, {
+              "color": "#c5d3de",
+              "rarity": 16
+            }, {
+              "color": "#eefdfe",
+              "rarity": 16
+            }
+          ],
+          "logo": "polarCrystalLogo.png",
+          "rarity": 16
         }
       }
     }

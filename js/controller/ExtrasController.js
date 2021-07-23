@@ -19,6 +19,7 @@ export class ExtrasController {
         for (let i = 0; i < 3; i++) {
             document.getElementById("extra" + i).style.display = "none";
             document.getElementById("extraL" + i).style.display = "none";
+            document.getElementById("extraD" + i).style.display = "none";
         }
 
         (async () => {
@@ -40,12 +41,17 @@ export class ExtrasController {
             for (const [extraKey, extra] of Object.entries(extrasList)) {
                 let selection = "";
                 document.getElementById("extraL" + index).innerText = extraKey;
+
                 for (let i = 0; i < extra.length; i++) {
+                    let disabled = "";  // TODO
+                    /* let disabled = "disabled";
+                    if (dice > extra[i].elements[0].rarity); */
                     selection += viewController.buildExtra(
                         "misc" + index,
                         specieKey,
                         i,
-                        extra[i].elements[0].file
+                        extra[i].elements[0].file,
+                        disabled
                     );
 
                 }
@@ -54,6 +60,7 @@ export class ExtrasController {
                 document.querySelector("input[name='misc" + index + "']").checked = true;
                 document.getElementById("extra" + index).style.display = "block";
                 document.getElementById("extraL" + index).style.display = "block";
+                document.getElementById("extraD" + index).style.display = "block";
 
                 this.changeExtra(index);
                 index++;
