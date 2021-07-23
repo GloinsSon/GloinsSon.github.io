@@ -42,10 +42,11 @@ export class ExtrasController {
                 let selection = "";
                 document.getElementById("extraL" + index).innerText = extraKey;
 
+                const dice = document.getElementById("extraD"+index).getAttribute("data-rarity");
                 for (let i = 0; i < extra.length; i++) {
-                    let disabled = "";  // TODO
-                    /* let disabled = "disabled";
-                    if (dice > extra[i].elements[0].rarity); */
+
+                    let disabled = "disabled";
+                    if (dice >= extra[i].rarity) disabled = "";
                     selection += viewController.buildExtra(
                         "misc" + index,
                         specieKey,

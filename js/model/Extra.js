@@ -7,10 +7,11 @@
 export class Extra {
     /**
      * constructor
-     * @param filename  the svg file
+     * @param rarity  the rarity of this extra
      * @param elements list of attributes
      */
-    constructor(elements) {
+    constructor(rarity, elements) {
+        this.rarity = rarity;
         this.elements = elements;
     }
 

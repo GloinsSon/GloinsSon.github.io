@@ -1,7 +1,7 @@
 :root {
     --columns: 6;
     --rows: 2;
-    --size: 100px;
+    --size: 75px;
     --bottom: calc(var(--size) * 0.43); /*86px;*/
     --sideP: calc(var(--size) / 4);
     --sideN: calc(var(--size) / -4);
@@ -13,25 +13,7 @@
     --trans4: calc(var(--size) * 0.375); /* 75px; */
     --trans5: calc(var(--size) * 0.271); /* 54.18px; */
 }
-/*
-@-webkit-keyframes roll {
-    10% {
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    }
-    30% {
-        transform: rotateX(120deg) rotateY(240deg) rotateZ(0deg) translateX(var(--translate)) translateY(var(--translate));
-    }
-    50% {
-        transform: rotateX(240deg) rotateY(480deg) rotateZ(0deg) translateX(var(--translateNeg)) translateY(var(--translateNeg));
-    }
-    70% {
-        transform: rotateX(360deg) rotateY(720deg) rotateZ(0deg);
-    }
-    90% {
-        transform: rotateX(480deg) rotateY(960deg) rotateZ(0deg);
-    }
-}
-*/
+
 @keyframes roll {
     10% {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
@@ -50,11 +32,6 @@
     }
 }
 
-body {
-    background: #333;
-    padding: 20px;
-}
-
 .content {
     margin: auto auto;
     position: relative;
@@ -63,19 +40,7 @@ body {
     perspective: 2000px;
 }
 
-/*.place {
-    position: relative;
-    width: var(--size);
-    height: var(--size);
-    display: inline-block;
-}*/
-
 .die {
-    /*
-    position: absolute;
-    width: 100%;
-    height: 100%;
-     */
     display: inline-block;
     flex: 0 0 var(--size);
     height: var(--size);
@@ -111,7 +76,7 @@ body {
     border-bottom: var(--bottom) solid #894d4ac0;
 }
 
-.die[data-face="1"] {
+.die[data-face="20"] {
     transform: rotateX(-53deg) rotateY(0deg);
 }
 
@@ -147,7 +112,7 @@ body {
     transform: rotateX(127deg) rotateY(-288deg);
 }
 
-.die[data-face="20"] {
+.die[data-face="1"] {
     transform: rotateX(127deg) rotateY(-360deg);
 }
 
@@ -221,7 +186,7 @@ body {
     height: var(--bottom);
 }
 
-.die .face:nth-child(1) {
+.die .face:nth-child(20) {
     transform: rotateY(0deg) translateZ(var(--trans1)) translateY(var(--trans2)) rotateX(53deg);
 }
 
@@ -257,7 +222,7 @@ body {
     transform: rotateY(108deg) translateZ(var(--trans1)) translateY(var(--trans3)) rotateZ(180deg) rotateX(53deg);
 }
 
-.die .face:nth-child(20) {
+.die .face:nth-child(1) {
     transform: rotateY(180deg) translateZ(var(--trans1)) translateY(var(--trans3)) rotateZ(180deg) rotateX(53deg);
 }
 

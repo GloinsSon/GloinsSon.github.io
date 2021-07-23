@@ -71,7 +71,7 @@ export class SpecieService {
             const viewController = new ViewController();
             const subspeciesList = getSubspeciesList(specieKey);
             const subSpiecesLogos = document.getElementById("subspecies");
-            const dice = document.getElementById("diceSubspecies").getAttribute("data-value");
+            const dice = document.getElementById("diceSubspecies").getAttribute("data-rarity");
             subSpiecesLogos.innerText = null;
 
             for (const [key, subspecie] of Object.entries(subspeciesList)) {
@@ -115,7 +115,7 @@ export class SpecieService {
             const viewController = new ViewController();
             const variantList = getVariantList(specieKey, subspecieKey);
             const variantLogos = document.getElementById("variants");
-            const dice = document.getElementById("diceSubspecies").getAttribute("data-value");
+            const dice = document.getElementById("diceSubspecies").getAttribute("data-rarity");
 
             variantLogos.innerText = null;
             for (const [variantKey, variant] of Object.entries(variantList)) {

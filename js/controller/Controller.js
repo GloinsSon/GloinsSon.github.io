@@ -12,6 +12,10 @@ import {getSpeciesList, getSubspeciesList, loadingProgress} from "../data/DataHa
 export default class Controller {
     constructor() {
         loadingProgress("init");
+        this.Reroll = false;
+        this.LastFace = 20;
+        this.SIDES = 20;
+        this.INITIALSIDE = 1;
     }
 
     /**
@@ -27,7 +31,7 @@ export default class Controller {
      * user changed a value in settings
      */
     changeSettings(element) {
-       // document.getElementById("link").classList.add("d-none"); FIXME
+        // document.getElementById("link").classList.add("d-none"); FIXME
         let fieldName = element.target.name;
         if (fieldName === "species") {
             let speciesService = new SpecieService();
@@ -52,16 +56,45 @@ export default class Controller {
         }
     }
 
+    /**
+     * listener for a dice being dragged
+     * @param event
+     */
     dragDice(event) {
-
+        event.dataTransfer.setData("text", event.currentTarget.id);
     }
+
+    /**
+     * listener for a dice being dropped
+     * @param event
+     */
     dropDice(event) {
         event.preventDefault();
-        console.log(event);
+        const sourceId = event.dataTransfer.getData("text");
+        const sourceElement = document.getElementById(sourceId);
+
+        const targetId = event.currentTarget.id;
+        const targetElement = document.getElementById(targetId);
+
+        const tempFace = sourceElement.getAttribute("data-face");
+        sourceElement.setAttribute("data-face", targetElement.getAttribute("data-face"));
+        targetElement.setAttribute("data-face", tempFace);
+
+        const tempRarity = sourceElement.getAttribute("data-rarity");
+        sourceElement.setAttribute("data-rarity", targetElement.getAttribute("data-rarity"));
+        targetElement.setAttribute("data-rarity", tempRarity);
+
+        triggerUpdate();
     }
+
+    /**
+     * listener for a dice being drag over
+     * @param event
+     */
     allowDrop(event) {
         event.preventDefault();
     }
+
 
     /**
      * shows a randomized bunker

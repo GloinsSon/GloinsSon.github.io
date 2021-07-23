@@ -26,7 +26,7 @@ export class ColorService {
             type
         );
         let selection = "";
-        const dice = document.getElementById("dice"+type).getAttribute("data-value");
+        const dice = document.getElementById("dice"+type).getAttribute("data-rarity");
 
         let count = colorsList.length;
         for (let i = 0; i < count; i++) {

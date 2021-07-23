@@ -307,6 +307,7 @@ function setVariants(variantList, parent) {
             key,
             key,
             value.logo,
+            value.rarity,
             value.skins,
             value.ears,
             value.eyes
@@ -339,6 +340,7 @@ function setExtras(jsonData) {
                 let array = [];
                 for (let i = 0; i < values.length; i++) {
                     let extra = new Extra(
+                        values[i].rarity,
                         values[i].elements
                     );
                     array.push(extra);
