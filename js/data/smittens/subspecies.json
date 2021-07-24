@@ -3,233 +3,934 @@
     "western": {
       "name": "Western Smittens",
       "logo": "westernCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#c3ad9c", "#edded2", "#e5c192", "#89654b", "#5a3721", "#a19f9e"],
-          "eyes": ["#5c6c95", "#283c73", "#6997ce", "#7db8ff"],
-          "ears": ["#f3e8e8", "#d4a467", "#3d2415", "#716664"],
-          "logo": "westernCommonLogo.png"
+          "skins": [
+            {
+              "color": "#c3ad9c",
+              "rarity": 0
+            }, {
+              "color": "#edded2",
+              "rarity": 0
+            }, {
+              "color": "#e5c192",
+              "rarity": 0
+            }, {
+              "color": "#89654b",
+              "rarity": 0
+            }, {
+              "color": "#5a3721",
+              "rarity": 0
+            }, {
+              "color": "#a19f9e",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#5c6c95",
+              "rarity": 0
+            }, {
+              "color": "#283c73",
+              "rarity": 0
+            }, {
+              "color": "#6997ce",
+              "rarity": 0
+            }, {
+              "color": "#7db8ff",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#f3e8e8",
+              "rarity": 0
+            }, {
+              "color": "#d4a467",
+              "rarity": 0
+            }, {
+              "color": "#3d2415",
+              "rarity": 0
+            }, {
+              "color": "#716664",
+              "rarity": 0
+            }
+          ],
+          "logo": "westernCommonLogo.png",
+          "rarity": 0
         },
         "Fluffy": {
-          "skins": ["#c6c1bd", "#babfb8", "#697374", "#505050", "#1e1e1e", "#edeadf"],
-          "eyes": ["#4693ae", "#5db4d1", "#6be6ed", "#affbff"],
-          "ears": ["#9daeac", "#546263", "#1e1e1e", "#f9f7f0"],
-          "logo": "westernFluffyLogo.png"
+          "skins": [
+            {
+              "color": "#c6c1bd",
+              "rarity": 0
+            }, {
+              "color": "#babfb8",
+              "rarity": 0
+            }, {
+              "color": "#697374",
+              "rarity": 0
+            }, {
+              "color": "#505050",
+              "rarity": 0
+            }, {
+              "color": "#1e1e1e",
+              "rarity": 0
+            }, {
+              "color": "#edeadf",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#4693ae",
+              "rarity": 0
+            }, {
+              "color": "#5db4d1",
+              "rarity": 0
+            }, {
+              "color": "#6be6ed",
+              "rarity": 0
+            }, {
+              "color": "#affbff",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#9daeac",
+              "rarity": 0
+            }, {
+              "color": "#546263",
+              "rarity": 0
+            }, {
+              "color": "#1e1e1e",
+              "rarity": 0
+            }, {
+              "color": "#f9f7f0",
+              "rarity": 0
+            }
+          ],
+          "logo": "westernFluffyLogo.png",
+          "rarity": 0
         },
         "Colored": {
-          "skins": ["#ffd6d1", "#c4d7db", "#fff1a4", "#ddc0f0", "#ccf0c0", "#f0c0d2"],
-          "eyes": ["#ff98bc", "#b2efff", "#ffeca1", "#e5a1ff"],
-          "ears": ["#dbaea8", "#e6f9fe", "#fff9d7", "#fee6ef"],
-          "logo": "westernColoredLogo.png"
+          "skins": [
+            {
+              "color": "#ffd6d1",
+              "rarity": 0
+            }, {
+              "color": "#c4d7db",
+              "rarity": 0
+            }, {
+              "color": "#fff1a4",
+              "rarity": 0
+            }, {
+              "color": "#ddc0f0",
+              "rarity": 0
+            }, {
+              "color": "#ccf0c0",
+              "rarity": 0
+            }, {
+              "color": "#f0c0d2",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#ff98bc",
+              "rarity": 0
+            }, {
+              "color": "#b2efff",
+              "rarity": 0
+            }, {
+              "color": "#ffeca1",
+              "rarity": 0
+            }, {
+              "color": "#e5a1ff",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#dbaea8",
+              "rarity": 0
+            }, {
+              "color": "#e6f9fe",
+              "rarity": 0
+            }, {
+              "color": "#fff9d7",
+              "rarity": 0
+            }, {
+              "color": "#fee6ef",
+              "rarity": 0
+            }
+          ],
+          "logo": "westernColoredLogo.png",
+          "rarity": 0
         }
       }
     },
     "eastern": {
       "name": "Eastern Smittens",
       "logo": "easternCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#808aa6", "#445174", "#d6c9c7", "#abb0bd", "#4e525e", "#38354d"],
-          "eyes": ["#e5a1ff", "#afa4c3", "#6f6b76", "#26242a"],
-          "ears": ["#aeb7cf", "#2e3b5c", "#c1c8dc", "#373b48"],
-          "logo": "easternCommonLogo.png"
+          "skins": [
+            {
+              "color": "#808aa6",
+              "rarity": 0
+            }, {
+              "color": "#445174",
+              "rarity": 0
+            }, {
+              "color": "#d6c9c7",
+              "rarity": 0
+            }, {
+              "color": "#abb0bd",
+              "rarity": 0
+            }, {
+              "color": "#4e525e",
+              "rarity": 0
+            }, {
+              "color": "#38354d",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#e5a1ff",
+              "rarity": 0
+            }, {
+              "color": "#afa4c3",
+              "rarity": 0
+            }, {
+              "color": "#6f6b76",
+              "rarity": 0
+            }, {
+              "color": "#26242a",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#aeb7cf",
+              "rarity": 0
+            }, {
+              "color": "#2e3b5c",
+              "rarity": 0
+            }, {
+              "color": "#c1c8dc",
+              "rarity": 0
+            }, {
+              "color": "#373b48",
+              "rarity": 0
+            }
+          ],
+          "logo": "easternCommonLogo.png",
+          "rarity": 0
         },
         "Shorthair": {
-          "skins": ["#716664", "#a6928f", "#d6c9c7", "#fbf1ef", "#89a0a5", "#a4c9d2"],
-          "eyes": ["#73492f", "#9f6e4e", "#d49e63", "#e6c5a1"],
-          "ears": ["#594946", "#bdaaa7", "#8fb9c2", "#ffffff"],
-          "logo": "easternShorthairLogo.png"
+          "skins": [
+            {
+              "color": "#716664",
+              "rarity": 0
+            }, {
+              "color": "#a6928f",
+              "rarity": 0
+            }, {
+              "color": "#xxxxxx",
+              "rarity": 0
+            }, {
+              "color": "#d6c9c7",
+              "rarity": 0
+            }, {
+              "color": "#fbf1ef",
+              "rarity": 0
+            }, {
+              "color": "#89a0a5",
+              "rarity": 0
+            },{
+              "color": "#a4c9d2",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#73492f",
+              "rarity": 0
+            }, {
+              "color": "#9f6e4e",
+              "rarity": 0
+            }, {
+              "color": "#d49e63",
+              "rarity": 0
+            }, {
+              "color": "#e6c5a1",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#594946",
+              "rarity": 0
+            }, {
+              "color": "#bdaaa7",
+              "rarity": 0
+            }, {
+              "color": "#8fb9c2",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }
+          ],
+          "logo": "easternShorthairLogo.png",
+          "rarity": 0
         },
         "Fluffy": {
-          "skins": ["#d9f0f4", "#b4cee8", "#c4a1dc", "#f2b3c3", "#f2d1b3", "#ced89a"],
-          "eyes": ["#000000", "#4d4d4d", "#b4b4b4", "#ffffff"],
-          "ears": ["#8baed1", "#e197aa", "#ffecb2", "#b4cb87"],
-          "logo": "easternFluffyLogo.png"
+          "skins": [
+            {
+              "color": "#d9f0f4",
+              "rarity": 0
+            }, {
+              "color": "#b4cee8",
+              "rarity": 0
+            }, {
+              "color": "#c4a1dc",
+              "rarity": 0
+            }, {
+              "color": "#f2b3c3",
+              "rarity": 0
+            }, {
+              "color": "#f2d1b3",
+              "rarity": 0
+            }, {
+              "color": "#ced89a",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#000000",
+              "rarity": 0
+            }, {
+              "color": "#4d4d4d",
+              "rarity": 0
+            }, {
+              "color": "#b4b4b4",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#8baed1",
+              "rarity": 0
+            }, {
+              "color": "#e197aa",
+              "rarity": 0
+            }, {
+              "color": "#ffecb2",
+              "rarity": 0
+            }, {
+              "color": "#b4cb87",
+              "rarity": 0
+            }
+          ],
+          "logo": "easternFluffyLogo.png",
+          "rarity": 0
         }
       }
     },
     "exotic": {
       "name": "Exotic Smittens",
       "logo": "exoticCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#ece3d9", "#e5d3bf", "#cbbba9", "#a08c75", "#70604e", "#53402b"],
-          "eyes": ["#5e783e", "#808f6e", "#90c54f", "#cbeba3"],
-          "ears": ["#fcf5ee", "#bda68d", "#61513f", "#43311e"],
-          "logo": "exoticCommonLogo.png"
+          "skins": [
+            {
+              "color": "#ece3d9",
+              "rarity": 0
+            }, {
+              "color": "#e5d3bf",
+              "rarity": 0
+            }, {
+              "color": "#cbbba9",
+              "rarity": 0
+            }, {
+              "color": "#a08c75",
+              "rarity": 0
+            }, {
+              "color": "#70604e",
+              "rarity": 0
+            }, {
+              "color": "#53402b",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#5e783e",
+              "rarity": 0
+            }, {
+              "color": "#808f6e",
+              "rarity": 0
+            }, {
+              "color": "#90c54f",
+              "rarity": 0
+            }, {
+              "color": "#cbeba3",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#fcf5ee",
+              "rarity": 0
+            }, {
+              "color": "#bda68d",
+              "rarity": 0
+            }, {
+              "color": "#61513f",
+              "rarity": 0
+            }, {
+              "color": "#43311e",
+              "rarity": 0
+            }
+          ],
+          "logo": "exoticCommonLogo.png",
+          "rarity": 0
         },
         "Striped": {
           "skins": [
-            ["#41211a", "none", "#b26e5e"],
-            ["#edded2", "none", "#babfb8"],
-            ["#5a3721", "none", "#89654b"],
-            ["#c6c1bd", "none", "#716664"],
-            ["#df7e73", "none", "#fdbfb8"],
-            ["#808aa6", "none", "#445174"]
+            {
+              "color": ["#41211a", "none", "#b26e5e"],
+              "rarity": 0
+            }, {
+              "color": ["#edded2", "none", "#babfb8"],
+              "rarity": 0
+            }, {
+              "color": ["#5a3721", "none", "#89654b"],
+              "rarity": 0
+            }, {
+              "color": ["#c6c1bd", "none", "#716664"],
+              "rarity": 0
+            }, {
+              "color": ["#df7e73", "none", "#fdbfb8"],
+              "rarity": 0
+            }, {
+              "color": ["#808aa6", "none", "#445174"],
+              "rarity": 0
+            }
+
+
+
+
+
+
           ],
-          "eyes": ["#30317a", "#8ca89a", "#997163", "#607dca"],
+          "eyes": [
+            {
+              "color": "#30317a",
+              "rarity": 0
+            }, {
+              "color": "#8ca89a",
+              "rarity": 0
+            }, {
+              "color": "#997163",
+              "rarity": 0
+            }, {
+              "color": "#607dca",
+              "rarity": 0
+            }
+          ],
           "ears": [
-            ["#291615", "none", "#a05b4b"],
-            ["#d5beab", "none", "#97a392"],
-            ["#f3a197", "none", "#fededa"],
-            ["#646f8d", "none", "#2f3955"]
+            {
+              "color": ["#291615", "none", "#a05b4b"],
+              "rarity": 0
+            }, {
+              "color": ["#d5beab", "none", "#97a392"],
+              "rarity": 0
+            }, {
+              "color": ["#f3a197", "none", "#fededa"],
+              "rarity": 0
+            }, {
+              "color":  ["#646f8d", "none", "#2f3955"],
+              "rarity": 0
+            }
+
+
+
+
           ],
-          "logo": "exoticStripedLogo.png"
+          "logo": "exoticStripedLogo.png",
+          "rarity": 0
         },
         "Pink": {
-          "skins": ["#cc7a90", "#bd6482", "#fdbfb8", "#ec8d8c", "#f9c5e7", "#c08c9e"],
-          "eyes": ["#aa4060", "#cd5f65", "#72223a", "#a4678c"],
-          "ears": ["#e494a9", "#ffd2ce", "#ad6165", "#b08a8a"],
-          "logo": "exoticPinkLogo.png"
+          "skins": [
+            {
+              "color": "#cc7a90",
+              "rarity": 0
+            }, {
+              "color": "#bd6482",
+              "rarity": 0
+            }, {
+              "color": "#fdbfb8",
+              "rarity": 0
+            }, {
+              "color": "#ec8d8c",
+              "rarity": 0
+            }, {
+              "color": "#f9c5e7",
+              "rarity": 0
+            }, {
+              "color": "#c08c9e",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#aa4060",
+              "rarity": 0
+            }, {
+              "color": "#cd5f65",
+              "rarity": 0
+            }, {
+              "color": "#72223a",
+              "rarity": 0
+            }, {
+              "color": "#a4678c",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#e494a9",
+              "rarity": 0
+            }, {
+              "color": "#ffd2ce",
+              "rarity": 0
+            }, {
+              "color": "#ad6165",
+              "rarity": 0
+            }, {
+              "color": "#b08a8a",
+              "rarity": 0
+            }
+          ],
+          "logo": "exoticPinkLogo.png",
+          "rarity": 0
         }
       }
     },
     "persian": {
       "name": "Persian Smittens",
       "logo": "persianCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#d7b0bf", "#c39b80", "#8b5f41", "#c4777b", "#845f5f", "#c8adad"],
-          "eyes": ["#c69486", "#956658", "#da8c75", "#edb6a6"],
-          "ears": ["#c994a8", "#774e32", "#ad6165", "#b08a8a"],
-          "logo": "persianCommonLogo.png"
+          "skins": [
+            {
+              "color": "#d7b0bf",
+              "rarity": 0
+            }, {
+              "color": "#c39b80",
+              "rarity": 0
+            }, {
+              "color": "#8b5f41",
+              "rarity": 0
+            }, {
+              "color": "#c4777b",
+              "rarity": 0
+            }, {
+              "color": "#845f5f",
+              "rarity": 0
+            }, {
+              "color": "#c8adad",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#c69486",
+              "rarity": 0
+            }, {
+              "color": "#956658",
+              "rarity": 0
+            }, {
+              "color": "#da8c75",
+              "rarity": 0
+            }, {
+              "color": "#edb6a6",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#c994a8",
+              "rarity": 0
+            }, {
+              "color": "#774e32",
+              "rarity": 0
+            }, {
+              "color": "#ad6165",
+              "rarity": 0
+            }, {
+              "color": "#b08a8a",
+              "rarity": 0
+            }
+          ],
+          "logo": "persianCommonLogo.png",
+          "rarity": 0
         },
         "Shorthair": {
-          "skins": ["#c3ad9c", "#d4c6b7", "#eee5da", "#a2836b", "#826147", "#684a33"],
-          "eyes": ["#c8eac8", "#94d39f", "#8cb399", "#639774"],
-          "ears": ["#a68f7d", "#dfd0be", "#917057", "#523722"],
-          "logo": "persianShorthairLogo.png"
+          "skins": [
+            {
+              "color": "#c3ad9c",
+              "rarity": 0
+            }, {
+              "color": "#d4c6b7",
+              "rarity": 0
+            }, {
+              "color": "#eee5da",
+              "rarity": 0
+            }, {
+              "color": "#a2836b",
+              "rarity": 0
+            }, {
+              "color": "#826147",
+              "rarity": 0
+            }, {
+              "color": "#684a33",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#c8eac8",
+              "rarity": 0
+            }, {
+              "color": "#94d39f",
+              "rarity": 0
+            }, {
+              "color": "#8cb399",
+              "rarity": 0
+            }, {
+              "color": "#639774",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#a68f7d",
+              "rarity": 0
+            }, {
+              "color": "#dfd0be",
+              "rarity": 0
+            }, {
+              "color": "#917057",
+              "rarity": 0
+            }, {
+              "color": "#523722",
+              "rarity": 0
+            }
+          ],
+          "logo": "persianShorthairLogo.png",
+          "rarity": 0
         },
         "Pastel": {
-          "skins": ["#c4c6db", "#bbb2d3", "#bfa2d8", "#a2d8bc", "#bee0de", "#bfdae3"],
-          "eyes": ["#6a7dce", "#a26ace", "#61b18d", "#5dacc5"],
-          "ears": ["#e3e5f3", "#d4b9ec", "#c0eed6", "#d9f3fc"],
-          "logo": "persianPastelLogo.png"
+          "skins": [
+            {
+              "color": "#c4c6db",
+              "rarity": 0
+            }, {
+              "color": "#bbb2d3",
+              "rarity": 0
+            }, {
+              "color": "#bfa2d8",
+              "rarity": 0
+            }, {
+              "color": "#a2d8bc",
+              "rarity": 0
+            }, {
+              "color": "#bee0de",
+              "rarity": 0
+            }, {
+              "color": "#bfdae3",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#6a7dce",
+              "rarity": 0
+            }, {
+              "color": "#a26ace",
+              "rarity": 0
+            }, {
+              "color": "#61b18d",
+              "rarity": 0
+            }, {
+              "color": "#5dacc5",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#e3e5f3",
+              "rarity": 0
+            }, {
+              "color": "#d4b9ec",
+              "rarity": 0
+            }, {
+              "color": "#c0eed6",
+              "rarity": 0
+            }, {
+              "color": "#d9f3fc",
+              "rarity": 0
+            }
+          ],
+          "logo": "persianPastelLogo.png",
+          "rarity": 0
         }
       }
     },
     "wildcats": {
       "name": "Wildcats",
       "logo": "wildcatsCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
           "skins": [
             {
-              "style": ".skins0 {stroke: #e6cea0; fill: #e6cea0}",
-              "select" : "#e6cea0"
-            },
-            {
-              "style": ".skins0 {stroke: #c19b82; fill: #c19b82}",
-              "select" : "#c19b82"
-            },
-            {
-              "style": ".skins0 {stroke: #787370; fill: #787370}",
-              "select" : "#787370"
-            },
-            {
-              "style": ".skins0 {stroke: #222120; fill: #222120}",
-              "select" : "#222120"
-            },
-            {
-              "style": ".skins0 {stroke: #faf4f0; fill: #faf4f0}",
-              "select" : "#faf4f0"
-            },
-            {
-              "style": ".skins0 {stroke: #38354d; fill: #38354d}",
-              "select" : "#38354d"
+              "color": {
+                "style": ".skins0 {stroke: #e6cea0; fill: #e6cea0}",
+                "select": "#e6cea0"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #c19b82; fill: #c19b82}",
+                "select": "#c19b82"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #787370; fill: #787370}",
+                "select": "#787370"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #222120; fill: #222120}",
+                "select": "#222120"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #faf4f0; fill: #faf4f0}",
+                "select": "#faf4f0"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #38354d; fill: #38354d}",
+                "select": "#38354d"
+              },
+              "rarity": 0
             }
           ],
           "eyes": [
             {
-              "style": ".eyes0 {stroke: #6d915c; fill: #6d915c}",
-              "select" : "#6d915c"
-            },
-            {
-              "style": ".eyes0 {stroke: #0e1d60; fill: #0e1d60}",
-              "select" : "#0e1d60"
-            },
-            {
-              "style": ".eyes0 {stroke: #831f14; fill: #831f14}",
-              "select" : "#831f14"
-            },
-            {
-              "style": ".eyes0 {stroke: #b7ebff; fill: #b7ebff}",
-              "select" : "#b7ebff"
+              "color": {
+                "style": ".eyes0 {stroke: #6d915c; fill: #6d915c}",
+                "select": "#6d915c"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".eyes0 {stroke: #0e1d60; fill: #0e1d60}",
+                "select": "#0e1d60"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".eyes0 {stroke: #831f14; fill: #831f14}",
+                "select": "#831f14"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".eyes0 {stroke: #b7ebff; fill: #b7ebff}",
+                "select": "#b7ebff"
+              },
+              "rarity": 0
             }
           ],
           "ears": [
             {
-              "style": ".ears0 {stroke: #fbe3b3; fill: #fbe3b3}",
-              "select" : "#fbe3b3"
-            },
-            {
-              "style": ".ears0 {stroke: #ae866b; fill: #ae866b}",
-              "select" : "#ae866b"
-            },
-            {
-              "style": ".ears0 {stroke: #000000; fill: #000000}",
-              "select" : "#000000"
-            },
-            {
-              "style": ".ears0 {stroke: #ffffff; fill: #ffffff}",
-              "select" : "#ffffff"
+              "color": {
+                "style": ".ears0 {stroke: #fbe3b3; fill: #fbe3b3}",
+                "select": "#fbe3b3"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".ears0 {stroke: #ae866b; fill: #ae866b}",
+                "select": "#ae866b"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".ears0 {stroke: #000000; fill: #000000}",
+                "select": "#000000"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".ears0 {stroke: #ffffff; fill: #ffffff}",
+                "select": "#ffffff"
+              },
+              "rarity": 0
             }
           ],
-          "logo": "wildcatsCommonLogo.png"
+          "logo": "wildcatsCommonLogo.png",
+          "rarity": 0
         },
         "Striped": {
           "skins": [
             {
-              "style": ".skins0 {stroke: #b36836; fill: #b36836} .skins2 {stroke: #39201e; fill: #39201e}",
-              "select" : "#b36836"
-            },
-            {
-              "style": ".skins0 {stroke: #716664; fill: #716664} .skins2 {stroke: #edeadf; fill: #edeadf}",
-              "select" : "#716664"
-            },
-            {
-              "style": ".skins0 {stroke: #c3ad9c; fill: #c3ad9c} .skins2 {stroke: #89654b; fill: #89654b}",
-              "select" : "#c3ad9c"
-            },
-            {
-              "style": ".skins0 {stroke: #fee6e4; fill: #fee6e4} .skins2 {stroke: #fdbfb8; fill: #fdbfb8}",
-              "select" : "#fee6e4"
-            },
-            {
-              "style": ".skins0 {stroke: #c4d7db; fill: #c4d7db} .skins2 {stroke: #f1f6f7; fill: #f1f6f7}",
-              "select" : "#c4d7db"
-            },
-            {
-              "style": ".skins0 {stroke: #808aa6; fill: #808aa6} .skins2 {stroke: #38354d; fill: #38354d}",
-              "select" : "#808aa6"
+              "color": {
+                "style": ".skins0 {stroke: #b36836; fill: #b36836} .skins2 {stroke: #39201e; fill: #39201e}",
+                "select": "#b36836"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #716664; fill: #716664} .skins2 {stroke: #edeadf; fill: #edeadf}",
+                "select": "#716664"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #c3ad9c; fill: #c3ad9c} .skins2 {stroke: #89654b; fill: #89654b}",
+                "select": "#c3ad9c"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #fee6e4; fill: #fee6e4} .skins2 {stroke: #fdbfb8; fill: #fdbfb8}",
+                "select": "#fee6e4"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #c4d7db; fill: #c4d7db} .skins2 {stroke: #f1f6f7; fill: #f1f6f7}",
+                "select": "#c4d7db"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #808aa6; fill: #808aa6} .skins2 {stroke: #38354d; fill: #38354d}",
+                "select": "#808aa6"
+              },
+              "rarity": 0
             }
           ],
-          "eyes": ["#4c8232", "#b3dca0", "#dca0af", "#b4a0dc"],
-          "ears": [
-            ["#a55c2b", "none", "#311b19"],
-            ["#5d514f", "none", "#d2cdbc"],
-            ["#ffcfcb", "none", "#eba69f"],
-            ["#24213b", "none", "#667295"]
+          "eyes": [
+            {
+              "color": "#4c8232",
+              "rarity": 0
+            }, {
+              "color": "#b3dca0",
+              "rarity": 0
+            }, {
+              "color": "#dca0af",
+              "rarity": 0
+            }, {
+              "color": "#b4a0dc",
+              "rarity": 0
+            }
           ],
-          "logo": "wildcatsStripedLogo.png"
+          "ears": [
+            {
+              "color": ["#a55c2b", "none", "#311b19"],
+              "rarity": 0
+            }, {
+              "color": ["#5d514f", "none", "#d2cdbc"],
+              "rarity": 0
+            }, {
+              "color": ["#ffcfcb", "none", "#eba69f"],
+              "rarity": 0
+            }, {
+              "color": ["#24213b", "none", "#667295"],
+              "rarity": 0
+            }
+          ],
+          "logo": "wildcatsStripedLogo.png",
+          "rarity": 0
         },
         "Spotted": {
           "skins": [
-            ["#f3e8e8", "#808aa6"],
-            ["#5a3721", "#b36836"],
-            ["#716664", "#443a39"],
-            ["#b37f36", "#f4c580"],
-            ["#3f2e4f", "#805f9e"],
-            ["#e89298", "#f2b7bb"]
+            {
+              "color": ["#f3e8e8", "#808aa6"],
+              "rarity": 0
+            }, {
+              "color": ["#5a3721", "#b36836"],
+              "rarity": 0
+            }, {
+              "color": ["#716664", "#443a39"],
+              "rarity": 0
+            }, {
+              "color": ["#b37f36", "#f4c580"],
+              "rarity": 0
+            }, {
+              "color": ["#3f2e4f", "#805f9e"],
+              "rarity": 0
+            },
+            {
+              "color": ["#e89298", "#f2b7bb"],
+              "rarity": 0
+            }
           ],
-          "eyes": ["#a3bdff", "#7eb989", "#c9a9d4", "#ffd8e0"],
+          "eyes": [
+            {
+              "color": "#a3bdff",
+              "rarity": 0
+            }, {
+              "color": "#7eb989",
+              "rarity": 0
+            }, {
+              "color": "#c9a9d4",
+              "rarity": 0
+            }, {
+              "color": "#ffd8e0",
+              "rarity": 0
+            }
+          ],
           "ears": [
-            ["#f3e8e8", "#9da7c5"],
-            ["#472916", "#894e26"],
-            ["#a079c3", "#5c4770"],
-            ["#faa2a8", "#ffd6d9"]
+            {
+              "color": ["#f3e8e8", "#9da7c5"],
+              "rarity": 0
+            }, {
+              "color": ["#472916", "#894e26"],
+              "rarity": 0
+            }, {
+              "color": ["#a079c3", "#5c4770"],
+              "rarity": 0
+            }, {
+              "color": ["#faa2a8", "#ffd6d9"],
+              "rarity": 0
+            }
           ],
-          "logo": "wildcatsSpottedLogo.png"
+          "logo": "wildcatsSpottedLogo.png",
+          "rarity": 0
         }
       }
     }

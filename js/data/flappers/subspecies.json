@@ -3,161 +3,990 @@
     "Flying": {
       "name": "Flying",
       "logo": "flyingCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#f3e8e3", "#b59d91", "#534038", "#eeb1b9", "#d6ebf9", "#d2c4e4", "#a5ba98"],
-          "eyes": ["#4d713f", "#e8fedf", "#c2d69e", "#89d700"],
-          "ears": ["#dff7fe", "#4398c8", "#004587", "#2b2b2d"],
-          "logo": "flyingCommonLogo.png"
+          "skins": [
+            {
+              "color": "#f3e8e3",
+              "rarity": 0
+            }, {
+              "color": "#b59d91",
+              "rarity": 0
+            }, {
+              "color": "#534038",
+              "rarity": 0
+            }, {
+              "color": "#eeb1b9",
+              "rarity": 0
+            }, {
+              "color": "#d6ebf9",
+              "rarity": 0
+            }, {
+              "color": "#d2c4e4",
+              "rarity": 0
+            }, {
+              "color": "#a5ba98",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#4d713f",
+              "rarity": 0
+            }, {
+              "color": "#e8fedf",
+              "rarity": 0
+            }, {
+              "color": "#c2d69e",
+              "rarity": 0
+            }, {
+              "color": "#89d700",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#dff7fe",
+              "rarity": 0
+            }, {
+              "color": "#4398c8",
+              "rarity": 0
+            }, {
+              "color": "#004587",
+              "rarity": 0
+            }, {
+              "color": "#2b2b2d",
+              "rarity": 0
+            }
+          ],
+          "logo": "flyingCommonLogo.png",
+          "rarity": 0
         },
         "Mini": {
-          "skins": ["#f3dbd4", "#9f7165", "#412924", "#c471a1", "#8393b7", "#9d7aa6", "#75805c"],
-          "eyes": ["#edc4ff", "#4c3855", "#9d4cac", "#87698c"],
-          "ears": ["#e7dffe", "#6b43c8", "#300087", "#010101"],
-          "logo": "flyingMiniLogo.png"
+          "skins": [
+            {
+              "color": "#f3dbd4",
+              "rarity": 0
+            }, {
+              "color": "#9f7165",
+              "rarity": 0
+            }, {
+              "color": "#412924",
+              "rarity": 0
+            }, {
+              "color": "#c471a1",
+              "rarity": 0
+            }, {
+              "color": "#8393b7",
+              "rarity": 0
+            }, {
+              "color": "#9d7aa6",
+              "rarity": 0
+            }, {
+              "color": "#75805c",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#edc4ff",
+              "rarity": 0
+            }, {
+              "color": "#4c3855",
+              "rarity": 0
+            }, {
+              "color": "#9d4cac",
+              "rarity": 0
+            }, {
+              "color": "#87698c",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#e7dffe",
+              "rarity": 0
+            }, {
+              "color": "#6b43c8",
+              "rarity": 0
+            }, {
+              "color": "#300087",
+              "rarity": 0
+            }, {
+              "color": "#010101",
+              "rarity": 0
+            }
+          ],
+          "logo": "flyingMiniLogo.png",
+          "rarity": 0
         },
         "Venti": {
-          "skins": ["#d3b891", "#746046", "#1f170f", "#855787", "#4a626f", "#544a6d", "#375441"],
-          "eyes": ["#a993bd", "#efdffe", "#6e6477", "#2e1148"],
-          "ears": ["#dffefb", "#43c5c8", "#008783", "#bababa"],
-          "logo": "flyingVentiLogo.png"
+          "skins": [
+            {
+              "color": "#d3b891",
+              "rarity": 0
+            }, {
+              "color": "#746046",
+              "rarity": 0
+            }, {
+              "color": "#1f170f",
+              "rarity": 0
+            }, {
+              "color": "#855787",
+              "rarity": 0
+            }, {
+              "color": "#4a626f",
+              "rarity": 0
+            }, {
+              "color": "#544a6d",
+              "rarity": 0
+            }, {
+              "color": "#375441",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#a993bd",
+              "rarity": 0
+            }, {
+              "color": "#efdffe",
+              "rarity": 0
+            }, {
+              "color": "#6e6477",
+              "rarity": 0
+            }, {
+              "color": "#2e1148",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#dffefb",
+              "rarity": 0
+            }, {
+              "color": "#43c5c8",
+              "rarity": 0
+            }, {
+              "color": "#008783",
+              "rarity": 0
+            }, {
+              "color": "#bababa",
+              "rarity": 0
+            }
+          ],
+          "logo": "flyingVentiLogo.png",
+          "rarity": 0
         }
       }
     },
     "Flightless": {
       "name": "Flightless",
       "logo": "flightlessCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#f3c4ac", "#bc866a", "#f4f1ef", "#6a6a6a", "#bbd398", "#697f49", "#4d5020"],
-          "eyes": ["#fff27b", "#edc73d", "#9a7225", "#ec8702"],
-          "ears": ["#f2ffba", "#b7c843", "#738700", "#333517"],
-          "logo": "flightlessCommonLogo.png"
+          "skins": [
+            {
+              "color": "#f3c4ac",
+              "rarity": 0
+            }, {
+              "color": "#bc866a",
+              "rarity": 0
+            }, {
+              "color": "#f4f1ef",
+              "rarity": 0
+            }, {
+              "color": "#6a6a6a",
+              "rarity": 0
+            }, {
+              "color": "#bbd398",
+              "rarity": 0
+            }, {
+              "color": "#697f49",
+              "rarity": 0
+            }, {
+              "color": "#4d5020",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#fff27b",
+              "rarity": 0
+            }, {
+              "color": "#edc73d",
+              "rarity": 0
+            }, {
+              "color": "#9a7225",
+              "rarity": 0
+            }, {
+              "color": "#ec8702",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#f2ffba",
+              "rarity": 0
+            }, {
+              "color": "#b7c843",
+              "rarity": 0
+            }, {
+              "color": "#738700",
+              "rarity": 0
+            }, {
+              "color": "#333517",
+              "rarity": 0
+            }
+          ],
+          "logo": "flightlessCommonLogo.png",
+          "rarity": 0
         },
         "Petite": {
-          "skins": ["#fee6d9", "#d9a991", "#ffffff", "#bebebe", "#b5e8b0", "#74ab6f", "#557448"],
-          "eyes": ["#cfe98b", "#97a374", "#475919", "#78a400"],
-          "ears": ["#d9ffba", "#75c843", "#2e8700", "#153b0d"],
-          "logo": "flightlessPetiteLogo.png"
+          "skins": [
+            {
+              "color": "#fee6d9",
+              "rarity": 0
+            }, {
+              "color": "#d9a991",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#bebebe",
+              "rarity": 0
+            }, {
+              "color": "#b5e8b0",
+              "rarity": 0
+            }, {
+              "color": "#74ab6f",
+              "rarity": 0
+            }, {
+              "color": "#557448",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#cfe98b",
+              "rarity": 0
+            }, {
+              "color": "#97a374",
+              "rarity": 0
+            }, {
+              "color": "#475919",
+              "rarity": 0
+            }, {
+              "color": "#78a400",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#d9ffba",
+              "rarity": 0
+            }, {
+              "color": "#75c843",
+              "rarity": 0
+            }, {
+              "color": "#2e8700",
+              "rarity": 0
+            }, {
+              "color": "#153b0d",
+              "rarity": 0
+            }
+          ],
+          "logo": "flightlessPetiteLogo.png",
+          "rarity": 0
         },
         "Jumbo": {
-          "skins": ["#e0a181", "#955d40", "#e3dedc", "#2b2b2b", "#68c48e", "#337743", "#12431d"],
-          "eyes": ["#8ce3c4", "#45a985", "#486058", "#020202"],
-          "ears": ["#baffcc", "#43c877", "#16703d", "#21432e"],
-          "logo": "flightlessJumboLogo.png"
+          "skins": [
+            {
+              "color": "#e0a181",
+              "rarity": 0
+            }, {
+              "color": "#955d40",
+              "rarity": 0
+            }, {
+              "color": "#e3dedc",
+              "rarity": 0
+            }, {
+              "color": "#2b2b2b",
+              "rarity": 0
+            }, {
+              "color": "#68c48e",
+              "rarity": 0
+            }, {
+              "color": "#337743",
+              "rarity": 0
+            }, {
+              "color": "#12431d",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#8ce3c4",
+              "rarity": 0
+            }, {
+              "color": "#45a985",
+              "rarity": 0
+            }, {
+              "color": "#486058",
+              "rarity": 0
+            }, {
+              "color": "#020202",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#baffcc",
+              "rarity": 0
+            }, {
+              "color": "#43c877",
+              "rarity": 0
+            }, {
+              "color": "#16703d",
+              "rarity": 0
+            }, {
+              "color": "#21432e",
+              "rarity": 0
+            }
+          ],
+          "logo": "flightlessJumboLogo.png",
+          "rarity": 0
         }
       }
     },
     "Swimmers": {
       "name": "Swimmers",
       "logo": "swimmersCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#ffe5cb", "#deb68e", "#99734e", "#90bfb7", "#baefe6", "#2f7482", "#8badb5"],
-          "eyes": ["#a9c5c1", "#576d6a", "#00221d", "#35f7db"],
-          "ears": ["#bef5ec", "#e8fdfa", "#185966", "#2cabc5"],
-          "logo": "swimmersCommonLogo.png"
+          "skins": [
+            {
+              "color": "#ffe5cb",
+              "rarity": 0
+            }, {
+              "color": "#deb68e",
+              "rarity": 0
+            }, {
+              "color": "#99734e",
+              "rarity": 0
+            }, {
+              "color": "#90bfb7",
+              "rarity": 0
+            }, {
+              "color": "#baefe6",
+              "rarity": 0
+            }, {
+              "color": "#2f7482",
+              "rarity": 0
+            }, {
+              "color": "#8badb5",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#a9c5c1",
+              "rarity": 0
+            }, {
+              "color": "#576d6a",
+              "rarity": 0
+            }, {
+              "color": "#00221d",
+              "rarity": 0
+            }, {
+              "color": "#35f7db",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#bef5ec",
+              "rarity": 0
+            }, {
+              "color": "#e8fdfa",
+              "rarity": 0
+            }, {
+              "color": "#185966",
+              "rarity": 0
+            }, {
+              "color": "#2cabc5",
+              "rarity": 0
+            }
+          ],
+          "logo": "swimmersCommonLogo.png",
+          "rarity": 0
         },
         "ShortNecks": {
-          "skins": ["#fee8e3", "#f9f2f0", "#b79f99", "#b1e4ef", "#5f9cb7", "#205065", "#ddf4fe"],
-          "eyes": ["#c4cfd7", "#1b1b1b", "#525f69", "#4185bb"],
-          "ears": ["#84e9ff", "#46acd9", "#115d7f", "#b7d6e3"],
-          "logo": "swimmerShortnecksLogo.png"
+          "skins": [
+            {
+              "color": "#fee8e3",
+              "rarity": 0
+            }, {
+              "color": "#f9f2f0",
+              "rarity": 0
+            }, {
+              "color": "#b79f99",
+              "rarity": 0
+            }, {
+              "color": "#b1e4ef",
+              "rarity": 0
+            }, {
+              "color": "#5f9cb7",
+              "rarity": 0
+            }, {
+              "color": "#205065",
+              "rarity": 0
+            }, {
+              "color": "#ddf4fe",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#c4cfd7",
+              "rarity": 0
+            }, {
+              "color": "#1b1b1b",
+              "rarity": 0
+            }, {
+              "color": "#525f69",
+              "rarity": 0
+            }, {
+              "color": "#4185bb",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#84e9ff",
+              "rarity": 0
+            }, {
+              "color": "#46acd9",
+              "rarity": 0
+            }, {
+              "color": "#115d7f",
+              "rarity": 0
+            }, {
+              "color": "#b7d6e3",
+              "rarity": 0
+            }
+          ],
+          "logo": "swimmerShortnecksLogo.png",
+          "rarity": 0
         },
         "LongNecks": {
-          "skins": ["#e4ab95", "#ae7e6b", "#51372c", "#d2ebff", "#9cb3bc", "#4a5d65", "#213239"],
-          "eyes": ["#606060", "#d9dada", "#3c4c59", "#9ed4ff"],
-          "ears": ["#b9e0ff", "#6f94a3", "#497384", "#2a4753"],
-          "logo": "swimmerLongnecksLogo.png"
+          "skins": [
+            {
+              "color": "#e4ab95",
+              "rarity": 0
+            }, {
+              "color": "#ae7e6b",
+              "rarity": 0
+            }, {
+              "color": "#51372c",
+              "rarity": 0
+            }, {
+              "color": "#d2ebff",
+              "rarity": 0
+            }, {
+              "color": "#9cb3bc",
+              "rarity": 0
+            }, {
+              "color": "#4a5d65",
+              "rarity": 0
+            }, {
+              "color": "#213239",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#606060",
+              "rarity": 0
+            }, {
+              "color": "#d9dada",
+              "rarity": 0
+            }, {
+              "color": "#3c4c59",
+              "rarity": 0
+            }, {
+              "color": "#9ed4ff",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#b9e0ff",
+              "rarity": 0
+            }, {
+              "color": "#6f94a3",
+              "rarity": 0
+            }, {
+              "color": "#497384",
+              "rarity": 0
+            }, {
+              "color": "#2a4753",
+              "rarity": 0
+            }
+          ],
+          "logo": "swimmerLongnecksLogo.png",
+          "rarity": 0
         }
       }
     },
     "Tropical": {
       "name": "Tropical",
       "logo": "tropicalCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#83d7ff", "#83a9ff", "#c883ff", "#ff83ab", "#ffa983", "#ffc23f", "#d5ff71"],
-          "eyes": ["#101010", "#603e8b", "#ffb37a", "#bac059"],
-          "ears": ["#98bee8", "#c29bd4", "#ffadad", "#ffea62"],
-          "logo": "tropicalCommonLogo.png"
+          "skins": [
+            {
+              "color": "#83d7ff",
+              "rarity": 0
+            }, {
+              "color": "#83a9ff",
+              "rarity": 0
+            }, {
+              "color": "#c883ff",
+              "rarity": 0
+            }, {
+              "color": "#ff83ab",
+              "rarity": 0
+            }, {
+              "color": "#ffa983",
+              "rarity": 0
+            }, {
+              "color": "#ffc23f",
+              "rarity": 0
+            }, {
+              "color": "#d5ff71",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#101010",
+              "rarity": 0
+            }, {
+              "color": "#603e8b",
+              "rarity": 0
+            }, {
+              "color": "#ffb37a",
+              "rarity": 0
+            }, {
+              "color": "#bac059",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#98bee8",
+              "rarity": 0
+            }, {
+              "color": "#c29bd4",
+              "rarity": 0
+            }, {
+              "color": "#ffadad",
+              "rarity": 0
+            }, {
+              "color": "#ffea62",
+              "rarity": 0
+            }
+          ],
+          "logo": "tropicalCommonLogo.png",
+          "rarity": 0
         },
         "Pastel": {
-          "skins": ["#c2e2f2", "#cdd8f0", "#cab3dd", "#fed4e1", "#ffd8c7", "#ffe6b1", "#e9f9c4"],
-          "eyes": ["#d9ebff", "#f0d0ff", "#ffb5b5", "#ffeb92"],
-          "ears": ["#94adc9", "#9e86a9", "#ce9a9a", "#e1d28f"],
-          "logo": "tropicalPastelLogo.png"
+          "skins": [
+            {
+              "color": "#xxxxxx",
+              "rarity": 0
+            }, {
+              "color": "#xxxxxx",
+              "rarity": 0
+            }, {
+              "color": "#xxxxxx",
+              "rarity": 0
+            }, {
+              "color": "#xxxxxx",
+              "rarity": 0
+            }, {
+              "color": "#xxxxxx",
+              "rarity": 0
+            }, {
+              "color": "#xxxxxx",
+              "rarity": 0
+            },
+            "#c2e2f2", "#cdd8f0", "#cab3dd", "#fed4e1", "#ffd8c7", "#ffe6b1", "#e9f9c4"
+          ],
+          "eyes": [
+            {
+              "color": "#d9ebff",
+              "rarity": 0
+            }, {
+              "color": "#f0d0ff",
+              "rarity": 0
+            }, {
+              "color": "#ffb5b5",
+              "rarity": 0
+            }, {
+              "color": "#ffeb92",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#94adc9",
+              "rarity": 0
+            }, {
+              "color": "#9e86a9",
+              "rarity": 0
+            }, {
+              "color": "#ce9a9a",
+              "rarity": 0
+            }, {
+              "color": "#e1d28f",
+              "rarity": 0
+            }
+          ],
+          "logo": "tropicalPastelLogo.png",
+          "rarity": 0
         },
         "Glass": {
           "skins": [
             {
-              "style": ".skins0 {stroke: #d7f8ff; fill: #d7f8ff}",
-              "select" : "#e6cea0"
-            },
-            {
-              "style": ".skins0 {stroke: #d7ffe1; fill: #d7ffe1}",
-              "select" : "#e6cea0"
-            },
-            {
-              "style": ".skins0 {stroke: #fffdd7; fill: #fffdd7}",
-              "select" : "#e6cea0"
-            },
-            {
-              "style": ".skins0 {stroke: #ffe9d7; fill: #ffe9d7}",
-              "select" : "#e6cea0"
-            },
-            {
-              "style": ".skins0 {stroke: #ffd8d7; fill: #ffd8d7}",
-              "select" : "#e6cea0"
-            },
-            {
-              "style": ".skins0 {stroke: #fad7ff; fill: #fad7ff}",
-              "select" : "#e6cea0"
-            },
-            {
-              "style": ".skins0 {stroke: #d7d7ff; fill: #d7d7ff}",
-              "select" : "#e6cea0"
+              "color": {
+                "style": ".skins0 {stroke: #d7f8ff; fill: #d7f8ff}",
+                "select": "#e6cea0"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #d7ffe1; fill: #d7ffe1}",
+                "select": "#e6cea0"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #fffdd7; fill: #fffdd7}",
+                "select": "#e6cea0"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #ffe9d7; fill: #ffe9d7}",
+                "select": "#e6cea0"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #ffd8d7; fill: #ffd8d7}",
+                "select": "#e6cea0"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #fad7ff; fill: #fad7ff}",
+                "select": "#e6cea0"
+              },
+              "rarity": 0
+            }, {
+              "color": {
+                "style": ".skins0 {stroke: #d7d7ff; fill: #d7d7ff}",
+                "select": "#e6cea0"
+              },
+              "rarity": 0
             }
           ],
-          "eyes": ["#6ebc81", "#e7b268", "#ee94ea", "#9495e4"],
-          "ears": ["#e9fdee", "#fdf1e7", "#fbe3fe", "#e3ebfe"],
-          "logo": "tropicalGlassLogo.png"
+          "eyes": [
+            {
+              "color": "#6ebc81",
+              "rarity": 0
+            }, {
+              "color": "#e7b268",
+              "rarity": 0
+            }, {
+              "color": "#ee94ea",
+              "rarity": 0
+            }, {
+              "color": "#9495e4",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#e9fdee",
+              "rarity": 0
+            }, {
+              "color": "#fdf1e7",
+              "rarity": 0
+            }, {
+              "color": "#fbe3fe",
+              "rarity": 0
+            }, {
+              "color": "#e3ebfe",
+              "rarity": 0
+            }
+          ],
+          "logo": "tropicalGlassLogo.png",
+          "rarity": 0
         }
       }
     },
     "Butters": {
       "name": "Butters",
       "logo": "buttersCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#dac291", "#efd5be", "#927860", "#2b2722", "#ffffff", "#855932", "#2b2b2d"],
-          "eyes": ["#f3e3e4", "#eacbc2", "#4c423e", "#dcc7a4"],
-          "ears": ["#dac291", "#f3c4ac", "#8f7373", "#ffffff"],
-          "logo": "buttersCommonLogo.png"
+          "skins": [
+            {
+              "color": "#dac291",
+              "rarity": 0
+            }, {
+              "color": "#efd5be",
+              "rarity": 0
+            }, {
+              "color": "#927860",
+              "rarity": 0
+            }, {
+              "color": "#2b2722",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#855932",
+              "rarity": 0
+            }, {
+              "color": "#2b2b2d",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#f3e3e4",
+              "rarity": 0
+            }, {
+              "color": "#eacbc2",
+              "rarity": 0
+            }, {
+              "color": "#4c423e",
+              "rarity": 0
+            }, {
+              "color": "#dcc7a4",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#dac291",
+              "rarity": 0
+            }, {
+              "color": "#f3c4ac",
+              "rarity": 0
+            }, {
+              "color": "#8f7373",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }
+          ],
+          "logo": "buttersCommonLogo.png",
+          "rarity": 0
         },
         "Warm": {
-          "skins": ["#ffe6a0", "#f9be75", "#ef8f4d", "#cd4c2a", "#c81d13", "#ffa1b7", "#ffc8c5"],
-          "eyes": ["#9c6161", "#93807b", "#ddb7a0", "#ec963a"],
-          "ears": ["#f8d48a", "#e67c4c", "#bd1918", "#f9a9ad"],
-          "logo": "buttersWarmLogo.png"
+          "skins": [
+            {
+              "color": "#ffe6a0",
+              "rarity": 0
+            }, {
+              "color": "#f9be75",
+              "rarity": 0
+            }, {
+              "color": "#ef8f4d",
+              "rarity": 0
+            }, {
+              "color": "#cd4c2a",
+              "rarity": 0
+            }, {
+              "color": "#c81d13",
+              "rarity": 0
+            }, {
+              "color": "#ffa1b7",
+              "rarity": 0
+            },
+            {
+              "color": "#ffc8c5",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#9c6161",
+              "rarity": 0
+            }, {
+              "color": "#93807b",
+              "rarity": 0
+            }, {
+              "color": "#ddb7a0",
+              "rarity": 0
+            }, {
+              "color": "#ec963a",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#f8d48a",
+              "rarity": 0
+            }, {
+              "color": "#e67c4c",
+              "rarity": 0
+            }, {
+              "color": "#bd1918",
+              "rarity": 0
+            }, {
+              "color": "#f9a9ad",
+              "rarity": 0
+            }
+          ],
+          "logo": "buttersWarmLogo.png",
+          "rarity": 0
         },
         "Cool": {
-          "skins": ["#e9c5ff", "#8c6fd3", "#b6c6ff", "#6bb3ff", "#89eeff", "#c0ffe5", "#7fe88f"],
-          "eyes": ["#aab1b7", "#485868", "#171717", "#0061c8"],
-          "ears": ["#ab8ef1", "#9acbff", "#bd1918", "#f9a9ad"],
-          "logo": "buttersCoolLogo.png"
+          "skins": [
+            {
+              "color": "#e9c5ff",
+              "rarity": 0
+            }, {
+              "color": "#8c6fd3",
+              "rarity": 0
+            }, {
+              "color": "#b6c6ff",
+              "rarity": 0
+            }, {
+              "color": "#6bb3ff",
+              "rarity": 0
+            }, {
+              "color": "#89eeff",
+              "rarity": 0
+            }, {
+              "color": "#c0ffe5",
+              "rarity": 0
+            }, {
+              "color": "#7fe88f",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#aab1b7",
+              "rarity": 0
+            }, {
+              "color": "#485868",
+              "rarity": 0
+            }, {
+              "color": "#171717",
+              "rarity": 0
+            }, {
+              "color": "#0061c8",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#ab8ef1",
+              "rarity": 0
+            }, {
+              "color": "#9acbff",
+              "rarity": 0
+            }, {
+              "color": "#bd1918",
+              "rarity": 0
+            }, {
+              "color": "#f9a9ad",
+              "rarity": 0
+            }
+          ],
+          "logo": "buttersCoolLogo.png",
+          "rarity": 0
         }
       }
     },
     "Deity": {
       "name": "Deity",
       "logo": "deityCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
-          "skins": ["#ffe5d4", "#efc9ae", "#f6d0a4", "#774f30", "#ffffff", "#e4f7fe", "#eff0f4"],
-          "eyes": ["#482020", "#c9ade2", "#ffffff", "#e0f0f8"],
-          "ears": ["#ffffff", "#fcecec", "#f2eafd", "#e0f6fe"],
-          "logo": "deityCommonLogo.png"
+          "skins": [
+            {
+              "color": "#ffe5d4",
+              "rarity": 0
+            }, {
+              "color": "#efc9ae",
+              "rarity": 0
+            }, {
+              "color": "#f6d0a4",
+              "rarity": 0
+            }, {
+              "color": "#774f30",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#e4f7fe",
+              "rarity": 0
+            }, {
+              "color": "#eff0f4",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#482020",
+              "rarity": 0
+            }, {
+              "color": "#c9ade2",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#e0f0f8",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#fcecec",
+              "rarity": 0
+            }, {
+              "color": "#f2eafd",
+              "rarity": 0
+            }, {
+              "color": "#e0f6fe",
+              "rarity": 0
+            }
+          ],
+          "logo": "deityCommonLogo.png",
+          "rarity": 0
         }
       }
     }

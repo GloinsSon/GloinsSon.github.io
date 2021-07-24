@@ -5,22 +5,188 @@
       "logo": "longearsCommonLogo.png",
       "variants": {
         "Common": {
-          "skins": ["#f9e9ea", "#ebcaba", "#bf8366", "#907e76", "#d3c8c3", "#1f1e1d", "#9e9dae", "#c59964"],
-          "eyes": ["#74bdeb", "#59d2b7", "#7ba860", "#de5f5b"],
-          "ears": ["#f7eafd", "#905d45", "#645650", "#1f1e1d"],
-          "logo": "longearsCommonLogo.png"
+          "skins": [
+            {
+              "color": "#f9e9ea",
+              "rarity": 0
+            }, {
+              "color": "#ebcaba",
+              "rarity": 0
+            }, {
+              "color": "#bf8366",
+              "rarity": 0
+            }, {
+              "color": "#907e76",
+              "rarity": 0
+            }, {
+              "color": "#d3c8c3",
+              "rarity": 0
+            }, {
+              "color": "#1f1e1d",
+              "rarity": 0
+            }, {
+              "color": "#9e9dae",
+              "rarity": 0
+            }, {
+              "color": "#c59964",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#74bdeb",
+              "rarity": 0
+            }, {
+              "color": "#59d2b7",
+              "rarity": 0
+            }, {
+              "color": "#7ba860",
+              "rarity": 0
+            }, {
+              "color": "#de5f5b",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#f7eafd",
+              "rarity": 0
+            }, {
+              "color": "#905d45",
+              "rarity": 0
+            }, {
+              "color": "#645650",
+              "rarity": 0
+            }, {
+              "color": "#1f1e1d",
+              "rarity": 0
+            }
+          ],
+          "logo": "longearsCommonLogo.png",
+          "rarity": 0
         },
         "Mini": {
-          "skins": ["#faf0f0", "#ffe1d3", "#d99c7e", "#ad9a91", "#eae4e2", "#514c4a", "#b4b2d4", "#edbb7b"],
-          "eyes": ["#accee3", "#83eed7", "#98cd78", "#ff4d48"],
-          "ears": ["#d2a996", "#c9beba", "#8786a2", "#da9d4f"],
-          "logo": "longearsMiniLogo.png"
+          "skins": [
+            {
+              "color": "#faf0f0",
+              "rarity": 0
+            },
+            {
+              "color": "#ffe1d3",
+              "rarity": 0
+            }, {
+              "color": "#d99c7e",
+              "rarity": 0
+            }, {
+              "color": "#ad9a91",
+              "rarity": 0
+            }, {
+              "color": "#eae4e2",
+              "rarity": 0
+            }, {
+              "color": "#514c4a",
+              "rarity": 0
+            }, {
+              "color": "#b4b2d4",
+              "rarity": 0
+            }, {
+              "color": "#edbb7b",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#accee3",
+              "rarity": 0
+            }, {
+              "color": "#83eed7",
+              "rarity": 0
+            }, {
+              "color": "#98cd78",
+              "rarity": 0
+            }, {
+              "color": "#ff4d48",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#d2a996",
+              "rarity": 0
+            }, {
+              "color": "#c9beba",
+              "rarity": 0
+            }, {
+              "color": "#8786a2",
+              "rarity": 0
+            }, {
+              "color": "#da9d4f",
+              "rarity": 0
+            }
+          ],
+          "logo": "longearsMiniLogo.png",
+          "rarity": 0
         },
         "Pastel": {
-          "skins": ["#e99582", "#edb07b", "#f6de93", "#cce6b5", "#b5e6d5", "#a4d9f2", "#bebbfe", "#e8c1f4"],
-          "eyes": ["#eab32b", "#4467ce", "#ac67b9", "#da4e8a"],
-          "ears": ["#ec9950", "#9ec879", "#79c3e5", "#d187dd"],
-          "logo": "longearsPastelLogo.png"
+          "skins": [
+            {
+              "color": "#e99582",
+              "rarity": 0
+            }, {
+              "color": "#edb07b",
+              "rarity": 0
+            }, {
+              "color": "#f6de93",
+              "rarity": 0
+            }, {
+              "color": "#cce6b5",
+              "rarity": 0
+            }, {
+              "color": "#b5e6d5",
+              "rarity": 0
+            }, {
+              "color": "#a4d9f2",
+              "rarity": 0
+            }, {
+              "color": "#bebbfe",
+              "rarity": 0
+            }, {
+              "color": "#e8c1f4",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#eab32b",
+              "rarity": 0
+            }, {
+              "color": "#4467ce",
+              "rarity": 0
+            }, {
+              "color": "#ac67b9",
+              "rarity": 0
+            }, {
+              "color": "#da4e8a",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#ec9950",
+              "rarity": 0
+            }, {
+              "color": "#9ec879",
+              "rarity": 0
+            }, {
+              "color": "#79c3e5",
+              "rarity": 0
+            }, {
+              "color": "#d187dd",
+              "rarity": 0
+            }
+          ],
+          "logo": "longearsPastelLogo.png",
+          "rarity": 0
         }
       }
     },
@@ -29,22 +195,187 @@
       "logo": "muridaesCommonLogo.png",
       "variants": {
         "Common": {
-          "skins": ["#bbbad1", "#9c97a5", "#6b6970", "#eeedf0", "#a7816d", "#624130", "#deaf95", "#36271f"],
-          "eyes": ["#18140c", "#c29a38", "#c39fc1", "#a62824"],
-          "ears": ["#9c97a5", "#ffffff", "#a47760", "#2c1c14"],
-          "logo": "muridaesCommonLogo.png"
+          "skins": [
+            {
+              "color": "#bbbad1",
+              "rarity": 0
+            }, {
+              "color": "#9c97a5",
+              "rarity": 0
+            }, {
+              "color": "#6b6970",
+              "rarity": 0
+            }, {
+              "color": "#eeedf0",
+              "rarity": 0
+            }, {
+              "color": "#a7816d",
+              "rarity": 0
+            }, {
+              "color": "#624130",
+              "rarity": 0
+            }, {
+              "color": "#deaf95",
+              "rarity": 0
+            }, {
+              "color": "#36271f",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#18140c",
+              "rarity": 0
+            }, {
+              "color": "#c29a38",
+              "rarity": 0
+            }, {
+              "color": "#c39fc1",
+              "rarity": 0
+            }, {
+              "color": "#a62824",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#9c97a5",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#a47760",
+              "rarity": 0
+            }, {
+              "color": "#2c1c14",
+              "rarity": 0
+            }
+          ],
+          "logo": "muridaesCommonLogo.png",
+          "rarity": 0
         },
         "Fluffy": {
-          "skins": ["#d1d0e1", "#bdb7c8", "#8e8a98", "#f3f1f8", "#c29983", "#895c45", "#f3cab4", "#523c30"],
-          "eyes": ["#4b2812", "#f59e45", "#b279d8", "#7e032f"],
-          "ears": ["#afa6bf", "#ffffff", "#c19178", "#6a4e3b"],
-          "logo": "muridaesFluffyLogo.png"
+          "skins": [
+            {
+              "color": "#d1d0e1",
+              "rarity": 0
+            }, {
+              "color": "#bdb7c8",
+              "rarity": 0
+            }, {
+              "color": "#8e8a98",
+              "rarity": 0
+            }, {
+              "color": "#f3f1f8",
+              "rarity": 0
+            }, {
+              "color": "#c29983",
+              "rarity": 0
+            }, {
+              "color": "#895c45",
+              "rarity": 0
+            }, {
+              "color": "#f3cab4",
+              "rarity": 0
+            }, {
+              "color": "#523c30",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#4b2812",
+              "rarity": 0
+            }, {
+              "color": "#f59e45",
+              "rarity": 0
+            }, {
+              "color": "#b279d8",
+              "rarity": 0
+            }, {
+              "color": "#7e032f",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#afa6bf",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }, {
+              "color": "#c19178",
+              "rarity": 0
+            }, {
+              "color": "#6a4e3b",
+              "rarity": 0
+            }
+          ],
+          "logo": "muridaesFluffyLogo.png",
+          "rarity": 0
         },
         "Exotic": {
-          "skins": ["#705b48", "#a86a5a", "#c5968a", "#ecc2b7", "#98442e", "#d45a3b", "#f58752", "#ffb490"],
-          "eyes": ["#12354b", "#458df5", "#d8d579", "#037e20"],
-          "ears": ["#a98768", "#ab7769", "#be4f33", "#ff9f70"],
-          "logo": "muridaesExoticLogo.png"
+          "skins": [
+            {
+              "color": "#705b48",
+              "rarity": 0
+            }, {
+              "color": "#a86a5a",
+              "rarity": 0
+            }, {
+              "color": "#c5968a",
+              "rarity": 0
+            }, {
+              "color": "#ecc2b7",
+              "rarity": 0
+            }, {
+              "color": "#98442e",
+              "rarity": 0
+            }, {
+              "color": "#d45a3b",
+              "rarity": 0
+            }, {
+              "color": "#f58752",
+              "rarity": 0
+            }, {
+              "color": "#ffb490",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#12354b",
+              "rarity": 0
+            }, {
+              "color": "#458df5",
+              "rarity": 0
+            }, {
+              "color": "#d8d579",
+              "rarity": 0
+            }, {
+              "color": "#037e20",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#a98768",
+              "rarity": 0
+            }, {
+              "color": "#ab7769",
+              "rarity": 0
+            }, {
+              "color": "#be4f33",
+              "rarity": 0
+            }, {
+              "color": "#ff9f70",
+              "rarity": 0
+            }
+          ],
+          "logo": "muridaesExoticLogo.png",
+          "rarity": 0
         }
       }
     },
@@ -53,22 +384,187 @@
       "logo": "sciuridaesCommonLogo.png",
       "variants": {
         "Common": {
-          "skins": ["#f2c2ac", "#d49c81", "#af7a61", "#80523c", "#663924", "#492311", "#b15929", "#e37c44"],
-          "eyes": ["#1e2e22", "#fdbb16", "#affcff", "#d84b55"],
-          "ears": ["#c6886b", "#a25937", "#55250e", "#a84916"],
-          "logo": "sciuridaesCommonLogo.png"
+          "skins": [
+            {
+              "color": "#f2c2ac",
+              "rarity": 0
+            }, {
+              "color": "#d49c81",
+              "rarity": 0
+            }, {
+              "color": "#af7a61",
+              "rarity": 0
+            }, {
+              "color": "#80523c",
+              "rarity": 0
+            }, {
+              "color": "#663924",
+              "rarity": 0
+            }, {
+              "color": "#492311",
+              "rarity": 0
+            }, {
+              "color": "#b15929",
+              "rarity": 0
+            }, {
+              "color": "#e37c44",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#1e2e22",
+              "rarity": 0
+            }, {
+              "color": "#fdbb16",
+              "rarity": 0
+            }, {
+              "color": "#affcff",
+              "rarity": 0
+            }, {
+              "color": "#d84b55",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#c6886b",
+              "rarity": 0
+            }, {
+              "color": "#a25937",
+              "rarity": 0
+            }, {
+              "color": "#55250e",
+              "rarity": 0
+            }, {
+              "color": "#a84916",
+              "rarity": 0
+            }
+          ],
+          "logo": "sciuridaesCommonLogo.png",
+          "rarity": 0
         },
         "Grey": {
-          "skins": ["#dcdcdc", "#958781", "#6c5f58", "#423027", "#271d18", "#100a08", "#8c8c8c", "#ffffff"],
-          "eyes": ["#64ac12", "#f69abe", "#8748e1", "#406180"],
-          "ears": ["#787d83", "#2f3134", "#12151a", "#d1d6dd"],
-          "logo": "sciuridaesGreyLogo.png"
+          "skins": [
+            {
+              "color": "#dcdcdc",
+              "rarity": 0
+            }, {
+              "color": "#958781",
+              "rarity": 0
+            }, {
+              "color": "#6c5f58",
+              "rarity": 0
+            }, {
+              "color": "#423027",
+              "rarity": 0
+            }, {
+              "color": "#271d18",
+              "rarity": 0
+            }, {
+              "color": "#100a08",
+              "rarity": 0
+            }, {
+              "color": "#8c8c8c",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#64ac12",
+              "rarity": 0
+            }, {
+              "color": "#f69abe",
+              "rarity": 0
+            }, {
+              "color": "#8748e1",
+              "rarity": 0
+            }, {
+              "color": "#406180",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#787d83",
+              "rarity": 0
+            }, {
+              "color": "#2f3134",
+              "rarity": 0
+            }, {
+              "color": "#12151a",
+              "rarity": 0
+            }, {
+              "color": "#d1d6dd",
+              "rarity": 0
+            }
+          ],
+          "logo": "sciuridaesGreyLogo.png",
+          "rarity": 0
         },
         "Rainbow": {
-          "skins": ["#eea34b", "#fdd25b", "#dad777", "#94cd84", "#84d0d9", "#91a4d1", "#aa8cdb", "#ea8db6"],
-          "eyes": ["#000000", "#9d9d9d", "#695e65", "#ffffff"],
-          "ears": ["#ffe39a", "#c0f1b2", "#aec5fc", "#ffb6d6"],
-          "logo": "sciuridaesRainbowLogo.png"
+          "skins": [
+            {
+              "color": "#eea34b",
+              "rarity": 0
+            }, {
+              "color": "#fdd25b",
+              "rarity": 0
+            }, {
+              "color": "#dad777",
+              "rarity": 0
+            }, {
+              "color": "#94cd84",
+              "rarity": 0
+            }, {
+              "color": "#84d0d9",
+              "rarity": 0
+            }, {
+              "color": "#91a4d1",
+              "rarity": 0
+            }, {
+              "color": "#aa8cdb",
+              "rarity": 0
+            }, {
+              "color": "#ea8db6",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#000000",
+              "rarity": 0
+            }, {
+              "color": "#9d9d9d",
+              "rarity": 0
+            }, {
+              "color": "#695e65",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#ffe39a",
+              "rarity": 0
+            }, {
+              "color": "#c0f1b2",
+              "rarity": 0
+            }, {
+              "color": "#aec5fc",
+              "rarity": 0
+            }, {
+              "color": "#ffb6d6",
+              "rarity": 0
+            }
+          ],
+          "logo": "sciuridaesRainbowLogo.png",
+          "rarity": 0
         }
       }
     },
@@ -77,53 +573,211 @@
       "logo": "monkeCommonLogo.png",
       "variants": {
         "Common": {
-          "skins": ["#d7b281", "#967c5a", "#6b6056", "#523417", "#734519", "#a27345", "#c2c2c2", "#f8f4f1"],
-          "eyes": ["#5c3c29", "#ffde78", "#c56012", "#47bbbd"],
-          "ears": ["#8b6d45", "#482a0c", "#84798e", "#f8f4f1"],
-          "logo": "monkeCommonLogo.png"
+          "skins": [
+            {
+              "color": "#d7b281",
+              "rarity": 0
+            }, {
+              "color": "#967c5a",
+              "rarity": 0
+            }, {
+              "color": "#6b6056",
+              "rarity": 0
+            }, {
+              "color": "#523417",
+              "rarity": 0
+            }, {
+              "color": "#734519",
+              "rarity": 0
+            }, {
+              "color": "#a27345",
+              "rarity": 0
+            }, {
+              "color": "#c2c2c2",
+              "rarity": 0
+            }, {
+              "color": "#f8f4f1",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#5c3c29",
+              "rarity": 0
+            }, {
+              "color": "#ffde78",
+              "rarity": 0
+            }, {
+              "color": "#c56012",
+              "rarity": 0
+            }, {
+              "color": "#47bbbd",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#8b6d45",
+              "rarity": 0
+            }, {
+              "color": "#482a0c",
+              "rarity": 0
+            }, {
+              "color": "#84798e",
+              "rarity": 0
+            }, {
+              "color": "#f8f4f1",
+              "rarity": 0
+            }
+          ],
+          "logo": "monkeCommonLogo.png",
+          "rarity": 0
         },
         "Tank": {
-          "skins": ["#070707", "#414141", "#502810", "#715c50", "#cac9c9", "#a9a1b1", "#7a8c9c", "#ffffff"],
-          "eyes": ["#200d3d", "#7b78ff", "#127cc5", "#8cadf3"],
-          "ears": ["#201f1f", "#654d40", "#84798e", "#ffffff"],
-          "logo": "monkeTankLogo.png"
+          "skins": [
+            {
+              "color": "#070707",
+              "rarity": 0
+            }, {
+              "color": "#414141",
+              "rarity": 0
+            }, {
+              "color": "#502810",
+              "rarity": 0
+            }, {
+              "color": "#715c50",
+              "rarity": 0
+            }, {
+              "color": "#cac9c9",
+              "rarity": 0
+            }, {
+              "color": "#a9a1b1",
+              "rarity": 0
+            }, {
+              "color": "#7a8c9c",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#200d3d",
+              "rarity": 0
+            }, {
+              "color": "#7b78ff",
+              "rarity": 0
+            }, {
+              "color": "#127cc5",
+              "rarity": 0
+            }, {
+              "color": "#8cadf3",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#201f1f",
+              "rarity": 0
+            }, {
+              "color": "#654d40",
+              "rarity": 0
+            }, {
+              "color": "#84798e",
+              "rarity": 0
+            }, {
+              "color": "#ffffff",
+              "rarity": 0
+            }
+          ],
+          "logo": "monkeTankLogo.png",
+          "rarity": 0
         },
         "Golden": {
           "skins": [
-            "#edbb7b", "#fae2af", "#d5944c", "#a57632", "#cba874", "#bc923d",
-            [
-              {
-                "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40%' spreadMethod='repeat'> <stop offset='0%' stop-color='#8d6b57'/><stop offset='100%' stop-color='#9a5d3b'/></linearGradient>",
-                "style": ".skins0 {stroke:#663f30; fill:url(#gradientSkin);}",
-                "select" : "#8d6b57"
-              }
-            ],
-            [
-              {
-                "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40%' spreadMethod='repeat'> <stop offset='0%' stop-color='#663f30'/><stop offset='100%' stop-color='#daab74'/></linearGradient>",
-                "style": ".skins0 {stroke:#663f30; fill:url(#gradientSkin);}",
-                "select" : "#663f30"
-              }
-            ]
+            {
+              "color": "#edbb7b",
+              "rarity": 0
+            }, {
+              "color": "#fae2af",
+              "rarity": 0
+            }, {
+              "color": "#d5944c",
+              "rarity": 0
+            }, {
+              "color": "#a57632",
+              "rarity": 0
+            }, {
+              "color": "#cba874",
+              "rarity": 0
+            }, {
+              "color": "#bc923d",
+              "rarity": 0
+            }, {
+              "color": [
+                {
+                  "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40%' spreadMethod='repeat'> <stop offset='0%' stop-color='#8d6b57'/><stop offset='100%' stop-color='#9a5d3b'/></linearGradient>",
+                  "style": ".skins0 {stroke:#663f30; fill:url(#gradientSkin);}",
+                  "select": "#8d6b57"
+                }
+              ],
+              "rarity": 0
+            }, {
+              "color": [
+                {
+                  "defs": "<linearGradient id='gradientSkin' gradientUnits='userSpaceOnUse' y2='40%' spreadMethod='repeat'> <stop offset='0%' stop-color='#663f30'/><stop offset='100%' stop-color='#daab74'/></linearGradient>",
+                  "style": ".skins0 {stroke:#663f30; fill:url(#gradientSkin);}",
+                  "select": "#663f30"
+                }
+              ],
+              "rarity": 0
+            }
           ],
-          "eyes": ["#b3e5a4", "#b7f1ff", "#e2e9df", "#f39588"],
-          "ears": ["#ba8f38", "#c78e4e",
-            [
-              {
-                "defs": "<linearGradient id='gradientEars' x1='0' y1='0' x2='20' y2='10' gradientUnits='userSpaceOnUse'> <stop offset='0' stop-color='#8d6b57'/><stop offset='0.5' stop-color='#9a5d3b'/><stop offset='1' stop-color='#8d6b57'/></linearGradient>",
-                "style": ".ears0 {stroke:#663f30; fill:url(#gradientEars);}",
-                "select" : "#8d6b57"
-              }
-            ],
-            [
-              {
-                "defs": "<linearGradient id='gradientEars' x1='0' y1='0' x2='20' y2='10' gradientUnits='userSpaceOnUse'> <stop offset='0' stop-color='#663f30'/><stop offset='0.5' stop-color='#daab74'/><stop offset='1' stop-color='#6d4026'/></linearGradient>",
-                "style": ".ears0 {stroke:#663f30; fill:url(#gradientEars);}",
-                "select" : "#663f30"
-              }
-            ]
+          "eyes": [
+            {
+              "color": "#b3e5a4",
+              "rarity": 0
+            }, {
+              "color": "#b7f1ff",
+              "rarity": 0
+            }, {
+              "color": "#e2e9df",
+              "rarity": 0
+            }, {
+              "color": "#f39588",
+              "rarity": 0
+            }
           ],
-          "logo": "monkeGoldenLogo.png"
+          "ears": [
+            {
+              "color": "#ba8f38",
+              "rarity": 0
+            }, {
+              "color": "#c78e4e",
+              "rarity": 0
+            }, {
+              "color": [
+                {
+                  "defs": "<linearGradient id='gradientEars' x1='0' y1='0' x2='20' y2='10' gradientUnits='userSpaceOnUse'> <stop offset='0' stop-color='#8d6b57'/><stop offset='0.5' stop-color='#9a5d3b'/><stop offset='1' stop-color='#8d6b57'/></linearGradient>",
+                  "style": ".ears0 {stroke:#663f30; fill:url(#gradientEars);}",
+                  "select": "#8d6b57"
+                }
+              ],
+              "rarity": 0
+            }, {
+              "color": [
+                {
+                  "defs": "<linearGradient id='gradientEars' x1='0' y1='0' x2='20' y2='10' gradientUnits='userSpaceOnUse'> <stop offset='0' stop-color='#663f30'/><stop offset='0.5' stop-color='#daab74'/><stop offset='1' stop-color='#6d4026'/></linearGradient>",
+                  "style": ".ears0 {stroke:#663f30; fill:url(#gradientEars);}",
+                  "select": "#663f30"
+                }
+              ],
+              "rarity": 0
+            }
+          ],
+          "logo": "monkeGoldenLogo.png",
+          "rarity": 0
         }
       }
     },
@@ -132,22 +786,187 @@
       "logo": "pouchesCommonLogo.png",
       "variants": {
         "Common": {
-          "skins": ["#8d4d2a", "#be7249", "#eb8248", "#c79e88", "#a08577", "#6d594e", "#d5bfb3", "#feece2"],
-          "eyes": ["#31554e", "#83a961", "#66957a", "#c2e99c"],
-          "ears": ["#b75f30", "#92705f", "#cab0a1", "#fbefe9"],
-          "logo": "pouchesCommonLogo.png"
+          "skins": [
+            {
+              "color": "#8d4d2a",
+              "rarity": 0
+            }, {
+              "color": "#be7249",
+              "rarity": 0
+            }, {
+              "color": "#eb8248",
+              "rarity": 0
+            }, {
+              "color": "#c79e88",
+              "rarity": 0
+            }, {
+              "color": "#a08577",
+              "rarity": 0
+            }, {
+              "color": "#6d594e",
+              "rarity": 0
+            }, {
+              "color": "#d5bfb3",
+              "rarity": 0
+            }, {
+              "color": "#feece2",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#31554e",
+              "rarity": 0
+            }, {
+              "color": "#83a961",
+              "rarity": 0
+            }, {
+              "color": "#66957a",
+              "rarity": 0
+            }, {
+              "color": "#c2e99c",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#b75f30",
+              "rarity": 0
+            }, {
+              "color": "#92705f",
+              "rarity": 0
+            }, {
+              "color": "#cab0a1",
+              "rarity": 0
+            }, {
+              "color": "#fbefe9",
+              "rarity": 0
+            }
+          ],
+          "logo": "pouchesCommonLogo.png",
+          "rarity": 0
         },
         "Grey": {
-          "skins": ["#454054", "#677599", "#7b8396", "#bec2cb", "#5f6269", "#030303", "#9cafdf", "#d7e3ff"],
-          "eyes": ["#87ccff", "#4c7ece", "#354dae", "#24207b"],
-          "ears": ["#525f81", "#bfc6d5", "#030303", "#e5edfe"],
-          "logo": "pouchesGreyLogo.png"
+          "skins": [
+            {
+              "color": "#454054",
+              "rarity": 0
+            }, {
+              "color": "#677599",
+              "rarity": 0
+            }, {
+              "color": "#7b8396",
+              "rarity": 0
+            }, {
+              "color": "#bec2cb",
+              "rarity": 0
+            }, {
+              "color": "#5f6269",
+              "rarity": 0
+            }, {
+              "color": "#030303",
+              "rarity": 0
+            }, {
+              "color": "#9cafdf",
+              "rarity": 0
+            }, {
+              "color": "#d7e3ff",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#87ccff",
+              "rarity": 0
+            }, {
+              "color": "#4c7ece",
+              "rarity": 0
+            }, {
+              "color": "#354dae",
+              "rarity": 0
+            }, {
+              "color": "#24207b",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#525f81",
+              "rarity": 0
+            }, {
+              "color": "#bfc6d5",
+              "rarity": 0
+            }, {
+              "color": "#030303",
+              "rarity": 0
+            }, {
+              "color": "#e5edfe",
+              "rarity": 0
+            }
+          ],
+          "logo": "pouchesGreyLogo.png",
+          "rarity": 0
         },
         "Purple": {
-          "skins": ["#72386f", "#c66ec2", "#bd89cf", "#edb8ff", "#54356d", "#876e9a", "#e6cef9", "#9100ff"],
-          "eyes": ["#ec8842", "#ab2a19", "#ffcac5", "#f9e9ea"],
-          "ears": ["#df8edc", "#f5d7ff", "#9d7db6", "#a835ff"],
-          "logo": "pouchesPurpleLogo.png"
+          "skins": [
+            {
+              "color": "#72386f",
+              "rarity": 0
+            }, {
+              "color": "#c66ec2",
+              "rarity": 0
+            }, {
+              "color": "#bd89cf",
+              "rarity": 0
+            }, {
+              "color": "#edb8ff",
+              "rarity": 0
+            }, {
+              "color": "#54356d",
+              "rarity": 0
+            }, {
+              "color": "#876e9a",
+              "rarity": 0
+            }, {
+              "color": "#e6cef9",
+              "rarity": 0
+            }, {
+              "color": "#9100ff",
+              "rarity": 0
+            }
+          ],
+          "eyes": [
+            {
+              "color": "#ec8842",
+              "rarity": 0
+            }, {
+              "color": "#ab2a19",
+              "rarity": 0
+            }, {
+              "color": "#ffcac5",
+              "rarity": 0
+            }, {
+              "color": "#f9e9ea",
+              "rarity": 0
+            }
+          ],
+          "ears": [
+            {
+              "color": "#df8edc",
+              "rarity": 0
+            }, {
+              "color": "#f5d7ff",
+              "rarity": 0
+            }, {
+              "color": "#9d7db6",
+              "rarity": 0
+            }, {
+              "color": "#a835ff",
+              "rarity": 0
+            }
+          ],
+          "logo": "pouchesPurpleLogo.png",
+          "rarity": 0
         }
       }
     }

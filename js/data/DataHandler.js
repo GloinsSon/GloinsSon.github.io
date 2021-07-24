@@ -12,7 +12,15 @@ const jsonFiles = [
     {file: "cubs/humanoid.xml", callback: setHumanoid},
     {file: "cubs/subspecies.json", callback: setSubSpecies},
     {file: "cubs/extras.json", callback: setExtras},
-/*
+
+    {file: "fins/humanoid.xml", callback: setHumanoid},
+    {file: "fins/subspecies.json", callback: setSubSpecies},
+    {file: "fins/extras.json", callback: setExtras},
+
+    {file: "flappers/humanoid.xml", callback: setHumanoid},
+    {file: "flappers/subspecies.json", callback: setSubSpecies},
+    {file: "flappers/extras.json", callback: setExtras},
+
     {file: "floofs/humanoid.xml", callback: setHumanoid},
     {file: "floofs/subspecies.json", callback: setSubSpecies},
     {file: "floofs/extras.json", callback: setExtras},
@@ -21,22 +29,14 @@ const jsonFiles = [
     {file: "hoppers/subspecies.json", callback: setSubSpecies},
     {file: "hoppers/extras.json", callback: setExtras},
 
-    {file: "smittens/humanoid.xml", callback: setHumanoid},
-    {file: "smittens/subspecies.json", callback: setSubSpecies},
-    {file: "smittens/extras.json", callback: setExtras},
-
-    {file: "fins/humanoid.xml", callback: setHumanoid},
-    {file: "fins/subspecies.json", callback: setSubSpecies},
-    {file: "fins/extras.json", callback: setExtras},
-
     {file: "prancers/humanoid.xml", callback: setHumanoid},
     {file: "prancers/subspecies.json", callback: setSubSpecies},
     {file: "prancers/extras.json", callback: setExtras},
 
-    {file: "flappers/humanoid.xml", callback: setHumanoid},
-    {file: "flappers/subspecies.json", callback: setSubSpecies},
-    {file: "flappers/extras.json", callback: setExtras}
-*/
+    {file: "smittens/humanoid.xml", callback: setHumanoid},
+    {file: "smittens/subspecies.json", callback: setSubSpecies},
+    {file: "smittens/extras.json", callback: setExtras},
+
 ]
 
 /**

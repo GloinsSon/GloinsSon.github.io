@@ -2,172 +2,54 @@
  * main script to start execution
  * @author Gimli GloinsSon
  */
-const SIDES = 20;
-const INITIALSIDE = 1;
-let LastFace;
-let Reroll = false;
+
 let DataStore = {};  // main datastore
 let Loading = 99;    // counter for loaded files
 
-
-let controller;
+let diceController;
 
 /**
  * register listeners for all form elements
  */
 document.addEventListener("DOMContentLoaded", () => {
-    import("./controller/Controller.js")
-        .then((module) => {
-            import ("./data/DataHandler.js")
-                .then((module) => {
-                    module.default();
-                });
+    Promise.all(
+        [
+            import("./controller/Controller.js"),
+            import("./data/DataHandler.js"),
+            import("./view/DiceController.js")
+        ]
+    ).then(([
+                Controller,
+                DataHandler,
+                DiceController]) => {
 
-            controller = new module.default;
-            controller.init();
+        DataHandler.default();
+        let controller = new Controller.default;
+        controller.init();
 
-            document.getElementById("rollDice").addEventListener("click", rollAllDice);
-            document.getElementById("rerollDice").addEventListener("click", reRollDice);
-            document.getElementById("resetDice").addEventListener("click", resetDice);
+        diceController = new DiceController.default;
 
-            document.getElementById("selection").addEventListener("change", controller.changeSettings);
-           // document.getElementById("selection").addEventListener("reset", controller.init);  TODO use reset on form or on dice, not both
-            document.getElementById("random").addEventListener("click", randomBunker);
-            document.getElementById("btnDownload").addEventListener("click", createDownload);
+        document.getElementById("rollDice").addEventListener("click", diceController.roller);
+        document.getElementById("resetDice").addEventListener("click", diceController.resetDice);
 
-            const diceList = document.getElementsByClassName("die");
-            for (let diece of diceList) {
-                diece.addEventListener("dragstart", controller.dragDice);
-                diece.addEventListener("drop", controller.dropDice);
-                diece.addEventListener("dragover", controller.allowDrop);
-            }
-        });
+        document.getElementById("selection").addEventListener("change", controller.changeSettings);
+        document.getElementById("random").addEventListener("click", randomBunker);
+        document.getElementById("btnDownload").addEventListener("click", createDownload);
+
+        const diceList = document.getElementsByClassName("die");
+        for (let diece of diceList) {
+            diece.addEventListener("dragstart", controller.dragDice);
+            diece.addEventListener("drop", controller.dropDice);
+            diece.addEventListener("dragover", controller.allowDrop);
+        }
+    });
 });
 
-/**
- * roll all dice
- */
-function rollAllDice() {
-    Reroll = false;
-    roller();
-}
-
-/**
- * reroll dice with undefined faces
- */
-function reRollDice() {
-    Reroll = true;
-    roller();
-}
-
-/**
- * rolling the dice
- */
-function roller() {
-    let dice = document.getElementsByClassName("die");
-    const timeouts = [];
-    let durations = [];
-    for (let i = 0; i < dice.length; i++) {
-        durations[i] = 1500 + i * 250;
-    }
-    shuffleArray(durations);
-
-    setTimeout(function () {
-        triggerUpdate();
-    }, 1750 + dice.length * 250);
-
-    const diceList = document.getElementsByClassName("die");
-    let count = 0;
-    for (const dice of diceList) {
-        let rarity = dice.getAttribute("data-rarity");
-        if (Reroll == false ||
-            (rarity == 0)
-        ) {
-            rollDie(dice, timeouts[count], durations[count]);
-        }
-        count++;
-    }
-}
-
-/**
- * pick a random face
- * @returns {number}
- */
-function randomFace() {
-    let face = Math.floor((Math.random() * SIDES)) + INITIALSIDE
-    LastFace = face == LastFace ? randomFace() : face
-    return face;
-}
-
-/**
- * roll the the specified face
- * @param die
- * @param face
- * @param timeoutId
- */
-function rollTo(die, face, timeoutId) {
-    clearTimeout(timeoutId);
-    die.setAttribute("data-face", face);
-
-    let rarity = 0;
-    if (face >= 1 && face <= 8) rarity = 2;
-    if (face >= 9 && face <= 12) rarity = 4;
-    if (face >= 13 && face <= 14) rarity = 8;
-    if (face == 20) rarity = 16;
-    die.setAttribute("data-rarity", rarity);
-}
-
-/**
- * reset the dice
- */
-function resetDice() {
-    let dice = document.getElementsByClassName("die");
-    for (let i = 0; i < dice.length; i++) {
-        let die = dice[i];
-        die.setAttribute("data-face", "20");
-        die.setAttribute("data-rarity", "16");
-        die.classList.remove("rolling");
-    }
-    triggerUpdate();
-}
-
-/**
- * roll animation for a dice
- * @param die
- * @param timeoutId
- * @param duration
- * @returns {boolean}
- */
-function rollDie(die, timeoutId, duration) {
-    die.classList.add("rolling");
-    clearTimeout(timeoutId);
-
-    timeoutId = setTimeout(function () {
-        die.classList.remove("rolling");
-        let randomVal = randomFace();
-        if (randomVal >= 15 && randomVal <= 19)
-            Reroll = true;
-        rollTo(die, randomVal, timeoutId);
-
-    }, duration);
-
-    return false;
-}
-
-/* Randomize array in-place using Durstenfeld shuffle algorithm */
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        let temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-    }
-}
 
 function triggerUpdate() {
     let element = document.getElementsByName("species")[0];
     element.dispatchEvent(
-        new Event("change", { "bubbles": true})
+        new Event("change", {"bubbles": true})
     );
 }
 
@@ -177,7 +59,7 @@ function triggerUpdate() {
 function randomBunker() {
     import("./controller/Controller.js")
         .then((module) => {
-            controller = new module.default;
+            let controller = new module.default;
             controller.randomize();
         });
 }

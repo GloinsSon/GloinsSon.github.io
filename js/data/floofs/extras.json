@@ -2,6 +2,7 @@
   "species": "floofs",
   "Collars": [
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "collar0.svg",
@@ -10,6 +11,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "collar1.svg",
@@ -18,6 +20,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "collar2.svg",
@@ -26,6 +29,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "collar3.svg",
@@ -34,6 +38,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "collar4.svg",
@@ -42,6 +47,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "collar5.svg",
@@ -50,6 +56,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "collar6.svg",
@@ -58,6 +65,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "collar7.svg",
@@ -68,6 +76,7 @@
   ],
   "Mouths": [
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "mouth0.svg",
@@ -76,6 +85,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "mouth1.svg",
@@ -84,6 +94,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "mouth2.svg",

@@ -2,6 +2,7 @@
   "species": "fins",
   "Fins": [
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "fins0.svg",
@@ -14,6 +15,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "fins1.svg",
@@ -26,6 +28,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "fins2.svg",
@@ -38,6 +41,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "fins3.svg",
@@ -52,6 +56,7 @@
   ],
   "Bracelets": [
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "bracelet0.svg",
@@ -60,6 +65,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "bracelet1.svg",
@@ -68,6 +74,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "bracelet2.svg",
@@ -76,6 +83,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "bracelet3.svg",
@@ -84,6 +92,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "bracelet4.svg",
@@ -92,6 +101,7 @@
       ]
     },
     {
+      "rarity": 0,
       "elements": [
         {
           "file": "bracelet5.svg",
