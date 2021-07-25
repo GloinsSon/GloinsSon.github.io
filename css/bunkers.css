@@ -3,15 +3,16 @@
     --linkColor: indigo;
     --navBg: #08415C;
     --navText: #ff7000;
-    --maxWidth: 1700px;
+    --fieldsetBg: rgba(180, 180, 180, 0.7);
+    --maxWidth: 1700;
 }
 
 body {
     background-color: rgba(var(--bgColor), 0.4);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1.2em;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -29,7 +30,7 @@ a, a:visited {
 header {
     position: relative;
     width: 100%;
-    height: 0px;
+    height: 0;
     background-color: indigo;
 }
 
@@ -50,10 +51,11 @@ nav a {
 main {
     display: flex;
     flex-flow: row wrap;
+    flex: 0 1 var(--maxWidth);
     justify-content: flex-start;
     width: var(--maxWidth);
     min-height: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 5px;
 }
 
@@ -64,14 +66,14 @@ main {
 
 #settings {
     display: flex;
-    flex: 4 1 800px;
+    flex: 4 0 800px;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 #model {
     display: flex;
-    flex: 2 1 600px;
+    flex: 2 0 600px;
     flex-wrap: wrap;
     height: 1000px;
     margin-left: 20px;
@@ -92,12 +94,12 @@ footer {
 
 fieldset {
     padding-left: 100px;
-    background-color: rgba(180, 180, 180, 0.5);
+    background-color: var(--fieldsetBg);
 }
 
 legend, label {
     font-family: 'Marck Script', cursive;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 legend {
@@ -115,14 +117,14 @@ fieldset > label {
 #selection input {
     position: absolute;
     display: none;
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
 
 }
 
 figure {
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
 figcaption {
@@ -131,15 +133,15 @@ figcaption {
 
 input[type="radio"] + svg {
     padding: 2px;
-    margin: 0px;
+    margin: 0;
     stroke: #eeeeee;
-    stroke-width: 0.5px;
+    stroke-width: 0.5;
 }
 
 input[type="radio"]:checked + svg {
     stroke: #333333;
-    stroke-width: 0.75px;
-    padding: 0px;
+    stroke-width: 0.75;
+    padding: 0;
 }
 
 input[type="radio"]:disabled + svg {
@@ -162,7 +164,7 @@ input[type="radio"]:checked + figure > img {
     -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
     -o-box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
     border-radius: 80px;
-    padding: 0px;
+    padding: 0;
     width: 60px;
 }
 
