@@ -35,7 +35,7 @@ const jsonFiles = [
 
     {file: "smittens/humanoid.xml", callback: setHumanoid},
     {file: "smittens/subspecies.json", callback: setSubSpecies},
-    {file: "smittens/extras.json", callback: setExtras},
+    {file: "smittens/extras.json", callback: setExtras}
 
 ]
 

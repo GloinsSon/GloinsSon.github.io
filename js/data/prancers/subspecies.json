@@ -7,10 +7,9 @@
         "Common": {
           "skins": [
             {
-              "color": {
-                "color": "#b28369",
-                "rarity": 0
-              }, {
+              "color": "#b28369",
+              "rarity": 0
+            }, {
               "color": "#e4c9bb",
               "rarity": 0
             }, {

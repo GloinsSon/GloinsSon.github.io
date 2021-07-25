@@ -1,114 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Bunkers Creator</title>
-  <style>
-      @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
-  </style>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/bunkers.css">
-</head>
-<body>
-<header>
-</header>
-<div class="container-fluid" id="content">
-  <div class="row justify-content-center">
-    <div class="col-12">
-      <h2>Bunkers Character Designer</h2>
-      <p>
-        You can choose the look of your Bunker, the inhabitants of
-        <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">Bunkin;</a>
-        Land of personified stuffed animals, they dream of having a master.
-        <br/>
-        Credit for the artwork and the creation of Bunkin goes to
-        <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
-      </p>
-      <p>
-        Scripting done by <a href="./about.html" target="_blank">GloinsSon</a>
-        and <a href="./about.html" target="_blank">Vincent_0x00</a>.
-        Please direct bug reports or questions about the site to GloinsSon.
-      </p>
-    </div>
-    <div class="d-sm-none d-lg-block col-lg-2 col-xl-1">
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-6">
-      <form id="selection" class="form-horizontal d-none">
-        <fieldset class="form-group border border-dark p-3">
-          <legend class="w-auto px-2">Spieces and Variants</legend>
-          <div class="form-group">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunkers Creator</title>
+    <meta name="description" content="Character Designer for Bunkers">
+    <meta name="author" content="Gimli GloinsSon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <!-- <link rel="manifest" href="./site.webmanifest"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/bunkers.css">
+    <link rel="stylesheet" href="./css/dice.css">
+  </head>
+  <body>
+    <nav>
+      <a href="../">Indy.fan</a>
+    </nav>
+    <main id="main">
+      <div id="intro">
+        <div id="overview">
+          <h2>Bunkers Character Designer</h2>
+          <p>
+            You can choose the look of your Bunker, the inhabitants of
+            <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">Bunkin;</a>
+            Land of personified stuffed animals, they dream of having a master.
+          <ol>
+            <li>Pick your species</li>
+            <li>Roll the dice (re-roll for dice with 15-19)</li>
+            <li>Drag & drop dice between the elemens</li>
+            <li>Choose from the available options</li>
+          </ol>
+
+          <button id="rollDice" type="button">Roll dice</button>
+          <button id="resetDice" type="button">Reset</button>
+          </p>
+        </div>
+        <div id="rarity">
+          <img src="./img/rarity.jpg"/>
+        </div>
+      </div>
+      <div id="settings">
+        <form id="selection" class="form-horizontal">
+          <fieldset>
+            <legend>Spieces and Variants</legend>
             <label for="species">Species</label>
             <div id="species">
             </div>
-          </div>
 
-          <div class="form-group">
             <label for="subspecies">Sub-Species</label>
-            <div id="subspecies"></div>
-          </div>
+            <div id="diceSubspecies" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+              <figure class="face face-1"></figure>
+              <figure class="face face-2"></figure>
+              <figure class="face face-3"></figure>
+              <figure class="face face-4"></figure>
+              <figure class="face face-5"></figure>
+              <figure class="face face-6"></figure>
+              <figure class="face face-7"></figure>
+              <figure class="face face-8"></figure>
+              <figure class="face face-9"></figure>
+              <figure class="face face-10"></figure>
+              <figure class="face face-11"></figure>
+              <figure class="face face-12"></figure>
+              <figure class="face face-13"></figure>
+              <figure class="face face-14"></figure>
+              <figure class="face face-15"></figure>
+              <figure class="face face-16"></figure>
+              <figure class="face face-17"></figure>
+              <figure class="face face-18"></figure>
+              <figure class="face face-19"></figure>
+              <figure class="face face-20"></figure>
+            </div>
+            <div id="subspecies">
+            </div>
 
-          <div class="form-group">
-            <label for="variants">Color variant</label>
-            <div id="variants"></div>
-          </div>
-        </fieldset>
-        <fieldset class="form-group border border-dark p-3">
-          <legend class="w-auto px-2">Colors</legend>
-          <div class="form-group">
+            <label for="variants">Color Variants</label>
+            <div id="variants">
+            </div>
+          </fieldset>
+          <fieldset class="form-group border border-dark p-3">
+            <legend class="w-auto px-2">Colors</legend>
+
             <label for="skins">Skin Tones</label>
+            <div id="diceskins" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+              <figure class="face face-1"></figure>
+              <figure class="face face-2"></figure>
+              <figure class="face face-3"></figure>
+              <figure class="face face-4"></figure>
+              <figure class="face face-5"></figure>
+              <figure class="face face-6"></figure>
+              <figure class="face face-7"></figure>
+              <figure class="face face-8"></figure>
+              <figure class="face face-9"></figure>
+              <figure class="face face-10"></figure>
+              <figure class="face face-11"></figure>
+              <figure class="face face-12"></figure>
+              <figure class="face face-13"></figure>
+              <figure class="face face-14"></figure>
+              <figure class="face face-15"></figure>
+              <figure class="face face-16"></figure>
+              <figure class="face face-17"></figure>
+              <figure class="face face-18"></figure>
+              <figure class="face face-19"></figure>
+              <figure class="face face-20"></figure>
+            </div>
             <div id="skins">
             </div>
-          </div>
 
-          <div class="form-group">
             <label for="eyes">Eye color</label>
+            <div id="diceeyes" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+              <figure class="face face-1"></figure>
+              <figure class="face face-2"></figure>
+              <figure class="face face-3"></figure>
+              <figure class="face face-4"></figure>
+              <figure class="face face-5"></figure>
+              <figure class="face face-6"></figure>
+              <figure class="face face-7"></figure>
+              <figure class="face face-8"></figure>
+              <figure class="face face-9"></figure>
+              <figure class="face face-10"></figure>
+              <figure class="face face-11"></figure>
+              <figure class="face face-12"></figure>
+              <figure class="face face-13"></figure>
+              <figure class="face face-14"></figure>
+              <figure class="face face-15"></figure>
+              <figure class="face face-16"></figure>
+              <figure class="face face-17"></figure>
+              <figure class="face face-18"></figure>
+              <figure class="face face-19"></figure>
+              <figure class="face face-20"></figure>
+            </div>
             <div id="eyes">
             </div>
-          </div>
 
-          <div class="form-group">
             <label for="ears">Ears, Tail, Wings</label>
+            <div id="diceears" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+              <figure class="face face-1"></figure>
+              <figure class="face face-2"></figure>
+              <figure class="face face-3"></figure>
+              <figure class="face face-4"></figure>
+              <figure class="face face-5"></figure>
+              <figure class="face face-6"></figure>
+              <figure class="face face-7"></figure>
+              <figure class="face face-8"></figure>
+              <figure class="face face-9"></figure>
+              <figure class="face face-10"></figure>
+              <figure class="face face-11"></figure>
+              <figure class="face face-12"></figure>
+              <figure class="face face-13"></figure>
+              <figure class="face face-14"></figure>
+              <figure class="face face-15"></figure>
+              <figure class="face face-16"></figure>
+              <figure class="face face-17"></figure>
+              <figure class="face face-18"></figure>
+              <figure class="face face-19"></figure>
+              <figure class="face face-20"></figure>
+            </div>
             <div id="ears">
             </div>
-          </div>
-        </fieldset>
-        <fieldset class="form-group border border-dark p-3">
-          <legend class="w-auto px-2">Miscellaneous</legend>
-          <div class="form-group">
+          </fieldset>
+          <fieldset>
+            <legend>Miscellaneous</legend>
             <label for="extra0" id="extraL0">Extra0</label>
-            <div id="extra0"></div>
-          </div>
-          <div class="form-group">
-            <label for="extra1" id="extraL1">Extra1</label>
-            <div id="extra1"></div>
-          </div>
-          <div class="form-group">
-            <label for="extra2" id="extraL2">Extra2</label>
-            <div id="extra2"></div>
-          </div>
-        </fieldset>
+            <div id="extraD0" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+              <figure class="face face-1"></figure>
+              <figure class="face face-2"></figure>
+              <figure class="face face-3"></figure>
+              <figure class="face face-4"></figure>
+              <figure class="face face-5"></figure>
+              <figure class="face face-6"></figure>
+              <figure class="face face-7"></figure>
+              <figure class="face face-8"></figure>
+              <figure class="face face-9"></figure>
+              <figure class="face face-10"></figure>
+              <figure class="face face-11"></figure>
+              <figure class="face face-12"></figure>
+              <figure class="face face-13"></figure>
+              <figure class="face face-14"></figure>
+              <figure class="face face-15"></figure>
+              <figure class="face face-16"></figure>
+              <figure class="face face-17"></figure>
+              <figure class="face face-18"></figure>
+              <figure class="face face-19"></figure>
+              <figure class="face face-20"></figure>
+            </div>
+            <div id="extra0">
+            </div>
 
-        <div class="form-group">
-          <button id="random" type="button">Random</button>
-          <button id="btnDownload" type="button">Download ...</button>
-        </div>
-        <div id="link" class="form-group d-none">
-          <p>
-            You can <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
-            your very special Bunker as a vector graphic (svg).
-            This vector graphic can be edited with programs like
-            <a href="https://inkscape.org/" target="_blank">Inkscape</a>
-          </p>
-        </div>
-      </form>
-    </div>
-    <div class="col-6">
-      <div id="model">
+            <label for="extra1" id="extraL1">Extra1</label>
+            <div id="extraD1" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+              <figure class="face face-1"></figure>
+              <figure class="face face-2"></figure>
+              <figure class="face face-3"></figure>
+              <figure class="face face-4"></figure>
+              <figure class="face face-5"></figure>
+              <figure class="face face-6"></figure>
+              <figure class="face face-7"></figure>
+              <figure class="face face-8"></figure>
+              <figure class="face face-9"></figure>
+              <figure class="face face-10"></figure>
+              <figure class="face face-11"></figure>
+              <figure class="face face-12"></figure>
+              <figure class="face face-13"></figure>
+              <figure class="face face-14"></figure>
+              <figure class="face face-15"></figure>
+              <figure class="face face-16"></figure>
+              <figure class="face face-17"></figure>
+              <figure class="face face-18"></figure>
+              <figure class="face face-19"></figure>
+              <figure class="face face-20"></figure>
+            </div>
+            <div id="extra1">
+            </div>
+
+            <label for="extra2" id="extraL2">Extra2</label>
+            <div id="extraD2" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+              <figure class="face face-1"></figure>
+              <figure class="face face-2"></figure>
+              <figure class="face face-3"></figure>
+              <figure class="face face-4"></figure>
+              <figure class="face face-5"></figure>
+              <figure class="face face-6"></figure>
+              <figure class="face face-7"></figure>
+              <figure class="face face-8"></figure>
+              <figure class="face face-9"></figure>
+              <figure class="face face-10"></figure>
+              <figure class="face face-11"></figure>
+              <figure class="face face-12"></figure>
+              <figure class="face face-13"></figure>
+              <figure class="face face-14"></figure>
+              <figure class="face face-15"></figure>
+              <figure class="face face-16"></figure>
+              <figure class="face face-17"></figure>
+              <figure class="face face-18"></figure>
+              <figure class="face face-19"></figure>
+              <figure class="face face-20"></figure>
+            </div>
+            <div id="extra2"></div>
+
+          </fieldset>
+        </form>
+      </div>
+      <div id="model" class="model">
         <svg xmlns="http://www.w3.org/2000/svg" id="modelSVG"
-             width="800" height="1200" viewBox="0 0 800 1200">
+             width="600" height="1200" viewBox="0 0 600 1200">
           <defs id="svgDefs">
             <style id="svgStyle">
             </style>
@@ -121,21 +259,28 @@
           </text>
         </svg>
       </div>
-    </div>
-  </div>
-  <div class="row justify-content-center">
-    <div id="progress" class="col-10 col-xl-8">
-      <div class="progress">
-        <div id="progressBar" class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="0"
+      <div id="credits" class="x-100">
+        <button id="random" type="button" hidden>Random</button>
+        <button id="btnDownload" type="button" hidden>Download ...</button>
+        <p>
+          Credit for the artwork and the creation of Bunkin goes to
+          <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
+        </p>
+        <p>
+          Scripting done by <a href="../about.html">GloinsSon</a>
+          and <a href="https://indyland.us/about" target="_blank">Vincent_0x00</a>.
+          Please direct bug reports or questions about the site to GloinsSon.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div id="progress">
+        <div id="progressBar" role="progressbar" aria-valuenow="0"
              aria-valuemin="0" aria-valuemax="100">Loading data ...
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<footer class="page-footer container-fluid">
-</footer>
-<script src="./js/main.js"></script>
-
-</body>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
