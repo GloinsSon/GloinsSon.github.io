@@ -43,207 +43,310 @@
         </div>
       </div>
       <div id="settings">
-        <form id="selection" class="form-horizontal">
-          <fieldset>
-            <legend>Spieces and Variants</legend>
-            <label for="species">Species</label>
-            <div id="species">
-            </div>
+        <form id="selection">
+            <fieldset id="specieSet">
+              <legend>Spieces and Variants</legend>
+              <label for="species">Species</label>
+              <div id="species">
+              </div>
 
-            <label for="subspecies">Sub-Species</label>
-            <div id="diceSubspecies" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="subspecies">
-            </div>
+              <label for="subspecies">Sub-Species</label>
+              <div id="diceSubspecies" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="subspecies">
+              </div>
 
-            <label for="variants">Color Variants</label>
-            <div id="variants">
-            </div>
-          </fieldset>
-          <fieldset class="form-group border border-dark p-3">
-            <legend class="w-auto px-2">Colors</legend>
+              <label for="variants">Color Variants</label>
+              <div id="variants" data-count="true"></div>
+            </fieldset>
+            <fieldset>
+              <legend class="w-auto px-2">Colors</legend>
 
-            <label for="skins">Skin Tones</label>
-            <div id="diceskins" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="skins">
-            </div>
+              <label for="skins">Skin Tones</label>
+              <div id="diceskins" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="skins" data-count="true">
+              </div>
 
-            <label for="eyes">Eye color</label>
-            <div id="diceeyes" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="eyes">
-            </div>
+              <label for="eyes">Eye color</label>
+              <div id="diceeyes" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="eyes" data-count="true">
+              </div>
 
-            <label for="ears">Ears, Tail, Wings</label>
-            <div id="diceears" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="ears">
-            </div>
-          </fieldset>
-          <fieldset>
-            <legend>Miscellaneous</legend>
-            <label for="extra0" id="extraL0">Extra0</label>
-            <div id="extraD0" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="extra0">
-            </div>
+              <label for="ears">Ears, Tail, Wings</label>
+              <div id="diceears" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="ears" data-count="true">
+              </div>
+            </fieldset>
 
-            <label for="extra1" id="extraL1">Extra1</label>
-            <div id="extraD1" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="extra1">
-            </div>
+            <fieldset>
+              <legend>Parts</legend>
+              <label for="extra0" id="extraL0">Extra0</label>
+              <div id="extraD0" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="extra0" data-count="true"></div>
 
-            <label for="extra2" id="extraL2">Extra2</label>
-            <div id="extraD2" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="extra2"></div>
+              <label for="extra1" id="extraL1">Extra1</label>
+              <div id="extraD1" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="extra1" data-count="true"></div>
 
-          </fieldset>
+              <label for="extra2" id="extraL2">Extra2</label>
+              <div id="extraD2" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="extra2" data-count="true"></div>
+
+            </fieldset>
+            <fieldset>
+              <legend>Miscellaneous</legend>
+              <label for="extra3" id="extraL3">Extra2</label>
+              <div id="extraD3" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="extra3" data-count="true"></div>
+
+              <label for="extra4" id="extraL4">Extra2</label>
+              <div id="extraD4" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="extra4" data-count="true"></div>
+
+              <label for="extra5" id="extraL5">Extra2</label>
+              <div id="extraD5" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="extra5" data-count="true"></div>
+
+              <label for="extra6" id="extraL6">Extra2</label>
+              <div id="extraD6" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
+                <figure class="face face-1"></figure>
+                <figure class="face face-2"></figure>
+                <figure class="face face-3"></figure>
+                <figure class="face face-4"></figure>
+                <figure class="face face-5"></figure>
+                <figure class="face face-6"></figure>
+                <figure class="face face-7"></figure>
+                <figure class="face face-8"></figure>
+                <figure class="face face-9"></figure>
+                <figure class="face face-10"></figure>
+                <figure class="face face-11"></figure>
+                <figure class="face face-12"></figure>
+                <figure class="face face-13"></figure>
+                <figure class="face face-14"></figure>
+                <figure class="face face-15"></figure>
+                <figure class="face face-16"></figure>
+                <figure class="face face-17"></figure>
+                <figure class="face face-18"></figure>
+                <figure class="face face-19"></figure>
+                <figure class="face face-20"></figure>
+              </div>
+              <div id="extra6" data-count="true"></div>
+
+            </fieldset>
+          </div>
         </form>
       </div>
       <div id="model" class="model">
+        <h3 id="rarityTotal">Rarity</h3>
         <svg xmlns="http://www.w3.org/2000/svg" id="modelSVG"
              width="600" height="1200" viewBox="0 0 600 1200">
           <defs id="svgDefs">
@@ -257,6 +360,7 @@
             Artwork by Indigo White
           </text>
         </svg>
+
       </div>
       <div id="credits" class="x-100">
         <button id="random" type="button" hidden>Random</button>

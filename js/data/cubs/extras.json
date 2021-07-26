@@ -1,5 +1,48 @@
 {
   "species": "cubs",
+  "Stuffed": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "stuffed0.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "stuffed1.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "stuffed2.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "stuffed3.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "stuffed4.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }
+  ],
   "Tags": [
     {
       "rarity": 2,
@@ -99,6 +142,145 @@
         {
           "file": "fangs2.svg",
           "transform": "translate(225,150)"
+        }
+      ]
+    }
+  ],
+  "Ears": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "ears0.svg"
+        }
+      ]
+    }, {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "ears1.svg"
+        }
+      ]
+    }, {
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "ears2.svg"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "ears3.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "ears4.svg"
+        }
+      ]
+    }
+  ],
+  "Halos": [
+    {
+      "rarity": 0,
+      "elements": [
+        {
+          "file": "none.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "halo0.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "halo1.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "halo2.svg"
+        }
+      ]
+    }
+  ],
+  "Tails": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "tail0.svg"
+        }
+      ]
+    },
+    {
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "tail1.svg"
+        }
+      ]
+    }, {
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "tail2.svg"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "tail3.svg"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "tail4.svg"
+        }
+      ]
+    }
+  ],
+  "Wings": [
+    {
+      "rarity": 0,
+      "elements": [
+        {
+          "file": "none.svg"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "wings0.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "wings1.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "wings2.svg"
         }
       ]
     }

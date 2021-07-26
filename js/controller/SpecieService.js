@@ -44,6 +44,7 @@ export class SpecieService {
                     speciesKey,
                     speciesKey,
                     specie.logo,
+                    0,
                     "");
                 speciesLogos.innerHTML += logo;
             }
@@ -82,6 +83,7 @@ export class SpecieService {
                     key,
                     specieKey,
                     subspecie.logo,
+                    subspecie.rarity,
                     disabled
                 );
                 subSpiecesLogos.innerHTML += logo;
@@ -126,6 +128,7 @@ export class SpecieService {
                     variantKey,
                     specieKey,
                     variant.logo,
+                    variant.rarity,
                     disabled);
                 variantLogos.innerHTML += logo;
             }

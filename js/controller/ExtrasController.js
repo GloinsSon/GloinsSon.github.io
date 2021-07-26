@@ -16,7 +16,8 @@ export class ExtrasController {
      */
     populateExtras() {
         let specieKey = document.querySelector("input[name='species']:checked").value;
-        for (let i = 0; i < 3; i++) {
+        const countExtras = document.querySelectorAll("[id^='extraL']").length;
+        for (let i = 0; i < countExtras; i++) {
             document.getElementById("extra" + i).style.display = "none";
             document.getElementById("extraL" + i).style.display = "none";
             document.getElementById("extraD" + i).style.display = "none";
@@ -42,7 +43,7 @@ export class ExtrasController {
                 let selection = "";
                 document.getElementById("extraL" + index).innerText = extraKey;
 
-                const dice = document.getElementById("extraD"+index).getAttribute("data-rarity");
+                const dice = document.getElementById("extraD" + index).getAttribute("data-rarity");
                 for (let i = 0; i < extra.length; i++) {
 
                     let disabled = "disabled";
@@ -52,6 +53,7 @@ export class ExtrasController {
                         specieKey,
                         i,
                         extra[i].elements[0].file,
+                        extra[i].rarity,
                         disabled
                     );
 
@@ -102,15 +104,17 @@ export class ExtrasController {
             let groupId = extraLabel.innerText;
             let svgGroup = document.getElementById(groupId);
 
-            svgGroup.innerHTML = '';
-            let elements = extras.elements;
-            for (let i=0; i<elements.length; i++) {
-                let svgElement = svgMisc.cloneNode(true);
-                svgElement.setAttribute("width", viewBox[2]);
-                svgElement.setAttribute("height", viewBox[3]);
-                let child = svgElement.getElementsByTagName("g")[0];
-                child.setAttribute("transform", elements[i].transform)
-                svgGroup.appendChild(svgElement);
+            if (svgGroup !== null) {
+                svgGroup.innerHTML = '';
+                let elements = extras.elements;
+                for (let i = 0; i < elements.length; i++) {
+                    let svgElement = svgMisc.cloneNode(true);
+                    svgElement.setAttribute("width", viewBox[2]);
+                    svgElement.setAttribute("height", viewBox[3]);
+                    let child = svgElement.getElementsByTagName("g")[0];
+                    child.setAttribute("transform", elements[i].transform)
+                    svgGroup.appendChild(svgElement);
+                }
             }
 
         }

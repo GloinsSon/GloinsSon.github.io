@@ -43,7 +43,13 @@ export class ColorService {
 
             let disabled = "disabled";
             if (dice >= colorsList[i].rarity) disabled = "";
-            selection += viewController.buildHeart(type, i, hexCode, disabled);
+            selection += viewController.buildHeart(
+                type,
+                i,
+                hexCode,
+                colorsList[i].rarity,
+                disabled
+            );
         }
         document.getElementById(type).innerHTML = selection;
         document.querySelector("input[name='" + type + "']").checked = true;

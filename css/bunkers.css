@@ -4,7 +4,7 @@
     --navBg: #08415C;
     --navText: #ff7000;
     --fieldsetBg: rgba(180, 180, 180, 0.7);
-    --maxWidth: 1700;
+    --maxWidth: 1800px;
 }
 
 body {
@@ -19,6 +19,12 @@ h2 {
     font-size: 1.4em;
     flex-flow: nowrap;
     display: block;
+}
+
+h3 {
+    text-size: 1.3em;
+    flex-flow: nowrap;
+    font-family: 'Marck Script', cursive;
 }
 
 a, a:visited {
@@ -53,7 +59,7 @@ main {
     flex-flow: row wrap;
     flex: 0 1 var(--maxWidth);
     justify-content: flex-start;
-    width: var(--maxWidth);
+    max-width: var(--maxWidth);
     min-height: 1000px;
     margin: 0 auto;
     padding: 5px;
@@ -64,21 +70,29 @@ main {
     padding-bottom: 20px;
 }
 
-#settings {
+#settings, #selection {
     display: flex;
-    flex: 4 0 800px;
+    flex: 4 0 auto;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+#settings input {
+    position: absolute;
+    display: none;
+    width: 0;
+    height: 0;
+
 }
 
 #model {
-    display: flex;
     flex: 2 0 600px;
     flex-wrap: wrap;
     height: 1000px;
     margin-left: 20px;
-    flex-direction: row;
+    flex-direction: column;
 }
+
 svg {
     overflow: visible;
 }
@@ -114,14 +128,6 @@ fieldset > label {
     line-height: 1.0em;
 }
 
-#selection input {
-    position: absolute;
-    display: none;
-    width: 0;
-    height: 0;
-
-}
-
 figure {
     margin-inline-start: 0;
     margin-inline-end: 0;
@@ -154,7 +160,7 @@ input[type="radio"] + figure {
 }
 
 input[type="radio"] + figure > img {
-    margin: 5px 15px;
+    margin: 10px 15px;
     width: 40px;
 }
 
@@ -176,7 +182,6 @@ input[type="radio"]:disabled + figure > figcaption {
 input[type="radio"] + img {
     border: #fefefe 2px solid;
     border-radius: 20px;
-    margin: 5px 15px;
     padding: 5px;
     width: 40px;
 }

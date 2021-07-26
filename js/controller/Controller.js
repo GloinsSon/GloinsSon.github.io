@@ -54,6 +54,8 @@ export default class Controller {
             let extrasController = new ExtrasController();
             extrasController.changeExtra(index);
         }
+
+        calcRarity();
     }
 
     /**
@@ -156,4 +158,19 @@ export default class Controller {
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min) + min);
     }
+}
+
+function calcRarity() {
+    const rarityElements = document.querySelectorAll("[data-count='true']");
+
+    let total = 0;
+    for (let element of rarityElements) {
+        let selected = element.querySelector(":checked");
+        if (selected !== null) {
+
+            let rarity = parseInt(selected.getAttribute("data-rarity"));
+            total += rarity;
+        }
+    }
+    document.getElementById("rarityTotal").innerText = "Rarity: " + total;
 }
