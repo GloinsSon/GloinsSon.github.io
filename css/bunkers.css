@@ -4,7 +4,7 @@
     --navBg: #08415C;
     --navText: #ff7000;
     --fieldsetBg: rgba(180, 180, 180, 0.7);
-    --maxWidth: 1800px;
+    --maxWidth: 1700px;
 }
 
 body {
@@ -22,7 +22,8 @@ h2 {
 }
 
 h3 {
-    text-size: 1.3em;
+    text-align: center;
+    font-size: 1.3em;
     flex-flow: nowrap;
     font-family: 'Marck Script', cursive;
 }
@@ -70,9 +71,13 @@ main {
     padding-bottom: 20px;
 }
 
+#rarity {
+    margin-left: 40px;
+}
+
 #settings, #selection {
     display: flex;
-    flex: 4 0 auto;
+    flex: 4 0 750px;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -88,7 +93,7 @@ main {
 #model {
     flex: 2 0 600px;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 1500px;
     margin-left: 20px;
     flex-direction: column;
 }
@@ -129,8 +134,7 @@ fieldset > label {
 }
 
 figure {
-    margin-inline-start: 0;
-    margin-inline-end: 0;
+    margin: 15px 0;
 }
 
 figcaption {

@@ -189,7 +189,7 @@
       "rarity": 0,
       "elements": [
         {
-          "file": "none.svg"
+          "file": "../none.svg"
         }
       ]
     }, {
@@ -259,7 +259,7 @@
       "rarity": 0,
       "elements": [
         {
-          "file": "none.svg"
+          "file": "../none.svg"
         }
       ]
     }, {

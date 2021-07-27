@@ -1,15 +1,58 @@
 {
   "species": "fins",
-  "Fins": [
+  "Stuffed": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "stuffed0.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "stuffed1.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "stuffed2.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "stuffed3.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "stuffed4.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }
+  ],
+  "Flippers": [
     {
       "rarity": 0,
       "elements": [
         {
-          "file": "fins0.svg",
+          "file": "flippers0.svg",
           "transform": "translate(305,85) scale(1.5)"
         },
         {
-          "file": "fins0.svg",
+          "file": "flippers0.svg",
           "transform": "translate(180,85) scale(-1.5,1.5)"
         }
       ]
@@ -18,11 +61,11 @@
       "rarity": 0,
       "elements": [
         {
-          "file": "fins1.svg",
+          "file": "flippers1.svg",
           "transform": "translate(305,85) scale(1.5)"
         },
         {
-          "file": "fins1.svg",
+          "file": "flippers1.svg",
           "transform": "translate(180,85) scale(-1.5,1.5)"
         }
       ]
@@ -31,11 +74,11 @@
       "rarity": 0,
       "elements": [
         {
-          "file": "fins2.svg",
+          "file": "flippers2.svg",
           "transform": "translate(255,160) scale(1.6)"
         },
         {
-          "file": "fins2.svg",
+          "file": "flippers2.svg",
           "transform": "translate(233,160) scale(-1.6,1.6)"
         }
       ]
@@ -44,11 +87,11 @@
       "rarity": 0,
       "elements": [
         {
-          "file": "fins3.svg",
+          "file": "flippers3.svg",
           "transform": "translate(305,80) scale(1.5)"
         },
         {
-          "file": "fins3.svg",
+          "file": "flippers3.svg",
           "transform": "translate(180,80) scale(-1.5,1.5)"
         }
       ]
@@ -109,5 +152,141 @@
         }
       ]
     }
-  ]
+  ],
+  "Fangs": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "fangs0.svg",
+          "transform": "translate(229,132) scale(0.8)"
+        }
+      ]
+    }, {
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "fangs1.svg",
+          "transform": "translate(229,132) scale(0.8)"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "fangs2.svg",
+          "transform": "translate(229,132) scale(0.8)"
+        }
+      ]
+    }
+  ],  "Fangs": [
+  {
+    "rarity": 2,
+    "elements": [
+      {
+        "file": "fangs0.svg",
+        "transform": "translate(229,132) scale(0.8)"
+      }
+    ]
+  }, {
+    "rarity": 4,
+    "elements": [
+      {
+        "file": "fangs1.svg",
+        "transform": "translate(229,132) scale(0.8)"
+      }
+    ]
+  }, {
+    "rarity": 8,
+    "elements": [
+      {
+        "file": "fangs2.svg",
+        "transform": "translate(229,132) scale(0.8)"
+      }
+    ]
+  }
+],  "Bioluminescence": [
+  {
+    "rarity": 8,
+    "elements": [
+      {
+        "file": "glow0.svg"
+      }
+    ]
+  }, {
+    "rarity": 16,
+    "elements": [
+      {
+        "file": "glow1.svg"
+      }
+    ]
+  }, {
+    "rarity": 16,
+    "elements": [
+      {
+        "file": "glow2.svg"
+      }
+    ]
+  }
+],  "Horns": [
+  {
+    "rarity": 8,
+    "elements": [
+      {
+        "file": "horns0.svg"
+      }
+    ]
+  }, {
+    "rarity": 8,
+    "elements": [
+      {
+        "file": "horns1.svg"
+      }
+    ]
+  }, {
+    "rarity": 16,
+    "elements": [
+      {
+        "file": "horns2.svg"
+      }
+    ]
+  }
+],"Legs": [
+  {
+    "rarity": 2,
+    "elements": [
+      {
+        "file": "legs0.svg"
+      }
+    ]
+  },{
+    "rarity": 4,
+    "elements": [
+      {
+        "file": "legs1.svg"
+      }
+    ]
+  }, {
+    "rarity": 8,
+    "elements": [
+      {
+        "file": "legs2.svg"
+      }
+    ]
+  }, {
+    "rarity": 16,
+    "elements": [
+      {
+        "file": "legs3.svg"
+      }
+    ]
+  }, {
+    "rarity": 16,
+    "elements": [
+      {
+        "file": "legs4.svg"
+      }
+    ]
+  }
+]
 }

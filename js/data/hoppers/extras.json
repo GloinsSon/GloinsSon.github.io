@@ -1,5 +1,48 @@
 {
   "species": "hoppers",
+  "Stuffed": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "stuffed0.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "stuffed1.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "stuffed2.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "stuffed3.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "stuffed4.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
+    }
+  ],
   "Tattoos": [
     {
       "rarity": 0,

@@ -9,55 +9,55 @@
           "skins": [
             {
               "color": "#ffe1e9",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#eeeefa",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#d7aaa6",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#5c8a6d",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#64b8a9",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#bdaf90",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#6e5827",
-              "rarity": 0
+              "rarity": 2
             }
           ],
           "eyes": [
             {
               "color": "#a761dc",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#74768f",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#64b8a9",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#bdaf90",
-              "rarity": 0
+              "rarity": 2
             }
           ],
           "ears": [
             {
               "color": "#d7a8d1",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#7a658a",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#326865",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#e0a521",
-              "rarity": 0
+              "rarity": 2
             }
           ],
           "logo": "pondCommonLogo.png",
@@ -67,55 +67,55 @@
           "skins": [
             {
               "color": ["#ffe5b4", "none", "none", "#fef3de"],
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": ["#e4b785", "none", "none", "#a0703c"],
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": ["#fe9f4a", "none", "none", "#ffdfc3"],
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": ["#ff9fa1", "none", "none", "#ff4a4d"],
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": ["#74768f", "none", "none", "#c9c9c9"],
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": ["#829bcd", "none", "none", "#3b4f77"],
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": ["#8ec8f7", "none", "none", "#eedfca"],
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "eyes": [
             {
               "color": "#050505",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#e2524d",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#b0d1ff",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#f1f4f8",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "ears": [
             {
               "color": "#ffdfc3",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#2d2d2d",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#a4afc6",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#564330",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "logo": "pondKoiLogo.png",
@@ -125,55 +125,55 @@
           "skins": [
             {
               "color": "#e2524d",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#e89e7c",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#f2b828",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#86bd8e",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#c3e9f1",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#7a658a",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ffbfd2",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "eyes": [
             {
               "color": "#c34b80",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#3dd0d9",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#aad93d",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#a573df",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "ears": [
             {
               "color": "#ffc3a8",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#b9f4c2",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#b9a2ca",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#dcf2fe",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "logo": "pondColorfulLogo.png",
@@ -190,55 +190,55 @@
           "skins": [
             {
               "color": "#8dc0d1",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#afe5ea",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#8befe2",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#46bcee",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#95b6ce",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#2b6d9f",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#1c88b0",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "eyes": [
             {
               "color": "#8edaa1",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#5fd472",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#95c9ae",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#309350",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "ears": [
             {
               "color": "#c4faff",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#6bd3ff",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#bad7ec",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#3c89c4",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "logo": "freshCommonLogo.png",
@@ -248,55 +248,55 @@
           "skins": [
             {
               "color": "#8dd1cb",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#afeadd",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#8befc3",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#46eee8",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#95ccce",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#2b929f",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#1cb09c",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "eyes": [
             {
               "color": "#8b78b3",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#8e79ce",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#6542c2",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#39237c",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "ears": [
             {
               "color": "#78b3ae",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#79cea8",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#42c2be",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#23727b",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "logo": "freshMiniLogo.png",
@@ -306,55 +306,55 @@
           "skins": [
             {
               "color": "#a4b4e9",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#9bd0ed",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ade1bf",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#f0e69e",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#f6c67c",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#f3aa9b",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#efb7f4",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "eyes": [
             {
               "color": "#ffffff",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#cacaca",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#7b7b7b",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#191919",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "ears": [
             {
               "color": "#b4e4ff",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#fff7bd",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ffbeb0",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#fbcdff",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "logo": "freshPastelLogo.png",
@@ -371,55 +371,55 @@
           "skins": [
             {
               "color": "#8d90d1",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#afafea",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#8b99ef",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#464eee",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#9596ce",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#312b9f",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#1c37b0",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "eyes": [
             {
               "color": "#40b4ff",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#8fd3ff",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#d0edff",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#006eb4",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "ears": [
             {
               "color": "#686bb4",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#586ad7",
-              "rarity": 0
+              "rarity": 2
             }, {
               "color": "#6667b5",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#1b157d",
-              "rarity": 0
+              "rarity": 4
             }
           ],
           "logo": "saltCommonLogo.png",
@@ -429,55 +429,55 @@
           "skins": [
             {
               "color": "#ffe9cd",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ffd56e",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ffb24d",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ffa967",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ff796b",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ffcbce",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ff96c3",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "eyes": [
             {
               "color": "#ffcb41",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ff8c34",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ff5644",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ff5ea3",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "ears": [
             {
               "color": "#ffe8b0",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ffc497",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#ffaba2",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ffbbd8",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "logo": "saltTropicalLogo.png",
@@ -487,55 +487,55 @@
           "skins": [
             {
               "color": "#eef2fa",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#a6afc0",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#5d6a80",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#364258",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#1c2331",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ffffff",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#6b8bc2",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "eyes": [
             {
               "color": "#4779ff",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#47ffcc",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#9eff47",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ff4751",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "ears": [
             {
               "color": "#d0d6e0",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#616c81",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#313844",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ffffff",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "logo": "saltGiantLogo.png",
@@ -552,55 +552,55 @@
           "skins": [
             {
               "color": "#165a64",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#164664",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#002d82",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#0a0b51",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#25163f",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#625c6d",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#e4e4e5",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "eyes": [
             {
               "color": "#a492d1",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#c6b3f4",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#e7ddfe",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ac8bff",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "ears": [
             {
               "color": "#278997",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#2673a3",
-              "rarity": 0
+              "rarity": 4
             }, {
               "color": "#0047ce",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#2e1160",
-              "rarity": 0
+              "rarity": 8
             }
           ],
           "logo": "oceanCommonLogo.png",
@@ -610,55 +610,55 @@
           "skins": [
             {
               "color": "#c1b2d6",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#a09aa8",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#8798b2",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#8db4db",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#aeaeae",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#eef0f2",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#7a7a7a",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "eyes": [
             {
               "color": "#8fbb4d",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#bdd963",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#83905b",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#43501a",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "ears": [
             {
               "color": "#7a7382",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#7697b8",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#b9c0c7",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#4f4f4f",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "logo": "oceanDolphinLogo.png",
@@ -668,55 +668,55 @@
           "skins": [
             {
               "color": "#9d87bc",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#6e647c",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#536683",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#bbdaf9",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#5b5b5b",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#bfbfbf",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": ["#1f2125", "#fffffe"],
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "eyes": [
             {
               "color": "#ba2a00",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#6b00ba",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#003890",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#008d78",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "ears": [
             {
               "color": "#4d4558",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#a3bcd5",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#1f2125",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#fffffe",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "logo": "oceanWhaleLogo.png",
@@ -733,55 +733,55 @@
           "skins": [
             {
               "color": "#ddeb88",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#9cab3a",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#fff9a3",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#ffe9cd",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#ffc477",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#ffcd64",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#b2ffbc",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "eyes": [
             {
               "color": "#8baad7",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#4558b1",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#66579f",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#956ebd",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "ears": [
             {
               "color": "#7a8822",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#cec65d",
-              "rarity": 0
+              "rarity": 8
             }, {
               "color": "#d1984d",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#66c172",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "logo": "coralCommonLogo.png",
@@ -791,55 +791,55 @@
           "skins": [
             {
               "color": "#ff5ab5",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#de5aff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#865aff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#5ad4ff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#5affe6",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#5aff66",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#fff928",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "eyes": [
             {
               "color": "#ffffff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#e6ffc7",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#c7ccff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#ffcbc7",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "ears": [
             {
               "color": "#f1bbff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#ace9ff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#baffbe",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#ffd985",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "logo": "coralNeonLogo.png",
@@ -849,55 +849,55 @@
           "skins": [
             {
               "color": ["#72c6d4", "none", "#f0c6ff"],
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": ["#afe5ea", "#ffbfd2"],
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": ["#e7bfff", "none", "#625178"],
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": ["#8bcda6", "#fffec1"],
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": ["#e8d871", "#a9a9a9"],
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": ["#9ea8ff", "none", "#ffe19e"],
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": ["#7d1a1a", "none", "none", "#fe2121"],
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "eyes": [
             {
               "color": "#000000",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#373737",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#aaaaaa",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#edeaea",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "ears": [
             {
               "color": "#a8f3ff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#fee6ed",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#c6ccff",
-              "rarity": 0
+              "rarity": 16
             }, {
               "color": "#c80000",
-              "rarity": 0
+              "rarity": 16
             }
           ],
           "logo": "coralExoticLogo.png",

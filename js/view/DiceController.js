@@ -24,7 +24,7 @@ export default class DiceController {
         const timeouts = [];
         let durations = [];
         for (let i = 0; i < dice.length; i++) {
-            durations[i] = 1500 + i * 250;
+            durations[i] = 1500 + i * 150;
         }
         self.shuffleArray(durations);
 
@@ -32,7 +32,7 @@ export default class DiceController {
         setTimeout(() => {
             if (self.reRoll) self.roller(false);
             else triggerUpdate();
-        }, 1750 + dice.length * 250);
+        }, 1750 + dice.length * 150);
 
         const diceList = document.getElementsByClassName("die");
         let count = 0;

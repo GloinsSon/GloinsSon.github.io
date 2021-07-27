@@ -12,10 +12,6 @@ import {getSpeciesList, getSubspeciesList, loadingProgress} from "../data/DataHa
 export default class Controller {
     constructor() {
         loadingProgress("init");
-        this.Reroll = false;
-        this.LastFace = 20;
-        this.SIDES = 20;
-        this.INITIALSIDE = 1;
     }
 
     /**
@@ -25,6 +21,11 @@ export default class Controller {
         let speciesService = new SpecieService();
         speciesService.populateSpecies();
         document.getElementById("selection").className = "form-horizontal";
+
+        setTimeout(() => {
+            calcRarity();
+        }, 2000);
+
     }
 
     /**

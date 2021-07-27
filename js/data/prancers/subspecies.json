@@ -3,6 +3,7 @@
     "steeds": {
       "name": "Steeds",
       "logo": "steedsCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
           "skins": [
@@ -165,6 +166,7 @@
     "domestic": {
       "name": "Domestic",
       "logo": "domesticCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
           "skins": [
@@ -296,6 +298,7 @@
     "antlers": {
       "name": "Antlers",
       "logo": "antlersCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
           "skins": [
@@ -458,6 +461,7 @@
     "safari": {
       "name": "Safari",
       "logo": "safariCommonLogo.png",
+      "rarity": 0,
       "variants": {
         "Common": {
           "skins": [
@@ -589,6 +593,7 @@
     "omega": {
       "name": "Omega",
       "logo": "omegaLogo.png",
+      "rarity": 0,
       "variants": {
         "Unis&Pegusi": {
           "skins": [
