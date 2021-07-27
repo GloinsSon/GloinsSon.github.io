@@ -41,11 +41,19 @@
           "transform": "translate(400,800) scale(1.5)"
         }
       ]
+    },{
+      "rarity": 32,
+      "elements": [
+        {
+          "file": "stuffed5.svg",
+          "transform": "translate(400,800) scale(1.5)"
+        }
+      ]
     }
   ],
   "Wings": [
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "wings0.svg",
@@ -58,7 +66,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 4,
       "elements": [
         {
           "file": "wings1.svg",
@@ -71,7 +79,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 8,
       "elements": [
         {
           "file": "wings2.svg",
@@ -84,7 +92,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 16,
       "elements": [
         {
           "file": "wings3.svg",
@@ -97,7 +105,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 32,
       "elements": [
         {
           "file": "wings4.svg",
@@ -112,7 +120,7 @@
   ],
   "Anklet": [
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "anklet0.svg",
@@ -121,7 +129,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "anklet1.svg",
@@ -130,7 +138,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 4,
       "elements": [
         {
           "file": "anklet2.svg",
@@ -139,7 +147,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 8,
       "elements": [
         {
           "file": "anklet3.svg",
@@ -148,11 +156,145 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 16,
       "elements": [
         {
           "file": "anklet4.svg",
           "transform": "translate(290,950) scale(1.1)"
+        }
+      ]
+    }
+  ],
+  "Winglets": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "winglets0.svg"
+        }
+      ]
+    },{
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "winglets1.svg"
+        }
+      ]
+    },{
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "winglets2.svg"
+        }
+      ]
+    },{
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "winglets3.svg"
+        }
+      ]
+    },{
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "winglets4.svg"
+        }
+      ]
+    }
+  ],
+  "Third Eyes": [
+    {
+      "rarity": 0,
+      "elements": [
+        {
+          "file": "../none.svg"
+        }
+      ]
+    },
+    {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "thirdeye0.svg"
+        }
+      ]
+    },{
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "thirdeye1.svg"
+        }
+      ]
+    },{
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "thirdeye2.svg"
+        }
+      ]
+    }
+    ],
+  "Halos": [
+    {
+      "rarity": 0,
+      "elements": [
+        {
+          "file": "../none.svg"
+        }
+      ]
+    },
+    {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "halo0.svg"
+        }
+      ]
+    },{
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "halo1.svg"
+        }
+      ]
+    },{
+      "rarity": 32,
+      "elements": [
+        {
+          "file": "halo2.svg"
+        }
+      ]
+    }
+  ],
+  "Antennas": [
+    {
+      "rarity": 0,
+      "elements": [
+        {
+          "file": "../none.svg"
+        }
+      ]
+    },
+    {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "antennas0.svg"
+        }
+      ]
+    },{
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "antennas1.svg"
+        }
+      ]
+    },{
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "antennas2.svg"
         }
       ]
     }

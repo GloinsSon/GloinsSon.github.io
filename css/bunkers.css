@@ -4,7 +4,7 @@
     --navBg: #08415C;
     --navText: #ff7000;
     --fieldsetBg: rgba(180, 180, 180, 0.7);
-    --maxWidth: 1700px;
+    --maxWidth: 1800px;
 }
 
 body {
@@ -15,6 +15,75 @@ body {
     padding: 0;
 }
 
+/* === parts of the page === */
+nav {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: var(--navBg);
+    color: var(--navText);
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 1 var(--maxWidth);
+    justify-content: flex-start;
+    min-width: 600px;
+    max-width: var(--maxWidth);
+}
+
+#intro {
+    display: flex;
+    flex: 0 0 100%;
+}
+
+#selection {
+    display: flex;
+    flex: 1 8 1200px;
+    flex-flow: row wrap;
+    min-width: 600px;
+    max-width: var(--maxWidth);
+    padding: 0;
+}
+
+#settings0 {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 4 500px;
+    min-width: 500px;
+    max-width: 800px;
+}
+
+#settings1 {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 4 580px;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0 20px;
+}
+
+#model {
+    height: 900px;
+    display: flex;
+    flex: 1 1 600px;
+    flex-direction: column;
+    min-width: 500px;
+    max-width: 800px;
+    height: 1200px;
+}
+
+#credits {
+    height: 100px;
+    display: block;
+    width: 100%;
+}
+
+/* === basic tag styles === */
 h2 {
     font-size: 1.4em;
     flex-flow: nowrap;
@@ -34,55 +103,12 @@ a, a:visited {
     font-weight: 600;
 }
 
-header {
-    position: relative;
-    width: 100%;
-    height: 0;
-    background-color: indigo;
+svg {
+    overflow: visible;
 }
 
-nav {
-    position: relative;
-    width: 100%;
-    height: 30px;
-    background-color: var(--navBg);
-    color: var(--navText);
-    text-align: center;
-}
-
-nav a {
-    color: var(--navText);
-    text-decoration: none;
-}
-
-main {
-    display: flex;
-    flex-flow: row wrap;
-    flex: 0 1 var(--maxWidth);
-    justify-content: flex-start;
-    max-width: var(--maxWidth);
-    min-height: 1000px;
-    margin: 0 auto;
-    padding: 5px;
-}
-
-#intro {
-    display: flex;
-    padding-bottom: 20px;
-}
-
-#rarity {
-    margin-left: 40px;
-}
-
-#settings, #selection {
-    display: flex;
-    flex: 4 0 750px;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-#settings input {
+/* === form styles === */
+#selection input {
     position: absolute;
     display: none;
     width: 0;
@@ -90,60 +116,39 @@ main {
 
 }
 
-#model {
-    flex: 2 0 600px;
-    flex-wrap: wrap;
-    height: 1500px;
-    margin-left: 20px;
-    flex-direction: column;
-}
-
-svg {
-    overflow: visible;
-}
-
-footer {
-    position: relative;
-    width: 100%;
-    height: 30px;
-    margin-top: 20px;
-    background-color: var(--navBg);
-    color: var(--navText);
-}
-
-fieldset {
-    padding-left: 100px;
-    background-color: var(--fieldsetBg);
-}
-
-legend, label {
-    font-family: 'Marck Script', cursive;
-    margin-bottom: 0;
-}
-
-legend {
-    font-size: 1.4em;
-    line-height: 1.2em;
-    margin-left: -75px;
-}
-
-fieldset > label {
-    display: block;
-    clear: both;
-    line-height: 1.0em;
-}
-
 figure {
-    margin: 15px 0;
+    padding: 0;
+    margin: 10px 0;
 }
 
 figcaption {
     text-align: center;
 }
 
+fieldset {
+    font-family: 'Marck Script', cursive;
+    padding: 0 0 0 100px;
+    background-color: var(--fieldsetBg);
+    margin: 0;
+}
+
+fieldset > label {
+    display: block;
+    clear: both;
+    line-height: 1.0em;
+    margin: 5px 0 5px 0;
+    padding: 0;
+}
+
+fieldset > legend {
+    font-size: 1.4em;
+    line-height: 1.2em;
+    margin-left: -75px;
+    padding: 0;
+}
+
 input[type="radio"] + svg {
     padding: 2px;
-    margin: 0;
     stroke: #eeeeee;
     stroke-width: 0.5;
 }
@@ -151,7 +156,6 @@ input[type="radio"] + svg {
 input[type="radio"]:checked + svg {
     stroke: #333333;
     stroke-width: 0.75;
-    padding: 0;
 }
 
 input[type="radio"]:disabled + svg {
@@ -173,8 +177,7 @@ input[type="radio"]:checked + figure > img {
     -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
     -o-box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
-    border-radius: 80px;
-    padding: 0;
+    border-radius: 80px;;
     width: 60px;
 }
 
@@ -203,14 +206,20 @@ input[type="radio"]:disabled + img {
     display: none;
 }
 
-.fullWidth {
-    width: 100%;
-}
-
+/* === misc style === */
 .diceTarget {
     position: absolute;
     margin-left: -90px;
     margin-top: -20px;
     height: 75px;
     width: 75px;
+}
+
+#specieSet {
+    padding-left: 10px;
+}
+
+#specieSet legend,
+#specieSet > label {
+    margin-left: 10px !important;
 }

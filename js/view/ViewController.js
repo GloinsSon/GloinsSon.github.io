@@ -57,8 +57,8 @@ export class ViewController {
             "<label>" +
             "  <input type='radio' name='{type}' value='{value}' data-rarity='{rarity}' {disabled} />" +
             "  <figure>" +
-            "    <img src='./img/{folder}/{image}' title='{value}' alt='{value}' />" +
             "    <figcaption>{value}</figcaption>" +
+            "    <img src='./img/{folder}/{image}' title='{value}' alt='{value}' />" +
             " </figure>" +
             "</label>";
 

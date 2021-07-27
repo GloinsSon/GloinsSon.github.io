@@ -42,14 +42,17 @@
           <img src="./img/rarity.jpg" alt="rarity table"/>
         </div>
       </div>
-      <div id="settings">
+
         <form id="selection">
+          <div id="settings0">
             <fieldset id="specieSet">
-              <legend>Spieces and Variants</legend>
+              <legend>Spieces</legend>
               <label for="species">Species</label>
               <div id="species">
               </div>
-
+            </fieldset>
+            <fieldset id="variantSet">
+              <legend>Subspieces and Variants</legend>
               <label for="subspecies">Sub-Species / Variant</label>
               <div id="diceSubspecies" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
                 <figure class="face face-1"></figure>
@@ -160,7 +163,8 @@
               <div id="ears" data-count="true">
               </div>
             </fieldset>
-
+          </div>
+          <div id="settings1">
             <fieldset>
               <legend>Miscellaneous</legend>
               <label for="extra0" id="extraL0">Extra0</label>
@@ -339,12 +343,13 @@
               <div id="extra6" data-count="true"></div>
 
             </fieldset>
+          </div>
         </form>
-      </div>
+
       <div id="model" class="model">
         <h3 id="rarityTotal">Rarity</h3>
         <svg xmlns="http://www.w3.org/2000/svg" id="modelSVG"
-             width="800" height="1600" viewBox="0 0 600 1200">
+             width="600" height="1200" viewBox="0 0 600 1200">
           <defs id="svgDefs">
             <style id="svgStyle">
             </style>

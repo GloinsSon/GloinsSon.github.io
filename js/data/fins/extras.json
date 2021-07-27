@@ -45,7 +45,7 @@
   ],
   "Flippers": [
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "flippers0.svg",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "flippers1.svg",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 4,
       "elements": [
         {
           "file": "flippers2.svg",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 8,
       "elements": [
         {
           "file": "flippers3.svg",
@@ -95,11 +95,19 @@
           "transform": "translate(180,80) scale(-1.5,1.5)"
         }
       ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "flippers4.svg",
+          "transform": "translate(255,160) scale(0)"
+        }
+      ]
     }
   ],
   "Bracelets": [
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "bracelet0.svg",
@@ -108,7 +116,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "bracelet1.svg",
@@ -117,7 +125,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 4,
       "elements": [
         {
           "file": "bracelet2.svg",
@@ -126,7 +134,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 8,
       "elements": [
         {
           "file": "bracelet3.svg",
@@ -135,7 +143,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 16,
       "elements": [
         {
           "file": "bracelet4.svg",
@@ -144,7 +152,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 16,
       "elements": [
         {
           "file": "bracelet5.svg",
@@ -179,114 +187,107 @@
         }
       ]
     }
-  ],  "Fangs": [
-  {
-    "rarity": 2,
-    "elements": [
-      {
-        "file": "fangs0.svg",
-        "transform": "translate(229,132) scale(0.8)"
-      }
-    ]
-  }, {
-    "rarity": 4,
-    "elements": [
-      {
-        "file": "fangs1.svg",
-        "transform": "translate(229,132) scale(0.8)"
-      }
-    ]
-  }, {
-    "rarity": 8,
-    "elements": [
-      {
-        "file": "fangs2.svg",
-        "transform": "translate(229,132) scale(0.8)"
-      }
-    ]
-  }
-],  "Bioluminescence": [
-  {
-    "rarity": 8,
-    "elements": [
-      {
-        "file": "glow0.svg"
-      }
-    ]
-  }, {
-    "rarity": 16,
-    "elements": [
-      {
-        "file": "glow1.svg"
-      }
-    ]
-  }, {
-    "rarity": 16,
-    "elements": [
-      {
-        "file": "glow2.svg"
-      }
-    ]
-  }
-],  "Horns": [
-  {
-    "rarity": 8,
-    "elements": [
-      {
-        "file": "horns0.svg"
-      }
-    ]
-  }, {
-    "rarity": 8,
-    "elements": [
-      {
-        "file": "horns1.svg"
-      }
-    ]
-  }, {
-    "rarity": 16,
-    "elements": [
-      {
-        "file": "horns2.svg"
-      }
-    ]
-  }
-],"Legs": [
-  {
-    "rarity": 2,
-    "elements": [
-      {
-        "file": "legs0.svg"
-      }
-    ]
-  },{
-    "rarity": 4,
-    "elements": [
-      {
-        "file": "legs1.svg"
-      }
-    ]
-  }, {
-    "rarity": 8,
-    "elements": [
-      {
-        "file": "legs2.svg"
-      }
-    ]
-  }, {
-    "rarity": 16,
-    "elements": [
-      {
-        "file": "legs3.svg"
-      }
-    ]
-  }, {
-    "rarity": 16,
-    "elements": [
-      {
-        "file": "legs4.svg"
-      }
-    ]
-  }
-]
+  ],
+  "Bioluminescence": [
+    {
+      "rarity": 0,
+      "elements": [
+        {
+          "file": "../none.svg"
+        }
+      ]
+    },
+    {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "glow0.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "glow1.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "glow2.svg"
+        }
+      ]
+    }
+  ],
+  "Horns": [
+    {
+      "rarity": 0,
+      "elements": [
+        {
+          "file": "../none.svg"
+        }
+      ]
+    },
+    {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "horns0.svg"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "horns1.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "horns2.svg"
+        }
+      ]
+    }
+  ],
+  "Legs": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "legs0.svg"
+        }
+      ]
+    }, {
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "legs1.svg"
+        }
+      ]
+    }, {
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "legs2.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "legs3.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "legs4.svg"
+        }
+      ]
+    }
+  ]
 }
