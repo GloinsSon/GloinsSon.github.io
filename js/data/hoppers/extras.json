@@ -45,7 +45,7 @@
   ],
   "Tattoos": [
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "tattoo0.svg",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 4,
       "elements": [
         {
           "file": "tattoo1.svg",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 8,
       "elements": [
         {
           "file": "tattoo2.svg",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 2,
       "elements": [
         {
           "file": "tattoo3.svg",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "rarity": 0,
+      "rarity": 8,
       "elements": [
         {
           "file": "tattoo4.svg",
@@ -89,5 +89,216 @@
         }
       ]
     }
-  ]
+  ],
+
+  "Ears": [
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "ears0.svg"
+        }
+      ]
+    },{
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "ears1.svg"
+        }
+      ]
+    },{
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "ears2.svg"
+        }
+      ]
+    },{
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "ears3.svg"
+        }
+      ]
+    },{
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "ears4.svg"
+        }
+      ]
+    },{
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "ears5.svg"
+        }
+      ]
+    },{
+      "rarity": 8,
+      "elements": [
+        {
+          "file": "ears6.svg"
+        }
+      ]
+    },{
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "ears7.svg"
+        }
+      ]
+    }],
+  "Tails": [
+      {
+        "rarity": 2,
+        "elements": [
+          {
+            "file": "tails0.svg"
+          }
+        ]
+      },{
+        "rarity": 2,
+        "elements": [
+          {
+            "file": "tails1.svg"
+          }
+        ]
+      },{
+        "rarity": 2,
+        "elements": [
+          {
+            "file": "tails2.svg"
+          }
+        ]
+      },{
+        "rarity": 4,
+        "elements": [
+          {
+            "file": "tails3.svg"
+          }
+        ]
+      },{
+        "rarity": 4,
+        "elements": [
+          {
+            "file": "tails4.svg"
+          }
+        ]
+      },{
+        "rarity": 4,
+        "elements": [
+          {
+            "file": "tails5.svg"
+          }
+        ]
+      },{
+        "rarity": 8,
+        "elements": [
+          {
+            "file": "tails6.svg"
+          }
+        ]
+      },{
+        "rarity": 8,
+        "elements": [
+          {
+            "file": "tails7.svg"
+          }
+        ]
+      }
+    ],
+  "Third Eye": [
+  {
+    "rarity": 0,
+    "elements": [
+      {
+        "file": "../none.svg"
+      }
+    ]
+  },{
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "thirdeye0.svg"
+        }
+      ]
+    },{
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "thirdeye1.svg"
+        }
+      ]
+    },{
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "thirdeye2.svg"
+        }
+      ]
+    }
+  ],
+  "Wings": [
+  {
+    "rarity": 0,
+    "elements": [
+      {
+        "file": "../none.svg"
+      }
+    ]
+  },{
+    "rarity": 8,
+    "elements": [
+      {
+        "file": "wings0.svg"
+      }
+    ]
+  },{
+    "rarity": 16,
+    "elements": [
+      {
+        "file": "wings1.svg"
+      }
+    ]
+  },{
+    "rarity": 16,
+    "elements": [
+      {
+        "file": "wings2.svg"
+      }
+    ]
+  }
+],
+  "Antlers": [
+  {
+    "rarity": 0,
+    "elements": [
+      {
+        "file": "../none.svg"
+      }
+    ]
+  },{
+    "rarity": 4,
+    "elements": [
+      {
+        "file": "antlers0.svg"
+      }
+    ]
+  },{
+    "rarity": 8,
+    "elements": [
+      {
+        "file": "antlers1.svg"
+      }
+    ]
+  },{
+    "rarity": 16,
+    "elements": [
+      {
+        "file": "antlers2.svg"
+      }
+    ]
+  }
+]
 }

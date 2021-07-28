@@ -25,6 +25,10 @@ nav {
     text-align: center;
 }
 
+nav a {
+    color: var(--navText);
+}
+
 main {
     margin: 0 auto;
     padding: 0;
