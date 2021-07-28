@@ -146,8 +146,6 @@ export class SpecieService {
         let specieKey = document.querySelector("input[name='species']:checked").value;
         const specie = getSpecie(specieKey);
 
-
-
         (async () => {
             let exists = false;
             while (!exists) {
@@ -160,7 +158,14 @@ export class SpecieService {
                 svgHuman += specie.humanoid[i];
             }
             document.getElementById("humanoid").innerHTML = svgHuman;
-            document.body.style.backgroundColor = specie.bgcolor;
+            const root = document.documentElement;
+            root.style.setProperty("--bgColor", specie.bgcolor);
+            root.style.setProperty("--formColor", specie.formBgColor);
+            root.style.setProperty("--colorCommon", specie.diceColor[0]);
+            root.style.setProperty("--colorUncommon", specie.diceColor[1]);
+            root.style.setProperty("--colorRare", specie.diceColor[2]);
+            root.style.setProperty("--colorMythical", specie.diceColor[3]);
+
             this.populateSubSpecies(specieKey);
 
             let extrasController = new ExtrasController();

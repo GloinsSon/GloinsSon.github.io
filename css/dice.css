@@ -1,7 +1,7 @@
 :root {
     --columns: 6;
     --rows: 2;
-    --size: 75px;
+    --size: 80px;
     --bottom: calc(var(--size) * 0.43); /*86px;*/
     --sideP: calc(var(--size) / 4);
     --sideN: calc(var(--size) / -4);
@@ -12,6 +12,10 @@
     --trans3: calc(var(--size) * 0.608); /* 121.26px; */
     --trans4: calc(var(--size) * 0.375); /* 75px; */
     --trans5: calc(var(--size) * 0.271); /* 54.18px; */
+    --colorCommon: #e9b77fc0;
+    --colorUncommon: #dd9871c0;
+    --colorRare: #cd7161c0;
+    --colorMythical: #894d4ac0;
 }
 
 @keyframes roll {
@@ -57,23 +61,23 @@
 }
 
 .face-1, .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8 {
-    border-bottom: var(--bottom) solid #e9b77fc0;
+    border-bottom: var(--bottom) solid var(--colorCommon);
 }
 
 .face-9, .face-10, .face-11, .face-12 {
-    border-bottom: var(--bottom) solid #dd9871c0;
+    border-bottom: var(--bottom) solid var(--colorUncommon);
 }
 
 .face-13, .face-14 {
-    border-bottom: var(--bottom) solid #cd7161c0;
+    border-bottom: var(--bottom) solid var(--colorRare);
 }
 
 .face-15, .face-16, .face-17, .face-18, .face-19 {
-    border-bottom: var(--bottom) solid #0f0f0ff0;
+    border-bottom: var(--bottom) solid #f0f0f0;
 }
 
 .face-20 {
-    border-bottom: var(--bottom) solid #894d4ac0;
+    border-bottom: var(--bottom) solid var(--colorMythical);
 }
 
 .die[data-face="20"] {
@@ -175,14 +179,14 @@
 .die .face:before {
     content: counter(steps);
     position: absolute;
-    top: calc(var(--size) * 0.11); /*21.5px;*/
-    left: calc(var(--size) * -0.5);  /* -100px; */
-    color: #fff;
-    text-shadow: 1px 1px 3px #000;
-    font-size: calc(var(--size) * 0.215); /* 43px; */
+    top: calc(var(--size) * 0.11);
+    left: calc(var(--size) * -0.5);
+    color: #030303;
+    text-shadow: 1px 1px 3px #f0f0f0;
+    font-size: calc(var(--size) * 0.25);
     text-align: center;
-    line-height: calc(var(--size) * 0.35); /* 77.4px; */
-    width: var(--size); /* 200px; */
+    line-height: calc(var(--size) * 0.35);
+    width: var(--size);
     height: var(--bottom);
 }
 

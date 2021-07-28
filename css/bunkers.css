@@ -1,14 +1,14 @@
 :root {
-    --bgColor: 156, 132, 111;
+    --bgColor: rgba(156, 132, 111, 0.25);
     --linkColor: indigo;
     --navBg: #08415C;
     --navText: #ff7000;
-    --fieldsetBg: rgba(180, 180, 180, 0.7);
+    --formBgColor: rgba(180, 180, 180, 0.7);
     --maxWidth: 1800px;
 }
 
 body {
-    background-color: rgba(var(--bgColor), 0.4);
+    background-color: var(--bgColor);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1.2em;
     margin: 0;
@@ -72,7 +72,6 @@ main {
 }
 
 #model {
-    height: 900px;
     display: flex;
     flex: 1 1 600px;
     flex-direction: column;
@@ -132,7 +131,7 @@ figcaption {
 fieldset {
     font-family: 'Marck Script', cursive;
     padding: 0 0 0 100px;
-    background-color: var(--fieldsetBg);
+    background-color: var(--formColor);
     margin: 0;
 }
 

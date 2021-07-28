@@ -250,6 +250,8 @@ function setSpecies(jsonData) {
             key,
             value.name,
             value.bgcolor,
+            value.formBgColor,
+            value.diceColor,
             value.humanoid,
             value.logo
         );
