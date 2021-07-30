@@ -160,7 +160,7 @@ export class SpecieService {
             document.getElementById("humanoid").innerHTML = svgHuman;
             const root = document.documentElement;
             root.style.setProperty("--bgColor", specie.bgcolor);
-            root.style.setProperty("--formColor", specie.formBgColor);
+            root.style.setProperty("--formBgColor", specie.formBgColor);
             root.style.setProperty("--colorCommon", specie.diceColor[0]);
             root.style.setProperty("--colorUncommon", specie.diceColor[1]);
             root.style.setProperty("--colorRare", specie.diceColor[2]);

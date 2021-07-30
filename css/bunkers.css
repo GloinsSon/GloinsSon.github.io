@@ -8,12 +8,18 @@
 }
 
 body {
-    background-color: var(--bgColor);
+    /*background-color: var(--bgColor);*/
+    background-image: linear-gradient(
+            var(--bgColor),
+            var(--bgColor)
+    ),url("../img/background.jpg");
+    background-size: 100% auto;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1.2em;
     margin: 0;
     padding: 0;
 }
+
 
 /* === parts of the page === */
 nav {
@@ -43,6 +49,10 @@ main {
 #intro {
     display: flex;
     flex: 0 0 100%;
+}
+
+#rarity {
+    margin-left: auto;
 }
 
 #selection {
@@ -78,6 +88,11 @@ main {
     min-width: 500px;
     max-width: 800px;
     height: 1200px;
+    margin-left: auto;
+}
+
+#btnDownload {
+    margin-top: 25px;
 }
 
 #credits {
@@ -94,7 +109,7 @@ h2 {
 }
 
 h3 {
-    text-align: center;
+    text-align: left;
     font-size: 1.3em;
     flex-flow: nowrap;
     font-family: 'Marck Script', cursive;
@@ -131,8 +146,12 @@ figcaption {
 fieldset {
     font-family: 'Marck Script', cursive;
     padding: 0 0 0 100px;
-    background-color: var(--formColor);
+    background-color: var(--formBgColor);
     margin: 0;
+}
+
+fieldset > div {
+    min-height: 80px;
 }
 
 fieldset > label {

@@ -1,7 +1,7 @@
 {
   "cubs": {
     "name": "Cubs",
-    "bgcolor": "#9c846f40",
+    "bgcolor": "#9c846f80",
     "formBgColor": "#d0989640",
     "diceColor": ["#e9b77fc0","#dd9871c0","#cd7161c0","#894d4ac0"],
     "logo": "cubsLogo.png",
@@ -9,7 +9,7 @@
   },
   "fins": {
     "name": "Fins",
-    "bgcolor": "#c0dde340",
+    "bgcolor": "#c0dde380",
     "formBgColor": "#74768f40",
     "diceColor": ["#89e1aec0","#8fb2d0c0","#6950d0c0","#b244c7c0"],
     "logo": "finsLogo.png",
@@ -17,7 +17,7 @@
   },
   "flappers": {
     "name": "Flappers",
-    "bgcolor": "#d3eaeb40",
+    "bgcolor": "#d3eaeb80",
     "formBgColor": "#77c1e440",
     "diceColor": ["#68ffb0c0","#41ebffc0","#6d95ffc0","#6950d0c0"],
     "logo": "flappersLogo.png",
@@ -25,7 +25,7 @@
   },
   "floofs": {
     "name": "Floofs",
-    "bgcolor": "#fcf7ec40",
+    "bgcolor": "#fcf7ec80",
     "formBgColor": "#bcb88c40",
     "diceColor": ["#e7d292c0","#afbc8fc0","#729482c0","#567477c0"],
     "logo": "floofsLogo.png",
@@ -33,7 +33,7 @@
   },
   "hoppers": {
     "name": "Hoppers",
-    "bgcolor": "#fff2fe40",
+    "bgcolor": "#fff2fe80",
     "formBgColor": "#be9abc40",
     "diceColor": ["#e75b96c0","#a7498dc0","#704296c0","#323278c0"],
     "logo": "hoppersLogo.png",
@@ -41,7 +41,7 @@
   },
   "prancers": {
     "name": "Prancers",
-    "bgcolor": "#fffff240",
+    "bgcolor": "#fffff280",
     "formBgColor": "#bab98940",
     "diceColor": ["#fcc30ec0","#fc960ec0","#fc5e0ec0","#bc0d00c0"],
     "logo": "prancersLogo.png",
@@ -49,7 +49,7 @@
   },
   "smittens": {
     "name": "Smittens",
-    "bgcolor": "#f3e8e840",
+    "bgcolor": "#f3e8e880",
     "formBgColor": "#e097a440",
     "diceColor": ["#e89775c0","#e47b80c0","#d04e90c0","#b657c7c0"],
     "logo": "smittensLogo.png",

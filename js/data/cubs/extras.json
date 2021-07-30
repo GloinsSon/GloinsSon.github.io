@@ -112,7 +112,7 @@
       "elements": [
         {
           "file": "tag7.svg",
-          "transform": "translate(175,345) rotate(-60)"
+          "transform": "translate(152,298) scale(0.6) rotate(-20)"
         }
       ]
     }
@@ -151,35 +151,55 @@
       "rarity": 2,
       "elements": [
         {
-          "file": "ears0.svg"
+          "file": "ears0.svg",
+          "transform": "translate(170,0) scale(3)"
+        }, {
+          "file": "ears0.svg",
+          "transform": "translate(260,0) scale(3)"
         }
       ]
     }, {
       "rarity": 2,
       "elements": [
         {
-          "file": "ears1.svg"
+          "file": "ears1.svg",
+          "transform": "translate(230,0) scale(-2.5,2.5)"
+        }, {
+          "file": "ears1.svg",
+          "transform": "translate(255,0) scale(2.5)"
         }
       ]
     }, {
       "rarity": 4,
       "elements": [
         {
-          "file": "ears2.svg"
+          "file": "ears2.svg",
+          "transform": "translate(220,0) scale(-3,3)"
+        }, {
+          "file": "ears2.svg",
+          "transform": "translate(270,0) scale(3)"
         }
       ]
     }, {
       "rarity": 8,
       "elements": [
         {
-          "file": "ears3.svg"
+          "file": "ears3.svg",
+          "transform": "translate(210,0) scale(-2.75, 2.75)"
+        }, {
+          "file": "ears3.svg",
+          "transform": "translate(280,0) scale(2.75)"
         }
       ]
     }, {
       "rarity": 16,
       "elements": [
         {
-          "file": "ears4.svg"
+          "file": "ears4.svg",
+          "transform": "translate(220,0) scale(-3,3)"
+        }, {
+          "file": "ears4.svg",
+          "transform": "translate(270,0) scale(3)"
         }
       ]
     }

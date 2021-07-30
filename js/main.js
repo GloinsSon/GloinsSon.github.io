@@ -81,6 +81,6 @@ function createDownload() {
 
     source = '<?xml version="1.0" standalone="no"?>\r\n' + source;
     link.href = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(source);
-    document.getElementById("link").classList.remove("d-none");
+    document.getElementById("link").hidden = false;
 
 }

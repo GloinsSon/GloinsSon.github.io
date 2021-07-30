@@ -32,7 +32,7 @@ export default class Controller {
      * user changed a value in settings
      */
     changeSettings(element) {
-        // document.getElementById("link").classList.add("d-none"); FIXME
+        document.getElementById("link").hidden = true;
         let fieldName = element.target.name;
         if (fieldName === "species") {
             let speciesService = new SpecieService();
