@@ -54,10 +54,19 @@
       ]
     },
     {
-      "rarity": 8,
+      "rarity": 2,
       "elements": [
         {
-          "file": "tag1.svg",
+          "file": "tag4.svg",
+          "transform": "translate(210,390) scale(0.7)"
+        }
+      ]
+    },
+    {
+      "rarity": 2,
+      "elements": [
+        {
+          "file": "tag5.svg",
           "transform": "translate(210,390) scale(0.7)"
         }
       ]
@@ -81,19 +90,10 @@
       ]
     },
     {
-      "rarity": 2,
+      "rarity": 8,
       "elements": [
         {
-          "file": "tag4.svg",
-          "transform": "translate(210,390) scale(0.7)"
-        }
-      ]
-    },
-    {
-      "rarity": 2,
-      "elements": [
-        {
-          "file": "tag5.svg",
+          "file": "tag6.svg",
           "transform": "translate(210,390) scale(0.7)"
         }
       ]
@@ -102,7 +102,7 @@
       "rarity": 8,
       "elements": [
         {
-          "file": "tag6.svg",
+          "file": "tag1.svg",
           "transform": "translate(210,390) scale(0.7)"
         }
       ]

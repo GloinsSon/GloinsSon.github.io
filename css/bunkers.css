@@ -135,12 +135,16 @@ svg {
 }
 
 figure {
+    display: inline-flex;
+    flex-direction: column;
     padding: 0;
     margin: 10px 0;
 }
 
 figcaption {
-    text-align: center;
+    display: flex;
+    min-width: 60px;
+    justify-content: center;
 }
 
 fieldset {
@@ -169,63 +173,39 @@ fieldset > legend {
     padding: 0;
 }
 
+/* === selectable elements === */
 input[type="radio"] + svg {
     padding: 2px;
     stroke: #eeeeee;
     stroke-width: 0.5;
 }
 
-input[type="radio"]:checked + svg {
-    stroke: #333333;
-    stroke-width: 0.75;
-}
-
-input[type="radio"]:disabled + svg {
-    display: none;
-}
-
-input[type="radio"] + figure {
-    display: inline-block;
-    float: left;
-
-}
-
-input[type="radio"] + figure > img {
-    padding: 10px 10px;
-    width: 45px;
-}
-
-input[type="radio"]:checked + figure > img {
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
-    -o-box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
-    border-radius: 80px;;
-    width: 60px;
-}
-
-input[type="radio"]:disabled + figure > img,
-input[type="radio"]:disabled + figure > figcaption {
-    display: none;
-}
-
-input[type="radio"] + img {
-    border: #fefefe 2px solid;
+input[type="radio"] + img,
+input[type="radio"] + figure > img,
+input[type="radio"] + svg
+{
+    border: #606060 3px solid;
     border-radius: 20px;
-    padding: 5px;
+    padding: 3px;
     width: 40px;
 }
 
-input[type="radio"]:checked + img {
+input[type="radio"]:checked + img,
+input[type="radio"]:checked + figure > img,
+input[type="radio"]:checked + svg
+{
     box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
-    -o-box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
 }
 
-input[type="radio"]:disabled + img {
-    display: none;
+input[type="radio"]:disabled + img,
+input[type="radio"]:disabled + figure > img,
+input[type="radio"]:disabled + figure > figcaption,
+input[type="radio"]:disabled + svg
+{
+    cursor: not-allowed;
+    border-color: red;
+    filter: opacity(50%);
 }
 
 input[data-rarity="2"] + img,
