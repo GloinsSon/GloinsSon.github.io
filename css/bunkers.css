@@ -252,3 +252,7 @@ input[data-rarity="16"] + svg
 #specieSet > label {
     margin-left: 10px !important;
 }
+
+.bold {
+    font-weight: bolder;
+}

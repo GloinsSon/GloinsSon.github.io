@@ -7,17 +7,17 @@
 export class Variant {
     /**
      * constructor
-     * @param key
-     * @param name
-     * @param logo
-     * @param rarity
-     * @param skins
-     * @param ears
-     * @param eyes
+     * @param name the name of the variants
+     * @param sub  the subspecies this variant belongs to
+     * @param logo the logo for the variant
+     * @param rarity  the rarity of the variant
+     * @param skins  all skin colors
+     * @param ears  all ear colors
+     * @param eyes  all eye colors
      */
-    constructor(key, name, logo, rarity, skins, ears, eyes) {
-        this.key = key;
+    constructor(name, sub, logo, rarity, skins, ears, eyes) {
         this.name = name;
+        this.sub = sub;
         this.logo = logo;
         this.rarity = rarity;
         this.skins = skins;

@@ -41,6 +41,7 @@ export class SpecieService {
                 let logo = viewController.buildLogo(
                     "species",
                     speciesKey,
+                    false,
                     speciesKey,
                     specie.logo,
                     0,
@@ -84,6 +85,7 @@ export class SpecieService {
                 let logo = viewController.buildLogo(
                     "variant",
                     variantKey,
+                    (variant.sub === variantKey),
                     specieKey,
                     variant.logo,
                     variant.rarity,

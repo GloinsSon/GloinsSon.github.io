@@ -10,7 +10,7 @@ const jsonFiles = [
 
     {file: "cubs/humanoid.xml", callback: setHumanoid},
     {file: "cubs/variants.json", callback: setVariants},
-    {file: "cubs/extras.json", callback: setExtras} /*,
+    {file: "cubs/extras.json", callback: setExtras},
 
     {file: "fins/humanoid.xml", callback: setHumanoid},
     {file: "fins/variants.json", callback: setVariants},
@@ -20,7 +20,7 @@ const jsonFiles = [
     {file: "flappers/variants.json", callback: setVariants},
     {file: "flappers/extras.json", callback: setExtras},
 
-    {file: "floofs/humanoid.xml", callback: setHumanoid},
+    {file: "floofs/humanoid.xml", callback: setHumanoid} ,
     {file: "floofs/variants.json", callback: setVariants},
     {file: "floofs/extras.json", callback: setExtras},
 
@@ -34,7 +34,7 @@ const jsonFiles = [
 
     {file: "smittens/humanoid.xml", callback: setHumanoid},
     {file: "smittens/variants.json", callback: setVariants},
-    {file: "smittens/extras.json", callback: setExtras}*/
+    {file: "smittens/extras.json", callback: setExtras}
 
 ]
 
@@ -258,17 +258,17 @@ function setVariants(jsonData) {
         }
 
 
-        for (const [key, value] of Object.entries(jsonData.variants)) {
+        for (const [name, value] of Object.entries(jsonData.variants)) {
             let variant = new Variant(
-                key,
-                key,
+                name,
+                value.sub,
                 value.logo,
                 value.rarity,
                 value.skins,
                 value.ears,
                 value.eyes
             );
-            parent.variants[key] = variant;
+            parent.variants[name] = variant;
         }
         loadingProgress("decrease");
     })();

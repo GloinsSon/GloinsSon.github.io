@@ -1,7 +1,8 @@
 {
-  "species": "cubs",
+  "species": "Cubs",
   "variants": {
     "Teddy": {
+      "sub": "Teddy",
       "skins": [
         {
           "color": "#fcf4ee",
@@ -60,6 +61,7 @@
       "rarity": 2
     },
     "Black": {
+      "sub": "Teddy",
       "skins": [
         {
           "color": "#af9590",
@@ -118,6 +120,7 @@
       "rarity": 2
     },
     "Colored": {
+      "sub": "Teddy",
       "skins": [
         {
           "color": "#f3a1ab",
@@ -176,6 +179,7 @@
       "rarity": 4
     },
     "Panda": {
+      "sub": "Panda",
       "skins": [
         {
           "color": "#ffffff",
@@ -226,6 +230,7 @@
       "rarity": 2
     },
     "Red": {
+      "sub": "Panda",
       "skins": [
         {
           "color": "#eec399",
@@ -275,6 +280,7 @@
       "rarity": 4
     },
     "White": {
+      "sub": "Panda",
       "skins": [
         {
           "color": "#ffffff",
@@ -324,6 +330,7 @@
       "rarity": 8
     },
     "Koala": {
+      "sub": "Koala",
       "skins": [
         {
           "color": "#a8a8a8",
@@ -373,6 +380,7 @@
       "rarity": 2
     },
     "Tan": {
+      "sub": "Koala",
       "skins": [
         {
           "color": "#fcf7ec",
@@ -422,6 +430,7 @@
       "rarity": 4
     },
     "Pink": {
+      "sub": "Koala",
       "skins": [
         {
           "color": "#f7d7d9",
@@ -471,6 +480,7 @@
       "rarity": 8
     },
     "Polar": {
+      "sub": "Polar",
       "skins": [
         {
           "color": "#f8fbfa",
@@ -520,6 +530,7 @@
       "rarity": 4
     },
     "Pastel": {
+      "sub": "Polar",
       "skins": [
         {
           "color": "#f4b6bb",
@@ -569,6 +580,7 @@
       "rarity": 8
     },
     "Crystal": {
+      "sub": "Polar",
       "skins": [
         {
           "color": "#ebe3e0",
