@@ -8,33 +8,33 @@ import {Extra} from "../model/Extra.js";
 const jsonFiles = [
     {file: "species.json", callback: setSpecies},
 
-    {file: "cubs/humanoid.xml", callback: setHumanoid},
-    {file: "cubs/variants.json", callback: setVariants},
-    {file: "cubs/extras.json", callback: setExtras} /*,
+    {file: "Cubs/humanoid.xml", callback: setHumanoid},
+    {file: "Cubs/variants.json", callback: setVariants},
+    {file: "Cubs/extras.json", callback: setExtras},
 
-    {file: "fins/humanoid.xml", callback: setHumanoid},
-    {file: "fins/variants.json", callback: setVariants},
-    {file: "fins/extras.json", callback: setExtras},
+    {file: "Fins/humanoid.xml", callback: setHumanoid},
+    {file: "Fins/variants.json", callback: setVariants},
+    {file: "Fins/extras.json", callback: setExtras},
 
-    {file: "flappers/humanoid.xml", callback: setHumanoid},
-    {file: "flappers/variants.json", callback: setVariants},
-    {file: "flappers/extras.json", callback: setExtras},
+    {file: "Flappers/humanoid.xml", callback: setHumanoid},
+    {file: "Flappers/variants.json", callback: setVariants},
+    {file: "Flappers/extras.json", callback: setExtras},
 
-    {file: "floofs/humanoid.xml", callback: setHumanoid},
-    {file: "floofs/variants.json", callback: setVariants},
-    {file: "floofs/extras.json", callback: setExtras},
+    {file: "Floofs/humanoid.xml", callback: setHumanoid} ,
+    {file: "Floofs/variants.json", callback: setVariants},
+    {file: "Floofs/extras.json", callback: setExtras},
 
-    {file: "hoppers/humanoid.xml", callback: setHumanoid},
-    {file: "hoppers/variants.json", callback: setVariants},
-    {file: "hoppers/extras.json", callback: setExtras},
+    {file: "Hoppers/humanoid.xml", callback: setHumanoid},
+    {file: "Hoppers/variants.json", callback: setVariants},
+    {file: "Hoppers/extras.json", callback: setExtras},
 
-    {file: "prancers/humanoid.xml", callback: setHumanoid},
-    {file: "prancers/variants.json", callback: setVariants},
-    {file: "prancers/extras.json", callback: setExtras},
+    {file: "Prancers/humanoid.xml", callback: setHumanoid},
+    {file: "Prancers/variants.json", callback: setVariants},
+    {file: "Prancers/extras.json", callback: setExtras},
 
-    {file: "smittens/humanoid.xml", callback: setHumanoid},
-    {file: "smittens/variants.json", callback: setVariants},
-    {file: "smittens/extras.json", callback: setExtras}*/
+    {file: "Smittens/humanoid.xml", callback: setHumanoid},
+    {file: "Smittens/variants.json", callback: setVariants},
+    {file: "Smittens/extras.json", callback: setExtras}
 
 ]
 
@@ -258,17 +258,17 @@ function setVariants(jsonData) {
         }
 
 
-        for (const [key, value] of Object.entries(jsonData.variants)) {
+        for (const [name, value] of Object.entries(jsonData.variants)) {
             let variant = new Variant(
-                key,
-                key,
+                name,
+                value.sub,
                 value.logo,
                 value.rarity,
                 value.skins,
                 value.ears,
                 value.eyes
             );
-            parent.variants[key] = variant;
+            parent.variants[name] = variant;
         }
         loadingProgress("decrease");
     })();

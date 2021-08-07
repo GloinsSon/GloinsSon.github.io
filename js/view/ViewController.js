@@ -45,26 +45,30 @@ export class ViewController {
     /**
      * builds the logos for the species / subspecies / variants
      * @param type
-     * @param value
+     * @param name
+     * @param isSub  is this a subspecies
      * @param folder
      * @param image
      * @param rarity   the value for the rarity
      * @param disabled  "disabled" or ""
      * @returns {string}
      */
-    buildLogo(type, value, folder, image, rarity, disabled) {
+    buildLogo(type, name, isSub, folder, image, rarity, disabled) {
         const template =
             "<label>" +
-            "  <input type='radio' name='{type}' value='{value}' data-rarity='{rarity}' {disabled} />" +
+            "  <input type='radio' name='{type}' value='{name}' data-rarity='{rarity}' {disabled} />" +
             "  <figure>" +
-            "    <img src='./img/{folder}/{image}' title='{value}' alt='{value}' />" +
-            "    <figcaption>{value}</figcaption>" +
+            "    <img src='./img/{folder}/{image}' title='{name}' alt='{name}' />" +
+            "    <figcaption class='{className}'>{name}</figcaption>" +
             " </figure>" +
             "</label>";
 
+        let className = "";
+        if (isSub) className = "bold";
         let replace = {
             "{type}": type,
-            "{value}": value,
+            "{name}": name,
+            "{className}": className,
             "{folder}": folder,
             "{image}": image,
             "{rarity}": rarity,

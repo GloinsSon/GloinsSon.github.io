@@ -1,5 +1,5 @@
 {
-  "species": "floofs",
+  "species": "Cubs",
   "Stuffed": [
     {
       "rarity": 2,
@@ -43,13 +43,13 @@
       ]
     }
   ],
-  "Collars": [
+  "Tags": [
     {
       "rarity": 2,
       "elements": [
         {
-          "file": "collar0.svg",
-          "transform": "translate(219,180)"
+          "file": "tag0.svg",
+          "transform": "translate(210,390) scale(0.7)"
         }
       ]
     },
@@ -57,8 +57,8 @@
       "rarity": 2,
       "elements": [
         {
-          "file": "collar1.svg",
-          "transform": "translate(219,180)"
+          "file": "tag4.svg",
+          "transform": "translate(210,390) scale(0.7)"
         }
       ]
     },
@@ -66,8 +66,8 @@
       "rarity": 2,
       "elements": [
         {
-          "file": "collar2.svg",
-          "transform": "translate(219,180)"
+          "file": "tag5.svg",
+          "transform": "translate(210,390) scale(0.7)"
         }
       ]
     },
@@ -75,8 +75,8 @@
       "rarity": 4,
       "elements": [
         {
-          "file": "collar3.svg",
-          "transform": "translate(219,180)"
+          "file": "tag2.svg",
+          "transform": "translate(210,390) scale(0.7)"
         }
       ]
     },
@@ -84,8 +84,8 @@
       "rarity": 4,
       "elements": [
         {
-          "file": "collar4.svg",
-          "transform": "translate(219,180)"
+          "file": "tag3.svg",
+          "transform": "translate(210,390) scale(0.7)"
         }
       ]
     },
@@ -93,8 +93,8 @@
       "rarity": 8,
       "elements": [
         {
-          "file": "collar5.svg",
-          "transform": "translate(219,180)"
+          "file": "tag6.svg",
+          "transform": "translate(210,390) scale(0.7)"
         }
       ]
     },
@@ -102,8 +102,8 @@
       "rarity": 8,
       "elements": [
         {
-          "file": "collar6.svg",
-          "transform": "translate(219,180)"
+          "file": "tag1.svg",
+          "transform": "translate(210,390) scale(0.7)"
         }
       ]
     },
@@ -111,19 +111,19 @@
       "rarity": 16,
       "elements": [
         {
-          "file": "collar7.svg",
-          "transform": "translate(219,180)"
+          "file": "tag7.svg",
+          "transform": "translate(200,410) scale(0.6) rotate(-20)"
         }
       ]
     }
   ],
-  "Mouths": [
+  "Fangs": [
     {
       "rarity": 2,
       "elements": [
         {
-          "file": "mouth0.svg",
-          "transform": "translate(228,160) scale(0.7)"
+          "file": "fangs0.svg",
+          "transform": "translate(283,250)"
         }
       ]
     },
@@ -131,17 +131,25 @@
       "rarity": 2,
       "elements": [
         {
-          "file": "mouth1.svg",
-          "transform": "translate(228,160) scale(0.7)"
+          "file": "fangs1.svg",
+          "transform": "translate(283,250)"
         }
       ]
     },
     {
-      "rarity": 2,
+      "rarity": 4,
       "elements": [
         {
-          "file": "mouth2.svg",
-          "transform": "translate(228,160) scale(0.7)"
+          "file": "fangs2.svg",
+          "transform": "translate(283,250)"
+        }
+      ]
+    },{
+      "rarity": 4,
+      "elements": [
+        {
+          "file": "fangs3.svg",
+          "transform": "translate(283,250)"
         }
       ]
     }
@@ -151,35 +159,89 @@
       "rarity": 2,
       "elements": [
         {
-          "file": "ears0.svg"
+          "file": "ears0.svg",
+          "transform": "translate(240,100) scale(1)"
+        }, {
+          "file": "ears0.svg",
+          "transform": "translate(360,100) scale(-1,1)"
         }
       ]
     }, {
       "rarity": 2,
       "elements": [
         {
-          "file": "ears1.svg"
+          "file": "ears1.svg",
+          "transform": "translate(215,100) scale(1)"
+        }, {
+          "file": "ears1.svg",
+          "transform": "translate(385,100) scale(-1,1)"
         }
       ]
     }, {
       "rarity": 4,
       "elements": [
         {
-          "file": "ears2.svg"
+          "file": "ears2.svg",
+          "transform": "translate(235,80) scale(1)"
+        }, {
+          "file": "ears2.svg",
+          "transform": "translate(370,80) scale(-1,1)"
         }
       ]
     }, {
       "rarity": 8,
       "elements": [
         {
-          "file": "ears3.svg"
+          "file": "ears3.svg",
+          "transform": "translate(225,85) scale(1)"
+        }, {
+          "file": "ears3.svg",
+          "transform": "translate(375,85) scale(-1,1)"
         }
       ]
     }, {
       "rarity": 16,
       "elements": [
         {
-          "file": "ears4.svg"
+          "file": "ears4.svg",
+          "transform": "translate(220,90) scale(1)"
+        }, {
+          "file": "ears4.svg",
+          "transform": "translate(380,90) scale(-1,1)"
+        }
+      ]
+    }
+  ],
+  "Halos": [
+    {
+      "rarity": 0,
+      "elements": [
+        {
+          "file": "../none.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "halo0.svg",
+          "transform": "translate(237,54) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "halo1.svg",
+          "transform": "translate(212,50) scale(1.5)"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "halo2.svg",
+          "transform": "translate(237,50) scale(1.5)"
         }
       ]
     }
@@ -189,63 +251,41 @@
       "rarity": 2,
       "elements": [
         {
-          "file": "tails0.svg"
+          "file": "tail0.svg"
         }
       ]
-    }, {
-      "rarity": 2,
+    },
+    {
+      "rarity": 4,
       "elements": [
         {
-          "file": "tails1.svg"
-        }
-      ]
-    }, {
-      "rarity": 2,
-      "elements": [
-        {
-          "file": "tails2.svg"
+          "file": "tail1.svg"
         }
       ]
     }, {
       "rarity": 4,
       "elements": [
         {
-          "file": "tails3.svg"
-        }
-      ]
-    }, {
-      "rarity": 4,
-      "elements": [
-        {
-          "file": "tails4.svg"
-        }
-      ]
-    },
-    {
-      "rarity": 8,
-      "elements": [
-        {
-          "file": "tails5.svg"
+          "file": "tail2.svg"
         }
       ]
     }, {
       "rarity": 8,
       "elements": [
         {
-          "file": "tails6.svg"
+          "file": "tail3.svg"
         }
       ]
-    },
-    {
-      "rarity": 16,
+    }, {
+      "rarity": 8,
       "elements": [
         {
-          "file": "tails7.svg"
+          "file": "tail4.svg"
         }
       ]
     }
   ],
-  "Gloves": [
+  "Wings": [
     {
       "rarity": 0,
       "elements": [
@@ -253,58 +293,25 @@
           "file": "../none.svg"
         }
       ]
-    },
-    {
-      "rarity": 2,
-      "elements": [
-        {
-          "file": "gloves0.svg"
-        }
-      ]
-    }, {
-      "rarity": 4,
-      "elements": [
-        {
-          "file": "gloves1.svg"
-        }
-      ]
     }, {
       "rarity": 8,
       "elements": [
         {
-          "file": "gloves2.svg"
-        }
-      ]
-    }
-  ],
-  "Horns": [
-    {
-      "rarity": 0,
-      "elements": [
-        {
-          "file": "../none.svg"
-        }
-      ]
-    },
-    {
-      "rarity": 8,
-      "elements": [
-        {
-          "file": "horns0.svg"
-        }
-      ]
-    }, {
-      "rarity": 8,
-      "elements": [
-        {
-          "file": "horns1.svg"
+          "file": "wings0.svg"
         }
       ]
     }, {
       "rarity": 16,
       "elements": [
         {
-          "file": "horns2.svg"
+          "file": "wings1.svg"
+        }
+      ]
+    }, {
+      "rarity": 16,
+      "elements": [
+        {
+          "file": "wings2.svg"
         }
       ]
     }

@@ -20,7 +20,6 @@ body {
     padding: 0;
 }
 
-
 /* === parts of the page === */
 nav {
     position: relative;
@@ -125,6 +124,9 @@ svg {
     overflow: visible;
 }
 
+img {
+    margin: 0 auto;
+}
 /* === form styles === */
 #selection input {
     position: absolute;
@@ -139,6 +141,7 @@ figure {
     flex-direction: column;
     padding: 0;
     margin: 10px 0;
+    width: 60px;
 }
 
 figcaption {
@@ -251,4 +254,8 @@ input[data-rarity="16"] + svg
 #specieSet legend,
 #specieSet > label {
     margin-left: 10px !important;
+}
+
+.bold {
+    font-weight: bolder;
 }

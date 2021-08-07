@@ -1,0 +1,1349 @@
+{
+  "species": "Floofs",
+  "variants": {
+    "Runners": {
+      "sub": "Runners",
+      "skins": [
+        {
+          "color": "#e6ded5",
+          "rarity": 2
+        }, {
+          "color": "#b8ada0",
+          "rarity": 2
+        }, {
+          "color": "#8c7569",
+          "rarity": 2
+        }, {
+          "color": "#8e6a5c",
+          "rarity": 2
+        }, {
+          "color": "#61585c",
+          "rarity": 2
+        }, {
+          "color": "#4e4040",
+          "rarity": 4
+        }, {
+          "color": "#f2e7cd",
+          "rarity": 4
+        }, {
+          "color": "#899280",
+          "rarity": 4
+        }, {
+          "color": "#66695d",
+          "rarity": 4
+        }, {
+          "color": "#925c4f",
+          "rarity": 4
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#5e748d",
+          "rarity": 2
+        }, {
+          "color": "#92cff4",
+          "rarity": 2
+        }, {
+          "color": "#c6c3ff",
+          "rarity": 2
+        }, {
+          "color": "#3f3232",
+          "rarity": 4
+        }, {
+          "color": "#a17e65",
+          "rarity": 4
+        }
+      ],
+      "ears": [
+        {
+          "color": "#7d5f50",
+          "rarity": 2
+        }, {
+          "color": "#efd8a0",
+          "rarity": 2
+        }, {
+          "color": "#677459",
+          "rarity": 2
+        }, {
+          "color": "#804132",
+          "rarity": 4
+        }, {
+          "color": "#8b603f",
+          "rarity": 4
+        }
+      ],
+      "logo": "runnersCommonLogo.png",
+      "rarity": 2
+    },
+    "Shepard": {
+      "sub": "Runners",
+      "skins": [
+        {
+          "color": "#fcecdb",
+          "rarity": 2
+        }, {
+          "color": "#fcebbf",
+          "rarity": 2
+        }, {
+          "color": "#e7c98c",
+          "rarity": 2
+        }, {
+          "color": "#cfa573",
+          "rarity": 4
+        }, {
+          "color": "#a17e65",
+          "rarity": 4
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#3a5245",
+          "rarity": 2
+        }, {
+          "color": "#4fb07d",
+          "rarity": 2
+        }, {
+          "color": "#b0924f",
+          "rarity": 4
+        }, {
+          "color": "#925c4f",
+          "rarity": 4
+        }, {
+          "color": "#f1e3d4",
+          "rarity": 4
+        }
+      ],
+      "ears": [
+        {
+          "color": "#bba275",
+          "rarity": 2
+        }, {
+          "color": "#c69458",
+          "rarity": 2
+        }, {
+          "color": "#c09479",
+          "rarity": 4
+        }, {
+          "color": "#7c5b46",
+          "rarity": 4
+        }, {
+          "color": "#efdcae",
+          "rarity": 4
+        }
+      ],
+      "logo": "runnersShepardLogo.png",
+      "rarity": 2
+    },
+    "Retriever": {
+      "sub": "Runners",
+      "skins": [
+        {
+          "color": "#8c7569",
+          "rarity": 2
+        }, {
+          "color": "#ceada0",
+          "rarity": 2
+        }, {
+          "color": "#f1e3d4",
+          "rarity": 2
+        }, {
+          "color": "#8e6a5c",
+          "rarity": 4
+        }, {
+          "color": "#5f4833",
+          "rarity": 4
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#b0ecff",
+          "rarity": 2
+        }, {
+          "color": "#0d1a38",
+          "rarity": 2
+        }, {
+          "color": "#7c9365",
+          "rarity": 4
+        }, {
+          "color": "#a49f60",
+          "rarity": 4
+        }, {
+          "color": "#495d34",
+          "rarity": 4
+        }
+      ],
+      "ears": [
+        {
+          "color": "#4f4038",
+          "rarity": 2
+        }, {
+          "color": "#6b5950",
+          "rarity": 2
+        }, {
+          "color": "#e5d0ba",
+          "rarity": 4
+        }, {
+          "color": "#ab9083",
+          "rarity": 4
+        }, {
+          "color": "#1d1613",
+          "rarity": 4
+        }
+      ],
+      "logo": "runnersRetrieverLogo.png",
+      "rarity": 2
+    },
+    "Hounds": {
+      "sub": "Hounds",
+      "skins": [
+        {
+          "color": "#bb9881",
+          "rarity": 2
+        }, {
+          "color": "#876d65",
+          "rarity": 2
+        }, {
+          "color": "#735c5c",
+          "rarity": 2
+        }, {
+          "color": "#3e302d",
+          "rarity": 2
+        }, {
+          "color": "#3f3232",
+          "rarity": 2
+        }, {
+          "color": "#ca997f",
+          "rarity": 4
+        }, {
+          "color": "#e6ad8e",
+          "rarity": 4
+        }, {
+          "color": "#eec399",
+          "rarity": 4
+        }, {
+          "color": "#9c846f",
+          "rarity": 4
+        }, {
+          "color": "#9d7f7e",
+          "rarity": 4
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#557b8c",
+          "rarity": 2
+        }, {
+          "color": "#3a4a52",
+          "rarity": 2
+        }, {
+          "color": "#383a88",
+          "rarity": 4
+        }, {
+          "color": "#514235",
+          "rarity": 4
+        }, {
+          "color": "#974047",
+          "rarity": 4
+        }
+      ],
+      "ears": [
+        {
+          "color": "#876d65",
+          "rarity": 2
+        }, {
+          "color": "#bf896c",
+          "rarity": 2
+        }, {
+          "color": "#dfab78",
+          "rarity": 4
+        }, {
+          "color": "#3f3232",
+          "rarity": 4
+        }, {
+          "color": "#1d1613",
+          "rarity": 4
+        }
+      ],
+      "logo": "houndsCommonLogo.png",
+      "rarity": 2
+    },
+    "Blood": {
+      "sub": "Hounds",
+      "skins": [
+        {
+          "color": "#8a443a",
+          "rarity": 4
+        }, {
+          "color": "#b24642",
+          "rarity": 4
+        }, {
+          "color": "#e5a2a6",
+          "rarity": 8
+        }, {
+          "color": "#f9d5d8",
+          "rarity": 8
+        }, {
+          "color": "#621e1f",
+          "rarity": 8
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#fee2e5",
+          "rarity": 4
+        }, {
+          "color": "#635052",
+          "rarity": 4
+        }, {
+          "color": "#621921",
+          "rarity": 8
+        }, {
+          "color": "#b3301f",
+          "rarity": 8
+        }, {
+          "color": "#e0555f",
+          "rarity": 8
+        }
+      ],
+      "ears": [
+        {
+          "color": "#93382b",
+          "rarity": 4
+        }, {
+          "color": "#bb364d",
+          "rarity": 4
+        }, {
+          "color": "#d48085",
+          "rarity": 8
+        }, {
+          "color": "#f3c1c5",
+          "rarity": 8
+        }, {
+          "color": "#550b0c",
+          "rarity": 8
+        }
+      ],
+      "logo": "houndsBloodLogo.png",
+      "rarity": 4
+    },
+    "Colored": {
+      "sub": "Hounds",
+      "skins": [
+        {
+          "color": "#b8bdc0",
+          "rarity": 2
+        }, {
+          "color": "#b8ada0",
+          "rarity": 2
+        }, {
+          "color": "#0d1a38",
+          "rarity": 4
+        }, {
+          "color": "#5e748d",
+          "rarity": 4
+        }, {
+          "color": "#f1f1f1",
+          "rarity": 4
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#dcb752",
+          "rarity": 2
+        }, {
+          "color": "#d49e4b",
+          "rarity": 2
+        }, {
+          "color": "#dd8554",
+          "rarity": 4
+        }, {
+          "color": "#dd546f",
+          "rarity": 4
+        }, {
+          "color": "#b98ec4",
+          "rarity": 4
+        }
+      ],
+      "ears": [
+        {
+          "color": "#9eaab0",
+          "rarity": 2
+        }, {
+          "color": "#ae9b84",
+          "rarity": 2
+        }, {
+          "color": "#153787",
+          "rarity": 4
+        }, {
+          "color": "#426389",
+          "rarity": 4
+        }, {
+          "color": "#d9caca",
+          "rarity": 4
+        }
+      ],
+      "logo": "houndsColoredLogo.png",
+      "rarity": 2
+    },
+    "Tanks": {
+      "sub": "Tanks",
+      "skins": [
+        {
+          "color": "#3f3232",
+          "rarity": 2
+        }, {
+          "color": "#4f3627",
+          "rarity": 2
+        }, {
+          "color": "#8e6a5c",
+          "rarity": 2
+        }, {
+          "color": "#edd3ba",
+          "rarity": 2
+        }, {
+          "color": "#b4846a",
+          "rarity": 2
+        }, {
+          "color": "#170f0f",
+          "rarity": 4
+        }, {
+          "color": "#61585c",
+          "rarity": 4
+        }, {
+          "color": "#a48f92",
+          "rarity": 4
+        }, {
+          "color": "#a598a6",
+          "rarity": 4
+        }, {
+          "color": "#8e92a4",
+          "rarity": 4
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#b9bdad",
+          "rarity": 2
+        }, {
+          "color": "#c3f9ff",
+          "rarity": 2
+        }, {
+          "color": "#eeddb7",
+          "rarity": 4
+        }, {
+          "color": "#cab7ee",
+          "rarity": 4
+        }, {
+          "color": "#ee94a6",
+          "rarity": 4
+        }
+      ],
+      "ears": [
+        {
+          "color": "#3a1f1f",
+          "rarity": 2
+        }, {
+          "color": "#5f4a53",
+          "rarity": 2
+        }, {
+          "color": "#7e5444",
+          "rarity": 4
+        }, {
+          "color": "#8b6d8e",
+          "rarity": 4
+        }, {
+          "color": "#a17257",
+          "rarity": 4
+        }
+      ],
+      "logo": "tanksCommonLogo.png",
+      "rarity": 2
+    },
+    "Bull": {
+      "sub": "Tanks",
+      "skins": [
+        {
+          "color": "#b8ada0",
+          "rarity": 2
+        }, {
+          "color": "#8c7569",
+          "rarity": 2
+        }, {
+          "color": "#3f3232",
+          "rarity": 4
+        }, {
+          "color": "#95b3e5",
+          "rarity": 4
+        }, {
+          "color": "#6a81ce",
+          "rarity": 4
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#5f4833",
+          "rarity": 2
+        }, {
+          "color": "#5e748d",
+          "rarity": 2
+        }, {
+          "color": "#2d3b5a",
+          "rarity": 4
+        }, {
+          "color": "#bee5ff",
+          "rarity": 4
+        }, {
+          "color": "#bfbeff",
+          "rarity": 4
+        }
+      ],
+      "ears": [
+        {
+          "color": "#a38f77",
+          "rarity": 2
+        }, {
+          "color": "#7a5d4e",
+          "rarity": 2
+        }, {
+          "color": "#3f2727",
+          "rarity": 4
+        }, {
+          "color": "#91b4ed",
+          "rarity": 4
+        }, {
+          "color": "#3f5bbb",
+          "rarity": 4
+        }
+      ],
+      "logo": "tanksBullLogo.png",
+      "rarity": 2
+    },
+    "Mastiff": {
+      "sub": "Tanks",
+      "skins": [
+        {
+          "color": "#edd3ba",
+          "rarity": 4
+        }, {
+          "color": "#9c846f",
+          "rarity": 4
+        }, {
+          "color": "#ebe3e0",
+          "rarity": 8
+        }, {
+          "color": "#382530",
+          "rarity": 8
+        }, {
+          "color": "#8c5e78",
+          "rarity": 8
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#9b954b",
+          "rarity": 4
+        }, {
+          "color": "#cfb049",
+          "rarity": 4
+        }, {
+          "color": "#d8966e",
+          "rarity": 8
+        }, {
+          "color": "#9380b2",
+          "rarity": 8
+        }, {
+          "color": "#bfbeff",
+          "rarity": 8
+        }
+      ],
+      "ears": [
+        {
+          "color": "#d8a36f",
+          "rarity": 4
+        }, {
+          "color": "#8e6b4c",
+          "rarity": 4
+        }, {
+          "color": "#e1c8bf",
+          "rarity": 8
+        }, {
+          "color": "#351527",
+          "rarity": 8
+        }, {
+          "color": "#6f3656",
+          "rarity": 8
+        }
+      ],
+      "logo": "tanksMastiffLogo.png",
+      "rarity": 4
+    },
+    "Terriers": {
+      "sub": "Terriers",
+      "skins": [
+        {
+          "color": "#c2baa9",
+          "rarity": 2
+        }, {
+          "color": "#a68777",
+          "rarity": 2
+        }, {
+          "color": "#796c77",
+          "rarity": 2
+        }, {
+          "color": "#c8b6c6",
+          "rarity": 2
+        }, {
+          "color": "#694e45",
+          "rarity": 2
+        }, {
+          "color": "#f1e3d4",
+          "rarity": 4
+        }, {
+          "color": "#65707c",
+          "rarity": 4
+        }, {
+          "color": "#6f7477",
+          "rarity": 4
+        }, {
+          "color": "#6f7269",
+          "rarity": 4
+        }, {
+          "color": "#928184",
+          "rarity": 4
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#8dadaf",
+          "rarity": 2
+        }, {
+          "color": "#a3a19f",
+          "rarity": 2
+        }, {
+          "color": "#744799",
+          "rarity": 4
+        }, {
+          "color": "#7cbba5",
+          "rarity": 4
+        }, {
+          "color": "#74d1cc",
+          "rarity": 4
+        }
+      ],
+      "ears": [
+        {
+          "color": "#a59677",
+          "rarity": 2
+        }, {
+          "color": "#4d5f73",
+          "rarity": 2
+        }, {
+          "color": "#634c5f",
+          "rarity": 4
+        }, {
+          "color": "#606852",
+          "rarity": 4
+        }, {
+          "color": "#4f3127",
+          "rarity": 4
+        }
+      ],
+      "logo": "terriersCommonLogo.png",
+      "rarity": 2
+    },
+    "Short-hair": {
+      "sub": "Terriers",
+      "skins": [
+        {
+          "color": "#ceada0",
+          "rarity": 4
+        }, {
+          "color": "#ead0c2",
+          "rarity": 4
+        }, {
+          "color": "#f1e3d4",
+          "rarity": 8
+        }, {
+          "color": "#8c7569",
+          "rarity": 8
+        }, {
+          "color": "#c2ac98",
+          "rarity": 8
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#5f4833",
+          "rarity": 4
+        }, {
+          "color": "#335f49",
+          "rarity": 4
+        }, {
+          "color": "#6c9b84",
+          "rarity": 8
+        }, {
+          "color": "#66cc99",
+          "rarity": 8
+        }, {
+          "color": "#c2ffe8",
+          "rarity": 8
+        }
+      ],
+      "ears": [
+        {
+          "color": "#bc856f",
+          "rarity": 4
+        }, {
+          "color": "#d3ae9b",
+          "rarity": 4
+        }, {
+          "color": "#fef0e1",
+          "rarity": 8
+        }, {
+          "color": "#5c4a41",
+          "rarity": 8
+        }, {
+          "color": "#a19386",
+          "rarity": 8
+        }
+      ],
+      "logo": "terriersShorthairLogo.png",
+      "rarity": 4
+    },
+    "Pastel": {
+      "sub": "Terriers",
+      "skins": [
+        {
+          "color": "#aa9ba7",
+          "rarity": 8
+        }, {
+          "color": "#bcb88c",
+          "rarity": 8
+        }, {
+          "color": "#8aa7b1",
+          "rarity": 16
+        }, {
+          "color": "#eed7a2",
+          "rarity": 16
+        }, {
+          "color": "#d7abb5",
+          "rarity": 16
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#6b6b6b",
+          "rarity": 8
+        }, {
+          "color": "#ccc9d9",
+          "rarity": 8
+        }, {
+          "color": "#b4aeb8",
+          "rarity": 16
+        }, {
+          "color": "#a28eb1",
+          "rarity": 16
+        }, {
+          "color": "#c38bcd",
+          "rarity": 16
+        }
+      ],
+      "ears": [
+        {
+          "color": "#d59dca",
+          "rarity": 8
+        }, {
+          "color": "#aba459",
+          "rarity": 8
+        }, {
+          "color": "#5d99ae",
+          "rarity": 16
+        }, {
+          "color": "#ebc264",
+          "rarity": 16
+        }, {
+          "color": "#dd889b",
+          "rarity": 16
+        }
+      ],
+      "logo": "terriersPastelLogo.png",
+      "rarity": 8
+    },
+    "Toys": {
+      "sub": "Toys",
+      "skins": [
+        {
+          "color": "#f2e7cd",
+          "rarity": 4
+        }, {
+          "color": "#aa917a",
+          "rarity": 4
+        }, {
+          "color": "#eabda5",
+          "rarity": 4
+        }, {
+          "color": "#5f4833",
+          "rarity": 4
+        }, {
+          "color": "#925c4f",
+          "rarity": 4
+        }, {
+          "color": "#b8bdc0",
+          "rarity": 8
+        }, {
+          "color": "#b8ada0",
+          "rarity": 8
+        }, {
+          "color": "#899280",
+          "rarity": 8
+        }, {
+          "color": "#676767",
+          "rarity": 8
+        }, {
+          "color": "#1c1c1c",
+          "rarity": 8
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#8e6a5c",
+          "rarity": 4
+        }, {
+          "color": "#a17e65",
+          "rarity": 4
+        }, {
+          "color": "#efac6e",
+          "rarity": 8
+        }, {
+          "color": "#efcb6e",
+          "rarity": 8
+        }, {
+          "color": "#ffe686",
+          "rarity": 8
+        }
+      ],
+      "ears": [
+        {
+          "color": "#a9c0ce",
+          "rarity": 4
+        }, {
+          "color": "#8b6c4f",
+          "rarity": 4
+        }, {
+          "color": "#677657",
+          "rarity": 8
+        }, {
+          "color": "#b18d6d",
+          "rarity": 8
+        }, {
+          "color": "#1c1c1c",
+          "rarity": 8
+        }
+      ],
+      "logo": "toysCommonLogo.png",
+      "rarity": 4
+    },
+    "Fluffy": {
+      "sub": "Toys",
+      "skins": [
+        {
+          "color": "#f1f1f1",
+          "rarity": 4
+        }, {
+          "color": "#8e6a5c",
+          "rarity": 4
+        }, {
+          "color": "#e4ce9a",
+          "rarity": 8
+        }, {
+          "color": "#424948",
+          "rarity": 8
+        }, {
+          "color": "#9c8cb5",
+          "rarity": 8
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#c3c4c4",
+          "rarity": 4
+        }, {
+          "color": "#b6cec9",
+          "rarity": 4
+        }, {
+          "color": "#9cd2c7",
+          "rarity": 8
+        }, {
+          "color": "#6b8d86",
+          "rarity": 8
+        }, {
+          "color": "#176a59",
+          "rarity": 8
+        }
+      ],
+      "ears": [
+        {
+          "color": "#ffffff",
+          "rarity": 4
+        }, {
+          "color": "#c49887",
+          "rarity": 4
+        }, {
+          "color": "#baa26b",
+          "rarity": 8
+        }, {
+          "color": "#5e807b",
+          "rarity": 8
+        }, {
+          "color": "#63547b",
+          "rarity": 8
+        }
+      ],
+      "logo": "toysFluffyLogo.png",
+      "rarity": 4
+    },
+    "Furless": {
+      "sub": "Toys",
+      "skins": [
+        {
+          "color": "#4a4a4a",
+          "rarity": 8
+        }, {
+          "color": "#f1e3d4",
+          "rarity": 8
+        }, {
+          "color": "#b9ab8c",
+          "rarity": 16
+        }, {
+          "color": "#a17e65",
+          "rarity": 16
+        }, {
+          "color": "#f1b7c7",
+          "rarity": 16
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#4674a7",
+          "rarity": 4
+        }, {
+          "color": "#46a4a7",
+          "rarity": 4
+        }, {
+          "color": "#5ba746",
+          "rarity": 8
+        }, {
+          "color": "#7c46a7",
+          "rarity": 8
+        }, {
+          "color": "#ba2f25",
+          "rarity": 8
+        }
+      ],
+      "ears": [
+        {
+          "color": "#212121",
+          "rarity": 4
+        }, {
+          "color": "#dbcab9",
+          "rarity": 4
+        }, {
+          "color": "#877b5f",
+          "rarity": 8
+        }, {
+          "color": "#7c46a7",
+          "rarity": 8
+        }, {
+          "color": "#d991a5",
+          "rarity": 8
+        }
+      ],
+      "logo": "toysFurlessLogo.png",
+      "rarity": 8
+    },
+    "Regals": {
+      "sub": "Regals",
+      "skins": [
+        {
+          "color": "#f1e3d4",
+          "rarity": 8
+        }, {
+          "color": "#d3b09a",
+          "rarity": 8
+        }, {
+          "color": "#585450",
+          "rarity": 8
+        }, {
+          "color": "#b48197",
+          "rarity": 8
+        }, {
+          "color": "#ab81b4",
+          "rarity": 8
+        }, {
+          "color": "#f2e7cd",
+          "rarity": 16
+        }, {
+          "color": "#5b4d40",
+          "rarity": 16
+        }, {
+          "color": "#b9bdad",
+          "rarity": 16
+        }, {
+          "color": ["#ffffff", "#b4c1c3"],
+          "rarity": 16
+        }, {
+          "color": "#d4d6d8",
+          "rarity": 16
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#6989b5",
+          "rarity": 8
+        }, {
+          "color": "#7386da",
+          "rarity": 8
+        }, {
+          "color": "#white",
+          "rarity": 16
+        }, {
+          "color": "#abbfce",
+          "rarity": 16
+        }, {
+          "color": "#1f339b",
+          "rarity": 16
+        }
+      ],
+      "ears": [
+        {
+          "color": "#d9c9a2",
+          "rarity": 8
+        }, {
+          "color": "#a38979",
+          "rarity": 8
+        }, {
+          "color": "#868d6f",
+          "rarity": 16
+        }, {
+          "color": "#d6a6bb",
+          "rarity": 16
+        }, {
+          "color": "#e9eaeb",
+          "rarity": 16
+        }
+      ],
+      "logo": "regalsCommonLogo.png",
+      "rarity": 8
+    },
+    "Dane": {
+      "sub": "Regals",
+      "skins": [
+        {
+          "color": "#655e55",
+          "rarity": 8
+        }, {
+          "color": "#c0aa9b",
+          "rarity": 8
+        }, {
+          "color": "#b4a8bd",
+          "rarity": 16
+        }, {
+          "color": "#a8adbd",
+          "rarity": 16
+        }, {
+          "color": "#a8bdbd",
+          "rarity": 16
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#815594",
+          "rarity": 8
+        }, {
+          "color": "#a17aa1",
+          "rarity": 8
+        }, {
+          "color": "#af9fd2",
+          "rarity": 16
+        }, {
+          "color": "#b976bf",
+          "rarity": 16
+        }, {
+          "color": "#361e7a",
+          "rarity": 16
+        }
+      ],
+      "ears": [
+        {
+          "color": "#50473b",
+          "rarity": 8
+        }, {
+          "color": "#e4cab9",
+          "rarity": 8
+        }, {
+          "color": "#7f6e8c",
+          "rarity": 16
+        }, {
+          "color": "#6a7087",
+          "rarity": 16
+        }, {
+          "color": "#78abab",
+          "rarity": 16
+        }
+      ],
+      "logo": "regalsDaneLogo.png",
+      "rarity": 8
+    },
+    "Spotted": {
+      "sub": "Regals",
+      "skins": [
+        {
+          "color": ["#f1f1f1", "#61585c"],
+          "rarity": 16
+        }, {
+          "color": ["#5f4833", "#a17e65"],
+          "rarity": 16
+        }, {
+          "color": ["#edd3ba", "#fcecdb"],
+          "rarity": 16
+        }, {
+          "color": ["#878b7c", "#c1cacd"],
+          "rarity": 16
+        }, {
+          "color": ["#ceb3c4", "#8c5e78"],
+          "rarity": 16
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#3a52c5",
+          "rarity": 16
+        }, {
+          "color": "#5fa6e0",
+          "rarity": 16
+        }, {
+          "color": "#348e42",
+          "rarity": 16
+        }, {
+          "color": "#db83b8",
+          "rarity": 16
+        }, {
+          "color": "#ce3633",
+          "rarity": 16
+        }
+      ],
+      "ears": [
+        {
+          "color": ["#f1f1f1", "#483e43"],
+          "rarity": 16
+        }, {
+          "color": ["#4c3723", "#8a6952"],
+          "rarity": 16
+        }, {
+          "color": ["#d8b89a", "#dfc8b0"],
+          "rarity": 16
+        }, {
+          "color": ["#6d735e", "#9daaae"],
+          "rarity": 16
+        }, {
+          "color": ["#b390a6", "#6f485e"],
+          "rarity": 16
+        }
+      ],
+      "logo": "regalsSpottedLogo.png",
+      "rarity": 16
+    },
+    "Ancients": {
+      "sub": "Ancients",
+      "skins": [
+        {
+          "color": "#b8bdc0",
+          "rarity": 16
+        }, {
+          "color": "#5c6367",
+          "rarity": 16
+        }, {
+          "color": "#76787f",
+          "rarity": 16
+        }, {
+          "color": "#675951",
+          "rarity": 16
+        }, {
+          "color": "#ffffff",
+          "rarity": 16
+        }, {
+          "color": "#9b8980",
+          "rarity": 16
+        }, {
+          "color": "#d6b9aa",
+          "rarity": 16
+        }, {
+          "color": "#c2baa9",
+          "rarity": 16
+        }, {
+          "color": "#635e53",
+          "rarity": 16
+        }, {
+          "color": "#f1e7d4",
+          "rarity": 16
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#99dff5",
+          "rarity": 16
+        }, {
+          "color": "#788ee4",
+          "rarity": 16
+        }, {
+          "color": "#bd98dc",
+          "rarity": 16
+        }, {
+          "color": "#fc9cc8",
+          "rarity": 16
+        }, {
+          "color": "#6f1412",
+          "rarity": 16
+        }
+      ],
+      "ears": [
+        {
+          "color": "#e0e1e1",
+          "rarity": 16
+        }, {
+          "color": "#f2d5c6",
+          "rarity": 16
+        }, {
+          "color": "#595d69",
+          "rarity": 16
+        }, {
+          "color": "#867a61",
+          "rarity": 16
+        }, {
+          "color": "#c9b5b5",
+          "rarity": 16
+        }
+      ],
+      "logo": "ancientCommonLogo.png",
+      "rarity": 16
+    },
+    "Fox": {
+      "sub": "Ancients",
+      "skins": [
+        {
+          "color": "#ca8768",
+          "rarity": 16
+        }, {
+          "color": "#cb9269",
+          "rarity": 16
+        }, {
+          "color": "#eabda5",
+          "rarity": 16
+        }, {
+          "color": "#eaa5a9",
+          "rarity": 16
+        }, {
+          "color": "#ffffff",
+          "rarity": 16
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#fec322",
+          "rarity": 16
+        }, {
+          "color": "#c16a23",
+          "rarity": 16
+        }, {
+          "color": "#503119",
+          "rarity": 16
+        }, {
+          "color": "#4e90c0",
+          "rarity": 16
+        }, {
+          "color": "#3a622b",
+          "rarity": 16
+        }
+      ],
+      "ears": [
+        {
+          "color": "#ab7860",
+          "rarity": 16
+        }, {
+          "color": "#e1b799",
+          "rarity": 16
+        }, {
+          "color": "#ffdfce",
+          "rarity": 16
+        }, {
+          "color": "#ffc0c4",
+          "rarity": 16
+        }, {
+          "color": "#fde7e7",
+          "rarity": 16
+        }
+      ],
+      "logo": "ancientFoxLogo.png",
+      "rarity": 16
+    },
+    "Dire": {
+      "sub": "Ancients",
+      "skins": [
+        {
+          "color": "#61585c",
+          "rarity": 16
+        }, {
+          "color": "#929295",
+          "rarity": 16
+        }, {
+          "color": "#e6ded5",
+          "rarity": 16
+        }, {
+          "color": "#736187",
+          "rarity": 16
+        }, {
+          "color": "#a4e8ff",
+          "rarity": 16
+        }
+      ],
+      "eyes": [
+        {
+          "color": "#c14634",
+          "rarity": 16
+        }, {
+          "color": "#9bd46f",
+          "rarity": 16
+        }, {
+          "color": "#6abfbf",
+          "rarity": 16
+        }, {
+          "color": "#7a57aa",
+          "rarity": 16
+        }, {
+          "color": "#2a4ac7",
+          "rarity": 16
+        }
+      ],
+      "ears": [
+        {
+          "color": "#433d40",
+          "rarity": 16
+        }, {
+          "color": "#b1b1be",
+          "rarity": 16
+        }, {
+          "color": "#fbf5ef",
+          "rarity": 16
+        }, {
+          "color": "#9e83ba",
+          "rarity": 16
+        }, {
+          "color": "#e2f7ff",
+          "rarity": 16
+        }
+      ],
+      "logo": "ancientDireLogo.png",
+      "rarity": 16
+    }
+  }
+}
