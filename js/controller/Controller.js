@@ -3,7 +3,7 @@
 import {SpecieService} from "./SpecieService.js";
 import {ColorService} from "./ColorService.js";
 import {ExtrasController} from "./ExtrasController.js";
-import {getSpeciesList, getSubspeciesList, loadingProgress} from "../data/DataHandler.js";
+import {getSpeciesList, loadingProgress} from "../data/DataHandler.js";
 
 /**
  * main controller
@@ -39,9 +39,6 @@ export default class Controller {
             speciesService.changeSpecies();
             let extrasController = new ExtrasController();
             extrasController.populateExtras();
-        } else if (fieldName === "subspecies") {
-            let speciesService = new SpecieService();
-            speciesService.changeSubSpecies();
         } else if (fieldName === "variant") {
             let speciesService = new SpecieService();
             speciesService.changeVariant();
@@ -112,16 +109,8 @@ export default class Controller {
         document.querySelector("input[value='" + specieKey + "']").checked = true;
         speciesService.changeSpecies();
 
-        // choose a subspecies
-        let subSpecieKeys = Object.keys(getSubspeciesList(specieKey));
-        let subSpecieId = this.getRandomInt(0, subSpecieKeys.length);
-        let subSpecieKey = subSpecieKeys[subSpecieId];
-        document.querySelector("input[value='" + subSpecieKey + "']").checked = true;
-        document.querySelector("input[name='subspecies']")
-            .dispatchEvent(new Event("change", {bubbles: true}));
-
         // choose a variant
-        let variantKey = subSpecieKeys[subSpecieId];
+        let variantKey = specieKey[specieId];
         document.querySelector("input[value='" + variantKey + "']").checked = true;
         document.querySelector("input[name='variant']")
             .dispatchEvent(new Event("change", {bubbles: true}));

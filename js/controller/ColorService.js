@@ -22,7 +22,6 @@ export class ColorService {
         const specie = document.querySelector("input[name='species']:checked").value;
         const colorsList = getColorsList(
             specie,
-            document.querySelector("input[name='subspecies']:checked").value,
             document.querySelector("input[name='variant']:checked").value,
             type
         );
@@ -71,7 +70,6 @@ export class ColorService {
             let fieldId = types[type];
             let colorData = getColors(
                 document.querySelector("input[name='species']:checked").value,
-                document.querySelector("input[name='subspecies']:checked").value,
                 document.querySelector("input[name='variant']:checked").value,
                 fieldId,
                 document.querySelector("input[name='" + fieldId + "']:checked").value

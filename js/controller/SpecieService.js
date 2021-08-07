@@ -3,7 +3,6 @@
 import {
     getSpecie,
     getSpeciesList,
-    getSubspeciesList,
     getVariantList
 } from "../data/DataHandler.js";
 import {ViewController} from "../view/ViewController.js";
@@ -13,7 +12,7 @@ import {ExtrasController} from "./ExtrasController.js";
 import ("../data/DataHandler.js");
 
 /**
- * controller for species and subspieces
+ * controller for species and variants
  * @author Gimli GloinsSon
  */
 
@@ -57,67 +56,25 @@ export class SpecieService {
     }
 
     /**
-     * add the subspiecies to the selection
-     * @param specieKey
-     */
-    populateSubSpecies(specieKey) {
-        (async () => {
-            let exists = false;
-            while (!exists) {
-                exists = DataStore.hasOwnProperty(specieKey) &&
-                    Object.keys(DataStore[specieKey].subspecies).length !== 0;
-                if (!exists)
-                    await new Promise(resolve => setTimeout(resolve, 100));
-            }
-            const viewController = new ViewController();
-            const subspeciesList = getSubspeciesList(specieKey);
-            const subSpiecesLogos = document.getElementById("subspecies");
-            const dice = document.getElementById("diceSubspecies").getAttribute("data-rarity");
-            subSpiecesLogos.innerText = null;
-
-            for (const [key, subspecie] of Object.entries(subspeciesList)) {
-                let disabled = "disabled";
-                if (dice >= subspecie.rarity) disabled = "";
-                let logo = viewController.buildLogo(
-                    "subspecies",
-                    key,
-                    specieKey,
-                    subspecie.logo,
-                    subspecie.rarity,
-                    disabled
-                );
-                subSpiecesLogos.innerHTML += logo;
-            }
-
-            let subspecies = document.querySelector("input[name='subspecies']");
-            subspecies.checked = true;
-            this.changeSubSpecies();
-        })();
-    }
-
-    /**
      * add variants to the selection
      * @param specieKey
-     * @param subspecieKey
      */
-    populateVariants(specieKey, subspecieKey) {
+    populateVariants(specieKey) {
         (async () => {
             let exists = false;
             while (!exists) {
                 if (DataStore.hasOwnProperty(specieKey) &&
-                    Object.keys(DataStore[specieKey].subspecies).length !== 0 &&
-                    DataStore[specieKey].subspecies.hasOwnProperty(subspecieKey)) {
-
-                    exists = Object.keys(DataStore[specieKey].subspecies[subspecieKey]).length !== 0;
+                    Object.keys(DataStore[specieKey].variants).length !== 0) {
+                    exists = true;
                 }
 
                 if (!exists)
                     await new Promise(resolve => setTimeout(resolve, 100));
             }
             const viewController = new ViewController();
-            const variantList = getVariantList(specieKey, subspecieKey);
+            const variantList = getVariantList(specieKey);
             const variantLogos = document.getElementById("variants");
-            const dice = document.getElementById("diceSubspecies").getAttribute("data-rarity");
+            const dice = document.getElementById("diceVariants").getAttribute("data-rarity");
 
             variantLogos.innerText = null;
             for (const [variantKey, variant] of Object.entries(variantList)) {
@@ -167,21 +124,11 @@ export class SpecieService {
             root.style.setProperty("--colorRare", specie.rarityColors[2]);
             root.style.setProperty("--colorMythical", specie.rarityColors[3]);
 
-            this.populateSubSpecies(specieKey);
+            this.populateVariants(specieKey);
 
             let extrasController = new ExtrasController();
             extrasController.populateExtras();
         })();
-    }
-
-    /**
-     * the user changed the subSpecies
-     */
-    changeSubSpecies() {
-        this.populateVariants(
-            document.querySelector("input[name='species']:checked").value,
-            document.querySelector("input[name='subspecies']:checked").value
-        );
     }
 
     /**

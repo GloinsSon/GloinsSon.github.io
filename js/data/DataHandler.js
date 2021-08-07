@@ -2,7 +2,6 @@
  * reads the data from JSON and creates objects
  */
 import {Specie} from "../model/Specie.js";
-import {SubSpecie} from "../model/Subspecie.js";
 import {Variant} from "../model/Variant.js";
 import {Extra} from "../model/Extra.js";
 
@@ -10,32 +9,32 @@ const jsonFiles = [
     {file: "species.json", callback: setSpecies},
 
     {file: "cubs/humanoid.xml", callback: setHumanoid},
-    {file: "cubs/subspecies.json", callback: setSubSpecies},
-    {file: "cubs/extras.json", callback: setExtras},
+    {file: "cubs/variants.json", callback: setVariants},
+    {file: "cubs/extras.json", callback: setExtras} /*,
 
     {file: "fins/humanoid.xml", callback: setHumanoid},
-    {file: "fins/subspecies.json", callback: setSubSpecies},
+    {file: "fins/variants.json", callback: setVariants},
     {file: "fins/extras.json", callback: setExtras},
 
     {file: "flappers/humanoid.xml", callback: setHumanoid},
-    {file: "flappers/subspecies.json", callback: setSubSpecies},
+    {file: "flappers/variants.json", callback: setVariants},
     {file: "flappers/extras.json", callback: setExtras},
 
     {file: "floofs/humanoid.xml", callback: setHumanoid},
-    {file: "floofs/subspecies.json", callback: setSubSpecies},
+    {file: "floofs/variants.json", callback: setVariants},
     {file: "floofs/extras.json", callback: setExtras},
 
     {file: "hoppers/humanoid.xml", callback: setHumanoid},
-    {file: "hoppers/subspecies.json", callback: setSubSpecies},
+    {file: "hoppers/variants.json", callback: setVariants},
     {file: "hoppers/extras.json", callback: setExtras},
 
     {file: "prancers/humanoid.xml", callback: setHumanoid},
-    {file: "prancers/subspecies.json", callback: setSubSpecies},
+    {file: "prancers/variants.json", callback: setVariants},
     {file: "prancers/extras.json", callback: setExtras},
 
     {file: "smittens/humanoid.xml", callback: setHumanoid},
-    {file: "smittens/subspecies.json", callback: setSubSpecies},
-    {file: "smittens/extras.json", callback: setExtras}
+    {file: "smittens/variants.json", callback: setVariants},
+    {file: "smittens/extras.json", callback: setExtras}*/
 
 ]
 
@@ -123,44 +122,24 @@ export function getSpeciesList() {
 }
 
 /**
- * get one subspecie
+ * get a variant for a specie
  * @param specieKey
- * @param subspecieKey
- * @returns {*}
- */
-export function getSubspecie(specieKey, subspecieKey) {
-    let list = getSubspeciesList(specieKey);
-    return list[subspecieKey];
-}
-
-/**
- * gets a list for all subspiecies for one spiecie
- * @param speciesKey
- * @returns {*|{}}
- */
-export function getSubspeciesList(speciesKey) {
-    return getSpecie(speciesKey).subspecies;
-}
-
-/**
- * get a variant for a subspecie
- * @param specieKey
- * @param subspecieKey
  * @param variantKey
  * @returns {*}
  */
-export function getVariant(specieKey, subspecieKey, variantKey) {
-    return getVariantList(specieKey, subspecieKey)[variantKey];
+export function getVariant(specieKey, variantKey) {
+    return getVariantList(specieKey)[variantKey];
 }
 
 /**
- * gets a list of all variants for a subspecies
+ * gets a list of all variants for a specie
  * @param specieKey
- * @param subspiecieKey
  * @returns {*|{}}
  */
-export function getVariantList(specieKey, subspiecieKey) {
-    return getSubspeciesList(specieKey)[subspiecieKey].variants;
+export function getVariantList(specieKey) {
+    const speciesList = getSpeciesList();
+    const specie = speciesList[specieKey];
+    return specie.variants;
 }
 
 /**
@@ -189,27 +168,25 @@ export function getExtrasList(specieKey) {
 /**
  * gets one skin color
  * @param specieKey
- * @param subspecieKey
  * @param variantKey
  * @param type
  * @param colorKey
  * @returns {*}
  */
-export function getColors(specieKey, subspecieKey, variantKey, type, colorKey) {
-    let colors = getColorsList(specieKey, subspecieKey, variantKey, type);
+export function getColors(specieKey, variantKey, type, colorKey) {
+    let colors = getColorsList(specieKey, variantKey, type);
     return colors[colorKey];
 }
 
 /**
  * get a list of all extras for a specie
  * @param specieKey
- * @param subspecieKey
  * @param variantKey
  * @param type
  * @returns {*}
  */
-export function getColorsList(specieKey, subspecieKey, variantKey, type) {
-    let variant = getVariant(specieKey, subspecieKey, variantKey);
+export function getColorsList(specieKey, variantKey, type) {
+    let variant = getVariant(specieKey, variantKey);
     return variant[type];
 }
 
@@ -260,62 +237,41 @@ function setSpecies(jsonData) {
     loadingProgress("decrease");
 }
 
-/**
- * sets the sub-species in the DataStore
- * @param jsonData
- */
-function setSubSpecies(jsonData) {
-
-    for (const [parentKey, child] of Object.entries(jsonData)) {
-        let parent;
-        (async () => {
-            let exists = false;
-            while (!exists) {
-                if (DataStore.hasOwnProperty(parentKey)) {
-                    parent = DataStore[parentKey];
-                    exists = parent.hasOwnProperty("subspecies");
-                }
-                if (!exists)
-                    await new Promise(resolve => setTimeout(resolve, 100));
-            }
-
-            let map = {};
-            for (const [key, value] of Object.entries(child)) {
-                let subspecie = new SubSpecie(
-                    key,
-                    value.name,
-                    value.logo,
-                    value.rarity
-                );
-                setVariants(value.variants, subspecie);
-                map[key] = subspecie;
-            }
-
-            parent.subspecies = map;
-            loadingProgress("decrease");
-        })();
-    }
-}
 
 /**
  * sets the color variants in the DataStore
- * @param variantList
- * @param parent
+ * @param jsonData
  */
-function setVariants(variantList, parent) {
-    let map = {};
-    for (const [key, value] of Object.entries(variantList)) {
-        map[key] = new Variant(
-            key,
-            key,
-            value.logo,
-            value.rarity,
-            value.skins,
-            value.ears,
-            value.eyes
-        );
-    }
-    parent.variants = map;
+function setVariants(jsonData) {
+    let parent;
+    let species = jsonData.species;
+
+    (async () => {
+        let exists = false;
+        while (!exists) {
+            if (DataStore.hasOwnProperty(species)) {
+                parent = DataStore[species];
+                exists = parent.hasOwnProperty("variants");
+            }
+            if (!exists)
+                await new Promise(resolve => setTimeout(resolve, 100));
+        }
+
+
+        for (const [key, value] of Object.entries(jsonData.variants)) {
+            let variant = new Variant(
+                key,
+                key,
+                value.logo,
+                value.rarity,
+                value.skins,
+                value.ears,
+                value.eyes
+            );
+            parent.variants[key] = variant;
+        }
+        loadingProgress("decrease");
+    })();
 }
 
 /**
