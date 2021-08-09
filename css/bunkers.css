@@ -259,3 +259,10 @@ input[data-rarity="16"] + svg
 .bold {
     font-weight: bolder;
 }
+
+#canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #60606080;
+}
