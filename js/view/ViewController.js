@@ -93,7 +93,7 @@ export class ViewController {
         const template =
             "<label>" +
             "  <input type='radio' name='{name}' value='{value}' data-rarity='{rarity}' {disabled} />" +
-            "  <img src='./js/data/{species}/{filename}' width='50' height='50' />" +
+            "  <img src='./img/{species}/{filename}' width='50' height='50' />" +
             "</label>";
 
         let replace = {
