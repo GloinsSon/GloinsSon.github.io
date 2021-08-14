@@ -62,6 +62,10 @@ export default class Controller {
      */
     dragDice(event) {
         event.dataTransfer.setData("text", event.currentTarget.id);
+        /*let img = new Image();
+        img.src = "./img/d20.jpg";
+        event.dataTransfer.setDragImage(img,10,10);*/
+        console.log(event.dataTransfer.getData("text"));
     }
 
     /**

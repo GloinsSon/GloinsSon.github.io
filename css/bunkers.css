@@ -239,12 +239,22 @@ input[data-rarity="16"] + svg
     background-color: var(--colorMythical);
 }
 /* === misc style === */
+#diceArea {
+    background-color: transparent;
+    z-index: 2;
+}
+
+#diceArea > div {
+    z-index: 5;
+}
 .diceTarget {
+    height: 75px;
+    width: 75px;
+}
+fieldset > .diceTarget {
     position: absolute;
     margin-left: -90px;
     margin-top: -20px;
-    height: 75px;
-    width: 75px;
 }
 
 #specieSet {
@@ -264,5 +274,14 @@ input[data-rarity="16"] + svg
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #60606080;
+    top: 30px;
+    left: 0;
+    background-color: transparent;
+    z-index: -1;
+}
+
+#overview {
+    position: relative;
+    top: 0;
+    left: 0;
 }

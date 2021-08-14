@@ -38,7 +38,7 @@ export class ViewController {
             "{disabled}": disabled
         };
 
-        let html = multiReplace(template, replace);
+        let html = this.multiReplace(template, replace);
         return html;
     }
 
@@ -74,7 +74,7 @@ export class ViewController {
             "{rarity}": rarity,
             "{disabled}": disabled
         }
-        let html = multiReplace(template, replace);
+        let html = this.multiReplace(template, replace);
         return html;
     }
 
@@ -103,22 +103,40 @@ export class ViewController {
             "{filename}": filename,
             "{rarity}": rarity,
             "{disabled}": disabled
-        }
-        let html = multiReplace(template, replace);
+        };
+        let html = this.multiReplace(template, replace);
         return html;
+    }
+
+    buildDice(id, value, rarity) {
+
+        const templateStart = "<div id='{id}' class='die diceTarget' draggable='true' data-face='{value}' data-rarity='{rarity}'>";
+        const templateFig = "<figure class='face face-{ix}'></figure>";
+        const replace = {
+            "{id}": id,
+            "{value}": value,
+            "{rarity}": rarity
+        };
+        let html = this.multiReplace(templateStart, replace);
+        for (let i = 1; i <= 20; i++) {
+            html += this.multiReplace(templateFig, {"{ix}": i});
+        }
+        html += "</div>";
+        return html;
+    }
+
+    /**
+     * replace strings based on key/value pairs
+     * @param template
+     * @param replace
+     * @returns {string}
+     */
+    multiReplace(template, replace) {
+        let output = template;
+        for (const [key, value] of Object.entries(replace)) {
+            output = output.replaceAll(key, value);
+        }
+        return output;
     }
 }
 
-/**
- * replace strings based on key/value pairs
- * @param template
- * @param replace
- * @returns {string}
- */
-function multiReplace(template, replace) {
-    let output = template;
-    for (const [key, value] of Object.entries(replace)) {
-        output = output.replaceAll(key, value);
-    }
-    return output;
-}
