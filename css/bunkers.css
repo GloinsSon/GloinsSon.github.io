@@ -21,16 +21,28 @@ body {
 }
 
 /* === parts of the page === */
-nav {
-    position: relative;
+nav, footer {
+    /*position: relative;*/
     width: 100%;
-    height: 30px;
+    height: 35px;
     background-color: var(--navBg);
     color: var(--navText);
     text-align: center;
+    padding-top: 5px;
 }
 
-nav a {
+footer {
+    display: flex;
+    flex-float: row nowrap;
+    justify-content: center;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+nav a, nav a:visited,
+footer a, footer a:visited{
+    margin: 0 30px;
     color: var(--navText);
 }
 
@@ -60,7 +72,6 @@ main {
     flex-flow: row wrap;
     min-width: 600px;
     max-width: var(--maxWidth);
-    padding: 0;
 }
 
 #settings0 {
@@ -101,6 +112,17 @@ main {
 }
 
 /* === basic tag styles === */
+button {
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button img {
+    height: 50px;
+}
+
 h2 {
     font-size: 1.4em;
     flex-flow: nowrap;

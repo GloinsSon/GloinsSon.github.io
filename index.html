@@ -18,7 +18,34 @@
   </head>
   <body>
     <nav>
-      <a href="../">Indy.fan</a>
+      <a href="../">
+        <svg width="24px" height="24px" viewBox="0 0 25 23.65">
+          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                  d="M21.28,12,12.5,4.25,3.72,12v11.1a.52.52,0,0,0,.52.52H9.73V18.78a.52.52,0,0,1,.52-.52h4.5a.52.52,0,0,1,.52.52v4.87h5.49a.52.52,0,0,0,.52-.52V12Z"/>
+              <path d="M12.45,0,0,11,1.31,12.5,12.5,2.6l11.19,9.9L25,11,12.55,0,12.5.06,12.45,0Z"/>
+              <path d="M3.72,1.59H6.88l0,1.87L3.72,6.28V1.59Z"/>
+          </g>
+        </svg>
+        Indy.fan
+      </a>
+      <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">
+        <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
+          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
+            <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
+          </g>
+        </svg>
+        Bunkin - WorldAnvil
+      </a>
+      <a href="https://indyland.us">
+        <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
+          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
+            <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
+          </g>
+        </svg>
+        IndyLand.us</a>
     </nav>
     <div id="canvas"></div>
     <main id="main">
@@ -34,6 +61,8 @@
             <li>Roll the dice (re-roll for dice with 15-19)</li>
             <li>Drag & drop to switch dice</li>
             <li>Choose from the available options</li>
+            <li>Create a link to download your Bunker as a vector graphic (svg) to be edited with programs like
+              <a href="https://inkscape.org/" target="_blank">Inkscape</a></li>
           </ol>
 
           <div id="diceArea">
@@ -49,11 +78,26 @@
             <div id="dice9"></div>
             <div id="diceA"></div>
           </div>
-          <button id="rollDice" type="button">Roll dice</button>
-          <button id="resetDice" type="button">Reset</button>
+          <button id="rollDice" type="button">
+            <img id="d20" src="./img/diceD20.png" draggable="false" alt="Roll Dice"/>
+          </button>
+          <button id="resetDice" type="button">
+            <img src="./img/reset.png" draggable="false" alt="Reset"/>
+          </button>
+          <button id="btnDownload" type="button">
+            <img src="./img/download.png" draggable="false" alt="Download ..."/>
+          </button>
+          <span id="link" hidden>
+              <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
+          </span>
+
         </div>
         <div id="rarity">
           <img src="./img/rarity.jpg" alt="rarity table"/>
+          <audio controls>
+            <source src="./media/BunkersHymn.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
         </div>
       </div>
 
@@ -120,15 +164,21 @@
             <div id="extra6" data-count="true"></div>
 
           </fieldset>
-          <button id="btnDownload" type="button">Create link for download ...</button>
-          <div id="link" hidden>
-            <p>
-              You can <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
-              your very special Bunker as a vector graphic (svg).
-              This vector graphic can be edited with programs like
-              <a href="https://inkscape.org/" target="_blank">Inkscape</a>
-            </p>
-          </div>
+        </div>
+        <div id="credits">
+          <p>
+            Credit for the artwork and the creation of Bunkin goes to
+            <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
+          </p>
+          <p>
+            "The Bunker" song by <a href="https://open.spotify.com/artist/6J5VuFIm5Yvy3o5LJKMnBm" target="_blank">D.O.M.
+            of Dnd</a>
+          </p>
+          <p>
+            Scripting done by <a href="../about.html">GloinsSon</a>
+            and <a href="https://indyland.us/about" target="_blank">Vincent_0x00</a>.
+            Please direct bug reports or questions about the site to GloinsSon.
+          </p>
         </div>
       </form>
 
@@ -148,19 +198,7 @@
           </text>
         </svg>
       </div>
-      <div id="credits" class="x-100">
-        <button id="random" type="button" hidden>Random</button>
 
-        <p>
-          Credit for the artwork and the creation of Bunkin goes to
-          <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
-        </p>
-        <p>
-          Scripting done by <a href="../about.html">GloinsSon</a>
-          and <a href="https://indyland.us/about" target="_blank">Vincent_0x00</a>.
-          Please direct bug reports or questions about the site to GloinsSon.
-        </p>
-      </div>
     </main>
 
     <footer>
@@ -169,6 +207,7 @@
              aria-valuemin="0" aria-valuemax="100">Loading data ...
         </div>
       </div>
+      <a href="./about.html">About</a>
     </footer>
     <script src="./js/main.js"></script>
     <script src="./js/libs/cannon/cannon.js"></script>

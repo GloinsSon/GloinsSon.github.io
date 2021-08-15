@@ -281,7 +281,7 @@
       "logo": "easternShorthairLogo.png",
       "rarity": 2
     },
-    "Fluffy": {
+    "Fluffy ": {
       "sub": "Eastern",
       "skins": [
         {
@@ -561,7 +561,7 @@
       "logo": "persianCommonLogo.png",
       "rarity": 8
     },
-    "Shorthair": {
+    "Shorthair ": {
       "sub": "Persian",
       "skins": [
         {
@@ -771,7 +771,7 @@
       "logo": "wildcatsCommonLogo.png",
       "rarity": 16
     },
-    "Striped": {
+    "Striped ": {
       "sub": "Wildcats",
       "skins": [
         {

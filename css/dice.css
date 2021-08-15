@@ -178,8 +178,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OU
     margin: 0 var(--sideN);
     border-left: var(--sideP) solid transparent;
     border-right: var(--sideP) solid transparent;
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;

@@ -1,7 +1,6 @@
 "use strict";
 import * as THREE from "../libs/three/three.module.js";
 import {DiceManager, DiceD20} from "../libs/dice.js";
-import {OrbitControls} from "../libs/three/OrbitControls.js";
 import {ViewController} from "./ViewController.js";
 import {getSpecie} from "../data/DataHandler.js";
 
@@ -90,6 +89,7 @@ export default class DiceController {
             dice.setAttribute("data-face", "0");
             dice.setAttribute("data-rarity", "0");
         }
+        triggerUpdate();
 
         diceArray = diceArea.querySelectorAll("div[data-face='0']");
 
@@ -114,7 +114,6 @@ export default class DiceController {
      */
     collect() {
         let count = 0;
-        let canvas = document.getElementById("canvas");
 
         let diceArray = document.querySelectorAll("#diceArea > div[data-face='0']");
         for (let i = 0; i < self.dice.length; i++) {
@@ -122,7 +121,7 @@ export default class DiceController {
             let dice = diceArray[count];
             let rarity = "0";
 
-            if (result == 20) rarity = "16";
+            if (result === 20) rarity = "16";
             else if (result >= 15) rarity = "0";
             else if (result >= 13) rarity = "8";
             else if (result >= 9) rarity = "4";
@@ -171,6 +170,8 @@ export default class DiceController {
             die.setAttribute("data-face", "0");
             die.setAttribute("data-rarity", "0");
         }
+
+        triggerUpdate();
     }
 
     /**

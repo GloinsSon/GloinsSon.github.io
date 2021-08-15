@@ -48,7 +48,7 @@ function registerListeners() {
     document.getElementById("resetDice").addEventListener("click", diceController.resetDice);
 
     document.getElementById("selection").addEventListener("change", controller.changeSettings);
-    document.getElementById("random").addEventListener("click", randomBunker);
+    //document.getElementById("random").addEventListener("click", randomBunker);
     document.getElementById("btnDownload").addEventListener("click", createDownload);
 
     const diceList = document.getElementsByClassName("die");

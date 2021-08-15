@@ -38,8 +38,8 @@ export class ViewController {
             "{disabled}": disabled
         };
 
-        let html = this.multiReplace(template, replace);
-        return html;
+        return this.multiReplace(template, replace);
+        ;
     }
 
     /**
@@ -58,7 +58,7 @@ export class ViewController {
             "<label>" +
             "  <input type='radio' name='{type}' value='{name}' data-rarity='{rarity}' {disabled} />" +
             "  <figure>" +
-            "    <img src='./img/{folder}/{image}' title='{name}' alt='{name}' />" +
+            "    <img src='./img/{folder}/{image}' title='{name}' alt='{name}' draggable='false'/>" +
             "    <figcaption class='{className}'>{name}</figcaption>" +
             " </figure>" +
             "</label>";
@@ -74,8 +74,7 @@ export class ViewController {
             "{rarity}": rarity,
             "{disabled}": disabled
         }
-        let html = this.multiReplace(template, replace);
-        return html;
+        return this.multiReplace(template, replace);
     }
 
 
@@ -93,7 +92,7 @@ export class ViewController {
         const template =
             "<label>" +
             "  <input type='radio' name='{name}' value='{value}' data-rarity='{rarity}' {disabled} />" +
-            "  <img src='./js/data/{species}/{filename}' width='50' height='50' />" +
+            "  <img src='./js/data/{species}/{filename}' width='50' height='50' alt='extra' draggable='false'/>" +
             "</label>";
 
         let replace = {
@@ -104,8 +103,7 @@ export class ViewController {
             "{rarity}": rarity,
             "{disabled}": disabled
         };
-        let html = this.multiReplace(template, replace);
-        return html;
+        return this.multiReplace(template, replace);
     }
 
     buildDice(id, value, rarity) {

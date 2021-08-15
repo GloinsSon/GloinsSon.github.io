@@ -20,6 +20,7 @@
     <nav>
       <a href="../">Indy.fan</a>
     </nav>
+    <div id="canvas"></div>
     <main id="main">
       <div id="intro">
         <div id="overview">
@@ -28,134 +29,78 @@
             You can choose the look of your Bunker, the inhabitants of
             <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">Bunkin;</a>
             Land of personified stuffed animals, they dream of having a master.
-          <ol>
+          <ol id="instructions">
             <li>Pick your species</li>
             <li>Roll the dice (re-roll for dice with 15-19)</li>
             <li>Drag & drop to switch dice</li>
             <li>Choose from the available options</li>
+            <li>Download your Bunker as a vector graphic (svg) to be edited with programs like
+              <a href="https://inkscape.org/" target="_blank">Inkscape</a></li>
           </ol>
 
-          <button id="rollDice" type="button">Roll dice</button>
-          <button id="resetDice" type="button">Reset</button>
+          <div id="diceArea">
+            <div id="dice0"></div>
+            <div id="dice1"></div>
+            <div id="dice2"></div>
+            <div id="dice3"></div>
+            <div id="dice4"></div>
+            <div id="dice5"></div>
+            <div id="dice6"></div>
+            <div id="dice7"></div>
+            <div id="dice8"></div>
+            <div id="dice9"></div>
+            <div id="diceA"></div>
+          </div>
+          <button id="rollDice" type="button">
+            <img id="d20" src="./img/diceD20.png" draggable="false" alt="Roll Dice"/>
+          </button>
+          <button id="resetDice" type="button">
+            <img src="./img/reset.png" draggable="false" alt="Reset"/>
+          </button>
+          <button id="btnDownload" type="button">
+            <img src="./img/download.png" draggable="false" alt="Download ..."/>
+          </button>
+          <span id="link" hidden>
+              <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
+          </span>
+
         </div>
         <div id="rarity">
           <img src="./img/rarity.jpg" alt="rarity table"/>
+          <audio controls>
+            <source src="./media/BunkersHymn.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
         </div>
       </div>
 
       <form id="selection">
         <div id="settings0">
           <fieldset id="specieSet">
-            <legend for="species">Species</legend>
-            <div id="species">
-            </div>
+            <legend>Species</legend>
+            <label for="species">Race</label>
+            <div id="species"></div>
           </fieldset>
           <fieldset id="variantSet">
             <legend>Sub-Races</legend>
             <label for="variants">Variants</label>
 
-            <div id="diceVariants" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="diceVariants"></div>
             <div id="variants" data-count="true"></div>
           </fieldset>
           <fieldset>
             <legend class="w-auto px-2">Colors</legend>
 
             <label for="skins">Skin Tones</label>
-            <div id="diceskins" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="skins" data-count="true">
-            </div>
+            <div id="diceskins"></div>
+            <div id="skins" data-count="true"></div>
 
             <label for="eyes">Eye color</label>
-            <div id="diceeyes" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
-            <div id="eyes" data-count="true">
-            </div>
+            <div id="diceeyes"></div>
+            <div id="eyes" data-count="true"></div>
 
             <label for="ears">Ears, Tails, Wings</label>
-            <div id="diceears" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="diceears"></div>
             <div id="ears" data-count="true">
             </div>
           </fieldset>
@@ -164,190 +109,34 @@
           <fieldset>
             <legend>Miscellaneous</legend>
             <label for="extra0" id="extraL0">Extra0</label>
-            <div id="extraD0" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="extraD0"></div>
             <div id="extra0" data-count="true"></div>
 
             <label for="extra1" id="extraL1">Extra1</label>
-            <div id="extraD1" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="extraD1"></div>
             <div id="extra1" data-count="true"></div>
 
             <label for="extra2" id="extraL2">Extra2</label>
-            <div id="extraD2" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="extraD2"></div>
             <div id="extra2" data-count="true"></div>
 
             <label for="extra3" id="extraL3">Extra2</label>
-            <div id="extraD3" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="extraD3"></div>
             <div id="extra3" data-count="true"></div>
 
             <label for="extra4" id="extraL4">Extra2</label>
-            <div id="extraD4" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="extraD4"></div>
             <div id="extra4" data-count="true"></div>
 
             <label for="extra5" id="extraL5">Extra2</label>
-            <div id="extraD5" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="extraD5"></div>
             <div id="extra5" data-count="true"></div>
 
             <label for="extra6" id="extraL6">Extra2</label>
-            <div id="extraD6" class="die diceTarget" draggable="true" data-face="20" data-rarity="16">
-              <figure class="face face-1"></figure>
-              <figure class="face face-2"></figure>
-              <figure class="face face-3"></figure>
-              <figure class="face face-4"></figure>
-              <figure class="face face-5"></figure>
-              <figure class="face face-6"></figure>
-              <figure class="face face-7"></figure>
-              <figure class="face face-8"></figure>
-              <figure class="face face-9"></figure>
-              <figure class="face face-10"></figure>
-              <figure class="face face-11"></figure>
-              <figure class="face face-12"></figure>
-              <figure class="face face-13"></figure>
-              <figure class="face face-14"></figure>
-              <figure class="face face-15"></figure>
-              <figure class="face face-16"></figure>
-              <figure class="face face-17"></figure>
-              <figure class="face face-18"></figure>
-              <figure class="face face-19"></figure>
-              <figure class="face face-20"></figure>
-            </div>
+            <div id="extraD6"></div>
             <div id="extra6" data-count="true"></div>
 
           </fieldset>
-          <button id="btnDownload" type="button" >Create link for download ...</button>
-          <div id="link" hidden>
-            <p>
-              You can <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
-              your very special Bunker as a vector graphic (svg).
-              This vector graphic can be edited with programs like
-              <a href="https://inkscape.org/" target="_blank">Inkscape</a>
-            </p>
-          </div>
         </div>
       </form>
 
@@ -368,11 +157,12 @@
         </svg>
       </div>
       <div id="credits" class="x-100">
-        <button id="random" type="button" hidden>Random</button>
-
         <p>
           Credit for the artwork and the creation of Bunkin goes to
           <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
+        </p>
+        <p>
+          "The Bunker" song by <a href="https://open.spotify.com/artist/6J5VuFIm5Yvy3o5LJKMnBm" target="_blank">D.O.M. of Dnd</a>
         </p>
         <p>
           Scripting done by <a href="../about.html">GloinsSon</a>
@@ -390,5 +180,6 @@
       </div>
     </footer>
     <script src="./js/main.js"></script>
+    <script src="./js/libs/cannon/cannon.js"></script>
   </body>
 </html>

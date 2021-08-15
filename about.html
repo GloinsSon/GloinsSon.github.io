@@ -1,68 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Bunkers Character Creator</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/bunkers.css">
-</head>
-<body>
-<nav class="navbar navbar-fluid navbar-expand-sm navbar-dark container" id="navbar">
-  <a class="navbar-brand" href="./index.html">Bunkers Character Creator</a>
-</nav>
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h1>About GloinsSon</h1>
-      <p>
-        I'm an application engineer who is a fan of
-        <a href="https://www.youtube.com/c/IndigoWhite" target="_blank">Indigo White</a>.
-        You can find me quite often in one of her streams.
-        I have no personal or professional relationship with Indigo White.
-      </p>
-      <p>
-        Don't pester Indigo White, it's not her fault if I'm crap at programming.
-        If you have any questions about this website, contact me
-      <ul>
-        <li>Twitter: <a href="https://twitter.com/GloinsS" target="_blank">@GloinsS</a></li>
-        <li>Discord: Gimli son of Gloin#2480</li>
-      </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunkers Creator</title>
+    <meta name="description" content="Character Designer for Bunkers">
+    <meta name="author" content="Gimli GloinsSon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <!-- <link rel="manifest" href="./site.webmanifest"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+    </style>
+    <link rel="stylesheet" href="./css/bunkers.css">
+  </head>
+  <body>
+    <nav>
+      <a href="../">
+        <svg width="24px" height="24px" viewBox="0 0 25 23.65">
+          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path
+                d="M21.28,12,12.5,4.25,3.72,12v11.1a.52.52,0,0,0,.52.52H9.73V18.78a.52.52,0,0,1,.52-.52h4.5a.52.52,0,0,1,.52.52v4.87h5.49a.52.52,0,0,0,.52-.52V12Z"/>
+            <path d="M12.45,0,0,11,1.31,12.5,12.5,2.6l11.19,9.9L25,11,12.55,0,12.5.06,12.45,0Z"/>
+            <path d="M3.72,1.59H6.88l0,1.87L3.72,6.28V1.59Z"/>
+          </g>
+        </svg>
+        Indy.fan
+      </a>
+      <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">
+        <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
+          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
+            <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
+          </g>
+        </svg>
+        Bunkin - WorldAnvil
+      </a>
+      <a href="https://indyland.us" target="_blank">
+        <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
+          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
+            <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
+          </g>
+        </svg>
+        IndyLand.us</a>
+    </nav>
+    <main>
+      <div class="row">
+        <div class="col">
+          <h1>About GloinsSon</h1>
+          <p>
+            I'm an application engineer who is a fan of
+            <a href="https://www.youtube.com/c/IndigoWhite" target="_blank">Indigo White</a>.
+            You can find me quite often in one of her streams.
+            I have no personal or professional relationship with Indigo White.
+          </p>
+          <p>
+            Don't pester Indigo White, it's not her fault if I'm crap at programming.
+            If you have any questions about this website, contact me
+          </p>
+          <ul>
+            <li>Twitter: <a href="https://twitter.com/GloinsS" target="_blank">@GloinsS</a></li>
+            <li>Discord: Gimli son of Gloin#2480</li>
+          </ul>
 
-      </p>
-      <h1>About Vincent</h1>
-      <p>
-      Vincent is one of the moderators for Indy's stream.
-      </p>
-      <ul>
-        <li>Twitter: <a href="https://twitter.com/Vincent_0x00" target="_blank">@Vincent_0x00</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <h1>Data storage and tracking</h1>
-      <p>
-        I believe in data privacy as an important human right.
-        Therefore I try to avoid storing or tracking user data on my websites.
-        Where this is not possible, I want you to make an informed decision on what data is stored and processed.
-      </p>
-      <p>
-        This website stores and tracks none of your personal data.
-        Some of the tools will offer to store your settings on your computer.
-        Where this is the case, you will get to choose, if you want this or not.
-      </p>
-    </div>
-  </div>
-</div>
-</div>
-<footer class="page-footer container">
-  <div class="row">
-    <div class="col">
-      Copyright &copy; 2021 by Gimli GloinsSon
-    </div>
-    <div class="col mx-auto"></div>
-  </div>
-</footer>
-</body>
+
+          <h1>About Vincent</h1>
+          <p>
+            Vincent is one of the moderators for Indy's stream.
+          </p>
+          <ul>
+            <li>Twitter: <a href="https://twitter.com/Vincent_0x00" target="_blank">@Vincent_0x00</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1>Data storage and tracking</h1>
+          <p>
+            I believe in data privacy as an important human right.
+            Therefore I try to avoid storing or tracking user data on my websites.
+            Where this is not possible, I want you to make an informed decision on what data is stored and processed.
+          </p>
+          <p>
+            This website stores and tracks none of your personal data.
+            Some of the tools will offer to store your settings on your computer.
+            Where this is the case, you will get to choose, if you want this or not.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer container">
+      <div class="row">
+        <div class="col">
+          Copyright &copy; 2021 by Gimli GloinsSon
+        </div>
+        <div class="col mx-auto"></div>
+      </div>
+    </footer>
+  </body>
 </html>
