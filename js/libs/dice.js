@@ -103,10 +103,10 @@ class DiceObject {
         this.invertUpside = false;
 
         this.materialOptions = {
-            specular: 0x172022,
+            //specular: 0x172022,
             color: 0xf0f0f0,
-            shininess: 40,
-            flatShading: true,
+            //shininess: 40,
+            //flatShading: true,
             //shading: THREE.FlatShading,
         };
         this.labelColor = options.fontColor;
@@ -396,7 +396,7 @@ class DiceObject {
                 texture = this.createTextTexture(this.faceTexts[i], this.labelColor, this.diceColor[i-2]);
             }
 
-            materials.push(new THREE.MeshPhongMaterial(Object.assign({}, this.materialOptions, { map: texture })));
+            materials.push(new THREE.MeshLambertMaterial(Object.assign({}, this.materialOptions, { map: texture })));
         }
         return materials;
     }
