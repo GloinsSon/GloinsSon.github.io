@@ -39,7 +39,6 @@ export class ViewController {
         };
 
         return this.multiReplace(template, replace);
-        ;
     }
 
     /**
@@ -54,12 +53,20 @@ export class ViewController {
      * @returns {string}
      */
     buildLogo(type, name, isSub, folder, image, rarity, disabled) {
-        const template =
+        let template =
             "<label>" +
             "  <input type='radio' name='{type}' value='{name}' data-rarity='{rarity}' {disabled} />" +
-            "  <figure>" +
+            "  <figure>";
+        if (isSub) {
+            template +=
+                "    <figcaption class='{className}'>{name}</figcaption>" +
+                "    <img src='./img/{folder}/{image}' title='{name}' alt='{name}' draggable='false'/>";
+        } else {
+            template +=
             "    <img src='./img/{folder}/{image}' title='{name}' alt='{name}' draggable='false'/>" +
-            "    <figcaption class='{className}'>{name}</figcaption>" +
+            "    <figcaption class='{className}'>{name}</figcaption>";
+        }
+        template +=
             " </figure>" +
             "</label>";
 

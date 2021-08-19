@@ -127,27 +127,6 @@ class DiceObject {
         return options;
     }
 
-    emulateThrow(callback) {
-        let stableCount = 0;
-
-        let check = () => {
-            if (this.isFinished()) {
-                stableCount++;
-
-                if (stableCount === 50) {
-                    DiceManager.world.removeEventListener('postStep', check);
-                    callback(this.getUpsideValue());
-                }
-            } else {
-                stableCount = 0;
-            }
-
-            DiceManager.world.step(DiceManager.world.dt);
-        };
-
-        DiceManager.world.addEventListener('postStep', check);
-    }
-
     isFinished() {
         let threshold = 1;
 

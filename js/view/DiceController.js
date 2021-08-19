@@ -64,12 +64,12 @@ export default class DiceController {
 
         for (let i = 0; i < elements.length; i++) {
             let element = elements[i];
-            let html = viewController.buildDice(
-                element.id,
-                element.value,
-                element.rarity
-            );
-            document.getElementById(element.id).outerHTML = html;
+            document.getElementById(element.id).outerHTML =
+                viewController.buildDice(
+                    element.id,
+                    element.value,
+                    element.rarity
+                );
         }
     }
 
@@ -89,8 +89,7 @@ export default class DiceController {
             let dice = diceArray[i];
             dice.setAttribute("data-face", "0");
             dice.setAttribute("data-rarity", "0");
-            let text = dice.getElementsByTagName("text")[0];
-            text.innerHTML = "0";
+            dice.getElementsByTagName("text")[0].innerHTML = "\u00A00";
         }
         triggerUpdate();
 
@@ -133,8 +132,7 @@ export default class DiceController {
             if (rarity !== "0") {
                 dice.setAttribute("data-face", result);
                 dice.setAttribute("data-rarity", rarity);
-                let text = dice.getElementsByTagName("text")[0];
-                text.innerHTML = result;
+                dice.getElementsByTagName("text")[0].innerHTML = ("\u00A0" + result).slice(-2);
                 count++;
             }
         }
@@ -144,7 +142,6 @@ export default class DiceController {
         while (child = self.scene.getObjectByName("dice3D")) {
             self.removeObject(child);
         }
-
         self.renderer.renderLists.dispose();
 
         // clean all bodies from CANNON
@@ -168,8 +165,7 @@ export default class DiceController {
             let dice = diceList[i];
             dice.setAttribute("data-face", "20");
             dice.setAttribute("data-rarity", "16");
-            let text = dice.getElementsByTagName("text")[0];
-            text.innerHTML = "20";
+            dice.getElementsByTagName("text")[0].innerHTML = "20";
         }
         selection = document.getElementById("diceArea");
         diceList = selection.getElementsByClassName("dice");

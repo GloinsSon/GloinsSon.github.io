@@ -11,6 +11,14 @@
     --maxWidth: 1800px;
 }
 
+@font-face {
+    font-family: 'SH Pinscher';
+    src: url('SHPinscher-Regular.woff2') format('woff2'),
+    url('SHPinscher-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
     /*background-color: var(--bgColor);*/
@@ -38,7 +46,7 @@ nav, footer {
 
 footer {
     display: flex;
-    flex-float: row nowrap;
+    flex-flow: row nowrap;
     justify-content: center;
     margin-top: 100px;
     bottom: 0;
@@ -84,19 +92,10 @@ main {
     z-index: 2;
 }
 
-@font-face {
-    font-family: 'Minecraftia';
-    src: url('Minecraftia-Regular.woff2') format('woff2'),
-    url('Minecraftia-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 #rarity {
     margin: 0 auto 15px auto;
-    font-family: "Minecraftia", "Lucida Sans Typewriter", Monospace;
-    font-size: 0.8em;
-    line-height: 1em;
+    font-family: "SH Pinscher", "Lucida Sans Typewriter", monospace;
+    font-size: 1.2em;
     letter-spacing: 2px;
 }
 
@@ -119,8 +118,12 @@ main {
 #rarity tbody th,
 #rarity tbody td {
     text-align: center;
-    padding: 10px 20px 0px 20px;
+    padding: 5px 20px;
     margin: 0;
+}
+
+#rarityTotal {
+    text-align: center;
 }
 
 #selection {
@@ -168,13 +171,47 @@ main {
     width: 100%;
 }
 
+#variants {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 4 400px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.subrace {
+    display: flex;
+    flex-flow: column;
+    margin: 0 10px 5px 0;
+}
+
+.subrace figure {
+    width: 100%;
+}
+.colorVar {
+    display: flex;
+    flex-flow: row;
+}
+
+.colorVar label {
+    max-width: 60px;
+}
 /* === basic tag styles === */
+
+audio {
+    height: 80px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+}
+
 button {
     box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     padding: 10px;
     margin-bottom: 10px;
 }
+
 button:disabled {
     box-shadow: 0 0 transparent;
 }
@@ -182,17 +219,25 @@ button img {
     height: 40px;
 }
 
+button svg {
+    margin: -5px;
+}
+
 h2 {
-    font-size: 1.4em;
+    font-family: "SH Pinscher", "Lucida Sans Typewriter", monospace;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    margin-block: 5px 0;
     flex-flow: nowrap;
     display: block;
 }
 
 h3 {
-    text-align: left;
+    width: 100%;
     font-size: 1.3em;
     flex-flow: nowrap;
-    font-family: 'Marck Script', cursive;
+    font-family: "SH Pinscher", "Lucida Sans Typewriter", monospace;
+    /*font-family: 'Marck Script', cursive;*/
 }
 
 a, a:visited {
@@ -222,18 +267,19 @@ figure {
     display: inline-flex;
     flex-direction: column;
     padding: 0;
-    margin: 10px 0;
-    width: 60px;
+    margin: 0;
 }
 
 figcaption {
     display: flex;
     min-width: 60px;
     justify-content: center;
+    text-align: center;
 }
 
 fieldset {
-    font-family: 'Marck Script', cursive;
+    /*font-family: 'Marck Script', cursive;*/
+    font-family: "SH Pinscher", "Lucida Sans Typewriter", monospace;
     padding: 0 0 0 100px;
     background-color: var(--formBgColor);
     margin: 0;
@@ -244,9 +290,10 @@ fieldset > div {
 }
 
 fieldset > label {
+    font-size: 1.2em;
+    line-height: 1.0em;
     display: block;
     clear: both;
-    line-height: 1.0em;
     margin: 5px 0 5px 0;
     padding: 0;
 }
@@ -274,7 +321,7 @@ input[type="radio"] + figure > img,
 input[type="radio"] + svg {
     border: #606060 3px solid;
     border-radius: 20px;
-    padding: 3px;
+    padding: 2px;
     width: 40px;
 }
 
@@ -289,7 +336,6 @@ input[type="radio"]:disabled + img,
 input[type="radio"]:disabled + figure > img,
 input[type="radio"]:disabled + figure > figcaption,
 input[type="radio"]:disabled + svg {
-    cursor: not-allowed;
     border-color: red;
     filter: opacity(50%);
     cursor: not-allowed;

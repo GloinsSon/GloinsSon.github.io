@@ -8,7 +8,6 @@ import {
 import {ViewController} from "../view/ViewController.js";
 import {ColorService} from "./ColorService.js";
 import {ExtrasController} from "./ExtrasController.js";
-
 import ("../data/DataHandler.js");
 
 /**
@@ -78,6 +77,7 @@ export class SpecieService {
             const dice = document.getElementById("diceVariants").getAttribute("data-rarity");
 
             variantLogos.innerText = null;
+            let variantsHTML = "";
             for (const [variantKey, variant] of Object.entries(variantList)) {
                 let disabled = "disabled";
                 if (dice >= variant.rarity) disabled = "";
@@ -90,11 +90,19 @@ export class SpecieService {
                     variant.logo,
                     variant.rarity,
                     disabled);
-                variantLogos.innerHTML += logo;
-            }
 
-            let variants = document.querySelector("input[name='variant']");
-            variants.checked = true;
+                if (variant.sub === variantKey) {
+                    if (variantsHTML !== "") {
+                        variantsHTML += "</div></div>";
+                    }
+                    variantsHTML += "<div class='subrace'>" + logo + "<div class='colorVar'>";
+                } else {
+                    variantsHTML += logo;
+                }
+            }
+            variantLogos.innerHTML += variantsHTML + "</div></div>"
+
+            document.querySelector("input[name='variant']").checked = true;
             this.changeVariant();
         })();
     }

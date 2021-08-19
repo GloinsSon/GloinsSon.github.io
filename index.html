@@ -77,32 +77,35 @@
             <div id="dice9"></div>
             <div id="diceA"></div>
           </div>
-          <button id="rollDice" type="button">
-            <svg xmlns='http://www.w3.org/2000/svg' height="40px" viewBox='0 0 67 75.87'>
-              <g style="fill: #f0f0f0; stroke:#000; stroke-width:2px">
-                <path d='M.5,19.18,33.5.43l33,18.75v37.5l-33,18.75L.5,56.68Z'/>
-                <path d='M33.5.43.5,56.68h66Z'/>
-                <path d='M17,28.56.5,19.18'/>
-                <path d='M50,28.56l16.5-9.38'/>
-                <path d='M33.5,56.68V75.43'/>
-                <path d='M17,28.56H50L33.5,56.68Z'/>
-                <text transform='translate(26 42.5)'
-                      style='fill:#000; font-size:16px;font-family:MyriadPro-Regular, Myriad Pro'>??
-                </text>
-              </g>
-            </svg>
-          </button>
-          <button id="resetDice" type="button" disabled>
-            <img src="./img/reset.png" draggable="false" alt="Reset"/>
-          </button>
-          <button id="btnDownload" type="button">
-            <img src="./img/download.png" draggable="false" alt="Download ..."/>
-          </button>
-          <span id="link" hidden>
+            <button id="rollDice" type="button">
+              <svg xmlns='http://www.w3.org/2000/svg' height="50px" viewBox='0 0 67 75.87'>
+                <g style="fill: #101010; stroke:#fff; stroke-width:2px">
+                  <path d='M.5,19.18,33.5.43l33,18.75v37.5l-33,18.75L.5,56.68Z'/>
+                  <path d='M33.5.43.5,56.68h66Z'/>
+                  <path d='M17,28.56.5,19.18'/>
+                  <path d='M50,28.56l16.5-9.38'/>
+                  <path d='M33.5,56.68V75.43'/>
+                  <path d='M17,28.56H50L33.5,56.68Z'/>
+                  <text transform='translate(26 42.5)'
+                        style='fill:#000; font-size:16px;font-family:MyriadPro-Regular, Myriad Pro, sans-serif'>??
+                  </text>
+                </g>
+              </svg>
+            </button>
+            <button id="resetDice" type="button" disabled>
+              <img src="./img/reset.png" draggable="false" alt="Reset"/>
+            </button>
+            <audio controls controlsList="nodownload">
+              <source src="./media/BunkersHymn.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            <button id="btnDownload" type="button">
+              <img src="./img/download.png" draggable="false" alt="Download ..."/>
+            </button>
+            <span id="link" hidden>
               <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
           </span>
-
-        </div>
+          </div>
         <div id="rarity">
           <table>
             <thead>
@@ -143,10 +146,6 @@
             </tr>
             </tbody>
           </table>
-          <audio controls>
-            <source src="./media/BunkersHymn.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
         </div>
       </div>
 
@@ -215,8 +214,9 @@
           </fieldset>
         </div>
         <div id="credits">
+          <h3>Credits</h3>
           <p>
-            Credit for the artwork and the creation of Bunkin goes to
+            Artwork and the creation of Bunkin by
             <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
           </p>
           <p>
@@ -224,7 +224,7 @@
             of Dnd</a>
           </p>
           <p>
-            Scripting done by <a href="../about.html">GloinsSon</a>
+            Scripting by <a href="../about.html">GloinsSon</a>
             and <a href="https://indyland.us/about" target="_blank">Vincent_0x00</a>.
             Please direct bug reports or questions about the site to GloinsSon.
           </p>
@@ -232,7 +232,7 @@
       </form>
 
       <div id="model" class="model">
-        <h3 id="rarityTotal">Rarity</h3>
+        <h3 id="rarityTotal">Rarity ??</h3>
         <svg xmlns="http://www.w3.org/2000/svg" id="modelSVG"
              width="600" height="1200" viewBox="0 0 600 1200">
           <defs id="svgDefs">
