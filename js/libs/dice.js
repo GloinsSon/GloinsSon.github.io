@@ -489,11 +489,6 @@ if (typeof define === 'function' && define.amd) {
     define(function () {
         return {
             DiceManager: DiceManager,
-            DiceD4: DiceD4,
-            DiceD6: DiceD6,
-            DiceD8: DiceD8,
-            DiceD10: DiceD10,
-            DiceD12: DiceD12,
             DiceD20: DiceD20,
         };
     });

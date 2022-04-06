@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         diceController.generateDice();
         registerListeners();
 
+        hideNav();
     });
 });
 
@@ -96,6 +97,16 @@ function createDownload() {
     link.href = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(source);
     document.getElementById("link").hidden = false;
 
+}
+
+function hideNav() {
+    if (window.location !== window.parent.location) {
+        document.getElementById("nav").style.display = "none";
+        document.getElementById("footer").style.display = "none";
+    } else {
+        document.getElementById("nav").style.display = "block";
+        document.getElementById("footer").style.display = "flex";
+    }
 }
 
 function snooze(ms) {

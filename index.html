@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./css/bunkers.css">
   </head>
   <body>
-    <nav>
+    <nav id="nav">
       <a href="../">
         <svg width="24px" height="24px" viewBox="0 0 25 23.65">
           <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -28,7 +28,7 @@
         </svg>
         Indy.fan
       </a>
-      <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">
+      <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_top">
         <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
           <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
@@ -53,7 +53,7 @@
           <h2>Bunkers Character Designer</h2>
 
           You can choose the look of your Bunker, the inhabitants of
-          <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">Bunkin;</a>
+          <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_top">Bunkin;</a>
           Land of personified stuffed animals, they dream of having a master.
           <ol id="instructions">
             <li>Pick your species</li>
@@ -99,11 +99,14 @@
               <source src="./media/BunkersHymn.mp3" type="audio/mpeg">
               Your browser does not support the audio element.
             </audio>
+          <audio id="diceSound">
+            <source src="./media/Multiple_dice_roll.mp3" type="audio/mpeg">
+          </audio>
             <button id="btnDownload" type="button">
               <img src="./img/download.png" draggable="false" alt="Download ..."/>
             </button>
             <span id="link" hidden>
-              <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
+              <a id="download" target="_top" href="" download="myBunker.svg">Download</a>
           </span>
           </div>
         <div id="rarity">
@@ -120,28 +123,28 @@
               <th>Hit</th>
             </tr>
             <tr>
-              <td style="background-color: var(--colorCommon)">2</td>
-              <td>Common</td>
+              <td>2</td>
+              <td class="common">Common</td>
               <td>1 - 8</td>
             </tr>
             <tr>
-              <td style="background-color: var(--colorUncommon)">4</td>
-              <td>Uncommon</td>
+              <td>4</td>
+              <td class="uncommon">Uncommon</td>
               <td>9 - 12</td>
             </tr>
             <tr>
-              <td style="background-color: var(--colorRare)">8</td>
-              <td>Rare</td>
+              <td>8</td>
+              <td class="rare">Rare</td>
               <td>13 - 14</td>
             </tr>
             <tr>
-              <td style="background-color: #f0f0f0">N/A</td>
-              <td>Re-Roll</td>
+              <td>N/A</td>
+              <td class="reroll">Re-Roll</td>
               <td>15 - 19</td>
             </tr>
             <tr>
-              <td style="background-color: var(--colorMythical)">16</td>
-              <td>Mythical</td>
+              <td>16</td>
+              <td class="mythical">Mythical</td>
               <td>NAT20</td>
             </tr>
             </tbody>
@@ -217,15 +220,15 @@
           <h3>Credits</h3>
           <p>
             Artwork and the creation of Bunkin by
-            <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
+            <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_top">Indigo White</a>.
           </p>
           <p>
-            "The Bunker" song by <a href="https://open.spotify.com/artist/6J5VuFIm5Yvy3o5LJKMnBm" target="_blank">D.O.M.
+            "The Bunker" song by <a href="https://open.spotify.com/artist/6J5VuFIm5Yvy3o5LJKMnBm" target="_top">D.O.M.
             of Dnd</a>
           </p>
           <p>
             Scripting by <a href="../about.html">GloinsSon</a>
-            and <a href="https://indyland.us/about" target="_blank">Vincent_0x00</a>.
+            and <a href="https://indyland.us/about" target="_top">Vincent_0x00</a>.
             Please direct bug reports or questions about the site to GloinsSon.
           </p>
         </div>
@@ -250,13 +253,14 @@
 
     </main>
 
-    <footer>
+    <footer id="footer">
       <div id="progress">
         <div id="progressBar" role="progressbar" aria-valuenow="0"
              aria-valuemin="0" aria-valuemax="100">Loading data ...
         </div>
       </div>
       <a href="./about.html">About</a>
+      <span>r034</span>
     </footer>
     <script src="./js/main.js"></script>
     <script src="./js/libs/cannon/cannon.js"></script>

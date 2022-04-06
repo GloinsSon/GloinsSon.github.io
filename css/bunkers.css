@@ -21,7 +21,6 @@
 }
 
 body {
-    /*background-color: var(--bgColor);*/
     background-image: linear-gradient(
             var(--bgColor),
             var(--bgColor)
@@ -35,7 +34,6 @@ body {
 
 /* === parts of the page === */
 nav, footer {
-    /*position: relative;*/
     width: 100%;
     height: 35px;
     background-color: var(--navBg);
@@ -76,10 +74,7 @@ main {
     flex: 0 0 100%;
 }
 
-#overview {
-    position: relative;
-}
-
+#overview,
 #instructions {
     position: relative;
 }
@@ -93,6 +88,9 @@ main {
 }
 
 #rarity {
+    display: flex;
+    flex: 1 1 400px;
+    min-width: 350px;
     margin: 0 auto 15px auto;
     font-family: "SH Pinscher", "Lucida Sans Typewriter", monospace;
     font-size: 1.2em;
@@ -188,6 +186,7 @@ main {
 .subrace figure {
     width: 100%;
 }
+
 .colorVar {
     display: flex;
     flex-flow: row;
@@ -196,6 +195,7 @@ main {
 .colorVar label {
     max-width: 60px;
 }
+
 /* === basic tag styles === */
 
 audio {
@@ -215,6 +215,7 @@ button {
 button:disabled {
     box-shadow: 0 0 transparent;
 }
+
 button img {
     height: 40px;
 }
@@ -371,11 +372,11 @@ input[data-rarity="16"] + svg {
     flex: 0 0 90px;
     height: 90px;
     width: 90px;
+    stroke: #000;
 }
 
 .dice[data-face="0"] svg g {
     fill: #c0c0c0;
-    stroke: #000;
 }
 
 .dice[data-face="1"] svg g,
@@ -387,7 +388,6 @@ input[data-rarity="16"] + svg {
 .dice[data-face="7"] svg g,
 .dice[data-face="8"] svg g {
     fill: var(--colorCommon);
-    stroke: #000;
 }
 
 .dice[data-face="9"] svg g,
@@ -395,13 +395,11 @@ input[data-rarity="16"] + svg {
 .dice[data-face="11"] svg g,
 .dice[data-face="12"] svg g {
     fill: var(--colorUncommon);
-    stroke: #000;
 }
 
 .dice[data-face="13"] svg g,
 .dice[data-face="14"] svg g {
     fill: var(--colorRare);
-    stroke: #000;
 }
 
 .dice[data-face="15"] svg g,
@@ -410,12 +408,10 @@ input[data-rarity="16"] + svg {
 .dice[data-face="18"] svg g,
 .dice[data-face="19"] svg g {
     fill: #f0f0f0;
-    stroke: #000;
 }
 
 .dice[data-face="20"] svg g {
     fill: var(--colorMythical) !important;
-    stroke: #000;
 }
 
 
@@ -441,7 +437,6 @@ fieldset > .diceTarget {
 
 /* === misc style === */
 
-
 #specieSet {
     padding-left: 10px;
 }
@@ -456,12 +451,31 @@ fieldset > .diceTarget {
 }
 
 #canvas {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 30px;
-    left: 0;
+    left: 10px;
     background-color: transparent;
     z-index: -1;
 }
 
+.uncommon {
+    background-color: var(--colorCommon);
+}
+
+.common {
+    background-color: var(--colorUncommon);
+}
+
+.rare {
+    background-color: var(--colorRare);
+}
+
+.reroll {
+    background-color: #f0f0f0;
+}
+
+.mythical {
+    background-color: var(--colorMythical);
+}

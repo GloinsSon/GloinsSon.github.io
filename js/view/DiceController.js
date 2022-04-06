@@ -77,6 +77,8 @@ export default class DiceController {
      * rolling the dice
      */
     roller() {
+        document.getElementById("diceSound").play();
+
         document.getElementById("instructions").style.color = "transparent";
         document.getElementById("rollDice").disabled = true;
         const diceArea = document.getElementById("diceArea");
@@ -230,7 +232,7 @@ export default class DiceController {
         self.world.add(floorBody);
 
         //Walls
-        self.makeWalls(ASPECT);
+        self.makeBarriers(ASPECT);
 
 
         requestAnimationFrame(self.animate);
@@ -271,7 +273,7 @@ export default class DiceController {
         let colors = self.createColors();
         self.dice = [];
         for (let i = 0; i < number; i++) {
-            let dice = new DiceD20({size: 1.5, backColor: colors});
+            let dice = new DiceD20({size: 1.3, backColor: colors});
             self.scene.add(dice.getObject());
             self.dice.push({
                 "dice": dice,
@@ -287,9 +289,9 @@ export default class DiceController {
             let yRand = Math.random() * 20;
             let shape = self.dice[i].dice;
             shape.resetBody();
-            shape.getObject().position.x = -15 - (i % 3) * 1.5;
+            shape.getObject().position.x = -10 - (i % 3) * 1.5;
             shape.getObject().position.y = 2 + Math.floor(i / 3) * 1.5;
-            shape.getObject().position.z = -15 + (i % 3) * 1.5;
+            shape.getObject().position.z = -10 + (i % 3) * 1.5;
             shape.getObject().quaternion.x = (Math.random() * 90 - 45) * Math.PI / 180;
             shape.getObject().quaternion.z = (Math.random() * 90 - 45) * Math.PI / 180;
             shape.updateBodyFromMesh();
@@ -399,35 +401,123 @@ export default class DiceController {
      * create walls for the dice to bounce off
      * @param ASPECT
      */
-    makeWalls(ASPECT) {
+    makeBarriers(ASPECT) {
         let barrier = new CANNON.Body({
             mass: 0,
             shape: new CANNON.Box(new CANNON.Vec3(1, 10, 50))
         });
-        barrier.position.set(-12 * ASPECT, 0, 0);
+        barrier.position.set(-19 * ASPECT, 0, 0);
         self.world.addBody(barrier);
+        /*
+        let wall = new THREE.Mesh(
+            new THREE.BoxGeometry(1, 10, 50),
+            new THREE.MeshPhongMaterial({
+                color: "#0000aa",
+                side: THREE.DoubleSide
+            })
+        );
+        wall.quaternion.set(
+            barrier.quaternion.x,
+            barrier.quaternion.y,
+            barrier.quaternion.z,
+            barrier.quaternion.w
+        );
+        wall.position.set(
+            barrier.position.x,
+            barrier.position.y,
+            barrier.position.z
+        );
+        this.scene.add(wall);
+
+         */
 
         barrier = new CANNON.Body({
             mass: 0,
             shape: new CANNON.Box(new CANNON.Vec3(1, 10, 50))
         });
-        barrier.position.set(12 * ASPECT, 0, 0);
+        barrier.position.set(19 * ASPECT, 0, 0);
         self.world.addBody(barrier);
+        /*
+        wall = new THREE.Mesh(
+            new THREE.BoxGeometry(1, 10, 50),
+            new THREE.MeshPhongMaterial({
+                color: "#0000aa",
+                side: THREE.DoubleSide
+            })
+        );
+
+                wall.quaternion.set(
+                    barrier.quaternion.x,
+                    barrier.quaternion.y,
+                    barrier.quaternion.z,
+                    barrier.quaternion.w
+                );
+                wall.position.set(
+                    barrier.position.x,
+                    barrier.position.y,
+                    barrier.position.z
+                );
+                this.scene.add(wall);
+
+                 */
 
         barrier = new CANNON.Body({
             mass: 0,
             shape: new CANNON.Box(new CANNON.Vec3(75, 50, 1))
         });
-        barrier.position.set(0, 0, -15 * ASPECT);
+        barrier.position.set(0, 0, -20 * ASPECT);
         self.world.addBody(barrier);
+        /*
+        wall = new THREE.Mesh(
+            new THREE.BoxGeometry(75, 5, 1),
+            new THREE.MeshPhongMaterial({
+                color: "#0000aa",
+                side: THREE.DoubleSide
+            })
+        );
 
+        wall.quaternion.set(
+            barrier.quaternion.x,
+            barrier.quaternion.y,
+            barrier.quaternion.z,
+            barrier.quaternion.w
+        );
+        wall.position.set(
+            barrier.position.x,
+            barrier.position.y,
+            barrier.position.z
+        );
+        this.scene.add(wall);
+        */
 
         barrier = new CANNON.Body({
             mass: 0,
             shape: new CANNON.Box(new CANNON.Vec3(75, 50, 1))
         });
-        barrier.position.set(0, 0, 15 * ASPECT);
+        barrier.position.set(0, 0, 14 * ASPECT);
         self.world.addBody(barrier);
+        /*
+        wall = new THREE.Mesh(
+            new THREE.BoxGeometry(75, 5, 1),
+            new THREE.MeshPhongMaterial({
+                color: "#0000aa",
+                side: THREE.DoubleSide
+            })
+        );
 
+        wall.quaternion.set(
+            barrier.quaternion.x,
+            barrier.quaternion.y,
+            barrier.quaternion.z,
+            barrier.quaternion.w
+        );
+        wall.position.set(
+            barrier.position.x,
+            barrier.position.y,
+            barrier.position.z
+        );
+        this.scene.add(wall);
+
+         */
     }
 }

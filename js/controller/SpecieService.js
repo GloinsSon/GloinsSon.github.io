@@ -39,7 +39,7 @@ export class SpecieService {
             for (const [speciesKey, specie] of Object.entries(speciesList)) {
                 let logo = viewController.buildLogo(
                     "species",
-                    speciesKey,
+                    specie.name,
                     false,
                     speciesKey,
                     specie.logo,

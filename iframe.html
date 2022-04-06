@@ -16,52 +16,22 @@
     <link rel="stylesheet" href="./css/bunkers.css">
   </head>
   <body>
-    <nav>
-      <a href="../">
-        <svg width="24px" height="24px" viewBox="0 0 25 23.65">
-          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path
-                d="M21.28,12,12.5,4.25,3.72,12v11.1a.52.52,0,0,0,.52.52H9.73V18.78a.52.52,0,0,1,.52-.52h4.5a.52.52,0,0,1,.52.52v4.87h5.49a.52.52,0,0,0,.52-.52V12Z"/>
-            <path d="M12.45,0,0,11,1.31,12.5,12.5,2.6l11.19,9.9L25,11,12.55,0,12.5.06,12.45,0Z"/>
-            <path d="M3.72,1.59H6.88l0,1.87L3.72,6.28V1.59Z"/>
-          </g>
-        </svg>
-        Indy.fan
-      </a>
-      <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">
-        <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
-          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
-            <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
-          </g>
-        </svg>
-        Bunkin - WorldAnvil
-      </a>
-      <a href="https://indyland.us">
-        <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
-          <g stroke-width="2.1" stroke="#ff7000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
-            <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
-          </g>
-        </svg>
-        IndyLand.us</a>
-    </nav>
     <div id="canvas"></div>
     <main id="main">
       <div id="intro">
         <div id="overview">
           <h2>Bunkers Character Designer</h2>
-          <p>
-            You can choose the look of your Bunker, the inhabitants of
-            <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">Bunkin;</a>
-            Land of personified stuffed animals, they dream of having a master.
+
+          You can choose the look of your Bunker, the inhabitants of
+          <a href="https://www.worldanvil.com/w/bunkin-indigowhitetv" target="_blank">Bunkin;</a>
+          Land of personified stuffed animals, they dream of having a master.
           <ol id="instructions">
             <li>Pick your species</li>
             <li>Roll the dice (re-roll for dice with 15-19)</li>
             <li>Drag & drop to switch dice</li>
             <li>Choose from the available options</li>
-            <li>Create a link to download your Bunker as a vector graphic (svg) to be edited with programs like
-              <a href="https://inkscape.org/" target="_blank">Inkscape</a></li>
+            <li>Create a link to download your Bunker as a vector graphic (svg) to be edited with programs like Inkscape
+            </li>
           </ol>
 
           <div id="diceArea">
@@ -78,8 +48,8 @@
             <div id="diceA"></div>
           </div>
           <button id="rollDice" type="button">
-            <svg xmlns='http://www.w3.org/2000/svg' width="45px" viewBox='0 0 67 75.87'>
-              <g style="fill: #f0f0f0; stroke:#000; stroke-width:2px">
+            <svg xmlns='http://www.w3.org/2000/svg' height="50px" viewBox='0 0 67 75.87'>
+              <g style="fill: #101010; stroke:#fff; stroke-width:2px">
                 <path d='M.5,19.18,33.5.43l33,18.75v37.5l-33,18.75L.5,56.68Z'/>
                 <path d='M33.5.43.5,56.68h66Z'/>
                 <path d='M17,28.56.5,19.18'/>
@@ -87,27 +57,65 @@
                 <path d='M33.5,56.68V75.43'/>
                 <path d='M17,28.56H50L33.5,56.68Z'/>
                 <text transform='translate(26 42.5)'
-                      style='fill:#000; font-size:16px;font-family:MyriadPro-Regular, Myriad Pro'>??</text>
+                      style='fill:#000; font-size:16px;font-family:MyriadPro-Regular, Myriad Pro, sans-serif'>??
+                </text>
               </g>
             </svg>
           </button>
-          <button id="resetDice" type="button">
+          <button id="resetDice" type="button" disabled>
             <img src="./img/reset.png" draggable="false" alt="Reset"/>
           </button>
+          <audio controls controlsList="nodownload">
+            <source src="./media/BunkersHymn.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
           <button id="btnDownload" type="button">
             <img src="./img/download.png" draggable="false" alt="Download ..."/>
           </button>
           <span id="link" hidden>
               <a id="download" target="_blank" href="" download="myBunker.svg">Download</a>
           </span>
-
         </div>
         <div id="rarity">
-          <img src="./img/rarity.jpg" alt="rarity table"/>
-          <audio controls>
-            <source src="./media/BunkersHymn.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
+          <table>
+            <thead>
+            <tr>
+              <th colspan="3">Rarity Score Table</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th>Value</th>
+              <th>Rarity</th>
+              <th>Hit</th>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td class="common">Common</td>
+              <td>1 - 8</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td class="uncommon">Uncommon</td>
+              <td>9 - 12</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td class="rare">Rare</td>
+              <td>13 - 14</td>
+            </tr>
+            <tr>
+              <td>N/A</td>
+              <td class="reroll">Re-Roll</td>
+              <td>15 - 19</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td class="mythical">Mythical</td>
+              <td>NAT20</td>
+            </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
@@ -176,8 +184,9 @@
           </fieldset>
         </div>
         <div id="credits">
+          <h3>Credits</h3>
           <p>
-            Credit for the artwork and the creation of Bunkin goes to
+            Artwork and the creation of Bunkin by
             <a href="https://www.worldanvil.com/author/Indigowhitetv" target="_blank">Indigo White</a>.
           </p>
           <p>
@@ -185,7 +194,7 @@
             of Dnd</a>
           </p>
           <p>
-            Scripting done by <a href="../about.html">GloinsSon</a>
+            Scripting by <a href="./about.html">GloinsSon</a>
             and <a href="https://indyland.us/about" target="_blank">Vincent_0x00</a>.
             Please direct bug reports or questions about the site to GloinsSon.
           </p>
@@ -193,7 +202,7 @@
       </form>
 
       <div id="model" class="model">
-        <h3 id="rarityTotal">Rarity</h3>
+        <h3 id="rarityTotal">Rarity ??</h3>
         <svg xmlns="http://www.w3.org/2000/svg" id="modelSVG"
              width="600" height="1200" viewBox="0 0 600 1200">
           <defs id="svgDefs">
@@ -210,14 +219,12 @@
       </div>
 
     </main>
-
     <footer>
       <div id="progress">
         <div id="progressBar" role="progressbar" aria-valuenow="0"
              aria-valuemin="0" aria-valuemax="100">Loading data ...
         </div>
       </div>
-      <a href="./about.html">About</a>
     </footer>
     <script src="./js/main.js"></script>
     <script src="./js/libs/cannon/cannon.js"></script>
